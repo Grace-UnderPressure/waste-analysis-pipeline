@@ -1,0 +1,442 @@
+[
+  {
+    "main": "Plastics",
+    "sub": "bottle",
+    "prompts": [
+      "this is a Plastics item, specifically a bottle",
+      "a bottle which is a type of Plastics",
+      "a Plastics object in bottle form",
+      "Plastics bottle",
+      "bottle made of Plastics material"
+    ]
+  },
+  {
+    "main": "Plastics",
+    "sub": "bag",
+    "prompts": [
+      "bag made of Plastics material",
+      "Plastics bag",
+      "a Plastics object in bag form",
+      "this is a Plastics item, specifically a bag",
+      "a bag which is a type of Plastics"
+    ]
+  },
+  {
+    "main": "Plastics",
+    "sub": "box",
+    "prompts": [
+      "box made of Plastics material",
+      "this is a Plastics item, specifically a box",
+      "a Plastics object in box form",
+      "a box which is a type of Plastics",
+      "Plastics box"
+    ]
+  },
+  {
+    "main": "Plastics",
+    "sub": "container",
+    "prompts": [
+      "Plastics container",
+      "this is a Plastics item, specifically a container",
+      "a Plastics object in container form",
+      "container made of Plastics material",
+      "a container which is a type of Plastics"
+    ]
+  },
+  {
+    "main": "Plastics",
+    "sub": "film",
+    "prompts": [
+      "this is a Plastics item, specifically a film",
+      "a film which is a type of Plastics",
+      "Plastics film",
+      "film made of Plastics material",
+      "a Plastics object in film form"
+    ]
+  },
+  {
+    "main": "Plastics",
+    "sub": "cup",
+    "prompts": [
+      "a cup which is a type of Plastics",
+      "Plastics cup",
+      "a Plastics object in cup form",
+      "cup made of Plastics material",
+      "this is a Plastics item, specifically a cup"
+    ]
+  },
+  {
+    "main": "Plastics",
+    "sub": "other",
+    "prompts": [
+      "other Plastics item",
+      "a Plastics object",
+      "this is a Plastics item",
+      "a piece of Plastics material",
+      "Plastics waste"
+    ]
+  },
+  {
+    "main": "Metals",
+    "sub": "can",
+    "prompts": [
+      "a Metals object in can form",
+      "can made of Metals material",
+      "a can which is a type of Metals",
+      "this is a Metals item, specifically a can",
+      "Metals can"
+    ]
+  },
+  {
+    "main": "Metals",
+    "sub": "foil",
+    "prompts": [
+      "this is a Metals item, specifically a foil",
+      "Metals foil",
+      "a foil which is a type of Metals",
+      "a Metals object in foil form",
+      "foil made of Metals material"
+    ]
+  },
+  {
+    "main": "Metals",
+    "sub": "lid",
+    "prompts": [
+      "a lid which is a type of Metals",
+      "this is a Metals item, specifically a lid",
+      "a Metals object in lid form",
+      "Metals lid",
+      "lid made of Metals material"
+    ]
+  },
+  {
+    "main": "Metals",
+    "sub": "aerosol can",
+    "prompts": [
+      "Metals aerosol can",
+      "a Metals object in aerosol can form",
+      "this is a Metals item, specifically a aerosol can",
+      "a aerosol can which is a type of Metals",
+      "aerosol can made of Metals material"
+    ]
+  },
+  {
+    "main": "Metals",
+    "sub": "other",
+    "prompts": [
+      "other Metals item",
+      "a Metals object",
+      "this is a Metals item",
+      "a piece of Metals material",
+      "Metals waste"
+    ]
+  },
+  {
+    "main": "Papers",
+    "sub": "newspaper",
+    "prompts": [
+      "a newspaper which is a type of Papers",
+      "Papers newspaper",
+      "this is a Papers item, specifically a newspaper",
+      "newspaper made of Papers material",
+      "a Papers object in newspaper form"
+    ]
+  },
+  {
+    "main": "Papers",
+    "sub": "carton",
+    "prompts": [
+      "Papers carton",
+      "a carton which is a type of Papers",
+      "this is a Papers item, specifically a carton",
+      "carton made of Papers material",
+      "a Papers object in carton form"
+    ]
+  },
+  {
+    "main": "Papers",
+    "sub": "tissue",
+    "prompts": [
+      "Papers tissue",
+      "a Papers object in tissue form",
+      "this is a Papers item, specifically a tissue",
+      "a tissue which is a type of Papers",
+      "tissue made of Papers material"
+    ]
+  },
+  {
+    "main": "Papers",
+    "sub": "flyer",
+    "prompts": [
+      "flyer made of Papers material",
+      "a Papers object in flyer form",
+      "a flyer which is a type of Papers",
+      "Papers flyer",
+      "this is a Papers item, specifically a flyer"
+    ]
+  },
+  {
+    "main": "Papers",
+    "sub": "envelope",
+    "prompts": [
+      "Papers envelope",
+      "this is a Papers item, specifically a envelope",
+      "a Papers object in envelope form",
+      "envelope made of Papers material",
+      "a envelope which is a type of Papers"
+    ]
+  },
+  {
+    "main": "Papers",
+    "sub": "other",
+    "prompts": [
+      "other Papers item",
+      "a Papers object",
+      "this is a Papers item",
+      "a piece of Papers material",
+      "Papers waste"
+    ]
+  },
+  {
+    "main": "Glass",
+    "sub": "bottle",
+    "prompts": [
+      "bottle made of Glass material",
+      "a Glass object in bottle form",
+      "this is a Glass item, specifically a bottle",
+      "Glass bottle",
+      "a bottle which is a type of Glass"
+    ]
+  },
+  {
+    "main": "Glass",
+    "sub": "jar",
+    "prompts": [
+      "this is a Glass item, specifically a jar",
+      "jar made of Glass material",
+      "a jar which is a type of Glass",
+      "Glass jar",
+      "a Glass object in jar form"
+    ]
+  },
+  {
+    "main": "Glass",
+    "sub": "cup",
+    "prompts": [
+      "a cup which is a type of Glass",
+      "Glass cup",
+      "a Glass object in cup form",
+      "cup made of Glass material",
+      "this is a Glass item, specifically a cup"
+    ]
+  },
+  {
+    "main": "Glass",
+    "sub": "fragment",
+    "prompts": [
+      "this is a Glass item, specifically a fragment",
+      "a Glass object in fragment form",
+      "Glass fragment",
+      "fragment made of Glass material",
+      "a fragment which is a type of Glass"
+    ]
+  },
+  {
+    "main": "Glass",
+    "sub": "other",
+    "prompts": [
+      "other Glass item",
+      "a Glass object",
+      "this is a Glass item",
+      "a piece of Glass material",
+      "Glass waste"
+    ]
+  },
+  {
+    "main": "Textiles",
+    "sub": "cloth",
+    "prompts": [
+      "cloth made of Textiles material",
+      "a Textiles object in cloth form",
+      "Textiles cloth",
+      "this is a Textiles item, specifically a cloth",
+      "a cloth which is a type of Textiles"
+    ]
+  },
+  {
+    "main": "Textiles",
+    "sub": "shoe",
+    "prompts": [
+      "this is a Textiles item, specifically a shoe",
+      "Textiles shoe",
+      "a shoe which is a type of Textiles",
+      "shoe made of Textiles material",
+      "a Textiles object in shoe form"
+    ]
+  },
+  {
+    "main": "Textiles",
+    "sub": "towel",
+    "prompts": [
+      "Textiles towel",
+      "towel made of Textiles material",
+      "a towel which is a type of Textiles",
+      "a Textiles object in towel form",
+      "this is a Textiles item, specifically a towel"
+    ]
+  },
+  {
+    "main": "Textiles",
+    "sub": "glove",
+    "prompts": [
+      "Textiles glove",
+      "a Textiles object in glove form",
+      "a glove which is a type of Textiles",
+      "this is a Textiles item, specifically a glove",
+      "glove made of Textiles material"
+    ]
+  },
+  {
+    "main": "Textiles",
+    "sub": "other",
+    "prompts": [
+      "other Textiles item",
+      "a Textiles object",
+      "this is a Textiles item",
+      "a piece of Textiles material",
+      "Textiles waste"
+    ]
+  },
+  {
+    "main": "E-waste",
+    "sub": "battery",
+    "prompts": [
+      "battery made of E-waste material",
+      "this is a E-waste item, specifically a battery",
+      "E-waste battery",
+      "a E-waste object in battery form",
+      "a battery which is a type of E-waste"
+    ]
+  },
+  {
+    "main": "E-waste",
+    "sub": "phone",
+    "prompts": [
+      "a E-waste object in phone form",
+      "phone made of E-waste material",
+      "a phone which is a type of E-waste",
+      "E-waste phone",
+      "this is a E-waste item, specifically a phone"
+    ]
+  },
+  {
+    "main": "E-waste",
+    "sub": "cable",
+    "prompts": [
+      "cable made of E-waste material",
+      "E-waste cable",
+      "a cable which is a type of E-waste",
+      "a E-waste object in cable form",
+      "this is a E-waste item, specifically a cable"
+    ]
+  },
+  {
+    "main": "E-waste",
+    "sub": "charger",
+    "prompts": [
+      "E-waste charger",
+      "a E-waste object in charger form",
+      "a charger which is a type of E-waste",
+      "this is a E-waste item, specifically a charger",
+      "charger made of E-waste material"
+    ]
+  },
+  {
+    "main": "E-waste",
+    "sub": "other",
+    "prompts": [
+      "other E-waste item",
+      "a E-waste object",
+      "this is a E-waste item",
+      "a piece of E-waste material",
+      "E-waste waste"
+    ]
+  },
+  {
+    "main": "Organic",
+    "sub": "food",
+    "prompts": [
+      "a food which is a type of Organic",
+      "this is a Organic item, specifically a food",
+      "a Organic object in food form",
+      "Organic food",
+      "food made of Organic material"
+    ]
+  },
+  {
+    "main": "Organic",
+    "sub": "fruit peel",
+    "prompts": [
+      "this is a Organic item, specifically a fruit peel",
+      "a Organic object in fruit peel form",
+      "Organic fruit peel",
+      "a fruit peel which is a type of Organic",
+      "fruit peel made of Organic material"
+    ]
+  },
+  {
+    "main": "Organic",
+    "sub": "vegetable",
+    "prompts": [
+      "this is a Organic item, specifically a vegetable",
+      "a vegetable which is a type of Organic",
+      "Organic vegetable",
+      "a Organic object in vegetable form",
+      "vegetable made of Organic material"
+    ]
+  },
+  {
+    "main": "Organic",
+    "sub": "bone",
+    "prompts": [
+      "this is a Organic item, specifically a bone",
+      "a Organic object in bone form",
+      "bone made of Organic material",
+      "Organic bone",
+      "a bone which is a type of Organic"
+    ]
+  },
+  {
+    "main": "Organic",
+    "sub": "other",
+    "prompts": [
+      "other Organic item",
+      "a Organic object",
+      "this is a Organic item",
+      "a piece of Organic material",
+      "Organic waste"
+    ]
+  },
+  {
+    "main": "Background",
+    "sub": "background",
+    "prompts": [
+      "background",
+      "empty space",
+      "no object",
+      "background area",
+      "empty"
+    ]
+  },
+  {
+    "main": "Unknown",
+    "sub": "unknown",
+    "prompts": [
+      "unknown object",
+      "unclear item",
+      "unrecognized",
+      "unknown",
+      "unclear"
+    ]
+  }
+]
