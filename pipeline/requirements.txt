@@ -1,0 +1,41 @@
+# Core
+numpy>=1.24
+opencv-python>=4.8
+Pillow>=10.0
+pyyaml>=6.0
+loguru>=0.7
+
+# skimage for contour/measure utilities
+scikit-image>=0.24.0
+
+# Torch + models (install CPU or CUDA build as needed)
+torch>=2.1
+# TorchVision is required by Ultralytics/YOLO and common image ops
+torchvision>=0.16
+ultralytics>=8.2.0
+
+# SAM (optional; only if segmenter.model_type == "sam")
+# segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
+
+# CLIP
+git+https://github.com/openai/CLIP.git
+# CLIP extras
+ftfy>=6.1.0
+regex>=2023.6.3
+tqdm>=4.66
+
+# Google Gemini SDK (new)
+google-genai>=0.3.0
+# Legacy SDK is not used; install only if you explicitly need it
+# google-generativeai>=0.7.0
+
+# Pydantic for structured output
+pydantic>=2.6
+
+# Others
+networkx>=3.1
+scipy>=1.10
+packaging>=23.1
+lazy-loader>=0.3
+imageio>=2.31
+tifffile>=2023.7.10
