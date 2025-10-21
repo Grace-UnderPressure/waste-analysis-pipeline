@@ -49,6 +49,7 @@ pip install -r requirements.txt
 # Edit config.yaml with your API keys
 cp config.yaml config_local.yaml
 # Add your Gemini API key to config_local.yaml
+# Note: Optimized for CPU environments (tested on GCP VM)
 ```
 
 ### Basic Usage
@@ -67,18 +68,21 @@ python batch_test_adapter.py --input_dir test_super_u_images/ --output outputs_t
 
 ## 📊 Performance
 
-- **Processing Speed**: ~2.5 minutes per image
-- **Segmentation**: Multi-scale (0.5x, 1.0x, 1.5x) with intelligent fusion
+- **Processing Speed**: ~1-2 minutes per image on CPU (6-19 crops, depending on API response time)
+- **Segmentation**: Multi-scale (0.5x, 1.0x, 1.5x) with IoU-based mask fusion, ~60% reduction in redundant crops
 - **Classification**: CLIP + statistical analysis with relaxed unknown rules
-- **Analysis**: Gemini 2.5 Flash with original image context
-- **Output**: Structured JSON + human-readable TXT
+- **Analysis**: Gemini 2.5 Flash with original image context and structured output
+- **API Efficiency**: Parallel chunked-batch mode for optimal throughput
+- **Output**: Structured JSON + human-readable TXT + visualization reports
 
 ## 🔧 Key Improvements
 
-- **Enhanced Mask Fusion**: IoU + containment analysis for better crop quality
+- **Enhanced Mask Fusion**: IoU + containment analysis for better crop quality, ~60% reduction in redundant crops
 - **Original Image Context**: Full scene understanding for Gemini analysis
 - **Relaxed CLIP Rules**: Reduced false "unknown" classifications
-- **Configurable Prompt Saving**: Debug-friendly prompt inspection
+- **API Optimization**: Parallel chunked-batch mode with configurable concurrency
+- **Phase-wise Timing**: Detailed performance breakdown per processing stage
+- **Interactive Reports**: HTML visualization with per-image metrics and phase analysis
 - **VM Optimized**: Ready for cloud deployment with comprehensive testing
 
 ## 📖 Documentation
@@ -94,7 +98,9 @@ See `pipeline/README.md` for comprehensive developer documentation including:
 
 The repository includes:
 - **29 test images** from multiple scenarios
-- **Batch testing utilities** for performance evaluation
+- **Batch testing utilities** with per-image metrics and phase timing
+- **Interactive HTML reports** for result visualization
+- **Performance optimization** with configurable API concurrency modes
 - **Comprehensive test results** and analysis
 - **VM deployment validation**
 
@@ -110,4 +116,4 @@ MIT License - See LICENSE file for details.
 
 **Author**: Grace-UnderPressure  
 **Email**: yulong.ma23@gmail.com  
-**Latest Update**: September 2025
+**Latest Update**: December 2024

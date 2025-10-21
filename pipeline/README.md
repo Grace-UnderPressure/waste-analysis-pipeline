@@ -1,10 +1,10 @@
 # Waste Analysis Pipeline — VM Developer Guide (upload_vm_bundle)
 
 Production-ready bundle for VM deployment:
-- **Enhanced multi-scale segmentation** → intelligent crop generation → CLIP classification → Gemini inference
+- **Multi-scale segmentation** → automated crop generation → CLIP classification → Gemini inference
 - **Original image context** for Gemini analysis
 - **Robust fallback mechanisms** with parse_status/raw_preview
-- **60% reduction** in redundant crops through smart fusion
+- **60% reduction** in redundant crops through IoU-based mask fusion
 
 ## 1) Requirements
 - Python 3.10+
@@ -41,9 +41,9 @@ export GEMINI_API_KEY="<YOUR_KEY>"
 - `adapter.py`: **Main pipeline orchestrator** - processes single images end-to-end
 - `batch_test_adapter.py`: **Batch testing utility** - processes multiple images with metrics
 - `gemini_inferencer.py`: **Gemini API wrapper** - multimodal inference with original image context
-- `gemini_prompt_builder.py`: **Intelligent prompt builder** - strategy-based templates + image labeling
+- `gemini_prompt_builder.py`: **Strategy-based prompt builder** - statistical templates + image labeling
 - `clip_matcher.py`: **CLIP classifier** - relaxed rules for fewer false unknowns
-- `advanced_segmentation_methods.py`: **Enhanced segmentation** - smart fusion with containment removal
+- `advanced_segmentation_methods.py`: **Multi-scale segmentation** - IoU-based fusion with containment removal
 - `segmenter.py`: **FastSAM wrapper** - multi-scale object detection
 - `waste_analysis_schema.py`: **Pydantic schemas** - structured output validation
 - `config.yaml`: **Central configuration** - all pipeline parameters and VM optimization settings
@@ -61,7 +61,7 @@ upload_vm_bundle/pipeline/
 │
 ├── Segmentation Module:
 ├── segmenter.py                        # FastSAM wrapper
-├── advanced_segmentation_methods.py   # Multi-scale + smart fusion
+├── advanced_segmentation_methods.py   # Multi-scale + IoU-based fusion
 ├── mask_postprocess.py                # Mask refinement pipeline
 ├── crop_generator.py                  # High-resolution cropping
 │
@@ -73,7 +73,7 @@ upload_vm_bundle/pipeline/
 │
 ├── Gemini Module:
 ├── gemini_inferencer.py              # API wrapper + multimodal
-├── gemini_prompt_builder.py          # Intelligent prompt generation
+├── gemini_prompt_builder.py          # Strategy-based prompt generation
 ├── waste_analysis_schema.py          # Pydantic output schemas
 │
 ├── Models & Data:
@@ -172,11 +172,13 @@ Returned `out` fields (key parts):
 - `clip_threshold`: Unknown classification threshold (default: 0.1)
 - `device`: cpu | cuda | auto
 
-Recommended VM deployment values:
-- `segmenter.use_postprocess: false` (better performance)
+Recommended VM deployment values (optimal v2):
+- `segmenter.use_postprocess: false` (improved performance)
 - `gemini.batch_delay: 1.2` (stable API timing)
-- `output.batch_chunk_size: 3` (chunked-batch mode)
-- `output.chunk_workers: 1` (sequential processing)
+- `output.concurrent_requests: 6` (per-crop concurrency used only when chunking is disabled)
+- `output.batch_chunk_size: 4` (chunked-batch mode, recommended)
+- `output.chunk_workers: 2` (parallel chunk processing)
+- Time units: all pipeline timing fields are in seconds (s); Gemini average response is displayed in seconds but internally collected in ms
 
 ## 6) Tips
 - Choose the correct interpreter in your editor if imports show warnings.
@@ -235,7 +237,7 @@ print(f'Found {len(masks)} objects')
 ```
 
 ### 6.1.2) mask_postprocess.py - Mask Refinement Pipeline
-**Function**: Comprehensive mask post-processing and filtering
+**Function**: Multi-stage mask post-processing and filtering
 **Key Function**: `mask_postprocess()`
 
 #### **Where it's called**:
@@ -252,7 +254,7 @@ masks = self.base_segmenter.segment(scaled_image, use_postprocess=True)  # Alway
 masks = self.advanced_segmenter.multi_scale_segmentation(image_rgb, scales=scales, use_postprocess=True)
 ```
 
-**Note**: `use_postprocess` can now be controlled via config (default: False for better performance).
+**Note**: `use_postprocess` can now be controlled via config (default: False for improved performance).
 
 #### **Processing Pipeline**:
 1. **Area Filter**: Remove too small/large masks
@@ -299,8 +301,8 @@ min_mask_area: 3600             # min_area in mask_postprocess
 
 **Debug Output**: Each step prints mask count for monitoring
 
-### 6.1.3) advanced_segmentation_methods.py - Advanced Strategies
-**Function**: Multi-scale segmentation and intelligent fusion
+### 6.1.3) advanced_segmentation_methods.py - Multi-scale Strategies
+**Function**: Multi-scale segmentation and IoU-based fusion
 **Key Class**: `AdvancedSegmenter`
 
 #### ✅ **Currently Used Methods** (in adapter.py):
@@ -328,12 +330,12 @@ min_mask_area: 3600             # min_area in mask_postprocess
   ```
 
 **`_smart_mask_fusion()`** - Called internally by multi_scale_segmentation():
-- **Purpose**: Intelligent mask fusion to handle over-segmentation and overlaps
-- **Enhanced Strategy**: 
+- **Purpose**: IoU-based mask fusion to handle over-segmentation and overlaps
+- **Multi-stage Strategy**: 
   1. Sort masks by area (largest first)
   2. Compute IoU matrix between all mask pairs
-  3. **New**: `_should_fuse_masks()` - Advanced overlap detection:
-     - Basic IoU threshold: 0.3 (reduced from 0.6 for better fusion)
+  3. **New**: `_should_fuse_masks()` - Multi-criteria overlap detection:
+     - Basic IoU threshold: 0.3 (reduced from 0.6 for improved fusion)
      - Containment detection: >80% contained masks are fused
      - Significant overlap: IoU > 0.15 + containment > 30%
   4. Fuse similar masks using logical OR + morphological closing
@@ -341,7 +343,7 @@ min_mask_area: 3600             # min_area in mask_postprocess
      - Remove masks >70% contained within larger masks
      - Eliminates redundant inner crops
   6. Filter out overly complex masks (likely background)
-- **Key improvements**: Enhanced containment handling, reduced IoU threshold
+- **Key improvements**: Multi-criteria containment handling, reduced IoU threshold
 
 #### ❌ **Unused Methods** :
 
@@ -408,7 +410,7 @@ python advanced_segmentation_methods.py  # Has built-in test
 }
 ```
 
-**Smart Cropping Strategy**:
+**Adaptive Cropping Strategy**:
 - **High-Res Mode**: Use original image for crops, scale coordinates from resized
 - **Fallback Mode**: Use current image if original not provided
 - **Quality Filter**: Remove crops with low contrast (< 10 std)
@@ -442,7 +444,7 @@ AdvancedSegmenter.multi_scale_segmentation()
     │   │   └── mask_postprocess() → refined masks (List[Dict])
     │   ├── Resize masks back to original scale
     │   └── Collect all masks from all scales
-    └── _smart_mask_fusion() → final masks (List[Dict])
+    └── _smart_mask_fusion() → fused masks (List[Dict])
     ↓
 crop_objects() → crop files + metadata
     ├── Input: resized_image, masks, crop_dir, image_id
@@ -572,7 +574,7 @@ device: "cpu"                            # cuda/cpu/auto
 - **Generic & Balanced**: Current template maintains balance across all waste categories without bias
 - **Neutral Descriptions**: No emphasis on specific attributes (position, material properties, shape, size)
 - **Preliminary Scoring**: CLIP provides initial rough scores, not final classification
-- **Statistical Analysis**: Results analyzer processes CLIP scores and generates intelligent prompts
+- **Statistical Analysis**: Results analyzer processes CLIP scores and generates strategy-based prompts
 - **Gemini Integration**: CLIP results are enhanced and merged into final Gemini prompts
 
 **Customization Strategy**:
@@ -584,13 +586,13 @@ device: "cpu"                            # cuda/cpu/auto
 **Current Template Characteristics**:
 - **Balanced Coverage**: Equal treatment across Plastics, Metals, Papers, Glass, Textiles, E-waste, Organic
 - **Minimal Bias**: No positional or contextual assumptions
-- **Concise Prompts**: 5 prompts per category to maintain efficiency
+- **Concise Prompts**: 5 prompts per category to maintain computational efficiency
 - **Hierarchical Structure**: Clear main/sub relationships for consistent classification
 
 **When to Customize**:
 - **Domain-Specific Tasks**: Medical waste, industrial waste, specific material types
 - **Context-Aware Scenarios**: Location-based classification, size-sensitive applications
-- **Performance Optimization**: Fine-tune for specific recognition challenges
+- **Performance Tuning**: Fine-tune for specific recognition challenges
 - **Integration Requirements**: Adapt to downstream system requirements
 
 ### 6.2.1) waste_labels_template.json - Label Configuration
@@ -637,7 +639,7 @@ python generate_label_template.py  # Regenerate waste_labels_template.json
 #### **Core Features**:
 - **Batch Processing**: Efficient batch encoding of multiple crops
 - **Embedding Caching**: Text embeddings cached to disk, image embeddings in memory
-- **Unknown Fallback**: Smart classification with confidence thresholds
+- **Unknown Fallback**: Multi-criteria classification with confidence thresholds
 - **Multi-Prompt Aggregation**: Combines scores from multiple prompts per category
 
 #### **Input/Output**:
@@ -729,7 +731,7 @@ print('CLIP model loaded:', matcher.get_embedding_stats())
 ```
 
 ### 6.2.3) clip_results_analyzer.py - Results Processing & Analysis
-**Function**: Unified CLIP results management, statistical analysis, and intelligent prompt generation
+**Function**: Unified CLIP results management, statistical analysis, and strategy-based prompt generation
 **Key Class**: `CLIPResultsAnalyzer`
 
 #### **Three-Layer Architecture**:
@@ -746,8 +748,8 @@ print('CLIP model loaded:', matcher.get_embedding_stats())
 - **Confidence Classification**: High/Medium/Low based on thresholds
 
 **3. Formatting Layer**:
-- **Intelligent Prompt Generation**: Strategy-based templates
-- **Enhanced Context**: Statistical background for Gemini
+- **Strategy-based Prompt Generation**: Statistical templates
+- **Statistical Context**: Background analysis for Gemini
 - **Template Selection**: Based on analysis strategy
 
 #### **Analysis Strategies**:
@@ -766,8 +768,8 @@ else:
 #### **Prompt Templates**:
 - **Single Dominant**: Clear winner, focus validation
 - **Dual Competitive**: Two viable options, compare both
-- **Multi Competitive**: Multiple options, comprehensive evaluation
-- **Low Confidence**: Independent visual analysis
+- **Multi Competitive**: Multiple options, systematic evaluation
+- **Low Confidence**: Independent statistical analysis
 
 #### **Key Methods**:
 ```python
@@ -1121,15 +1123,15 @@ clip_threshold: 0.2  # Balanced for general waste classification
 **Classification Rules**: See Unknown Classification Strategy in 6.2.2
 
 **Result Processing Strategy**:
-- **Statistical Analysis**: Dominance coefficient, variation coefficient, score gradient
+- **Statistical Analysis**: Dominance coefficient, variation coefficient, score gradient analysis
 - **Strategy Selection**: Focus validation, dual comparison, multi-candidate, descriptive analysis
-- **Prompt Generation**: Intelligent templates based on statistical features
-- **Gemini Enhancement**: CLIP context merged into comprehensive analysis prompts
+- **Prompt Generation**: Strategy-based templates based on statistical features
+- **Gemini Enhancement**: CLIP context merged into structured analysis prompts
 
 #### **Performance Optimization**:
 - **Batch Processing**: Process multiple crops simultaneously
 - **Embedding Caching**: Avoid recomputing text embeddings
-- **Smart Cache**: Reuse results for identical images/configs
+- **Content-based Cache**: Reuse results for identical images/configs
 - **Memory Management**: Image embeddings cached in memory only
 
 **Debugging Tips**:
@@ -1303,8 +1305,8 @@ embedding_cache_path = rec_cfg.get("embedding_cache_path", "clip_embeddings_cach
 #### **Core Features**:
 - **Unified Prompt Generation**: Single method `build_unified_prompt()` for all scenarios
 - **CLIP Integration**: Incorporates CLIP statistics and classification context
-- **Strategy-Based Templates**: 5 automatic template types based on CLIP statistical patterns
-- **Adaptive Formatting**: Auto-detects single vs batch crop analysis
+- **Strategy-Based Templates**: 5 statistical template types based on CLIP analysis patterns
+- **Dynamic Formatting**: Auto-detects single vs batch crop analysis
 - **Label System Context**: Includes waste classification system reference
 - **Confidence Grading**: A/B/C/D confidence level criteria
 
@@ -1349,9 +1351,9 @@ prompt = prompt_builder.build_unified_prompt(
 
 4. CLIP Statistics Context (if enabled)
    - Statistical analysis from CLIP results analyzer
-   - Enhanced context based on dominance coefficient, variation coefficient
-   - **Strategy-based prompt templates** (5 types: single_dominant, dual_competitive, multi_competitive, low_confidence, default)
-   - **Automatic template selection** based on CLIP statistical patterns
+   - Statistical context based on dominance coefficient, variation coefficient
+- **Statistical prompt templates** (5 types: single_dominant, dual_competitive, multi_competitive, low_confidence, default)
+- **Automatic template selection** based on CLIP statistical patterns
 
 5. Label System Context (if enabled)
    - 12 main waste categories reference
@@ -2217,36 +2219,91 @@ outputs_tests/run_20241201_143022/
         └── scan_1001_clip_results.json
 ```
 
-#### **CSV Summary Fields**:
+#### **CSV Summary Fields (updated)**
 ```csv
 idx,scan_id,image,success,num_crops,elapsed_sec,mode,json_exists,txt_exists,
+# Per-image Gemini metrics (preferred)
+gm_api_calls_image,gm_input_tokens_image,gm_output_tokens_image,gm_total_tokens_image,gm_avg_response_time_ms_image,
+gm_errors_image,gm_structured_parse_success_image,gm_structured_parse_failures_image,
+# Cumulative Gemini metrics (session-wide, for reference)
 gm_total_input_tokens,gm_total_output_tokens,gm_total_tokens,gm_avg_response_time_ms,
-gm_api_calls,gm_cache_hits,gm_errors,gm_structured_parse_success,gm_structured_parse_failures,error
+gm_api_calls,gm_cache_hits,gm_errors,gm_structured_parse_success,gm_structured_parse_failures,
+# Phase timings (seconds)
+segmentation_sec,crop_generation_sec,clip_classification_sec,prompt_building_sec,gemini_inference_sec,
+error
 ```
 
-#### **Mode Detection**:
+Notes:
+- Per-image metrics are computed by differencing Gemini stats before/after each image.
+- `gm_avg_response_time_ms_image` is averaged over API calls for that image; display in seconds (s) in UIs.
+
+#### **Mode Detection**
 ```python
-# Automatically detects inference mode from config
-if batch_chunk_size > 1:
-    mode = f"chunked(size={batch_chunk_size}, workers={chunk_workers})"
+# Adapter logic (simplified)
+if batch_chunk_size and batch_chunk_size > 1:
+    mode = f"chunked(size={batch_chunk_size}, workers={chunk_workers})"  # infer_batch per chunk; optional parallel chunks
 else:
+    # per-crop path; if concurrent_requests>1 uses ThreadPoolExecutor over infer_single
     mode = f"per-crop(concurrency={concurrent_requests})"
 ```
 
-#### **Performance Monitoring**:
+Examples:
+- `concurrent_requests: 6, batch_chunk_size: 4, chunk_workers: 2` → mode: `chunked(size=4, workers=2)` (Parallel Chunked-Batch Mode)
+- `concurrent_requests: 4, batch_chunk_size: 0` → mode: `per-crop(concurrency=4)` (Concurrent Per-Crop Mode)
+
+#### **Performance Monitoring (per-image metrics)**
 ```python
-# Key metrics tracked per image
 {
     "success": True,
-    "num_crops": 3,
-    "elapsed_sec": 2.45,
-    "mode": "chunked(size=3, workers=2)",
-    "gm_total_tokens": 1500,
-    "gm_avg_response_time_ms": 1200,
-    "gm_cache_hits": 1,
-    "gm_errors": 0
+    "num_crops": 19,
+    "elapsed_sec": 118.636,
+    "mode": "chunked(size=4, workers=2)",
+    # Per-image metrics
+    "gm_api_calls_image": 19,
+    "gm_input_tokens_image": 29908,
+    "gm_output_tokens_image": 9933,
+    "gm_total_tokens_image": 52795,
+    "gm_avg_response_time_ms_image": 9732.765,  # display as 9.733s
+    # Phase timings (s)
+    "segmentation_sec": 3.939,
+    "crop_generation_sec": 0.177,
+    "clip_classification_sec": 1.483,
+    "prompt_building_sec": 0.001,
+    "gemini_inference_sec": 112.800
 }
 ```
+
+Display conventions:
+- Show times in seconds (s). Convert `gm_avg_response_time_ms_image` to seconds in frontends.
+- Tokens are counts; API calls are integers; mode is a string.
+
+#### **Metrics definitions**
+- **elapsed_sec (s)**: Total pipeline time per image (end-to-end).
+- **segmentation_sec, crop_generation_sec, clip_classification_sec, prompt_building_sec, gemini_inference_sec (s)**: Phase-wise times per image.
+- **gm_api_calls_image**: Number of Gemini API calls for this image (equals number of crop requests in per-crop mode; equals number of requests inside all chunks in chunked mode).
+- **gm_input_tokens_image / gm_output_tokens_image / gm_total_tokens_image**: Token usage attributable to this image only.
+- **gm_avg_response_time_ms_image**: Average Gemini API latency per request for this image (ms). For display, divide by 1000 to show in seconds.
+- Cumulative fields (`gm_total_*`, `gm_api_calls`, etc.) are session totals and provided for context only.
+
+#### **Current optimal configuration (v2)**
+```yaml
+output:
+  concurrent_requests: 6
+  batch_chunk_size: 4
+  chunk_workers: 2
+gemini:
+  batch_delay: 1.2
+recognizer:
+  batch_size: 16   # CLIP batch size on CPU
+```
+Rationale:
+- Parallel chunk processing (`chunk_workers: 2`) significantly reduces wall time versus sequential chunking.
+- `batch_chunk_size: 4` balances Gemini throughput and response parsing stability.
+- `concurrent_requests` is used only if chunking is disabled; with chunking enabled, throughput comes from `chunk_workers`.
+
+#### **CLIP batch_size effectiveness**
+- `recognizer.batch_size` controls CLIP embedding batch size in `classify_batch()`; if crop count ≤ batch_size, processed in one CLIP pass; if > batch_size, processed in multiple passes of size `batch_size`.
+- On CPU, `batch_size: 16` is a safe upper bound; larger values may increase memory pressure with diminishing returns.
 
 #### **Error Handling**:
 ```python
@@ -2366,7 +2423,7 @@ python batch_test_adapter.py test_super_u_images/ --suffix "super_u_final_improv
 ```
 
 **Key Improvements Validated**:
-- ✅ **Enhanced Mask Fusion**: Average 60% reduction in redundant masks
+- ✅ **IoU-based Mask Fusion**: Average 60% reduction in redundant masks
 - ✅ **Containment Removal**: Eliminated crops fully contained within others
 - ✅ **Relaxed CLIP Rules**: Reduced false "unknown" classifications
 - ✅ **Original Image Context**: Gemini receives both crop and scene context
@@ -2416,10 +2473,28 @@ python batch_test_adapter.py test_super_u_images/ --limit 5 --suffix chunked_bat
 
 ### 7.4) Recent Improvements Summary
 
-- **Enhanced segmentation fusion**: Reduced redundant crops by ~60%
+- **IoU-based segmentation fusion**: Reduced redundant crops by ~60%
 - **Optimized CLIP classification**: Fewer false "unknown" results  
-- **Original image context**: Gemini receives scene context for better analysis
+- **Original image context**: Gemini receives scene context for improved analysis
 - **Configurable post-processing**: `use_postprocess` control for performance
+
+### 7.6) Visualization (Reports)
+
+Two report generators are available under `visualization/`:
+
+- `fixed_layout_batch_report_generator.py` (recommended):
+  - Stable table (rows do not expand); details show below table in a two-column layout.
+  - Left: original image, crops visualization, per-image stats, phase timings.
+  - Right: scrollable analysis text.
+  - Time displayed in seconds; "平均API响应时间" uses per-image metric (`gm_avg_response_time_ms_image / 1000`).
+  - Usage:
+    ```bash
+    python visualization/fixed_layout_batch_report_generator.py outputs_tests/<run>/batch_summary_*.csv
+    ```
+
+- `interactive_batch_report_generator.py` (compact, expandable rows):
+  - Click-to-expand row with per-image details inside the table.
+  - Same metric display rules as above.
 
 ### 7.5) Configuration for Optimal Performance
 
