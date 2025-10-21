@@ -1,6 +1,6 @@
 # 🗂️ Waste Analysis Pipeline
 
-A comprehensive AI-powered waste classification system using FastSAM + CLIP + Gemini for multimodal analysis.
+A production-ready computer vision pipeline for automated waste object detection, classification, and analysis using multi-scale segmentation, vision-language models, and multimodal large language models.
 
 ## ✨ Features
 
@@ -46,24 +46,32 @@ pip install -r requirements.txt
 
 ### Configuration
 ```bash
-# Edit config.yaml with your API keys
-cp config.yaml config_local.yaml
-# Add your Gemini API key to config_local.yaml
+# Set your Gemini API key as environment variable
+export GEMINI_API_KEY="your_api_key_here"
+
+# Or edit config.yaml to add your API key directly
 # Note: Optimized for CPU environments (tested on GCP VM)
 ```
 
 ### Basic Usage
 ```python
-from adapter import WasteAnalysisAdapter
+from adapter import create_pipeline_adapter
 
-adapter = WasteAnalysisAdapter("config.yaml")
+adapter = create_pipeline_adapter("config.yaml")
 result = adapter.process_image("path/to/image.jpg", scan_id=12345)
-print(f"Analysis saved to: {result['files']['json_path']}")
+print(f"Analysis saved to: {result['files']['result_json']}")
+print(f"Crops saved to: {result['files']['crops_dir']}")
 ```
 
 ### Batch Testing
 ```bash
-python batch_test_adapter.py --input_dir test_super_u_images/ --output outputs_tests/run_test --scan_base 1000
+python batch_test_adapter.py test_super_u_images/ --scan-base 1000 --suffix test_run
+```
+
+### CLI Usage
+```bash
+# Single image processing
+python adapter.py path/to/image.jpg --scan-id 12345 --config config.yaml
 ```
 
 ## 📊 Performance
@@ -71,7 +79,7 @@ python batch_test_adapter.py --input_dir test_super_u_images/ --output outputs_t
 - **Processing Speed**: ~1-2 minutes per image on CPU (6-19 crops, depending on API response time)
 - **Segmentation**: Multi-scale (0.5x, 1.0x, 1.5x) with IoU-based mask fusion, ~60% reduction in redundant crops
 - **Classification**: CLIP + statistical analysis with relaxed unknown rules
-- **Analysis**: Gemini 2.5 Flash with original image context and structured output
+- **Analysis**: Gemini Flash with original image context and structured output
 - **API Efficiency**: Parallel chunked-batch mode for optimal throughput
 - **Output**: Structured JSON + human-readable TXT + visualization reports
 
@@ -116,4 +124,4 @@ MIT License - See LICENSE file for details.
 
 **Author**: Grace-UnderPressure  
 **Email**: yulong.ma23@gmail.com  
-**Latest Update**: December 2024
+**Latest Update**: Oct 2025
