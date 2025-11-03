@@ -616,3 +616,4 @@ if __name__ == "__main__":
     adapter = create_pipeline_adapter(args.config)
     out = adapter.process_image(args.image, args.scan_id)
     # CLI printing removed; use logs or consume the returned dict in your own entrypoint
+

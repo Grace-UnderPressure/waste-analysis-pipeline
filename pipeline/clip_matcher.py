@@ -503,3 +503,4 @@ def create_clip_matcher(label_config_path: str, device: str = "cuda", **kwargs) 
         CLIPMatcher instance
     """
     return CLIPMatcher(label_config_path, device, **kwargs)
+
