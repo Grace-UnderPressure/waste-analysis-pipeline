@@ -160,3 +160,4 @@ class Segmenter:
         else:
             raise ValueError(f"Unsupported model_type: {self.model_type}. This build only supports 'fastsam'.")
 
+

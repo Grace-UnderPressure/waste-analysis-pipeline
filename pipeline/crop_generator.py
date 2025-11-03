@@ -91,3 +91,4 @@ def crop_objects(image, masks, output_dir, image_id="img", min_mask_area=200, mi
         
     print(f"📸 Generated {len(crops)} high-resolution crops")
     return crops
+
