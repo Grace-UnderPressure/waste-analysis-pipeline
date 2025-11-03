@@ -1,0 +1,723 @@
+{
+  "success": true,
+  "scan_id": 1762183604,
+  "num_crops": 19,
+  "outputs": [
+    {
+      "region_id": 0,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop000.jpg",
+      "gemini_text": "{\n  \"region_id\": 0,\n  \"crop_path\": \"CROP from scan_1762183604_crop000.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Concrete/Stone (mineral)\",\n    \"shape\": \"Rectangular slab\",\n    \"size\": \"Medium to large slab\",\n    \"color\": \"Grey base with multi-colored aggregate (white, black, brown, grey)\",\n    \"condition\": \"Intact, with some rough edges\",\n    \"likely_function_or_original_purpose\": \"Paving slab, decorative concrete panel, or building material\",\n    \"current_state\": \"Relatively clean, appears as construction debris\",\n    \"completeness_and_visibility_in_crop\": \"Largely visible and complete, showing one main face and edges\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Brown/orange sack (possibly cement or sand)\",\n      \"Other grey, rough-textured objects (likely concrete or construction debris)\",\n      \"Rusty metal edge of a skip or container\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is resting on or next to other construction debris and a sack, all within a larger container.\",\n    \"potential_impact_on_classification\": \"Reinforces the context of construction and demolition waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Non-Combustible Materials (specifically concrete/mineral waste)\",\n    \"recyclability_assessment_if_possible\": \"Concrete can often be crushed and recycled as aggregate for new construction or road base.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 0,
+        "crop_path": "CROP from scan_1762183604_crop000.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Concrete/Stone (mineral)",
+          "shape": "Rectangular slab",
+          "size": "Medium to large slab",
+          "color": "Grey base with multi-colored aggregate (white, black, brown, grey)",
+          "condition": "Intact, with some rough edges",
+          "likely_function_or_original_purpose": "Paving slab, decorative concrete panel, or building material",
+          "current_state": "Relatively clean, appears as construction debris",
+          "completeness_and_visibility_in_crop": "Largely visible and complete, showing one main face and edges"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Brown/orange sack (possibly cement or sand)",
+            "Other grey, rough-textured objects (likely concrete or construction debris)",
+            "Rusty metal edge of a skip or container"
+          ],
+          "relationship_to_primary_object": "The primary object is resting on or next to other construction debris and a sack, all within a larger container.",
+          "potential_impact_on_classification": "Reinforces the context of construction and demolition waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Non-Combustible Materials (specifically concrete/mineral waste)",
+          "recyclability_assessment_if_possible": "Concrete can often be crushed and recycled as aggregate for new construction or road base.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 17,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop001.jpg",
+      "gemini_text": "{\n  \"region_id\": 17,\n  \"crop_path\": \"scan_1762183604_crop001.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Metal\",\n    \"shape\": \"Flat or angled sheet/beam, part of a container wall\",\n    \"size\": \"Large, part of a substantial structure\",\n    \"color\": \"Rusty brown with patches of peeling green paint\",\n    \"condition\": \"Heavily rusted, paint peeling, weathered\",\n    \"likely_function_or_original_purpose\": \"Part of a large metal container, likely a skip or dumpster for waste collection\",\n    \"current_state\": \"Damaged (rusted, paint peeling), dirty (dust/debris on surface)\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the metal surface is visible, showing its texture, rust, and peeling paint. It is clearly part of a larger object, but the visible section is substantial enough for analysis.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Grey, granular, rock-like material (likely concrete or aggregate)\"\n    ],\n    \"relationship_to_primary_object\": \"The granular material is resting against or near the metal surface, indicating the metal object is a container for such materials.\",\n    \"potential_impact_on_classification\": \"The secondary elements confirm the context of the primary object as a waste container for construction/demolition waste, but do not change the classification of the primary object itself.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Metals\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable as scrap metal, but would require cleaning and processing due to rust and paint.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 17,
+        "crop_path": "scan_1762183604_crop001.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Metal",
+          "shape": "Flat or angled sheet/beam, part of a container wall",
+          "size": "Large, part of a substantial structure",
+          "color": "Rusty brown with patches of peeling green paint",
+          "condition": "Heavily rusted, paint peeling, weathered",
+          "likely_function_or_original_purpose": "Part of a large metal container, likely a skip or dumpster for waste collection",
+          "current_state": "Damaged (rusted, paint peeling), dirty (dust/debris on surface)",
+          "completeness_and_visibility_in_crop": "A significant portion of the metal surface is visible, showing its texture, rust, and peeling paint. It is clearly part of a larger object, but the visible section is substantial enough for analysis."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Grey, granular, rock-like material (likely concrete or aggregate)"
+          ],
+          "relationship_to_primary_object": "The granular material is resting against or near the metal surface, indicating the metal object is a container for such materials.",
+          "potential_impact_on_classification": "The secondary elements confirm the context of the primary object as a waste container for construction/demolition waste, but do not change the classification of the primary object itself."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Metals",
+          "recyclability_assessment_if_possible": "Potentially recyclable as scrap metal, but would require cleaning and processing due to rust and paint.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 6,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop002.jpg",
+      "gemini_text": "{\n  \"region_id\": 6,\n  \"crop_path\": \"CROP from scan_1762183604_crop002.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Composite\",\n    \"shape\": \"Rectangular/polygonal slabs\",\n    \"size\": \"Large\",\n    \"color\": \"Grey with light aggregate\",\n    \"condition\": \"Broken, chipped edges\",\n    \"likely_function_or_original_purpose\": \"Paving, construction\",\n    \"current_state\": \"Discarded, dirty\",\n    \"completeness_and_visibility_in_crop\": \"Several pieces are visible, some appear to be complete slabs, others are fragments. They are largely visible within the crop.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Orange and white bag (likely cement or joint filler)\",\n      \"Other grey concrete fragments\"\n    ],\n    \"relationship_to_primary_object\": \"The bag likely contains materials used in conjunction with the concrete pavers. The other concrete fragments are similar construction waste.\",\n    \"potential_impact_on_classification\": \"Minimal impact on the primary object's classification; the secondary elements reinforce the context of construction waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Non-Combustible Materials\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable as aggregate if clean and local facilities allow.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 6,
+        "crop_path": "CROP from scan_1762183604_crop002.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Composite",
+          "shape": "Rectangular/polygonal slabs",
+          "size": "Large",
+          "color": "Grey with light aggregate",
+          "condition": "Broken, chipped edges",
+          "likely_function_or_original_purpose": "Paving, construction",
+          "current_state": "Discarded, dirty",
+          "completeness_and_visibility_in_crop": "Several pieces are visible, some appear to be complete slabs, others are fragments. They are largely visible within the crop."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Orange and white bag (likely cement or joint filler)",
+            "Other grey concrete fragments"
+          ],
+          "relationship_to_primary_object": "The bag likely contains materials used in conjunction with the concrete pavers. The other concrete fragments are similar construction waste.",
+          "potential_impact_on_classification": "Minimal impact on the primary object's classification; the secondary elements reinforce the context of construction waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Non-Combustible Materials",
+          "recyclability_assessment_if_possible": "Potentially recyclable as aggregate if clean and local facilities allow.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 2,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop003.jpg",
+      "gemini_text": "{\n  \"region_id\": 2,\n  \"crop_path\": \"CROP from scan_1762183604_crop003.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Composite (plastic bag with construction material contents)\",\n    \"shape\": \"Rectangular bag\",\n    \"size\": \"Large, consistent with a standard bag of construction material (e.g., 25kg)\",\n    \"color\": \"Orange, white, and black\",\n    \"condition\": \"Intact\",\n    \"likely_function_or_original_purpose\": \"Packaging for tile grout or joint filler\",\n    \"current_state\": \"Intact, contains product, relatively clean\",\n    \"completeness_and_visibility_in_crop\": \"Mostly visible, a significant portion of the front face is clear, including product information. The bottom left corner is slightly obscured.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Grey concrete block\",\n      \"Other similar bags (partially visible)\",\n      \"General debris and broken concrete pieces\",\n      \"Brown/beige woven bag\"\n    ],\n    \"relationship_to_primary_object\": \"The concrete block is in the foreground, partially obscuring the primary object. Other bags and debris are in the background, part of the same waste pile.\",\n    \"potential_impact_on_classification\": \"Minimal impact; the primary object is clearly identifiable despite partial obstruction.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Composite Materials (multi-material packaging: plastic bag containing construction material)\",\n    \"recyclability_assessment_if_possible\": \"Generally not easily recyclable in standard municipal streams due to composite nature and contents; likely destined for landfill or specialized construction waste processing.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 2,
+        "crop_path": "CROP from scan_1762183604_crop003.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Composite (plastic bag with construction material contents)",
+          "shape": "Rectangular bag",
+          "size": "Large, consistent with a standard bag of construction material (e.g., 25kg)",
+          "color": "Orange, white, and black",
+          "condition": "Intact",
+          "likely_function_or_original_purpose": "Packaging for tile grout or joint filler",
+          "current_state": "Intact, contains product, relatively clean",
+          "completeness_and_visibility_in_crop": "Mostly visible, a significant portion of the front face is clear, including product information. The bottom left corner is slightly obscured."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Grey concrete block",
+            "Other similar bags (partially visible)",
+            "General debris and broken concrete pieces",
+            "Brown/beige woven bag"
+          ],
+          "relationship_to_primary_object": "The concrete block is in the foreground, partially obscuring the primary object. Other bags and debris are in the background, part of the same waste pile.",
+          "potential_impact_on_classification": "Minimal impact; the primary object is clearly identifiable despite partial obstruction."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Composite Materials (multi-material packaging: plastic bag containing construction material)",
+          "recyclability_assessment_if_possible": "Generally not easily recyclable in standard municipal streams due to composite nature and contents; likely destined for landfill or specialized construction waste processing.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 6,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop004.jpg",
+      "gemini_text": "{\n  \"region_id\": 6,\n  \"crop_path\": \"scan_1762183604_crop004.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Irregular, bulky, lumpy, conforming to contents\",\n    \"size\": \"Large, appears to be a bulk industrial bag\",\n    \"color\": \"Light beige/off-white, somewhat translucent\",\n    \"condition\": \"Wrinkled, creased\",\n    \"likely_function_or_original_purpose\": \"To contain and transport bulk construction materials like cement, plaster, or sand\",\n    \"current_state\": \"Intact but dirty with residue, discarded\",\n    \"completeness_and_visibility_in_crop\": \"The majority of the large bag is visible, dominating the crop, though its edges are cut off\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Fragments of broken concrete or stone blocks\",\n      \"A small portion of another bag (possibly paper or fabric) in the top left corner\",\n      \"A small piece of brown material with a dark symbol (possibly a letter) in the bottom left\"\n    ],\n    \"relationship_to_primary_object\": \"These are other pieces of construction debris, surrounding and partially supporting the primary bag, all part of the same waste pile.\",\n    \"potential_impact_on_classification\": \"They reinforce the context of construction waste, but do not change the classification of the primary object itself.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Plastic Bags\",\n    \"recyclability_assessment_if_possible\": \"Likely non-recyclable in standard municipal streams due to contamination with construction material and the type of plastic.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact type of plastic for the bag is not definitively identifiable.\",\n      \"Precise contents of the bag are inferred as construction powder.\",\n      \"The CLIP statistical context suggesting 'Metals/foil' is inconsistent with visual evidence.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Composite Materials (if the bag and its contents are considered an inseparable waste item).\",\n      \"Textiles (if the bag is made of woven polypropylene, though less likely for this appearance).\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 6,
+        "crop_path": "scan_1762183604_crop004.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Irregular, bulky, lumpy, conforming to contents",
+          "size": "Large, appears to be a bulk industrial bag",
+          "color": "Light beige/off-white, somewhat translucent",
+          "condition": "Wrinkled, creased",
+          "likely_function_or_original_purpose": "To contain and transport bulk construction materials like cement, plaster, or sand",
+          "current_state": "Intact but dirty with residue, discarded",
+          "completeness_and_visibility_in_crop": "The majority of the large bag is visible, dominating the crop, though its edges are cut off"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Fragments of broken concrete or stone blocks",
+            "A small portion of another bag (possibly paper or fabric) in the top left corner",
+            "A small piece of brown material with a dark symbol (possibly a letter) in the bottom left"
+          ],
+          "relationship_to_primary_object": "These are other pieces of construction debris, surrounding and partially supporting the primary bag, all part of the same waste pile.",
+          "potential_impact_on_classification": "They reinforce the context of construction waste, but do not change the classification of the primary object itself."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Plastic Bags",
+          "recyclability_assessment_if_possible": "Likely non-recyclable in standard municipal streams due to contamination with construction material and the type of plastic.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact type of plastic for the bag is not definitively identifiable.",
+            "Precise contents of the bag are inferred as construction powder.",
+            "The CLIP statistical context suggesting 'Metals/foil' is inconsistent with visual evidence."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Composite Materials (if the bag and its contents are considered an inseparable waste item).",
+            "Textiles (if the bag is made of woven polypropylene, though less likely for this appearance)."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 11,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop005.jpg",
+      "gemini_text": "{\n  \"region_id\": 11,\n  \"crop_path\": \"CROP from scan_1762183604_crop005.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Non-Combustible Materials (concrete/cement)\",\n    \"shape\": \"Irregular block-like, with rough edges\",\n    \"size\": \"Medium-sized construction block\",\n    \"color\": \"Light grey\",\n    \"condition\": \"Broken, discarded\",\n    \"likely_function_or_original_purpose\": \"Construction material (e.g., paver, block, slab)\",\n    \"current_state\": \"Damaged, discarded\",\n    \"completeness_and_visibility_in_crop\": \"The main body of the block is visible, with some edges cropped. A distinct corner is visible at the top right.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Portion of another concrete-like material with exposed aggregate surface (top right)\"\n    ],\n    \"relationship_to_primary_object\": \"Another piece of construction debris, likely of similar material, discarded together.\",\n    \"potential_impact_on_classification\": \"Reinforces the classification as construction waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Non-Combustible Materials (concrete/cement construction debris)\",\n    \"recyclability_assessment_if_possible\": \"Concrete can often be crushed and recycled as aggregate, depending on local facilities and purity.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 11,
+        "crop_path": "CROP from scan_1762183604_crop005.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Non-Combustible Materials (concrete/cement)",
+          "shape": "Irregular block-like, with rough edges",
+          "size": "Medium-sized construction block",
+          "color": "Light grey",
+          "condition": "Broken, discarded",
+          "likely_function_or_original_purpose": "Construction material (e.g., paver, block, slab)",
+          "current_state": "Damaged, discarded",
+          "completeness_and_visibility_in_crop": "The main body of the block is visible, with some edges cropped. A distinct corner is visible at the top right."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Portion of another concrete-like material with exposed aggregate surface (top right)"
+          ],
+          "relationship_to_primary_object": "Another piece of construction debris, likely of similar material, discarded together.",
+          "potential_impact_on_classification": "Reinforces the classification as construction waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Non-Combustible Materials (concrete/cement construction debris)",
+          "recyclability_assessment_if_possible": "Concrete can often be crushed and recycled as aggregate, depending on local facilities and purity.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 7,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop006.jpg",
+      "gemini_text": "{\n  \"region_id\": 7,\n  \"crop_path\": \"CROP from scan_1762183604_crop006.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Woven polypropylene plastic\",\n    \"shape\": \"Sack-like, rectangular when full, crumpled\",\n    \"size\": \"Large, typical for building material bags (e.g., 25kg)\",\n    \"color\": \"Orange, white, and grey\",\n    \"condition\": \"Mostly intact, slightly crumpled\",\n    \"likely_function_or_original_purpose\": \"Packaging for building materials like tile grout or cement\",\n    \"current_state\": \"Discarded, likely empty or partially empty\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of one bag is clearly visible, along with parts of another similar bag\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Blue plastic bag\",\n      \"Rusty metal container (skip/dumpster)\",\n      \"Green foliage\"\n    ],\n    \"relationship_to_primary_object\": \"The blue plastic bag is adjacent to the primary object, both are contained within the rusty metal skip. The foliage is in the background.\",\n    \"potential_impact_on_classification\": \"No significant impact on the classification of the primary object, as they are distinct items.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Other Plastic Items (Woven polypropylene bag for building materials)\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable if clean and local facilities accept woven polypropylene, but often not recycled in construction waste streams due to contamination.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact material composition (e.g., single-layer woven plastic vs. multi-layer composite) is not 100% certain, though woven plastic is highly probable.\",\n      \"Whether the bag is completely empty or contains residual material.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Composite Materials (if it's a multi-layer paper/plastic bag)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 7,
+        "crop_path": "CROP from scan_1762183604_crop006.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Woven polypropylene plastic",
+          "shape": "Sack-like, rectangular when full, crumpled",
+          "size": "Large, typical for building material bags (e.g., 25kg)",
+          "color": "Orange, white, and grey",
+          "condition": "Mostly intact, slightly crumpled",
+          "likely_function_or_original_purpose": "Packaging for building materials like tile grout or cement",
+          "current_state": "Discarded, likely empty or partially empty",
+          "completeness_and_visibility_in_crop": "A significant portion of one bag is clearly visible, along with parts of another similar bag"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Blue plastic bag",
+            "Rusty metal container (skip/dumpster)",
+            "Green foliage"
+          ],
+          "relationship_to_primary_object": "The blue plastic bag is adjacent to the primary object, both are contained within the rusty metal skip. The foliage is in the background.",
+          "potential_impact_on_classification": "No significant impact on the classification of the primary object, as they are distinct items."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Other Plastic Items (Woven polypropylene bag for building materials)",
+          "recyclability_assessment_if_possible": "Potentially recyclable if clean and local facilities accept woven polypropylene, but often not recycled in construction waste streams due to contamination.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact material composition (e.g., single-layer woven plastic vs. multi-layer composite) is not 100% certain, though woven plastic is highly probable.",
+            "Whether the bag is completely empty or contains residual material."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Composite Materials (if it's a multi-layer paper/plastic bag)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 5,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop007.jpg",
+      "gemini_text": "{\n  \"region_id\": 5,\n  \"crop_path\": \"CROP from scan_1762183604_crop007.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Concrete\",\n    \"shape\": \"Roughly cylindrical or block-like with a circular opening\",\n    \"size\": \"Large, substantial segment\",\n    \"color\": \"Grey\",\n    \"condition\": \"Broken, fragmented, rough edges\",\n    \"likely_function_or_original_purpose\": \"Section of a concrete pipe, culvert, or pre-cast concrete block used in construction or drainage\",\n    \"current_state\": \"Damaged and discarded\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion is visible, showing its characteristic shape, texture, and circular opening, though not fully complete.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Portion of a white and orange bag with text 'ANC' and 'JOINT' (likely cement/mortar bag)\",\n      \"Smaller, irregular pieces of concrete or rubble\"\n    ],\n    \"relationship_to_primary_object\": \"Associated with construction waste, in close proximity to the primary concrete object.\",\n    \"potential_impact_on_classification\": \"Reinforces the classification of the primary object as construction waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Non-Combustible Materials (specifically construction and demolition waste)\",\n    \"recyclability_assessment_if_possible\": \"Concrete can be crushed and recycled as aggregate, depending on local facilities and contamination.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 5,
+        "crop_path": "CROP from scan_1762183604_crop007.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Concrete",
+          "shape": "Roughly cylindrical or block-like with a circular opening",
+          "size": "Large, substantial segment",
+          "color": "Grey",
+          "condition": "Broken, fragmented, rough edges",
+          "likely_function_or_original_purpose": "Section of a concrete pipe, culvert, or pre-cast concrete block used in construction or drainage",
+          "current_state": "Damaged and discarded",
+          "completeness_and_visibility_in_crop": "A significant portion is visible, showing its characteristic shape, texture, and circular opening, though not fully complete."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Portion of a white and orange bag with text 'ANC' and 'JOINT' (likely cement/mortar bag)",
+            "Smaller, irregular pieces of concrete or rubble"
+          ],
+          "relationship_to_primary_object": "Associated with construction waste, in close proximity to the primary concrete object.",
+          "potential_impact_on_classification": "Reinforces the classification of the primary object as construction waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Non-Combustible Materials (specifically construction and demolition waste)",
+          "recyclability_assessment_if_possible": "Concrete can be crushed and recycled as aggregate, depending on local facilities and contamination.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 4,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop008.jpg",
+      "gemini_text": "{\n  \"region_id\": 4,\n  \"crop_path\": \"CROP from scan_1762183604_crop008.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Rectangular bag, creased\",\n    \"size\": \"Large, consistent with construction material packaging\",\n    \"color\": \"Predominantly purple with white and black text/graphics\",\n    \"condition\": \"Intact, creased, likely dirty\",\n    \"likely_function_or_original_purpose\": \"Packaging for construction material, specifically mortar or adhesive\",\n    \"current_state\": \"Empty or partially empty, dirty bag containing residual construction material\",\n    \"completeness_and_visibility_in_crop\": \"Most of the bag is visible, with the bottom portion obscured by another bag. The overall shape and branding are identifiable.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Portion of an orange and white construction material bag\",\n      \"Green metal structure\",\n      \"Green foliage\",\n      \"Wooden planks in background\"\n    ],\n    \"relationship_to_primary_object\": \"The orange and white bag is partially underneath and obscuring the primary object. The green structure, foliage, and wooden planks are background elements.\",\n    \"potential_impact_on_classification\": \"The presence of another construction material bag reinforces the context of construction waste, but does not alter the classification of the primary object.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Plastic Bags\",\n    \"recyclability_assessment_if_possible\": \"Likely non-recyclable through standard curbside programs due to material type (often woven polypropylene or thick HDPE/LDPE) and potential contamination with residual building materials.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic (e.g., HDPE, LDPE, woven PP) is not discernible, which could affect specific recycling processes.\",\n      \"The exact amount of residual material inside the bag is unknown.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 4,
+        "crop_path": "CROP from scan_1762183604_crop008.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Rectangular bag, creased",
+          "size": "Large, consistent with construction material packaging",
+          "color": "Predominantly purple with white and black text/graphics",
+          "condition": "Intact, creased, likely dirty",
+          "likely_function_or_original_purpose": "Packaging for construction material, specifically mortar or adhesive",
+          "current_state": "Empty or partially empty, dirty bag containing residual construction material",
+          "completeness_and_visibility_in_crop": "Most of the bag is visible, with the bottom portion obscured by another bag. The overall shape and branding are identifiable."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Portion of an orange and white construction material bag",
+            "Green metal structure",
+            "Green foliage",
+            "Wooden planks in background"
+          ],
+          "relationship_to_primary_object": "The orange and white bag is partially underneath and obscuring the primary object. The green structure, foliage, and wooden planks are background elements.",
+          "potential_impact_on_classification": "The presence of another construction material bag reinforces the context of construction waste, but does not alter the classification of the primary object."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Plastic Bags",
+          "recyclability_assessment_if_possible": "Likely non-recyclable through standard curbside programs due to material type (often woven polypropylene or thick HDPE/LDPE) and potential contamination with residual building materials.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic (e.g., HDPE, LDPE, woven PP) is not discernible, which could affect specific recycling processes.",
+            "The exact amount of residual material inside the bag is unknown."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 8,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop009.jpg",
+      "gemini_text": "{\n  \"region_id\": 8,\n  \"crop_path\": \"CROP from scan_1762183604_crop009.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic (woven polypropylene)\",\n    \"shape\": \"Sack-like, rectangular when full, somewhat flattened\",\n    \"size\": \"Appears to be a standard large bag for construction materials (e.g., 20-25kg capacity)\",\n    \"color\": \"Orange and white\",\n    \"condition\": \"Mostly intact, slightly creased and wrinkled from handling\",\n    \"likely_function_or_original_purpose\": \"Packaging for tile grout or joint filler ('JOINT FIN CARRELAGE BLANC')\",\n    \"current_state\": \"Intact, likely containing residual product\",\n    \"completeness_and_visibility_in_crop\": \"The majority of the bag is visible, including prominent text, branding, and a barcode. The top and bottom edges are slightly cropped.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Portions of other similar orange and white bags\",\n      \"Concrete or stone debris/slabs\"\n    ],\n    \"relationship_to_primary_object\": \"The other bags are identical or similar products, suggesting a batch of construction materials. The concrete debris is likely related construction waste.\",\n    \"potential_impact_on_classification\": \"The presence of other construction waste reinforces the context but does not alter the classification of the primary object (the bag itself).\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Other Plastic Items (specifically, a woven plastic sack for construction material)\",\n    \"recyclability_assessment_if_possible\": \"Woven polypropylene bags for construction materials are generally not accepted in standard curbside recycling programs due to material type and potential contamination. They often require specialized recycling streams or are disposed of as general waste.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"While clearly plastic, the specific grade of woven plastic (e.g., PP) is inferred from common packaging for such products rather than explicitly visible.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 8,
+        "crop_path": "CROP from scan_1762183604_crop009.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic (woven polypropylene)",
+          "shape": "Sack-like, rectangular when full, somewhat flattened",
+          "size": "Appears to be a standard large bag for construction materials (e.g., 20-25kg capacity)",
+          "color": "Orange and white",
+          "condition": "Mostly intact, slightly creased and wrinkled from handling",
+          "likely_function_or_original_purpose": "Packaging for tile grout or joint filler ('JOINT FIN CARRELAGE BLANC')",
+          "current_state": "Intact, likely containing residual product",
+          "completeness_and_visibility_in_crop": "The majority of the bag is visible, including prominent text, branding, and a barcode. The top and bottom edges are slightly cropped."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Portions of other similar orange and white bags",
+            "Concrete or stone debris/slabs"
+          ],
+          "relationship_to_primary_object": "The other bags are identical or similar products, suggesting a batch of construction materials. The concrete debris is likely related construction waste.",
+          "potential_impact_on_classification": "The presence of other construction waste reinforces the context but does not alter the classification of the primary object (the bag itself)."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Other Plastic Items (specifically, a woven plastic sack for construction material)",
+          "recyclability_assessment_if_possible": "Woven polypropylene bags for construction materials are generally not accepted in standard curbside recycling programs due to material type and potential contamination. They often require specialized recycling streams or are disposed of as general waste.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "While clearly plastic, the specific grade of woven plastic (e.g., PP) is inferred from common packaging for such products rather than explicitly visible."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 13,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop010.jpg",
+      "gemini_text": "{\n  \"region_id\": 13,\n  \"crop_path\": \"CROP from scan_1762183604_crop010.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Composite, likely woven plastic or multi-layer paper/plastic for a construction material bag\",\n    \"shape\": \"Rectangular bag, somewhat deformed\",\n    \"size\": \"Standard construction material bag size, likely 20-25kg capacity\",\n    \"color\": \"Orange with white text and labels\",\n    \"condition\": \"Mostly intact, slightly creased\",\n    \"likely_function_or_original_purpose\": \"Packaging for construction material, specifically tile grout or adhesive (JOINT FIN CARRELAGE)\",\n    \"current_state\": \"Intact, likely containing residual material, discarded as waste\",\n    \"completeness_and_visibility_in_crop\": \"The primary object is largely visible and identifiable, though its bottom portion is obscured\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Another similar orange bag (partially visible to the right)\",\n      \"A white bag (partially visible below the primary object)\",\n      \"Brown material (possibly cardboard or paper) underneath the primary bag\"\n    ],\n    \"relationship_to_primary_object\": \"Other bags are similar waste items, likely discarded together. The brown material is underneath, possibly supporting or mixed with the primary object.\",\n    \"potential_impact_on_classification\": \"The presence of other construction material bags reinforces the classification of the primary object. The brown material does not significantly alter the primary object's classification.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Composite Materials (due to the nature of construction material bags often being multi-layered for strength and moisture resistance, or woven plastic)\",\n    \"recyclability_assessment_if_possible\": \"Generally not easily recyclable due to residual contents and the material composition (often multi-layer or woven plastic that is hard to process). Typically disposed of as general construction waste.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact material composition of the bag (e.g., woven polypropylene vs. multi-layer paper/plastic)\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"If the bag were purely paper, it would be 'Paper' or 'Cardboard'.\",\n      \"If it's purely woven plastic, it could be 'Other Plastic Items'.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 13,
+        "crop_path": "CROP from scan_1762183604_crop010.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Composite, likely woven plastic or multi-layer paper/plastic for a construction material bag",
+          "shape": "Rectangular bag, somewhat deformed",
+          "size": "Standard construction material bag size, likely 20-25kg capacity",
+          "color": "Orange with white text and labels",
+          "condition": "Mostly intact, slightly creased",
+          "likely_function_or_original_purpose": "Packaging for construction material, specifically tile grout or adhesive (JOINT FIN CARRELAGE)",
+          "current_state": "Intact, likely containing residual material, discarded as waste",
+          "completeness_and_visibility_in_crop": "The primary object is largely visible and identifiable, though its bottom portion is obscured"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Another similar orange bag (partially visible to the right)",
+            "A white bag (partially visible below the primary object)",
+            "Brown material (possibly cardboard or paper) underneath the primary bag"
+          ],
+          "relationship_to_primary_object": "Other bags are similar waste items, likely discarded together. The brown material is underneath, possibly supporting or mixed with the primary object.",
+          "potential_impact_on_classification": "The presence of other construction material bags reinforces the classification of the primary object. The brown material does not significantly alter the primary object's classification."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Composite Materials (due to the nature of construction material bags often being multi-layered for strength and moisture resistance, or woven plastic)",
+          "recyclability_assessment_if_possible": "Generally not easily recyclable due to residual contents and the material composition (often multi-layer or woven plastic that is hard to process). Typically disposed of as general construction waste.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact material composition of the bag (e.g., woven polypropylene vs. multi-layer paper/plastic)"
+          ],
+          "alternative_possibilities_if_unclear": [
+            "If the bag were purely paper, it would be 'Paper' or 'Cardboard'.",
+            "If it's purely woven plastic, it could be 'Other Plastic Items'."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 15,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop011.jpg",
+      "gemini_text": "{\n  \"region_id\": 15,\n  \"crop_path\": \"CROP from scan_1762183604_crop011.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Rectangular sack\",\n    \"size\": \"Large, consistent with construction material packaging\",\n    \"color\": \"Orange and white\",\n    \"condition\": \"Intact, slightly creased\",\n    \"likely_function_or_original_purpose\": \"Packaging for tile grout\",\n    \"current_state\": \"Intact, containing product\",\n    \"completeness_and_visibility_in_crop\": \"The top and a significant portion of the front of the bag are visible, appearing mostly complete.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Another similar orange bag (partially visible)\",\n      \"Grey concrete or stone pieces\",\n      \"Partial purple plastic item\",\n      \"Green foliage in the background\"\n    ],\n    \"relationship_to_primary_object\": \"The other orange bag is identical, suggesting it's also tile grout. The concrete/stone pieces are construction debris, likely from the same source or project. The purple item and foliage are unrelated background elements.\",\n    \"potential_impact_on_classification\": \"The secondary elements reinforce the context of construction waste, but do not alter the classification of the primary object itself.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Plastic Bags\",\n    \"recyclability_assessment_if_possible\": \"Likely not recyclable in standard municipal streams due to its heavy-duty woven plastic material and potential contamination from construction product residue.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 15,
+        "crop_path": "CROP from scan_1762183604_crop011.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Rectangular sack",
+          "size": "Large, consistent with construction material packaging",
+          "color": "Orange and white",
+          "condition": "Intact, slightly creased",
+          "likely_function_or_original_purpose": "Packaging for tile grout",
+          "current_state": "Intact, containing product",
+          "completeness_and_visibility_in_crop": "The top and a significant portion of the front of the bag are visible, appearing mostly complete."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Another similar orange bag (partially visible)",
+            "Grey concrete or stone pieces",
+            "Partial purple plastic item",
+            "Green foliage in the background"
+          ],
+          "relationship_to_primary_object": "The other orange bag is identical, suggesting it's also tile grout. The concrete/stone pieces are construction debris, likely from the same source or project. The purple item and foliage are unrelated background elements.",
+          "potential_impact_on_classification": "The secondary elements reinforce the context of construction waste, but do not alter the classification of the primary object itself."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Plastic Bags",
+          "recyclability_assessment_if_possible": "Likely not recyclable in standard municipal streams due to its heavy-duty woven plastic material and potential contamination from construction product residue.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 1,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop012.jpg",
+      "gemini_text": "{\n  \"region_id\": 1,\n  \"crop_path\": \"CROP from scan_1762183604_crop012.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Composite (paper bag with mineral contents)\",\n    \"shape\": \"Rectangular bag, partially collapsed and open\",\n    \"size\": \"Medium to large, consistent with a bag of construction material\",\n    \"color\": \"Brown/tan paper with some orange/reddish print; contents are white/light grey\",\n    \"condition\": \"Crumpled and open, with contents spilling out\",\n    \"likely_function_or_original_purpose\": \"Packaging for construction materials such as cement, grout, or sand\",\n    \"current_state\": \"Open, partially emptied, contents spilling, appears dirty from construction environment\",\n    \"completeness_and_visibility_in_crop\": \"The upper portion of the bag is visible, including its opening and some of the contents. Mostly complete within the crop, with the very bottom cut off.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"White plastic sheeting/bag material behind the paper bag\",\n      \"Grey, granular material (possibly gravel or concrete debris) around and under the bag\",\n      \"Textured, grey, possibly concrete or stone block in the foreground\"\n    ],\n    \"relationship_to_primary_object\": \"These are other pieces of construction waste or debris in the same skip, forming the environment around the primary object. The granular material is likely spilled contents or surrounding debris.\",\n    \"potential_impact_on_classification\": \"The presence of other construction debris reinforces the context of construction waste. The granular material could be the spilled contents of the bag, which helps identify the bag's original purpose.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Composite Materials\",\n    \"recyclability_assessment_if_possible\": \"Likely not recyclable in standard streams due to contamination with mineral residues and potential plastic liner.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact composition of the mineral contents (e.g., cement, grout, sand) is not precisely identifiable from the image.\",\n      \"The exact layering of the bag (e.g., if it has a plastic liner) is not fully visible, but common for such products.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"If contents were not visible or the bag was pristine, it might be classified purely as 'Paper'.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 1,
+        "crop_path": "CROP from scan_1762183604_crop012.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Composite (paper bag with mineral contents)",
+          "shape": "Rectangular bag, partially collapsed and open",
+          "size": "Medium to large, consistent with a bag of construction material",
+          "color": "Brown/tan paper with some orange/reddish print; contents are white/light grey",
+          "condition": "Crumpled and open, with contents spilling out",
+          "likely_function_or_original_purpose": "Packaging for construction materials such as cement, grout, or sand",
+          "current_state": "Open, partially emptied, contents spilling, appears dirty from construction environment",
+          "completeness_and_visibility_in_crop": "The upper portion of the bag is visible, including its opening and some of the contents. Mostly complete within the crop, with the very bottom cut off."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "White plastic sheeting/bag material behind the paper bag",
+            "Grey, granular material (possibly gravel or concrete debris) around and under the bag",
+            "Textured, grey, possibly concrete or stone block in the foreground"
+          ],
+          "relationship_to_primary_object": "These are other pieces of construction waste or debris in the same skip, forming the environment around the primary object. The granular material is likely spilled contents or surrounding debris.",
+          "potential_impact_on_classification": "The presence of other construction debris reinforces the context of construction waste. The granular material could be the spilled contents of the bag, which helps identify the bag's original purpose."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Composite Materials",
+          "recyclability_assessment_if_possible": "Likely not recyclable in standard streams due to contamination with mineral residues and potential plastic liner.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact composition of the mineral contents (e.g., cement, grout, sand) is not precisely identifiable from the image.",
+            "The exact layering of the bag (e.g., if it has a plastic liner) is not fully visible, but common for such products."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "If contents were not visible or the bag was pristine, it might be classified purely as 'Paper'."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 16,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop013.jpg",
+      "gemini_text": "{\n  \"region_id\": 16,\n  \"crop_path\": \"CROP from scan_1762183604_crop013.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic (woven polypropylene)\",\n    \"shape\": \"Bag-like, cylindrical when full, flattened due to stacking\",\n    \"size\": \"Large, consistent with standard construction material bags (e.g., 25kg)\",\n    \"color\": \"Predominantly orange with white labels and black text\",\n    \"condition\": \"Intact, though some creasing is visible from handling and stacking\",\n    \"likely_function_or_original_purpose\": \"Packaging for construction materials such as tile adhesive, joint filler, or cement\",\n    \"current_state\": \"Intact, appears to contain its original product, possibly dirty from a construction environment\",\n    \"completeness_and_visibility_in_crop\": \"Multiple bags are partially visible, overlapping each other. Barcodes and product text ('CARRELAGE', 'JOINT FIN') are clearly visible on the exposed surfaces.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Portions of other identical or similar plastic bags\",\n      \"White granular material (likely contents of the bags or spilled material)\"\n    ],\n    \"relationship_to_primary_object\": \"Other bags are stacked with and partially obscured by the primary object. The granular material is likely the product contained within these types of bags.\",\n    \"potential_impact_on_classification\": \"No significant impact, as all visible bags appear to be of the same type and material, reinforcing the primary object's classification.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Other Plastic Items (specifically woven polypropylene bags for construction materials)\",\n    \"recyclability_assessment_if_possible\": \"Likely not recyclable through standard municipal curbside programs due to the specific material type (woven polypropylene) and potential contamination with construction debris. May be recyclable via specialized industrial streams if cleaned.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 16,
+        "crop_path": "CROP from scan_1762183604_crop013.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic (woven polypropylene)",
+          "shape": "Bag-like, cylindrical when full, flattened due to stacking",
+          "size": "Large, consistent with standard construction material bags (e.g., 25kg)",
+          "color": "Predominantly orange with white labels and black text",
+          "condition": "Intact, though some creasing is visible from handling and stacking",
+          "likely_function_or_original_purpose": "Packaging for construction materials such as tile adhesive, joint filler, or cement",
+          "current_state": "Intact, appears to contain its original product, possibly dirty from a construction environment",
+          "completeness_and_visibility_in_crop": "Multiple bags are partially visible, overlapping each other. Barcodes and product text ('CARRELAGE', 'JOINT FIN') are clearly visible on the exposed surfaces."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Portions of other identical or similar plastic bags",
+            "White granular material (likely contents of the bags or spilled material)"
+          ],
+          "relationship_to_primary_object": "Other bags are stacked with and partially obscured by the primary object. The granular material is likely the product contained within these types of bags.",
+          "potential_impact_on_classification": "No significant impact, as all visible bags appear to be of the same type and material, reinforcing the primary object's classification."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Other Plastic Items (specifically woven polypropylene bags for construction materials)",
+          "recyclability_assessment_if_possible": "Likely not recyclable through standard municipal curbside programs due to the specific material type (woven polypropylene) and potential contamination with construction debris. May be recyclable via specialized industrial streams if cleaned.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 7,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop014.jpg",
+      "gemini_text": "{\n  \"region_id\": 7,\n  \"crop_path\": \"CROP from scan_1762183604_crop014.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Mineral (stones/pebbles)\",\n    \"shape\": \"Irregular, angular to sub-rounded fragments\",\n    \"size\": \"Small, consistent, likely 5-20mm\",\n    \"color\": \"Dark greyish-brown\",\n    \"condition\": \"Intact, natural state\",\n    \"likely_function_or_original_purpose\": \"Construction aggregate, landscaping material, or decorative stones\",\n    \"current_state\": \"Contained within a mesh bag, appears clean\",\n    \"completeness_and_visibility_in_crop\": \"The entire bag of pebbles is visible and complete within the crop\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Mesh bag containing the pebbles\",\n      \"Indistinct dark background elements (likely other rubble or skip interior)\"\n    ],\n    \"relationship_to_primary_object\": \"The mesh bag is a container for the primary object (pebbles).\",\n    \"potential_impact_on_classification\": \"The bag's material (likely plastic) makes the overall item a composite, but the primary material by volume/mass is mineral. The context of the original image (construction skip) reinforces the classification of the pebbles as construction waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Non-Combustible Materials\",\n    \"recyclability_assessment_if_possible\": \"Pebbles/stones can be reused as aggregate or fill in construction projects.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The material of the mesh bag (likely plastic) could lead to a 'Composite Materials' classification if the bag and contents are considered a single primary object.\",\n      \"The CLIP statistical context suggesting 'Textiles' is a misinterpretation of the mesh bag.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Composite Materials (if bag + contents are one item)\",\n      \"Fine Elements (if pebbles are considered very small debris)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 7,
+        "crop_path": "CROP from scan_1762183604_crop014.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Mineral (stones/pebbles)",
+          "shape": "Irregular, angular to sub-rounded fragments",
+          "size": "Small, consistent, likely 5-20mm",
+          "color": "Dark greyish-brown",
+          "condition": "Intact, natural state",
+          "likely_function_or_original_purpose": "Construction aggregate, landscaping material, or decorative stones",
+          "current_state": "Contained within a mesh bag, appears clean",
+          "completeness_and_visibility_in_crop": "The entire bag of pebbles is visible and complete within the crop"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Mesh bag containing the pebbles",
+            "Indistinct dark background elements (likely other rubble or skip interior)"
+          ],
+          "relationship_to_primary_object": "The mesh bag is a container for the primary object (pebbles).",
+          "potential_impact_on_classification": "The bag's material (likely plastic) makes the overall item a composite, but the primary material by volume/mass is mineral. The context of the original image (construction skip) reinforces the classification of the pebbles as construction waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Non-Combustible Materials",
+          "recyclability_assessment_if_possible": "Pebbles/stones can be reused as aggregate or fill in construction projects.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The material of the mesh bag (likely plastic) could lead to a 'Composite Materials' classification if the bag and contents are considered a single primary object.",
+            "The CLIP statistical context suggesting 'Textiles' is a misinterpretation of the mesh bag."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Composite Materials (if bag + contents are one item)",
+            "Fine Elements (if pebbles are considered very small debris)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 3,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop015.jpg",
+      "gemini_text": "{\n  \"region_id\": 3,\n  \"crop_path\": \"CROP from scan_1762183604_crop015.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Concrete/Aggregate\",\n    \"shape\": \"Rectangular block\",\n    \"size\": \"Medium-sized, larger than a hand\",\n    \"color\": \"Grey with visible aggregate particles\",\n    \"condition\": \"Broken or discarded piece with rough edges\",\n    \"likely_function_or_original_purpose\": \"Paving stone, concrete block, or piece of a larger concrete structure\",\n    \"current_state\": \"Damaged, discarded, dry\",\n    \"completeness_and_visibility_in_crop\": \"Largely visible and complete within the crop, showing one main face and a side\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Portions of paper or plastic bags (possibly cement or jointing compound bags)\",\n      \"Orange-colored bag\"\n    ],\n    \"relationship_to_primary_object\": \"These bags are likely other construction waste items, possibly related to the installation or use of the primary object. They are positioned behind and slightly above the primary object.\",\n    \"potential_impact_on_classification\": \"The secondary elements reinforce the context of construction waste, but do not change the classification of the primary object itself.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Non-Combustible Materials (Construction debris)\",\n    \"recyclability_assessment_if_possible\": \"Concrete and aggregate materials are often recyclable as crushed aggregate for new construction or fill, depending on local facilities and contamination.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 3,
+        "crop_path": "CROP from scan_1762183604_crop015.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Concrete/Aggregate",
+          "shape": "Rectangular block",
+          "size": "Medium-sized, larger than a hand",
+          "color": "Grey with visible aggregate particles",
+          "condition": "Broken or discarded piece with rough edges",
+          "likely_function_or_original_purpose": "Paving stone, concrete block, or piece of a larger concrete structure",
+          "current_state": "Damaged, discarded, dry",
+          "completeness_and_visibility_in_crop": "Largely visible and complete within the crop, showing one main face and a side"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Portions of paper or plastic bags (possibly cement or jointing compound bags)",
+            "Orange-colored bag"
+          ],
+          "relationship_to_primary_object": "These bags are likely other construction waste items, possibly related to the installation or use of the primary object. They are positioned behind and slightly above the primary object.",
+          "potential_impact_on_classification": "The secondary elements reinforce the context of construction waste, but do not change the classification of the primary object itself."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Non-Combustible Materials (Construction debris)",
+          "recyclability_assessment_if_possible": "Concrete and aggregate materials are often recyclable as crushed aggregate for new construction or fill, depending on local facilities and contamination.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 10,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop016.jpg",
+      "gemini_text": "{\n  \"region_id\": 10,\n  \"crop_path\": \"CROP from scan_1762183604_crop016.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Composite\",\n    \"shape\": \"Bag-like, crumpled\",\n    \"size\": \"Large\",\n    \"color\": \"Orange and white\",\n    \"condition\": \"Crumpled but largely intact\",\n    \"likely_function_or_original_purpose\": \"Packaging for building materials like jointing compound or grout\",\n    \"current_state\": \"Partially full or empty, crumpled\",\n    \"completeness_and_visibility_in_crop\": \"Mostly complete and clearly visible, including text and barcode\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Another orange bag (similar to primary object)\",\n      \"A purple/pink bag (likely building material packaging)\",\n      \"White material (possibly spilled contents or other bags)\",\n      \"Barcode label on primary object\"\n    ],\n    \"relationship_to_primary_object\": \"Other bags of similar construction materials, discarded together\",\n    \"potential_impact_on_classification\": \"Reinforces the classification of the primary object as building material packaging.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Composite Materials\",\n    \"recyclability_assessment_if_possible\": \"Likely not recyclable in standard municipal streams due to material composition and potential contamination from contents.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact multi-layer composition versus purely woven plastic is not definitively visible.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Plastics: Other Plastic Items (if purely woven polypropylene without other layers)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 10,
+        "crop_path": "CROP from scan_1762183604_crop016.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Composite",
+          "shape": "Bag-like, crumpled",
+          "size": "Large",
+          "color": "Orange and white",
+          "condition": "Crumpled but largely intact",
+          "likely_function_or_original_purpose": "Packaging for building materials like jointing compound or grout",
+          "current_state": "Partially full or empty, crumpled",
+          "completeness_and_visibility_in_crop": "Mostly complete and clearly visible, including text and barcode"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Another orange bag (similar to primary object)",
+            "A purple/pink bag (likely building material packaging)",
+            "White material (possibly spilled contents or other bags)",
+            "Barcode label on primary object"
+          ],
+          "relationship_to_primary_object": "Other bags of similar construction materials, discarded together",
+          "potential_impact_on_classification": "Reinforces the classification of the primary object as building material packaging."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Composite Materials",
+          "recyclability_assessment_if_possible": "Likely not recyclable in standard municipal streams due to material composition and potential contamination from contents.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact multi-layer composition versus purely woven plastic is not definitively visible."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Plastics: Other Plastic Items (if purely woven polypropylene without other layers)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 17,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop017.jpg",
+      "gemini_text": "{\n  \"region_id\": 17,\n  \"crop_path\": \"CROP from scan_1762183604_crop017.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Mineral/Stone\",\n    \"shape\": \"Granular, irregular small particles forming a pile\",\n    \"size\": \"Small (individual particles), large (overall pile)\",\n    \"color\": \"Light grey and beige\",\n    \"condition\": \"Loose, granular\",\n    \"likely_function_or_original_purpose\": \"Construction material (e.g., aggregate for concrete, fill, drainage)\",\n    \"current_state\": \"Intact, loose, appears clean\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the pile is visible, partially covered by another material.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"A dark, draped material (likely a tarp or heavy fabric)\",\n      \"A small portion of a white bag with green text\"\n    ],\n    \"relationship_to_primary_object\": \"The dark material is draped over the pile of aggregate. The white bag is adjacent to the aggregate.\",\n    \"potential_impact_on_classification\": \"These elements reinforce the context of construction waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Non-Combustible Materials\",\n    \"recyclability_assessment_if_possible\": \"Yes, aggregate can often be recycled or reused as fill material in construction projects.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 17,
+        "crop_path": "CROP from scan_1762183604_crop017.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Mineral/Stone",
+          "shape": "Granular, irregular small particles forming a pile",
+          "size": "Small (individual particles), large (overall pile)",
+          "color": "Light grey and beige",
+          "condition": "Loose, granular",
+          "likely_function_or_original_purpose": "Construction material (e.g., aggregate for concrete, fill, drainage)",
+          "current_state": "Intact, loose, appears clean",
+          "completeness_and_visibility_in_crop": "A significant portion of the pile is visible, partially covered by another material."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "A dark, draped material (likely a tarp or heavy fabric)",
+            "A small portion of a white bag with green text"
+          ],
+          "relationship_to_primary_object": "The dark material is draped over the pile of aggregate. The white bag is adjacent to the aggregate.",
+          "potential_impact_on_classification": "These elements reinforce the context of construction waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Non-Combustible Materials",
+          "recyclability_assessment_if_possible": "Yes, aggregate can often be recycled or reused as fill material in construction projects.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 14,
+      "crop_path": "crops/scan_1762183604/scan_1762183604_crop018.jpg",
+      "gemini_text": "{\n  \"region_id\": 14,\n  \"crop_path\": \"CROP from scan_1762183604_crop018.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"mineral/inorganic (construction aggregate/debris)\",\n    \"shape\": \"irregular, granular\",\n    \"size\": \"small granules, filling a large bag\",\n    \"color\": \"greyish-white\",\n    \"condition\": \"dry, loose\",\n    \"likely_function_or_original_purpose\": \"construction material (e.g., sand, gravel, cement, grout)\",\n    \"current_state\": \"loose, granular, discarded\",\n    \"completeness_and_visibility_in_crop\": \"The granular contents are fully visible within the open bag, occupying most of the crop area.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"open bag containing the granular material\",\n      \"portions of other white bags or containers in the background\"\n    ],\n    \"relationship_to_primary_object\": \"The bag serves as a container for the primary object. Other bags are part of the surrounding waste pile, visible in the original image context.\",\n    \"potential_impact_on_classification\": \"The bag itself could be classified as paper or composite plastic, but the primary waste stream is the construction debris. The presence of other bags reinforces the context of construction waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Non-Combustible Materials (specifically construction and demolition waste)\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable as aggregate if processed at a specialized construction and demolition waste facility, but not typically suitable for standard curbside recycling.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact chemical composition of the granular material (e.g., sand, gravel, cement mix) is not definitively identifiable without further testing, but its general nature as construction debris is clear from context.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be soil or very fine gravel, but the context of the original image (showing other construction materials like tile grout bags and concrete blocks) strongly suggests construction material.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 14,
+        "crop_path": "CROP from scan_1762183604_crop018.jpg",
+        "primary_object_analysis": {
+          "material_composition": "mineral/inorganic (construction aggregate/debris)",
+          "shape": "irregular, granular",
+          "size": "small granules, filling a large bag",
+          "color": "greyish-white",
+          "condition": "dry, loose",
+          "likely_function_or_original_purpose": "construction material (e.g., sand, gravel, cement, grout)",
+          "current_state": "loose, granular, discarded",
+          "completeness_and_visibility_in_crop": "The granular contents are fully visible within the open bag, occupying most of the crop area."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "open bag containing the granular material",
+            "portions of other white bags or containers in the background"
+          ],
+          "relationship_to_primary_object": "The bag serves as a container for the primary object. Other bags are part of the surrounding waste pile, visible in the original image context.",
+          "potential_impact_on_classification": "The bag itself could be classified as paper or composite plastic, but the primary waste stream is the construction debris. The presence of other bags reinforces the context of construction waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Non-Combustible Materials (specifically construction and demolition waste)",
+          "recyclability_assessment_if_possible": "Potentially recyclable as aggregate if processed at a specialized construction and demolition waste facility, but not typically suitable for standard curbside recycling.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact chemical composition of the granular material (e.g., sand, gravel, cement mix) is not definitively identifiable without further testing, but its general nature as construction debris is clear from context."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be soil or very fine gravel, but the context of the original image (showing other construction materials like tile grout bags and concrete blocks) strongly suggests construction material."
+          ]
+        }
+      }
+    }
+  ],
+  "gemini_metrics_per_image": {
+    "api_calls": 19,
+    "input_tokens": 29851,
+    "output_tokens": 9243,
+    "total_tokens": 62597,
+    "errors": 0,
+    "structured_parse_success": 19,
+    "structured_parse_failures": 0,
+    "cache_hits": 0,
+    "avg_response_time_ms": 15577.326724403783
+  },
+  "phase_times": {
+    "segmentation_sec": 2.541775703430176,
+    "crop_generation_sec": 0.2856466770172119,
+    "clip_classification_sec": 1.4748098850250244,
+    "prompt_building_sec": 0.0009059906005859375,
+    "gemini_inference_sec": 185.2219204902649
+  }
+}

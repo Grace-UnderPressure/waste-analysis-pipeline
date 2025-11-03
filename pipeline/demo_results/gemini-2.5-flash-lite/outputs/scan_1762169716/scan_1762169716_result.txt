@@ -1,0 +1,254 @@
+🔍 Waste Analysis (scan 1762169716)
+📦 Crops analyzed: 18
+
+— Crop 1 (region 1): crops/scan_1762169716/scan_1762169716_crop000.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray / medium
+  • 🎨 Color: black and green
+  • 🧪 State: dirty
+  • 🎯 Purpose: seedling tray or food packaging tray
+  • 👁 Visibility: partially visible, stacked
+  • 🔍 Other objects: yellow bin lid, cardboard boxes, wooden pallets, white bag, other plastic items
+  • 🔗 Relationship: The primary object (plastic trays) is inside a larger yellow bin, with other waste items visible in the background.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable, depending on specific plastic type and contamination.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not identifiable from the image., The degree of contamination is not fully discernible., The trays are stacked, making it difficult to assess the condition of all surfaces.
+
+— Crop 2 (region 5): crops/scan_1762169716/scan_1762169716_crop001.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray / medium
+  • 🎨 Color: black and green
+  • 🧪 State: dirty with some soil residue
+  • 🎯 Purpose: seedling or plant tray
+  • 👁 Visibility: multiple trays are visible, some stacked, with portions of each visible
+  • 🔍 Other objects: cardboard box, crumpled paper, wooden plank, clear plastic packaging
+  • 🔗 Relationship: The trays are mixed with other waste items like cardboard and paper.
+  • 🗂 Category: Plastics/Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable as plastic, but depends on local recycling facility capabilities for this type of plastic.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not clearly identifiable from the image., The extent of contamination with soil could impact recyclability.
+
+— Crop 3 (region 17): crops/scan_1762169716/scan_1762169716_crop002.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray with multiple circular compartments / medium
+  • 🎨 Color: black
+  • 🧪 State: dirty with some organic residue
+  • 🎯 Purpose: seedling tray or plant pot holder
+  • 👁 Visibility: The primary object is mostly visible, with some compartments cut off at the edges.
+  • 🔍 Other objects: organic residue (soil/plant matter), other plastic trays (green and black), cardboard boxes (in background context image), large yellow bin (in background context image)
+  • 🔗 Relationship: The organic residue is within the compartments of the primary object. Other plastic trays are stacked with or near the primary object.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable as plastic, but may require cleaning due to organic residue.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image alone., The extent of contamination from organic residue is not fully clear.
+
+— Crop 4 (region 2): crops/scan_1762169716/scan_1762169716_crop003.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray with multiple compartments / small to medium
+  • 🎨 Color: teal and black
+  • 🧪 State: appears clean
+  • 🎯 Purpose: seedling tray or small item packaging
+  • 👁 Visibility: The teal tray is mostly visible, with some parts obscured by the black tray above it. The black tray is partially visible.
+  • 🔍 Other objects: another black plastic tray, parts of other plastic containers, cardboard boxes and pallets in the background (from original image)
+  • 🔗 Relationship: The black tray is stacked on top of the teal tray, suggesting they are part of a collection of similar items.
+  • 🗂 Category: Other Plastic Containers
+  • ♻️ Recyclability: Likely recyclable, depending on local facilities and specific plastic type (e.g., PP, PET).
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not discernible from the image., The specific original purpose (seedling tray vs. packaging) is inferred.
+
+— Crop 5 (region 0): crops/scan_1762169716/scan_1762169716_crop004.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray with multiple compartments / medium
+  • 🎨 Color: dark grey
+  • 🧪 State: appears clean
+  • 🎯 Purpose: packaging or seedling tray
+  • 👁 Visibility: The primary object is mostly visible and appears to be a single unit, though its exact dimensions are hard to determine from the crop alone.
+  • 🔍 Other objects: other plastic trays (black and green), cardboard packaging, paper packaging
+  • 🔗 Relationship: The primary object is stacked with other similar plastic trays.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable as rigid plastic packaging, depending on local recycling facility capabilities.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not identifiable from the image alone., The specific original contents or purpose (e.g., food packaging vs. seedling tray) are not definitively clear.
+
+— Crop 6 (region 16): crops/scan_1762169716/scan_1762169716_crop005.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray with multiple compartments / medium
+  • 🎨 Color: black
+  • 🧪 State: appears to be waste
+  • 🎯 Purpose: packaging for produce or small items
+  • 👁 Visibility: The primary object is mostly visible, with some parts obscured by other items.
+  • 🔍 Other objects: other plastic trays (green and black), cardboard boxes, yellow bin, pallets, white bag
+  • 🔗 Relationship: The primary object is stacked with other similar plastic trays and is located within a larger waste bin.
+  • 🗂 Category: Other Plastic Containers
+  • ♻️ Recyclability: Likely recyclable as rigid plastic, depending on local facilities and specific plastic type.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not identifiable from the image alone., The presence of residual organic matter, if any, is not clearly visible.
+
+— Crop 7 (region 0): crops/scan_1762169716/scan_1762169716_crop006.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray / medium
+  • 🎨 Color: black and green
+  • 🧪 State: dirty
+  • 🎯 Purpose: seedling or plant starter tray
+  • 👁 Visibility: multiple trays are visible, some partially obscured
+  • 🔍 Other objects: large white bag (likely industrial material), cardboard boxes, wooden pallets, blue plastic container
+  • 🔗 Relationship: The trays are stacked and appear to be part of a larger collection of waste items.
+  • 🗂 Category: Other Plastic Containers
+  • ♻️ Recyclability: Recyclable, depending on local facilities' acceptance of this type of plastic.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., PP, PS) is not definitively identifiable from the image alone, which can affect recyclability., The degree of soiling on the trays is not fully clear, which could impact recycling processes.
+
+— Crop 8 (region 2): crops/scan_1762169716/scan_1762169716_crop007.jpg
+  • 🧱 Material: Cardboard
+  • 🧩 Shape/Size: Rectangular box with open top / Medium
+  • 🎨 Color: Brown and white with green text
+  • 🧪 State: Empty, slightly crumpled
+  • 🎯 Purpose: Packaging for beverages (e.g., beer bottles)
+  • 👁 Visibility: Partially visible, showing the side and part of the top opening
+  • 🔍 Other objects: Crumpled brown paper, Wooden slats, Black plastic trays (likely for seedlings or food), Green plastic tray, Part of a yellow bin
+  • 🔗 Relationship: The cardboard box is positioned next to and partially overlapping with crumpled paper. The plastic trays are below and to the side of the cardboard box.
+  • 🗂 Category: Cardboard
+  • ♻️ Recyclability: Recyclable (as cardboard)
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of cardboard (e.g., corrugated vs. flat) is not fully discernible from the crop., Some of the green text on the box is obscured.
+
+— Crop 9 (region 4): crops/scan_1762169716/scan_1762169716_crop008.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: bag-like / large
+  • 🎨 Color: white
+  • 🧪 State: appears clean
+  • 🎯 Purpose: bulk material containment
+  • 👁 Visibility: The majority of the object is visible, appearing as a large, white, flexible bag, possibly a bulk bag or FIBC (Flexible Intermediate Bulk Container).
+  • 🔍 Other objects: black plastic trays, green plastic trays, cardboard boxes, wooden pallets, yellow bin
+  • 🔗 Relationship: The primary object (white bag) is situated behind and to the left of a stack of various plastic trays and cardboard, which are partially visible in the foreground and to the right. The white bag appears to be a large item in the background environment, possibly stored or waiting for disposal.
+  • 🗂 Category: Plastic Bags
+  • ♻️ Recyclability: Likely recyclable if made of polypropylene and clean, but depends on local recycling facility capabilities for bulk bags.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact material composition of the white bag is not definitively identifiable from the image alone., The contents of the bag are not visible, which could affect its classification if it were hazardous or organic waste.
+
+— Crop 10 (region 9): crops/scan_1762169716/scan_1762169716_crop009.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: rectangular with hollow compartments / medium
+  • 🎨 Color: gray
+  • 🧪 State: dirty
+  • 🎯 Purpose: transport or storage of goods, possibly a pallet or a large tray
+  • 👁 Visibility: The object is mostly visible, showing its layered structure and hollow sections. Some parts are obscured by the edge of the crop.
+  • 🔍 Other objects: yellow object (likely part of a bin or vehicle), cardboard boxes, other plastic trays (visible in the original image)
+  • 🔗 Relationship: The primary object is situated next to a large yellow object, possibly within a waste collection area. The original image shows it among other discarded items.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable as rigid plastic, depending on local facilities.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image alone., The specific function (e.g., pallet vs. specialized tray) is inferred.
+
+— Crop 11 (region 18): crops/scan_1762169716/scan_1762169716_crop010.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray with multiple compartments / small to medium
+  • 🎨 Color: black and green
+  • 🧪 State: dirty, stacked
+  • 🎯 Purpose: seedling trays or similar horticultural use
+  • 👁 Visibility: multiple trays are visible, some partially obscured
+  • 🔍 Other objects: cardboard boxes, wooden pallets, other plastic containers, yellow bin
+  • 🔗 Relationship: The trays are inside or next to a large yellow bin, alongside other waste materials.
+  • 🗂 Category: Plastic - Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable as mixed plastics, depending on local facilities.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image., The extent of contamination on the trays is not fully clear.
+
+— Crop 12 (region 3): crops/scan_1762169716/scan_1762169716_crop011.jpg
+  • 🧱 Material: Cardboard
+  • 🧩 Shape/Size: Flat, rectangular panel / Appears to be a large piece of cardboard, likely part of a box
+  • 🎨 Color: Brown cardboard with green and white printing
+  • 🧪 State: Appears to be waste material
+  • 🎯 Purpose: Packaging or box component
+  • 👁 Visibility: The majority of the object is visible, showing a large flat surface with printing and a barcode.
+  • 🔍 Other objects: Wooden beam or plank, Part of a yellow waste bin, Other cardboard packaging in the background (from original image), Plastic trays (from original image)
+  • 🔗 Relationship: The cardboard is positioned next to a wooden beam and appears to be within or near a waste collection area.
+  • 🗂 Category: Cardboard
+  • ♻️ Recyclability: Cardboard is generally recyclable, but contamination from other waste materials could affect its recyclability.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact size and full structure of the cardboard object are not entirely clear from the crop alone.
+
+— Crop 13 (region 8): crops/scan_1762169716/scan_1762169716_crop012.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray with multiple compartments / small to medium
+  • 🎨 Color: black and green
+  • 🧪 State: dirty, some organic residue visible
+  • 🎯 Purpose: seedling trays or similar horticultural containers
+  • 👁 Visibility: multiple trays are visible, some stacked, with varying degrees of completeness and visibility
+  • 🔍 Other objects: cardboard boxes, wooden pallets, yellow bin, metal structure, green hoses
+  • 🔗 Relationship: The trays are piled within or near a larger yellow bin, suggesting they are part of a mixed waste stream.
+  • 🗂 Category: Other Plastic Items (horticultural trays)
+  • ♻️ Recyclability: Potentially recyclable if cleaned, but the presence of soil/organic residue may hinder this.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image alone., The extent of contamination (dirt/residue) is not fully clear, which impacts recyclability assessment.
+
+— Crop 14 (region 7): crops/scan_1762169716/scan_1762169716_crop013.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray / medium
+  • 🎨 Color: black
+  • 🧪 State: dirty with some soil residue
+  • 🎯 Purpose: seedling tray or similar horticultural container
+  • 👁 Visibility: The majority of the object is visible, showing multiple compartments.
+  • 🔍 Other objects: other plastic trays (green and black), cardboard boxes, wooden pallets, a yellow bin
+  • 🔗 Relationship: The primary object is one of several stacked plastic trays within a larger waste collection area, likely a recycling bin.
+  • 🗂 Category: Plastics/Other Plastic Containers
+  • ♻️ Recyclability: Likely recyclable, depending on local facilities and specific plastic type.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., PP, PET) is not discernible from the image alone., The presence of soil residue might affect recyclability in some systems.
+
+— Crop 15 (region 15): crops/scan_1762169716/scan_1762169716_crop014.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray / medium
+  • 🎨 Color: black and green
+  • 🧪 State: dirty, some with soil residue
+  • 🎯 Purpose: seedling or plant starter tray
+  • 👁 Visibility: multiple trays are visible, some partially obscured
+  • 🔍 Other objects: cardboard boxes, wooden pallets, other plastic containers, white fabric/bag
+  • 🔗 Relationship: The trays are stacked and appear to be part of a larger collection of waste items, possibly in a recycling bin.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable, depending on local facilities and specific plastic type (e.g., PP, PET).
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image., The condition of the trays (e.g., cracks) is not fully discernible.
+
+— Crop 16 (region 9): crops/scan_1762169716/scan_1762169716_crop015.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray with multiple compartments / small to medium
+  • 🎨 Color: black and green
+  • 🧪 State: dirty
+  • 🎯 Purpose: seedling tray or plant starter tray
+  • 👁 Visibility: partially visible, multiple trays stacked
+  • 🔍 Other objects: other plastic trays, cardboard boxes, wooden pallets, yellow bin
+  • 🔗 Relationship: The primary object is part of a stack of similar trays within a larger waste bin.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable as rigid plastic, but depends on local recycling facility capabilities and specific plastic type (e.g., PP, PS).
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not identifiable from the image., The extent of contamination is not fully clear., The specific sub-category within 'Other Plastic Items' could be more precise if the plastic type was known.
+
+— Crop 17 (region 15): crops/scan_1762169716/scan_1762169716_crop016.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray with multiple compartments / small to medium
+  • 🎨 Color: black and green
+  • 🧪 State: dirty, some residue
+  • 🎯 Purpose: seedling trays or similar horticultural use
+  • 👁 Visibility: partially visible, multiple trays stacked
+  • 🔍 Other objects: cardboard boxes, wooden pallets, yellow bin, other plastic containers
+  • 🔗 Relationship: The primary object (seedling trays) is part of a larger collection of waste items, some of which are within or near a large yellow bin.
+  • 🗂 Category: Other Plastic Items (6.7)
+  • ♻️ Recyclability: Likely recyclable as rigid plastic, but depends on local recycling facility capabilities and contamination levels.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., PP, PS) is not definitively identifiable from the image alone., The extent of contamination on the trays is not fully clear.
+
+— Crop 18 (region 12): crops/scan_1762169716/scan_1762169716_crop017.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray / medium
+  • 🎨 Color: black
+  • 🧪 State: dirty
+  • 🎯 Purpose: seedling tray
+  • 👁 Visibility: The object is mostly visible and appears to be a black plastic tray with multiple compartments for seedlings.
+  • 🔍 Other objects: other plastic trays (green and black), cardboard boxes, wooden pallets, a yellow bin
+  • 🔗 Relationship: The primary object is one of several plastic trays stacked within or near a large yellow bin. Other waste items like cardboard and wooden pallets are visible in the background.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Recyclable, depending on local facilities' acceptance of this type of plastic.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., PET, HDPE, PP) is not discernible from the image alone, which could affect recyclability., The specific dimensions of the tray are not provided, but its general size is clear.

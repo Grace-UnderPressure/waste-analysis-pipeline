@@ -1,0 +1,324 @@
+{
+  "success": true,
+  "scan_id": 1762183600,
+  "num_crops": 8,
+  "outputs": [
+    {
+      "region_id": 5,
+      "crop_path": "crops/scan_1762183600/scan_1762183600_crop000.jpg",
+      "gemini_text": "{\n  \"region_id\": 5,\n  \"crop_path\": \"CROP from scan_1762183600_crop000.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Rectangular trays with multiple compartments\",\n    \"size\": \"Medium to large, designed to hold multiple items\",\n    \"color\": \"Dark blue\",\n    \"condition\": \"Appears intact, possibly used\",\n    \"likely_function_or_original_purpose\": \"Medical/surgical instrument trays or food service trays. Given the context of the yellow biohazard bag and other items, medical/surgical use is highly probable.\",\n    \"current_state\": \"Used, structurally intact, likely contaminated from medical use\",\n    \"completeness_and_visibility_in_crop\": \"Multiple trays are visible, some partially overlapping, but their main features and material are clearly identifiable.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"White paper/plastic cup with a biohazard symbol\",\n      \"Clear plastic pouch/film (possibly sterile packaging)\",\n      \"White crumpled material (likely paper or textile wipes)\",\n      \"Yellow biohazard bag lining the container\"\n    ],\n    \"relationship_to_primary_object\": \"All items are discarded together within the yellow biohazard bag, indicating they are part of the same waste stream, likely medical waste. The cup and pouch are resting on or near the plastic trays.\",\n    \"potential_impact_on_classification\": \"The presence of the biohazard symbol on the cup and the yellow biohazard bag strongly indicates that all contents, including the primary plastic trays, are medical waste. This significantly impacts their classification and handling, moving them from general plastic waste to hazardous waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Rigid Plastic Packaging (specifically medical waste due to context)\",\n    \"recyclability_assessment_if_possible\": \"Unlikely to be conventionally recyclable due to potential biohazard contamination. These items would typically require special disposal methods such as incineration or autoclaving.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic (e.g., PP, PS) for the trays is not specified, but it is clearly rigid plastic.\",\n      \"The specific level and nature of contamination on the trays are unknown, but assumed to be biohazardous given the disposal context.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Without the strong biohazard context (yellow bag, biohazard symbol on cup), the trays would simply be classified as 'Plastics: Rigid Plastic Packaging' for general recycling.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 5,
+        "crop_path": "CROP from scan_1762183600_crop000.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Rectangular trays with multiple compartments",
+          "size": "Medium to large, designed to hold multiple items",
+          "color": "Dark blue",
+          "condition": "Appears intact, possibly used",
+          "likely_function_or_original_purpose": "Medical/surgical instrument trays or food service trays. Given the context of the yellow biohazard bag and other items, medical/surgical use is highly probable.",
+          "current_state": "Used, structurally intact, likely contaminated from medical use",
+          "completeness_and_visibility_in_crop": "Multiple trays are visible, some partially overlapping, but their main features and material are clearly identifiable."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "White paper/plastic cup with a biohazard symbol",
+            "Clear plastic pouch/film (possibly sterile packaging)",
+            "White crumpled material (likely paper or textile wipes)",
+            "Yellow biohazard bag lining the container"
+          ],
+          "relationship_to_primary_object": "All items are discarded together within the yellow biohazard bag, indicating they are part of the same waste stream, likely medical waste. The cup and pouch are resting on or near the plastic trays.",
+          "potential_impact_on_classification": "The presence of the biohazard symbol on the cup and the yellow biohazard bag strongly indicates that all contents, including the primary plastic trays, are medical waste. This significantly impacts their classification and handling, moving them from general plastic waste to hazardous waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Rigid Plastic Packaging (specifically medical waste due to context)",
+          "recyclability_assessment_if_possible": "Unlikely to be conventionally recyclable due to potential biohazard contamination. These items would typically require special disposal methods such as incineration or autoclaving.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic (e.g., PP, PS) for the trays is not specified, but it is clearly rigid plastic.",
+            "The specific level and nature of contamination on the trays are unknown, but assumed to be biohazardous given the disposal context."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Without the strong biohazard context (yellow bag, biohazard symbol on cup), the trays would simply be classified as 'Plastics: Rigid Plastic Packaging' for general recycling."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 7,
+      "crop_path": "crops/scan_1762183600/scan_1762183600_crop001.jpg",
+      "gemini_text": "{\n  \"region_id\": 7,\n  \"crop_path\": \"CROP from scan_1762183600_crop001.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Irregular, crumpled, bag-like\",\n    \"size\": \"Large\",\n    \"color\": \"Yellow\",\n    \"condition\": \"Intact but crumpled\",\n    \"likely_function_or_original_purpose\": \"Waste collection bag\",\n    \"current_state\": \"Intact, crumpled\",\n    \"completeness_and_visibility_in_crop\": \"The top and upper portion of a yellow plastic bag are visible, filling most of the crop.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [],\n    \"relationship_to_primary_object\": null,\n    \"potential_impact_on_classification\": null\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Plastic Bags\",\n    \"recyclability_assessment_if_possible\": \"As a plastic bag, it is potentially recyclable as plastic film/bag, but its function as a waste container might lead to disposal with its contents. Specific recyclability depends on the plastic type and local waste management guidelines.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact type of plastic (e.g., HDPE, LDPE) is not discernible.\",\n      \"Specific purpose of this yellow bag (e.g., general waste, hazardous waste, specific recycling) is not clear from the crop alone.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 7,
+        "crop_path": "CROP from scan_1762183600_crop001.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Irregular, crumpled, bag-like",
+          "size": "Large",
+          "color": "Yellow",
+          "condition": "Intact but crumpled",
+          "likely_function_or_original_purpose": "Waste collection bag",
+          "current_state": "Intact, crumpled",
+          "completeness_and_visibility_in_crop": "The top and upper portion of a yellow plastic bag are visible, filling most of the crop."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [],
+          "relationship_to_primary_object": null,
+          "potential_impact_on_classification": null
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Plastic Bags",
+          "recyclability_assessment_if_possible": "As a plastic bag, it is potentially recyclable as plastic film/bag, but its function as a waste container might lead to disposal with its contents. Specific recyclability depends on the plastic type and local waste management guidelines.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact type of plastic (e.g., HDPE, LDPE) is not discernible.",
+            "Specific purpose of this yellow bag (e.g., general waste, hazardous waste, specific recycling) is not clear from the crop alone."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 2,
+      "crop_path": "crops/scan_1762183600/scan_1762183600_crop002.jpg",
+      "gemini_text": "{\n  \"region_id\": 2,\n  \"crop_path\": \"scan_1762183600_crop002.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Irregular, crumpled sheet-like form\",\n    \"size\": \"Appears to be a large piece, forming a liner in the original image context\",\n    \"color\": \"Bright yellow\",\n    \"condition\": \"Appears to be in good condition, possibly crumpled\",\n    \"likely_function_or_original_purpose\": \"Waste bag or bin liner\",\n    \"current_state\": \"Intact, crumpled\",\n    \"completeness_and_visibility_in_crop\": \"Only a small, upper-right corner of the yellow plastic bag is visible, showing a partial view.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [],\n    \"relationship_to_primary_object\": null,\n    \"potential_impact_on_classification\": null\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Plastic Bags\",\n    \"recyclability_assessment_if_possible\": \"Plastic bags are generally difficult to recycle through standard curbside programs; often requires specialized drop-offs. As a waste bag, it is likely destined for landfill or incineration.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic (e.g., HDPE, LDPE) is not discernible from the image.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 2,
+        "crop_path": "scan_1762183600_crop002.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Irregular, crumpled sheet-like form",
+          "size": "Appears to be a large piece, forming a liner in the original image context",
+          "color": "Bright yellow",
+          "condition": "Appears to be in good condition, possibly crumpled",
+          "likely_function_or_original_purpose": "Waste bag or bin liner",
+          "current_state": "Intact, crumpled",
+          "completeness_and_visibility_in_crop": "Only a small, upper-right corner of the yellow plastic bag is visible, showing a partial view."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [],
+          "relationship_to_primary_object": null,
+          "potential_impact_on_classification": null
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Plastic Bags",
+          "recyclability_assessment_if_possible": "Plastic bags are generally difficult to recycle through standard curbside programs; often requires specialized drop-offs. As a waste bag, it is likely destined for landfill or incineration.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic (e.g., HDPE, LDPE) is not discernible from the image."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 0,
+      "crop_path": "crops/scan_1762183600/scan_1762183600_crop003.jpg",
+      "gemini_text": "{\n  \"region_id\": 0,\n  \"crop_path\": \"CROP from scan_1762183600_crop003.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Cylindrical with a slightly tapered body and a wider rim\",\n    \"size\": \"Medium, consistent with a disposable drinking cup\",\n    \"color\": \"Off-white/cream\",\n    \"condition\": \"Intact, no visible damage or significant deformation\",\n    \"likely_function_or_original_purpose\": \"Disposable drinking cup or container for beverages/food\",\n    \"current_state\": \"Intact, appears to be used and discarded\",\n    \"completeness_and_visibility_in_crop\": \"Mostly complete, the top rim and bottom edge are slightly cropped, but the main body and label are clearly visible.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Portion of a blue rigid plastic tray/container\",\n      \"Crumpled white material (possibly plastic film or paper)\",\n      \"Part of a yellow plastic bag\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object (cup) is resting on or next to these secondary items, all contained within a larger yellow plastic bag, indicating they are part of a waste collection.\",\n    \"potential_impact_on_classification\": \"The presence of other plastic items (blue trays) reinforces the general plastic waste context. The yellow bag indicates a waste collection point.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Other Plastic Containers\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable as a plastic item, but specific recyclability depends on the exact plastic resin type (not specified) and local recycling guidelines.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The specific type of plastic resin (e.g., PP, PS) is not identifiable from the image, which impacts precise recyclability assessment.\",\n      \"The exact original contents of the cup are unknown.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 0,
+        "crop_path": "CROP from scan_1762183600_crop003.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Cylindrical with a slightly tapered body and a wider rim",
+          "size": "Medium, consistent with a disposable drinking cup",
+          "color": "Off-white/cream",
+          "condition": "Intact, no visible damage or significant deformation",
+          "likely_function_or_original_purpose": "Disposable drinking cup or container for beverages/food",
+          "current_state": "Intact, appears to be used and discarded",
+          "completeness_and_visibility_in_crop": "Mostly complete, the top rim and bottom edge are slightly cropped, but the main body and label are clearly visible."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Portion of a blue rigid plastic tray/container",
+            "Crumpled white material (possibly plastic film or paper)",
+            "Part of a yellow plastic bag"
+          ],
+          "relationship_to_primary_object": "The primary object (cup) is resting on or next to these secondary items, all contained within a larger yellow plastic bag, indicating they are part of a waste collection.",
+          "potential_impact_on_classification": "The presence of other plastic items (blue trays) reinforces the general plastic waste context. The yellow bag indicates a waste collection point."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Other Plastic Containers",
+          "recyclability_assessment_if_possible": "Likely recyclable as a plastic item, but specific recyclability depends on the exact plastic resin type (not specified) and local recycling guidelines.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The specific type of plastic resin (e.g., PP, PS) is not identifiable from the image, which impacts precise recyclability assessment.",
+            "The exact original contents of the cup are unknown."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 1,
+      "crop_path": "crops/scan_1762183600/scan_1762183600_crop004.jpg",
+      "gemini_text": "{\n  \"region_id\": 1,\n  \"crop_path\": \"CROP from scan_1762183600_crop004.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Irregular, crumpled pouch/bag\",\n    \"size\": \"Medium\",\n    \"color\": \"Light blue/transparent\",\n    \"condition\": \"Crumpled\",\n    \"likely_function_or_original_purpose\": \"Sterilization pouch for medical instruments or supplies\",\n    \"current_state\": \"Used, crumpled\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the pouch is visible, but it is crumpled and not fully laid out, partially obscured by its own folds and the underlying tray.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Dark blue rigid plastic tray\"\n    ],\n    \"relationship_to_primary_object\": \"The plastic pouch is resting on top of the blue plastic tray.\",\n    \"potential_impact_on_classification\": \"The tray is also plastic waste, reinforcing the overall plastic nature of the items in the bin.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Plastic Films\",\n    \"recyclability_assessment_if_possible\": \"Likely not recyclable in standard municipal streams due to its specialized nature (medical packaging) and potential for being a composite material, even if the visible part is plastic film.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact material composition (pure plastic film vs. plastic-paper composite)\",\n      \"Specific type of plastic\",\n      \"Whether it's considered medical waste requiring special disposal.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Composite Materials (if it's a plastic-paper sterilization pouch)\",\n      \"Hazardous Household Waste (if classified as medical waste due to its origin)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 1,
+        "crop_path": "CROP from scan_1762183600_crop004.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Irregular, crumpled pouch/bag",
+          "size": "Medium",
+          "color": "Light blue/transparent",
+          "condition": "Crumpled",
+          "likely_function_or_original_purpose": "Sterilization pouch for medical instruments or supplies",
+          "current_state": "Used, crumpled",
+          "completeness_and_visibility_in_crop": "A significant portion of the pouch is visible, but it is crumpled and not fully laid out, partially obscured by its own folds and the underlying tray."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Dark blue rigid plastic tray"
+          ],
+          "relationship_to_primary_object": "The plastic pouch is resting on top of the blue plastic tray.",
+          "potential_impact_on_classification": "The tray is also plastic waste, reinforcing the overall plastic nature of the items in the bin."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Plastic Films",
+          "recyclability_assessment_if_possible": "Likely not recyclable in standard municipal streams due to its specialized nature (medical packaging) and potential for being a composite material, even if the visible part is plastic film.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact material composition (pure plastic film vs. plastic-paper composite)",
+            "Specific type of plastic",
+            "Whether it's considered medical waste requiring special disposal."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Composite Materials (if it's a plastic-paper sterilization pouch)",
+            "Hazardous Household Waste (if classified as medical waste due to its origin)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 4,
+      "crop_path": "crops/scan_1762183600/scan_1762183600_crop005.jpg",
+      "gemini_text": "{\n  \"region_id\": 4,\n  \"crop_path\": \"CROP from scan_1762183600_crop005.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Rectangular tray with compartments\",\n    \"size\": \"Medium, appears to be a standard food tray size\",\n    \"color\": \"Blue\",\n    \"condition\": \"Appears intact and rigid\",\n    \"likely_function_or_original_purpose\": \"Food packaging tray, possibly for ready meals or produce\",\n    \"current_state\": \"Used, potentially with residue (not clearly visible in crop)\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the blue plastic tray is visible in the lower-left part of the crop, showing its structured surface and edge.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Yellow plastic bag\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object (blue plastic tray) is contained within the yellow plastic bag, which serves as a waste receptacle.\",\n    \"potential_impact_on_classification\": \"The yellow plastic bag is a container for the waste and does not alter the classification of the primary object itself, though it is also plastic waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Rigid Plastic Packaging\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable if clean, depending on the specific type of plastic (e.g., PET, PP, PS) and local recycling infrastructure.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic (e.g., PET, PP, PS) is not discernible from the image.\",\n      \"The extent of food residue or contamination is not clear from the crop.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 4,
+        "crop_path": "CROP from scan_1762183600_crop005.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Rectangular tray with compartments",
+          "size": "Medium, appears to be a standard food tray size",
+          "color": "Blue",
+          "condition": "Appears intact and rigid",
+          "likely_function_or_original_purpose": "Food packaging tray, possibly for ready meals or produce",
+          "current_state": "Used, potentially with residue (not clearly visible in crop)",
+          "completeness_and_visibility_in_crop": "A significant portion of the blue plastic tray is visible in the lower-left part of the crop, showing its structured surface and edge."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Yellow plastic bag"
+          ],
+          "relationship_to_primary_object": "The primary object (blue plastic tray) is contained within the yellow plastic bag, which serves as a waste receptacle.",
+          "potential_impact_on_classification": "The yellow plastic bag is a container for the waste and does not alter the classification of the primary object itself, though it is also plastic waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Rigid Plastic Packaging",
+          "recyclability_assessment_if_possible": "Likely recyclable if clean, depending on the specific type of plastic (e.g., PET, PP, PS) and local recycling infrastructure.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic (e.g., PET, PP, PS) is not discernible from the image.",
+            "The extent of food residue or contamination is not clear from the crop."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 5,
+      "crop_path": "crops/scan_1762183600/scan_1762183600_crop006.jpg",
+      "gemini_text": "{\n  \"region_id\": 5,\n  \"crop_path\": \"scan_1762183600_crop006.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Textiles (non-woven fabric)\",\n    \"shape\": \"Irregular, crumpled\",\n    \"size\": \"Medium\",\n    \"color\": \"Off-white\",\n    \"condition\": \"Crinkled, with a small tear/hole\",\n    \"likely_function_or_original_purpose\": \"Medical wipe or sterile wrap\",\n    \"current_state\": \"Discarded, used\",\n    \"completeness_and_visibility_in_crop\": \"Mostly visible, but edges are cut off, showing a significant portion of the object.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Yellow plastic bag\",\n      \"Blue plastic tray (partially visible)\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is resting on the yellow plastic bag, with a blue plastic tray visible behind it.\",\n    \"potential_impact_on_classification\": \"The presence of medical-related items (blue trays, yellow biohazard bag in original) strongly suggests the primary object is also medical waste, influencing its classification towards sanitary textiles or composite medical waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Textiles (sanitary textiles)\",\n    \"recyclability_assessment_if_possible\": \"Likely non-recyclable due to potential contamination and material composition (non-woven medical waste).\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact material composition (paper vs. non-woven textile/composite)\",\n      \"Whether it is soiled or clean (though context suggests used).\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Paper (e.g., large tissue or paper towel)\",\n      \"Composite Materials (if a multi-layer medical product).\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 5,
+        "crop_path": "scan_1762183600_crop006.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Textiles (non-woven fabric)",
+          "shape": "Irregular, crumpled",
+          "size": "Medium",
+          "color": "Off-white",
+          "condition": "Crinkled, with a small tear/hole",
+          "likely_function_or_original_purpose": "Medical wipe or sterile wrap",
+          "current_state": "Discarded, used",
+          "completeness_and_visibility_in_crop": "Mostly visible, but edges are cut off, showing a significant portion of the object."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Yellow plastic bag",
+            "Blue plastic tray (partially visible)"
+          ],
+          "relationship_to_primary_object": "The primary object is resting on the yellow plastic bag, with a blue plastic tray visible behind it.",
+          "potential_impact_on_classification": "The presence of medical-related items (blue trays, yellow biohazard bag in original) strongly suggests the primary object is also medical waste, influencing its classification towards sanitary textiles or composite medical waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Textiles (sanitary textiles)",
+          "recyclability_assessment_if_possible": "Likely non-recyclable due to potential contamination and material composition (non-woven medical waste).",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact material composition (paper vs. non-woven textile/composite)",
+            "Whether it is soiled or clean (though context suggests used)."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Paper (e.g., large tissue or paper towel)",
+            "Composite Materials (if a multi-layer medical product)."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 8,
+      "crop_path": "crops/scan_1762183600/scan_1762183600_crop007.jpg",
+      "gemini_text": "{\n  \"region_id\": 8,\n  \"crop_path\": \"CROP from scan_1762183600_crop007.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"rectangular tray with compartments\",\n    \"size\": \"medium\",\n    \"color\": \"dark blue\",\n    \"condition\": \"intact\",\n    \"likely_function_or_original_purpose\": \"food packaging tray, likely for meals\",\n    \"current_state\": \"used, possibly dirty, intact\",\n    \"completeness_and_visibility_in_crop\": \"Only a small portion of the blue plastic tray is visible, specifically a corner or edge.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"translucent plastic film/bag\"\n    ],\n    \"relationship_to_primary_object\": \"The translucent plastic film is resting on or near the blue plastic object.\",\n    \"potential_impact_on_classification\": \"The translucent film is a separate plastic item, and the visible text 'steril' suggests it might be medical waste, which could influence the overall waste stream if it's part of the same disposal.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Rigid Plastic Packaging\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable, depending on the specific type of plastic (e.g., PS, PP) and local recycling regulations.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic for the blue tray is not discernible.\",\n      \"The full extent of the blue object is not visible in the crop.\",\n      \"The precise nature of the translucent film (e.g., general plastic film vs. medical waste) is not fully clear, though 'steril' suggests medical.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 8,
+        "crop_path": "CROP from scan_1762183600_crop007.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "rectangular tray with compartments",
+          "size": "medium",
+          "color": "dark blue",
+          "condition": "intact",
+          "likely_function_or_original_purpose": "food packaging tray, likely for meals",
+          "current_state": "used, possibly dirty, intact",
+          "completeness_and_visibility_in_crop": "Only a small portion of the blue plastic tray is visible, specifically a corner or edge."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "translucent plastic film/bag"
+          ],
+          "relationship_to_primary_object": "The translucent plastic film is resting on or near the blue plastic object.",
+          "potential_impact_on_classification": "The translucent film is a separate plastic item, and the visible text 'steril' suggests it might be medical waste, which could influence the overall waste stream if it's part of the same disposal."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Rigid Plastic Packaging",
+          "recyclability_assessment_if_possible": "Potentially recyclable, depending on the specific type of plastic (e.g., PS, PP) and local recycling regulations.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic for the blue tray is not discernible.",
+            "The full extent of the blue object is not visible in the crop.",
+            "The precise nature of the translucent film (e.g., general plastic film vs. medical waste) is not fully clear, though 'steril' suggests medical."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    }
+  ],
+  "gemini_metrics_per_image": {
+    "api_calls": 8,
+    "input_tokens": 12400,
+    "output_tokens": 3868,
+    "total_tokens": 24687,
+    "errors": 0,
+    "structured_parse_success": 8,
+    "structured_parse_failures": 0,
+    "cache_hits": 0,
+    "avg_response_time_ms": 15485.186874866486
+  },
+  "phase_times": {
+    "segmentation_sec": 3.3295676708221436,
+    "crop_generation_sec": 0.604684591293335,
+    "clip_classification_sec": 0.8954331874847412,
+    "prompt_building_sec": 0.0004591941833496094,
+    "gemini_inference_sec": 72.06469416618347
+  }
+}

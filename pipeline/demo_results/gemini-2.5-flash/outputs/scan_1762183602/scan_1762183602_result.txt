@@ -1,0 +1,265 @@
+🔍 Waste Analysis (scan 1762183602)
+📦 Crops analyzed: 19
+
+— Crop 1 (region 3): crops/scan_1762183602/scan_1762183602_crop000.jpg
+  • 🧱 Material: Composite material (likely wood-based composite with a laminate/painted surface)
+  • 🧩 Shape/Size: Rectangular/square panel, flat / Medium to large panel
+  • 🎨 Color: Yellow with white geometric patterns, exposed areas are grey/white
+  • 🧪 State: Damaged, dirty, discarded
+  • 🎯 Purpose: Furniture component (e.g., cabinet door, table top) or decorative panel
+  • 👁 Visibility: Mostly visible, but edges are cut off by the crop, showing a significant portion of the object
+  • 🔍 Other objects: Brown cardboard box/sheet (partially obscuring the primary object), Black plastic bags or sheeting (behind and to the left), Wooden plank or part of a pallet (bottom left)
+  • 🔗 Relationship: Other discarded waste items piled with or around the primary object, confirming a waste context.
+  • 🗂 Category: Combustible Materials (specifically, a furniture item or decorative panel made of wood-based composite)
+  • ♻️ Recyclability: Likely not easily recyclable with clean wood waste due to its composite nature and laminate/paint; typically destined for incineration or landfill.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of wood composite (e.g., particle board, MDF) is not definitively discernible., The precise nature of the surface finish (laminate vs. paint) is not fully clear, though it appears to be a peeling surface.
+
+— Crop 2 (region 2): crops/scan_1762183602/scan_1762183602_crop001.jpg
+  • 🧱 Material: Cardboard
+  • 🧩 Shape/Size: Rectangular box, open / Medium to large
+  • 🎨 Color: Brown/beige
+  • 🧪 State: Open, appears empty, relatively clean
+  • 🎯 Purpose: Packaging or storage
+  • 👁 Visibility: The majority of the box is visible, open with interior flaps showing.
+  • 🔍 Other objects: Portion of another cardboard item to the left, Glimpses of other waste below the primary box, possibly plastic strapping or film, and a green object
+  • 🔗 Relationship: The primary box is resting on or next to other waste items.
+  • 🗂 Category: Cardboard - Flat and corrugated cardboard packaging
+  • ♻️ Recyclability: Cardboard is generally recyclable.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 3 (region 1): crops/scan_1762183602/scan_1762183602_crop002.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: irregular, lumpy, bulging / large
+  • 🎨 Color: black
+  • 🧪 State: full of contents, likely waste, dirty/dusty
+  • 🎯 Purpose: to contain and dispose of waste
+  • 👁 Visibility: The bag is largely visible, with its bottom and right side extending beyond the crop boundaries. The top and left are clearly visible.
+  • 🔍 Other objects: wooden pallet structure, other dark plastic bags, blue fabric/plastic
+  • 🔗 Relationship: The wooden pallet is in the foreground, partially obscuring the bottom of the bag. Other waste items are adjacent to or behind the primary bag, indicating it's part of a general waste collection.
+  • 🗂 Category: Plastics/Plastic Bags
+  • ♻️ Recyclability: Black plastic bags are generally not recyclable in many municipal schemes due to carbon black pigments. Given it's a waste bag, its contents are unknown and likely mixed, making it non-recyclable as a whole.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact contents of the bag are unknown, but this does not change its classification as a plastic bag.
+
+— Crop 4 (region 18): crops/scan_1762183602/scan_1762183602_crop003.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Amorphous, crumpled mass / Medium, forming a significant pile within the crop
+  • 🎨 Color: Transparent/clear with white reflections
+  • 🧪 State: Discarded, crumpled
+  • 🎯 Purpose: Packaging film, protective wrapping, or plastic bags
+  • 👁 Visibility: The primary object, a mass of clear plastic film, is largely visible and occupies most of the crop, though its edges are somewhat cut off.
+  • 🔍 Other objects: Blue plastic strips/shreds
+  • 🔗 Relationship: The blue plastic strips are mixed in with the clear plastic mass, appearing to be part of the same waste pile.
+  • 🗂 Category: Plastics/Plastic Films
+  • ♻️ Recyclability: Plastic films can be recyclable, but often require specific collection streams and may be problematic if dirty or mixed. In a general waste pile, its recyclability would depend on local waste management facilities and sorting processes.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: Whether individual pieces are specifically bags or general film is slightly ambiguous, but both fall under 'Plastics'., The exact type of plastic (e.g., LDPE, LLDPE) is not discernible.
+
+— Crop 5 (region 2): crops/scan_1762183602/scan_1762183602_crop004.jpg
+  • 🧱 Material: Cardboard
+  • 🧩 Shape/Size: Rectangular prism (box) / Medium
+  • 🎨 Color: Brown
+  • 🧪 State: Intact, relatively clean
+  • 🎯 Purpose: Packaging or storage
+  • 👁 Visibility: The majority of the box is visible, showing one large side, part of another, and a flap. It is mostly complete within the crop.
+  • 🔍 Other objects: A flat, yellow object with a white geometric pattern (squares/rectangles) behind the cardboard box, A glimpse of white plastic (possibly a plastic bag or film) to the bottom left, Some dark material (possibly plastic or other waste) to the bottom right
+  • 🔗 Relationship: The yellow patterned object is directly behind and partially supporting the cardboard box. Other elements are in the immediate vicinity as part of a general waste pile.
+  • 🗂 Category: Cardboard - Flat and corrugated cardboard packaging
+  • ♻️ Recyclability: Cardboard boxes are generally recyclable, provided they are clean and dry. This one appears to be in good condition.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The CLIP statistical context suggested 'Plastics/box', which is inconsistent with the visual evidence for the primary object being cardboard. The secondary yellow patterned object or other background plastics might have influenced this score.
+
+— Crop 6 (region 16): crops/scan_1762183602/scan_1762183602_crop005.jpg
+  • 🧱 Material: Wood
+  • 🧩 Shape/Size: Rectangular plank/beam / Appears to be a substantial piece of wood, likely part of a pallet or construction timber
+  • 🎨 Color: Light brown/beige, weathered
+  • 🧪 State: Weathered, possibly dirty, intact as a plank but discarded
+  • 🎯 Purpose: Structural support, part of a wooden pallet, or construction material
+  • 👁 Visibility: A significant portion of the wooden plank is visible, extending diagonally across the crop. Its full length is not visible.
+  • 🔍 Other objects: Blue tarp or plastic sheet, Yellow strap or cable, White styrofoam pieces, Clear plastic film or bag, Portion of an old blue/grey CRT monitor or television in the background, General mixed waste debris
+  • 🔗 Relationship: The primary object (wooden plank) is resting on or against a pile of various other waste materials, including plastics and what appears to be an electronic device.
+  • 🗂 Category: Combustible Materials (Wood packaging or other combustible items)
+  • ♻️ Recyclability: Wood can often be recycled or composted, especially if untreated. Its recyclability depends on local facilities and whether it's clean or treated wood. In this mixed waste context, it would need to be separated.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of wood (e.g., treated vs. untreated) is not discernible, which could affect specific recycling processes., The full dimensions of the plank are not visible.
+
+— Crop 7 (region 8): crops/scan_1762183602/scan_1762183602_crop006.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, crumpled, sheet-like / Large, covering a significant portion of the crop
+  • 🎨 Color: Dark blue
+  • 🧪 State: Crumpled, possibly dirty, appears intact as a single piece
+  • 🎯 Purpose: Tarp, protective cover, or large plastic sheet
+  • 👁 Visibility: A large portion of the object is visible, but its full extent is not shown and it is partially obscured by folds and other items.
+  • 🔍 Other objects: Yellow straps or bands, Partial white/light blue object with a circular pattern (possibly plastic container/appliance), Indistinct dark materials in the background
+  • 🔗 Relationship: The yellow straps appear to be entangled with or lying on top of the blue plastic. The white/light blue object is behind and to the right of the blue plastic.
+  • 🗂 Category: Plastics: Other Plastic Items (likely a tarp or heavy-duty plastic sheet)
+  • ♻️ Recyclability: Potentially recyclable as a plastic film or sheet, depending on the specific plastic type and local recycling facilities. Without specific markings, it's hard to be certain.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact nature of the plastic (e.g., heavy-duty bag, tarp, woven plastic sheet) is not perfectly clear due to the crumpled state and woven texture., The woven texture could be misinterpreted as a textile.
+
+— Crop 8 (region 5): crops/scan_1762183602/scan_1762183602_crop007.jpg
+  • 🧱 Material: Plastic (likely acrylic)
+  • 🧩 Shape/Size: Rectangular with rounded corners, a flat bottom, and a raised edge, featuring a circular drain hole. / Appears to be a standard size for a shower tray, relatively large.
+  • 🎨 Color: White
+  • 🧪 State: Appears clean and intact, though discarded in a waste pile.
+  • 🎯 Purpose: A shower tray for a bathroom.
+  • 👁 Visibility: A significant portion of the shower tray is visible, including the drain hole and edges, allowing for clear identification.
+  • 🔍 Other objects: A blue object (possibly packaging or a container) to the left, Transparent plastic film or bag material near the center, Crumpled brown/beige material (possibly cardboard or fabric) underneath and around, Darker, possibly fabric or plastic material in the top left corner, Another blue object (possibly a plastic container or part of a larger item) in the bottom right
+  • 🔗 Relationship: These items are mixed in with the shower tray, appearing to be part of a general waste pile. They are not functionally related to the primary object.
+  • 🗂 Category: Plastics/Other Plastic Items
+  • ♻️ Recyclability: Potentially recyclable depending on the specific type of plastic (e.g., acrylic, ABS) and local recycling facilities for large rigid plastics. Often requires specialized disposal or recycling rather than standard curbside collection.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., acrylic, ABS) is not discernible from the image, which could affect specific recycling pathways.
+
+— Crop 9 (region 0): crops/scan_1762183602/scan_1762183602_crop008.jpg
+  • 🧱 Material: Composite (primarily plastic with internal metal components from electrical wiring)
+  • 🧩 Shape/Size: Cylindrical/conical base with a flat bottom / Small to medium-sized household appliance
+  • 🎨 Color: Light blue/grey body, white electrical cord
+  • 🧪 State: Discarded, appears intact but likely non-functional or unwanted
+  • 🎯 Purpose: An electrical appliance, possibly a small vacuum cleaner, air purifier, or similar household device
+  • 👁 Visibility: The bottom and lower sides of the object are clearly visible. A significant portion is present, though the top is not shown.
+  • 🔍 Other objects: A yellow cable/hose (partially visible on the left), Dark, possibly fabric or plastic, material (behind the primary object), Light-colored, possibly concrete or wood, structure (on the right)
+  • 🔗 Relationship: The yellow cable might be part of the primary object (e.g., a vacuum hose) or another piece of waste in close proximity. The other elements are background waste.
+  • 🗂 Category: Composite Materials (small electrical appliance/E-waste)
+  • ♻️ Recyclability: Small electrical appliances (E-waste) are generally recyclable but require specialized collection and processing, not typically curbside recycling.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact type of appliance (e.g., vacuum, air purifier, humidifier) is not definitively clear from the crop., Whether the yellow cable is an integral part of the primary object or a separate item.
+
+— Crop 10 (region 11): crops/scan_1762183602/scan_1762183602_crop009.jpg
+  • 🧱 Material: Plastic (Expanded Polystyrene foam)
+  • 🧩 Shape/Size: Irregular, large block-like or sheet-like with some rounded edges / Large, appears to be a substantial piece of packaging
+  • 🎨 Color: Creamy white / light beige
+  • 🧪 State: Intact, appears relatively clean, discarded
+  • 🎯 Purpose: Protective packaging material, possibly for a large appliance or furniture item
+  • 👁 Visibility: A large portion of the object is visible, extending beyond the crop boundaries at the top and bottom
+  • 🔍 Other objects: Black plastic bags
+  • 🔗 Relationship: The black plastic bags are resting on or draped over the primary object, separate items
+  • 🗂 Category: Plastics: Other Plastic Items (Expanded Polystyrene foam packaging)
+  • ♻️ Recyclability: Potentially recyclable, but acceptance depends on local recycling facilities and specific plastic type (EPS foam) processing capabilities.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: While clearly a plastic foam, the exact density or specific type of plastic (e.g., EPS, XPS) is not definitively identifiable from the image alone.
+
+— Crop 11 (region 14): crops/scan_1762183602/scan_1762183602_crop010.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, crumpled sheet / Large, appears to be a significant portion of a larger item
+  • 🎨 Color: Dull brown/khaki
+  • 🧪 State: Crumpled and discarded
+  • 🎯 Purpose: Tarp, covering, or heavy-duty packaging
+  • 👁 Visibility: A large portion of the object is visible, but it is not fully unfolded or clearly defined, appearing as a crumpled mass.
+  • 🔍 Other objects: A light blue/white rigid plastic object with a white cord (bottom left), A shiny, crinkled, clear plastic film or bag (bottom right)
+  • 🔗 Relationship: These items are adjacent to the primary object, forming part of the same pile of mixed waste.
+  • 🗂 Category: Plastics/Other Plastic Items (likely a plastic tarp or heavy-duty plastic sheet)
+  • ♻️ Recyclability: Uncertain; depends on the specific type of plastic and local recycling facilities. Given its likely dirty and used state in a waste pile, it is probably not recyclable through standard curbside programs.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., HDPE, LDPE) is not discernible., It is unclear if it is a tarp, a very large bag, or another form of heavy-duty plastic sheeting.
+
+— Crop 12 (region 9): crops/scan_1762183602/scan_1762183602_crop011.jpg
+  • 🧱 Material: Wood
+  • 🧩 Shape/Size: Rectangular plank / Medium-sized plank, approximately 1 meter in visible length
+  • 🎨 Color: Light brown/tan with greyish weathering and darker spots
+  • 🧪 State: Dirty, weathered, intact as a plank but appears discarded
+  • 🎯 Purpose: Structural support, part of a wooden pallet or construction material
+  • 👁 Visibility: A significant portion of the plank is visible, extending vertically across most of the crop, with its top and bottom edges slightly cut off.
+  • 🔍 Other objects: Black plastic sheeting or bag behind the plank, Another wooden beam or plank to the right of the primary object
+  • 🔗 Relationship: The black plastic is positioned behind the primary wooden plank, and another wooden piece is adjacent to it, suggesting they are part of a larger discarded assembly or pile. The primary object is part of a wooden pallet structure visible in the original image.
+  • 🗂 Category: Combustible Materials (Wood packaging or other combustible wood items)
+  • ♻️ Recyclability: Wood, especially from pallets, is often recyclable or suitable for composting/mulching, provided it is untreated. This piece appears to be untreated wood.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 13 (region 13): crops/scan_1762183602/scan_1762183602_crop012.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, broken slab-like pieces / Medium to large fragments
+  • 🎨 Color: Dark grey/charcoal
+  • 🧪 State: Damaged, fragmented, mixed with other waste
+  • 🎯 Purpose: Thermal insulation or protective packaging
+  • 👁 Visibility: Multiple fragments are visible, but the original complete object is not present
+  • 🔍 Other objects: Green plastic strapping, Clear plastic film/bag, White paper/cardboard fragments, Blue plastic pieces
+  • 🔗 Relationship: These items are intermingled with the primary object, forming a mixed waste pile. The plastic straps appear to be binding or entangled with the foam pieces.
+  • 🗂 Category: Plastics/Other Plastic Items (specifically rigid foam insulation)
+  • ♻️ Recyclability: Rigid foam insulation can be challenging to recycle due to its volume, potential contamination, and varying material compositions. Generally considered difficult to recycle in mixed waste streams without specific sorting.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic foam (e.g., EPS, XPS) is not definitively clear., It is unclear if it is a pure plastic foam or a composite insulation board with other layers.
+
+— Crop 14 (region 6): crops/scan_1762183602/scan_1762183602_crop013.jpg
+  • 🧱 Material: Plastic (Expanded Polystyrene foam)
+  • 🧩 Shape/Size: Rectangular blocks/prisms / Medium to large, consistent with packaging or insulation material
+  • 🎨 Color: White
+  • 🧪 State: Intact, relatively clean
+  • 🎯 Purpose: Packaging material or insulation
+  • 👁 Visibility: Two pieces of the foam are clearly visible and mostly complete within the crop, showing their characteristic texture and form.
+  • 🔍 Other objects: Pieces of wood (likely from a pallet or construction debris), Small fragments of other indeterminate debris
+  • 🔗 Relationship: The primary object (foam) is resting on or among these other materials, indicating it is part of a mixed waste pile, possibly construction or packaging waste.
+  • 🗂 Category: Plastics/Other Plastic Items (Expanded Polystyrene foam)
+  • ♻️ Recyclability: Expanded Polystyrene (EPS) foam is technically recyclable but often not accepted in standard curbside recycling programs due to its bulk, light weight, and potential for contamination. It typically requires specialized collection.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 15 (region 7): crops/scan_1762183602/scan_1762183602_crop014.jpg
+  • 🧱 Material: Paper
+  • 🧩 Shape/Size: Rectangular, folded and creased / Relatively large, covering a significant portion of the crop
+  • 🎨 Color: White
+  • 🧪 State: Creased and possibly dirty
+  • 🎯 Purpose: Packaging material or a large discarded document/sheet
+  • 👁 Visibility: Mostly visible, but edges are cut off by the crop
+  • 🔍 Other objects: Blue plastic straps/bands, Grey/green fabric or strapping, Thin white wires/cables, Other white paper/plastic shreds
+  • 🔗 Relationship: Entangled with or underneath the primary object
+  • 🗂 Category: Paper
+  • ♻️ Recyclability: Generally recyclable, but its creased and potentially dirty condition might affect its recyclability
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact thickness (thick paper versus thin cardboard), Presence of any non-paper coatings or laminations not visible
+
+— Crop 16 (region 10): crops/scan_1762183602/scan_1762183602_crop015.jpg
+  • 🧱 Material: Plastic (likely woven polypropylene or polyethylene)
+  • 🧩 Shape/Size: Irregular, crumpled, folded / Appears to be a large piece of material
+  • 🎨 Color: Dark blue
+  • 🧪 State: Discarded, crumpled, part of a waste pile
+  • 🎯 Purpose: A tarp or protective covering
+  • 👁 Visibility: A significant portion is visible, but its full dimensions and exact form are obscured by its crumpled state and partial cropping.
+  • 🔍 Other objects: Portions of wooden slats (likely from a pallet), Other general waste debris
+  • 🔗 Relationship: The blue material is resting on or intertwined with these other waste items.
+  • 🗂 Category: Plastics: Other Plastic Items (specifically, a plastic tarp)
+  • ♻️ Recyclability: Recyclability is generally low for large, often contaminated plastic tarps in standard municipal recycling streams, though some specialized facilities might process them.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., HDPE, LDPE, PP) is not discernible., There's a slight ambiguity with very durable, coarse textiles, as suggested by CLIP, but the visual sheen and stiffness lean towards woven plastic.
+
+— Crop 17 (region 1): crops/scan_1762183602/scan_1762183602_crop016.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, crumpled sheet-like / Large
+  • 🎨 Color: Dark blue/black
+  • 🧪 State: Dirty, crumpled
+  • 🎯 Purpose: Packaging, covering, or a large bag
+  • 👁 Visibility: A significant portion of the object is visible, showing its texture and form, but its full extent and exact shape are not entirely clear due to cropping and crumpling.
+  • 🔍 Other objects: A small, lighter-colored (possibly white or light blue) object or portion of an object in the bottom right corner
+  • 🔗 Relationship: Appears to be underneath or adjacent to the primary dark plastic object.
+  • 🗂 Category: Plastics/Plastic Films
+  • ♻️ Recyclability: Potentially recyclable, depending on the specific type of plastic and local recycling infrastructure, though its current crumpled and possibly dirty state might affect its processability.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The precise nature of the plastic item (e.g., a very large bag, a tarp, or a thick film) is not perfectly clear.
+
+— Crop 18 (region 14): crops/scan_1762183602/scan_1762183602_crop017.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, conforming to contents / Medium to large, covering other items
+  • 🎨 Color: Black
+  • 🧪 State: Intact, holding contents
+  • 🎯 Purpose: Waste containment, garbage bag
+  • 👁 Visibility: A significant portion of the plastic bag is visible, but its full extent and contents are not completely shown.
+  • 🔍 Other objects: Light-colored object (possibly foam or light-colored plastic/cardboard) underneath the bag, Small brown/tan object (possibly wood or cardboard) at the bottom right
+  • 🔗 Relationship: The primary object (plastic bag) is resting on top of the light-colored object.
+  • 🗂 Category: Plastics: Plastic Bags
+  • ♻️ Recyclability: Generally not recyclable in standard curbside programs if used as a garbage bag, especially if containing mixed waste. Its recyclability depends heavily on its contents and local waste management facilities.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact contents of the bag are unknown, which could influence its ultimate disposal, but not its classification as a plastic bag.
+
+— Crop 19 (region 17): crops/scan_1762183602/scan_1762183602_crop018.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, crumpled, folded / Fragments of various sizes, difficult to determine exact dimensions
+  • 🎨 Color: Predominantly clear/transparent, with some green and red accents
+  • 🧪 State: Damaged, crumpled, mixed with other waste
+  • 🎯 Purpose: Packaging film, plastic bags, or other flexible plastic wrapping
+  • 👁 Visibility: Multiple pieces of plastic film are visible, but no single complete object. It appears to be a collection of fragments.
+  • 🔍 Other objects: Other plastic fragments (white, blue), Hints of brownish material, possibly paper or cardboard
+  • 🔗 Relationship: The primary object (plastic film) is intertwined and mixed with other waste materials, forming a heterogeneous pile.
+  • 🗂 Category: Plastics: Plastic Films
+  • ♻️ Recyclability: Plastic films are generally recyclable, but their actual recyclability depends on the specific plastic type, cleanliness, and local recycling infrastructure. In its current state (crumpled, mixed, potentially dirty), it would likely be difficult to recycle.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic film (e.g., LDPE, PP) is not identifiable., It is difficult to definitively distinguish between thin plastic bags and general plastic films without more context or clearer views., The presence of other colored plastic fragments adds to the complexity of identifying a single primary object.

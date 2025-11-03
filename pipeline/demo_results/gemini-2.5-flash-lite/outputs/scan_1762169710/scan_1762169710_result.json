@@ -1,0 +1,396 @@
+{
+  "success": true,
+  "scan_id": 1762169710,
+  "num_crops": 9,
+  "outputs": [
+    {
+      "region_id": 12,
+      "crop_path": "crops/scan_1762169710/scan_1762169710_crop000.jpg",
+      "gemini_text": "{\n  \"region_id\": 12,\n  \"crop_path\": \"SCAN_1762169710_CROP000.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic, Textile\",\n    \"shape\": \"Gloved hand shape, irregular for textiles\",\n    \"size\": \"Medium (glove size)\",\n    \"color\": \"Purple (glove), white and blue (textiles)\",\n    \"condition\": \"Used, potentially soiled\",\n    \"likely_function_or_original_purpose\": \"Medical examination or protective wear (glove), absorbent material (textiles)\",\n    \"current_state\": \"Used, soiled\",\n    \"completeness_and_visibility_in_crop\": \"The primary object appears to be a pair of purple nitrile gloves, mostly visible. Several pieces of white and light blue textile-like material are also present and partially visible.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Blue plastic trays or containers\",\n      \"White and light blue textile-like materials\",\n      \"Clear plastic film or bag\"\n    ],\n    \"relationship_to_primary_object\": \"The plastic trays appear to be containers for the waste. The textiles and plastic film are mixed with the gloves.\",\n    \"potential_impact_on_classification\": \"The presence of gloves and textiles suggests potential contamination and may influence classification towards medical or hazardous waste, depending on the specific nature of the textiles.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Textiles/other (due to gloves and mixed materials)\",\n    \"recyclability_assessment_if_possible\": \"Not recyclable due to likely contamination and mixed materials.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact nature and contamination level of the textile materials are unclear.\",\n      \"The specific type of plastic for the trays is not identifiable.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Hazardous Household Waste (if gloves are contaminated)\",\n      \"Composite Materials (if textiles are treated or coated)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 12,
+        "crop_path": "SCAN_1762169710_CROP000.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic, Textile",
+          "shape": "Gloved hand shape, irregular for textiles",
+          "size": "Medium (glove size)",
+          "color": "Purple (glove), white and blue (textiles)",
+          "condition": "Used, potentially soiled",
+          "likely_function_or_original_purpose": "Medical examination or protective wear (glove), absorbent material (textiles)",
+          "current_state": "Used, soiled",
+          "completeness_and_visibility_in_crop": "The primary object appears to be a pair of purple nitrile gloves, mostly visible. Several pieces of white and light blue textile-like material are also present and partially visible."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Blue plastic trays or containers",
+            "White and light blue textile-like materials",
+            "Clear plastic film or bag"
+          ],
+          "relationship_to_primary_object": "The plastic trays appear to be containers for the waste. The textiles and plastic film are mixed with the gloves.",
+          "potential_impact_on_classification": "The presence of gloves and textiles suggests potential contamination and may influence classification towards medical or hazardous waste, depending on the specific nature of the textiles."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Textiles/other (due to gloves and mixed materials)",
+          "recyclability_assessment_if_possible": "Not recyclable due to likely contamination and mixed materials.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact nature and contamination level of the textile materials are unclear.",
+            "The specific type of plastic for the trays is not identifiable."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Hazardous Household Waste (if gloves are contaminated)",
+            "Composite Materials (if textiles are treated or coated)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 7,
+      "crop_path": "crops/scan_1762169710/scan_1762169710_crop001.jpg",
+      "gemini_text": "{\n  \"region_id\": 7,\n  \"crop_path\": \"scan_1762169710_crop001.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Textiles\",\n    \"shape\": \"Irregular\",\n    \"size\": \"Medium\",\n    \"color\": \"White and blue\",\n    \"condition\": \"Soiled\",\n    \"likely_function_or_original_purpose\": \"Sanitary textile\",\n    \"current_state\": \"Dirty and possibly soiled\",\n    \"completeness_and_visibility_in_crop\": \"Partially visible, appears to be a crumpled piece of fabric or towel.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Blue plastic tray\",\n      \"Purple disposable gloves\",\n      \"White paper towels\",\n      \"Yellow plastic liner (likely a bin bag)\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object (textile) is mixed with other waste items within a bin.\",\n    \"potential_impact_on_classification\": \"The presence of gloves and paper towels suggests a medical or sanitary context, which might influence disposal or recycling considerations. The overall mix is likely to be considered mixed waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Textiles\",\n    \"recyclability_assessment_if_possible\": \"Likely not recyclable due to contamination and mixed materials.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact nature of the primary textile object is unclear due to its crumpled state and partial visibility.\",\n      \"The level of soiling or contamination is difficult to ascertain precisely from the image.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be a soiled paper product if the texture is more paper-like than fabric.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 7,
+        "crop_path": "scan_1762169710_crop001.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Textiles",
+          "shape": "Irregular",
+          "size": "Medium",
+          "color": "White and blue",
+          "condition": "Soiled",
+          "likely_function_or_original_purpose": "Sanitary textile",
+          "current_state": "Dirty and possibly soiled",
+          "completeness_and_visibility_in_crop": "Partially visible, appears to be a crumpled piece of fabric or towel."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Blue plastic tray",
+            "Purple disposable gloves",
+            "White paper towels",
+            "Yellow plastic liner (likely a bin bag)"
+          ],
+          "relationship_to_primary_object": "The primary object (textile) is mixed with other waste items within a bin.",
+          "potential_impact_on_classification": "The presence of gloves and paper towels suggests a medical or sanitary context, which might influence disposal or recycling considerations. The overall mix is likely to be considered mixed waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Textiles",
+          "recyclability_assessment_if_possible": "Likely not recyclable due to contamination and mixed materials.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact nature of the primary textile object is unclear due to its crumpled state and partial visibility.",
+            "The level of soiling or contamination is difficult to ascertain precisely from the image."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be a soiled paper product if the texture is more paper-like than fabric."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 7,
+      "crop_path": "crops/scan_1762169710/scan_1762169710_crop002.jpg",
+      "gemini_text": "{\n  \"region_id\": 7,\n  \"crop_path\": \"CROP from scan_1762169710_crop002.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"paper\",\n    \"shape\": \"flat sheet\",\n    \"size\": \"small\",\n    \"color\": \"light blue with white pattern\",\n    \"condition\": \"appears intact\",\n    \"likely_function_or_original_purpose\": \"wiping or absorbent material\",\n    \"current_state\": \"appears clean\",\n    \"completeness_and_visibility_in_crop\": \"partially visible, folded\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"blue plastic container\",\n      \"purple nitrile glove\",\n      \"white paper towels\",\n      \"blue paper-like material\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object (blue patterned paper) is nestled within other waste items, including a blue plastic container and a purple glove.\",\n    \"potential_impact_on_classification\": \"The presence of other items like plastic and gloves suggests a mixed waste stream, potentially from a medical or laboratory setting. The paper itself is likely recyclable if clean, but contamination from other items could affect this.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Paper\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable if clean and not contaminated by other waste materials.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of paper (e.g., tissue, specialized wipe) is not definitively clear.\",\n      \"The extent of contamination from surrounding items is unknown.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Specialized wipe (e.g., medical wipe)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 7,
+        "crop_path": "CROP from scan_1762169710_crop002.jpg",
+        "primary_object_analysis": {
+          "material_composition": "paper",
+          "shape": "flat sheet",
+          "size": "small",
+          "color": "light blue with white pattern",
+          "condition": "appears intact",
+          "likely_function_or_original_purpose": "wiping or absorbent material",
+          "current_state": "appears clean",
+          "completeness_and_visibility_in_crop": "partially visible, folded"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "blue plastic container",
+            "purple nitrile glove",
+            "white paper towels",
+            "blue paper-like material"
+          ],
+          "relationship_to_primary_object": "The primary object (blue patterned paper) is nestled within other waste items, including a blue plastic container and a purple glove.",
+          "potential_impact_on_classification": "The presence of other items like plastic and gloves suggests a mixed waste stream, potentially from a medical or laboratory setting. The paper itself is likely recyclable if clean, but contamination from other items could affect this."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Paper",
+          "recyclability_assessment_if_possible": "Potentially recyclable if clean and not contaminated by other waste materials.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of paper (e.g., tissue, specialized wipe) is not definitively clear.",
+            "The extent of contamination from surrounding items is unknown."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Specialized wipe (e.g., medical wipe)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 13,
+      "crop_path": "crops/scan_1762169710/scan_1762169710_crop003.jpg",
+      "gemini_text": "{\n  \"region_id\": 13,\n  \"crop_path\": \"SCAN_1762169710_CROP003.JPG\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"container\",\n    \"size\": \"medium\",\n    \"color\": \"blue\",\n    \"condition\": \"intact\",\n    \"likely_function_or_original_purpose\": \"food container or tray\",\n    \"current_state\": \"dirty\",\n    \"completeness_and_visibility_in_crop\": \"partially visible, appears to be a blue plastic tray or container\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"purple medical gloves\",\n      \"white paper towels or wipes\",\n      \"blue plastic lid or another container\",\n      \"yellow bin liner\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is one of several items within a yellow bin liner, alongside medical gloves and paper products.\",\n    \"potential_impact_on_classification\": \"The presence of medical gloves and potentially soiled paper products suggests this may be medical or laboratory waste, which could affect its classification and disposal.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Other Plastic Containers\",\n    \"recyclability_assessment_if_possible\": \"Likely not recyclable due to contamination with medical waste and potential soiling.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type and purpose of the blue plastic container are not fully discernible.\",\n      \"The extent of contamination on the plastic container is unclear.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Rigid Plastic Packaging\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 13,
+        "crop_path": "SCAN_1762169710_CROP003.JPG",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "container",
+          "size": "medium",
+          "color": "blue",
+          "condition": "intact",
+          "likely_function_or_original_purpose": "food container or tray",
+          "current_state": "dirty",
+          "completeness_and_visibility_in_crop": "partially visible, appears to be a blue plastic tray or container"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "purple medical gloves",
+            "white paper towels or wipes",
+            "blue plastic lid or another container",
+            "yellow bin liner"
+          ],
+          "relationship_to_primary_object": "The primary object is one of several items within a yellow bin liner, alongside medical gloves and paper products.",
+          "potential_impact_on_classification": "The presence of medical gloves and potentially soiled paper products suggests this may be medical or laboratory waste, which could affect its classification and disposal."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Other Plastic Containers",
+          "recyclability_assessment_if_possible": "Likely not recyclable due to contamination with medical waste and potential soiling.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type and purpose of the blue plastic container are not fully discernible.",
+            "The extent of contamination on the plastic container is unclear."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Rigid Plastic Packaging"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 3,
+      "crop_path": "crops/scan_1762169710/scan_1762169710_crop004.jpg",
+      "gemini_text": "{\n  \"region_id\": 3,\n  \"crop_path\": \"CROP from scan_1762169710_crop004.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"container\",\n    \"size\": \"medium\",\n    \"color\": \"blue\",\n    \"condition\": \"intact\",\n    \"likely_function_or_original_purpose\": \"food or medical tray\",\n    \"current_state\": \"appears clean\",\n    \"completeness_and_visibility_in_crop\": \"The object is partially visible, with its top surface and edges clearly seen. It appears to be a rigid plastic tray with compartments.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"blue plastic lid or container edge\",\n      \"white paper towels or wipes\",\n      \"purple medical gloves\",\n      \"blue medical wipes or pads\",\n      \"clear plastic film\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is one of several items within a larger container, likely a waste bin, as suggested by the yellow background in the original image.\",\n    \"potential_impact_on_classification\": \"The presence of medical gloves and pads suggests this might be medical waste, which could affect its classification and disposal. However, the primary object itself appears to be a standard plastic container.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Other Plastic Containers\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable if cleaned and not contaminated with medical waste. However, given the context of other items, it may be classified as medical waste.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact nature of the primary object (food tray vs. medical tray) is not definitively clear from the crop alone.\",\n      \"The presence of medical waste in close proximity raises questions about the contamination of the primary object.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Rigid Plastic Packaging (if it's a type of lid or box)\",\n      \"Hazardous Household Waste (if it's contaminated medical waste)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 3,
+        "crop_path": "CROP from scan_1762169710_crop004.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "container",
+          "size": "medium",
+          "color": "blue",
+          "condition": "intact",
+          "likely_function_or_original_purpose": "food or medical tray",
+          "current_state": "appears clean",
+          "completeness_and_visibility_in_crop": "The object is partially visible, with its top surface and edges clearly seen. It appears to be a rigid plastic tray with compartments."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "blue plastic lid or container edge",
+            "white paper towels or wipes",
+            "purple medical gloves",
+            "blue medical wipes or pads",
+            "clear plastic film"
+          ],
+          "relationship_to_primary_object": "The primary object is one of several items within a larger container, likely a waste bin, as suggested by the yellow background in the original image.",
+          "potential_impact_on_classification": "The presence of medical gloves and pads suggests this might be medical waste, which could affect its classification and disposal. However, the primary object itself appears to be a standard plastic container."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Other Plastic Containers",
+          "recyclability_assessment_if_possible": "Potentially recyclable if cleaned and not contaminated with medical waste. However, given the context of other items, it may be classified as medical waste.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact nature of the primary object (food tray vs. medical tray) is not definitively clear from the crop alone.",
+            "The presence of medical waste in close proximity raises questions about the contamination of the primary object."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Rigid Plastic Packaging (if it's a type of lid or box)",
+            "Hazardous Household Waste (if it's contaminated medical waste)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 9,
+      "crop_path": "crops/scan_1762169710/scan_1762169710_crop005.jpg",
+      "gemini_text": "{\n  \"region_id\": 9,\n  \"crop_path\": \"CROP from scan_1762169710_crop005.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Glove\",\n    \"size\": \"Medium\",\n    \"color\": \"Purple\",\n    \"condition\": \"Intact\",\n    \"likely_function_or_original_purpose\": \"Medical examination or protective wear\",\n    \"current_state\": \"Used\",\n    \"completeness_and_visibility_in_crop\": \"The majority of the glove is visible, appearing to be a single unit.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"White paper towels or wipes\",\n      \"Blue plastic trays or containers\",\n      \"Other white paper products\",\n      \"Possibly other gloves or medical supplies\"\n    ],\n    \"relationship_to_primary_object\": \"The glove is lying on top of and amongst other waste items within a container.\",\n    \"potential_impact_on_classification\": \"The presence of medical-related items like gloves and wipes suggests this could be medical waste, which may have specific disposal requirements and could potentially be classified as hazardous household waste if not properly managed.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Hazardous Household Waste (due to potential medical contamination)\",\n    \"recyclability_assessment_if_possible\": \"Not recyclable\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"While the object is clearly a glove, its exact material composition (e.g., latex, nitrile) is not definitively identifiable from the image alone.\",\n      \"The extent of contamination or specific medical use is not visible, which impacts the certainty of it being hazardous.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"If not used in a medical context, it could be considered a general plastic item, but its appearance strongly suggests medical use.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 9,
+        "crop_path": "CROP from scan_1762169710_crop005.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Glove",
+          "size": "Medium",
+          "color": "Purple",
+          "condition": "Intact",
+          "likely_function_or_original_purpose": "Medical examination or protective wear",
+          "current_state": "Used",
+          "completeness_and_visibility_in_crop": "The majority of the glove is visible, appearing to be a single unit."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "White paper towels or wipes",
+            "Blue plastic trays or containers",
+            "Other white paper products",
+            "Possibly other gloves or medical supplies"
+          ],
+          "relationship_to_primary_object": "The glove is lying on top of and amongst other waste items within a container.",
+          "potential_impact_on_classification": "The presence of medical-related items like gloves and wipes suggests this could be medical waste, which may have specific disposal requirements and could potentially be classified as hazardous household waste if not properly managed."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Hazardous Household Waste (due to potential medical contamination)",
+          "recyclability_assessment_if_possible": "Not recyclable",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "While the object is clearly a glove, its exact material composition (e.g., latex, nitrile) is not definitively identifiable from the image alone.",
+            "The extent of contamination or specific medical use is not visible, which impacts the certainty of it being hazardous."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "If not used in a medical context, it could be considered a general plastic item, but its appearance strongly suggests medical use."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 3,
+      "crop_path": "crops/scan_1762169710/scan_1762169710_crop006.jpg",
+      "gemini_text": "{\n  \"region_id\": 3,\n  \"crop_path\": \"CROP from scan_1762169710_crop006.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"curved, possibly rectangular base\",\n    \"size\": \"medium\",\n    \"color\": \"dark blue with lighter blue stripes\",\n    \"condition\": \"intact\",\n    \"likely_function_or_original_purpose\": \"container or tray\",\n    \"current_state\": \"appears clean\",\n    \"completeness_and_visibility_in_crop\": \"partially visible, showing a curved edge and textured surface\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"white textured material (possibly paper or fabric)\",\n      \"yellow bin liner (background)\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object appears to be inside a yellow bin liner, suggesting it is waste.\",\n    \"potential_impact_on_classification\": \"The presence of a bin liner confirms it is waste, but does not significantly alter the classification of the primary object itself.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Other Plastic Containers\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable if clean and made of a common plastic type (e.g., PP, HDPE), but specific type is not identifiable.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic is not identifiable from the visual alone.\",\n      \"The full shape and size are not visible in the crop.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Rigid Plastic Packaging\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 3,
+        "crop_path": "CROP from scan_1762169710_crop006.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "curved, possibly rectangular base",
+          "size": "medium",
+          "color": "dark blue with lighter blue stripes",
+          "condition": "intact",
+          "likely_function_or_original_purpose": "container or tray",
+          "current_state": "appears clean",
+          "completeness_and_visibility_in_crop": "partially visible, showing a curved edge and textured surface"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "white textured material (possibly paper or fabric)",
+            "yellow bin liner (background)"
+          ],
+          "relationship_to_primary_object": "The primary object appears to be inside a yellow bin liner, suggesting it is waste.",
+          "potential_impact_on_classification": "The presence of a bin liner confirms it is waste, but does not significantly alter the classification of the primary object itself."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Other Plastic Containers",
+          "recyclability_assessment_if_possible": "Likely recyclable if clean and made of a common plastic type (e.g., PP, HDPE), but specific type is not identifiable.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic is not identifiable from the visual alone.",
+            "The full shape and size are not visible in the crop."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Rigid Plastic Packaging"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 0,
+      "crop_path": "crops/scan_1762169710/scan_1762169710_crop007.jpg",
+      "gemini_text": "{\n  \"region_id\": 0,\n  \"crop_path\": \"SCAN_1762169710_CROP007.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Textiles\",\n    \"shape\": \"Irregular\",\n    \"size\": \"Small to medium\",\n    \"color\": \"Light blue and white with purple accents\",\n    \"condition\": \"Appears to be used or soiled\",\n    \"likely_function_or_original_purpose\": \"Medical or laboratory use (gloves, wipes)\",\n    \"current_state\": \"Soiled, crumpled\",\n    \"completeness_and_visibility_in_crop\": \"Partially visible, layered with other materials\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Purple nitrile gloves\",\n      \"White paper-like material (wipes or tissues)\",\n      \"Blue plastic trays or containers\",\n      \"White material with a dotted pattern\"\n    ],\n    \"relationship_to_primary_object\": \"Intermixed with other waste materials within a bin.\",\n    \"potential_impact_on_classification\": \"The presence of gloves and wipes suggests potential contamination and may influence classification towards hazardous or medical waste, depending on specific regulations.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Textiles\",\n    \"recyclability_assessment_if_possible\": \"Not recyclable due to likely contamination and mixed materials.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact nature of the white paper-like material is unclear; it could be tissues, wipes, or absorbent pads.\",\n      \"The extent of contamination is not fully discernible from the crop alone.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Composite Materials (if the blue trays are considered part of the primary object's context)\",\n      \"Hazardous Household Waste (if the gloves are confirmed to be contaminated medical waste)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 0,
+        "crop_path": "SCAN_1762169710_CROP007.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Textiles",
+          "shape": "Irregular",
+          "size": "Small to medium",
+          "color": "Light blue and white with purple accents",
+          "condition": "Appears to be used or soiled",
+          "likely_function_or_original_purpose": "Medical or laboratory use (gloves, wipes)",
+          "current_state": "Soiled, crumpled",
+          "completeness_and_visibility_in_crop": "Partially visible, layered with other materials"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Purple nitrile gloves",
+            "White paper-like material (wipes or tissues)",
+            "Blue plastic trays or containers",
+            "White material with a dotted pattern"
+          ],
+          "relationship_to_primary_object": "Intermixed with other waste materials within a bin.",
+          "potential_impact_on_classification": "The presence of gloves and wipes suggests potential contamination and may influence classification towards hazardous or medical waste, depending on specific regulations."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Textiles",
+          "recyclability_assessment_if_possible": "Not recyclable due to likely contamination and mixed materials.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact nature of the white paper-like material is unclear; it could be tissues, wipes, or absorbent pads.",
+            "The extent of contamination is not fully discernible from the crop alone."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Composite Materials (if the blue trays are considered part of the primary object's context)",
+            "Hazardous Household Waste (if the gloves are confirmed to be contaminated medical waste)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 1,
+      "crop_path": "crops/scan_1762169710/scan_1762169710_crop008.jpg",
+      "gemini_text": "{\n  \"region_id\": 1,\n  \"crop_path\": \"scan_1762169710_crop008.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"textiles\",\n    \"shape\": \"irregular\",\n    \"size\": \"small\",\n    \"color\": \"white with grey pattern\",\n    \"condition\": \"appears soiled\",\n    \"likely_function_or_original_purpose\": \"wiping or cleaning cloth\",\n    \"current_state\": \"used, soiled\",\n    \"completeness_and_visibility_in_crop\": \"partially visible, folded\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"blue glove\",\n      \"blue plastic tray\",\n      \"white paper towels\",\n      \"blue fabric/textile\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object (cloth) is in close proximity to a blue glove and other disposable items within a waste bin.\",\n    \"potential_impact_on_classification\": \"The presence of a glove suggests potential contamination, which might influence classification if it were a medical waste scenario. However, in this context, it appears to be general waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Textiles/other\",\n    \"recyclability_assessment_if_possible\": \"Not recyclable due to likely contamination and mixed materials.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact material composition is difficult to determine definitively from the image alone.\",\n      \"The pattern on the cloth could be indicative of a specific type of wipe or towel, but it's not clear enough for precise identification.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Textiles/towel\",\n      \"Textiles/cloth\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 1,
+        "crop_path": "scan_1762169710_crop008.jpg",
+        "primary_object_analysis": {
+          "material_composition": "textiles",
+          "shape": "irregular",
+          "size": "small",
+          "color": "white with grey pattern",
+          "condition": "appears soiled",
+          "likely_function_or_original_purpose": "wiping or cleaning cloth",
+          "current_state": "used, soiled",
+          "completeness_and_visibility_in_crop": "partially visible, folded"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "blue glove",
+            "blue plastic tray",
+            "white paper towels",
+            "blue fabric/textile"
+          ],
+          "relationship_to_primary_object": "The primary object (cloth) is in close proximity to a blue glove and other disposable items within a waste bin.",
+          "potential_impact_on_classification": "The presence of a glove suggests potential contamination, which might influence classification if it were a medical waste scenario. However, in this context, it appears to be general waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Textiles/other",
+          "recyclability_assessment_if_possible": "Not recyclable due to likely contamination and mixed materials.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact material composition is difficult to determine definitively from the image alone.",
+            "The pattern on the cloth could be indicative of a specific type of wipe or towel, but it's not clear enough for precise identification."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Textiles/towel",
+            "Textiles/cloth"
+          ]
+        }
+      }
+    }
+  ],
+  "gemini_metrics_per_image": {
+    "api_calls": 9,
+    "input_tokens": 13987,
+    "output_tokens": 4248,
+    "total_tokens": 18235,
+    "errors": 0,
+    "structured_parse_success": 9,
+    "structured_parse_failures": 0,
+    "cache_hits": 0,
+    "avg_response_time_ms": 3644.0692212846543
+  },
+  "phase_times": {
+    "segmentation_sec": 3.2975285053253174,
+    "crop_generation_sec": 0.9996881484985352,
+    "clip_classification_sec": 1.055048942565918,
+    "prompt_building_sec": 0.0004932880401611328,
+    "gemini_inference_sec": 21.83012890815735
+  }
+}

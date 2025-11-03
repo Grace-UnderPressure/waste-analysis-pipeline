@@ -1,0 +1,110 @@
+🔍 Waste Analysis (scan 1762183600)
+📦 Crops analyzed: 8
+
+— Crop 1 (region 5): crops/scan_1762183600/scan_1762183600_crop000.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Rectangular trays with multiple compartments / Medium to large, designed to hold multiple items
+  • 🎨 Color: Dark blue
+  • 🧪 State: Used, structurally intact, likely contaminated from medical use
+  • 🎯 Purpose: Medical/surgical instrument trays or food service trays. Given the context of the yellow biohazard bag and other items, medical/surgical use is highly probable.
+  • 👁 Visibility: Multiple trays are visible, some partially overlapping, but their main features and material are clearly identifiable.
+  • 🔍 Other objects: White paper/plastic cup with a biohazard symbol, Clear plastic pouch/film (possibly sterile packaging), White crumpled material (likely paper or textile wipes), Yellow biohazard bag lining the container
+  • 🔗 Relationship: All items are discarded together within the yellow biohazard bag, indicating they are part of the same waste stream, likely medical waste. The cup and pouch are resting on or near the plastic trays.
+  • 🗂 Category: Plastics: Rigid Plastic Packaging (specifically medical waste due to context)
+  • ♻️ Recyclability: Unlikely to be conventionally recyclable due to potential biohazard contamination. These items would typically require special disposal methods such as incineration or autoclaving.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., PP, PS) for the trays is not specified, but it is clearly rigid plastic., The specific level and nature of contamination on the trays are unknown, but assumed to be biohazardous given the disposal context.
+
+— Crop 2 (region 7): crops/scan_1762183600/scan_1762183600_crop001.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, crumpled, bag-like / Large
+  • 🎨 Color: Yellow
+  • 🧪 State: Intact, crumpled
+  • 🎯 Purpose: Waste collection bag
+  • 👁 Visibility: The top and upper portion of a yellow plastic bag are visible, filling most of the crop.
+  • 🗂 Category: Plastics/Plastic Bags
+  • ♻️ Recyclability: As a plastic bag, it is potentially recyclable as plastic film/bag, but its function as a waste container might lead to disposal with its contents. Specific recyclability depends on the plastic type and local waste management guidelines.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: Exact type of plastic (e.g., HDPE, LDPE) is not discernible., Specific purpose of this yellow bag (e.g., general waste, hazardous waste, specific recycling) is not clear from the crop alone.
+
+— Crop 3 (region 2): crops/scan_1762183600/scan_1762183600_crop002.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, crumpled sheet-like form / Appears to be a large piece, forming a liner in the original image context
+  • 🎨 Color: Bright yellow
+  • 🧪 State: Intact, crumpled
+  • 🎯 Purpose: Waste bag or bin liner
+  • 👁 Visibility: Only a small, upper-right corner of the yellow plastic bag is visible, showing a partial view.
+  • 🗂 Category: Plastics: Plastic Bags
+  • ♻️ Recyclability: Plastic bags are generally difficult to recycle through standard curbside programs; often requires specialized drop-offs. As a waste bag, it is likely destined for landfill or incineration.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., HDPE, LDPE) is not discernible from the image.
+
+— Crop 4 (region 0): crops/scan_1762183600/scan_1762183600_crop003.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Cylindrical with a slightly tapered body and a wider rim / Medium, consistent with a disposable drinking cup
+  • 🎨 Color: Off-white/cream
+  • 🧪 State: Intact, appears to be used and discarded
+  • 🎯 Purpose: Disposable drinking cup or container for beverages/food
+  • 👁 Visibility: Mostly complete, the top rim and bottom edge are slightly cropped, but the main body and label are clearly visible.
+  • 🔍 Other objects: Portion of a blue rigid plastic tray/container, Crumpled white material (possibly plastic film or paper), Part of a yellow plastic bag
+  • 🔗 Relationship: The primary object (cup) is resting on or next to these secondary items, all contained within a larger yellow plastic bag, indicating they are part of a waste collection.
+  • 🗂 Category: Plastics: Other Plastic Containers
+  • ♻️ Recyclability: Likely recyclable as a plastic item, but specific recyclability depends on the exact plastic resin type (not specified) and local recycling guidelines.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The specific type of plastic resin (e.g., PP, PS) is not identifiable from the image, which impacts precise recyclability assessment., The exact original contents of the cup are unknown.
+
+— Crop 5 (region 1): crops/scan_1762183600/scan_1762183600_crop004.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, crumpled pouch/bag / Medium
+  • 🎨 Color: Light blue/transparent
+  • 🧪 State: Used, crumpled
+  • 🎯 Purpose: Sterilization pouch for medical instruments or supplies
+  • 👁 Visibility: A significant portion of the pouch is visible, but it is crumpled and not fully laid out, partially obscured by its own folds and the underlying tray.
+  • 🔍 Other objects: Dark blue rigid plastic tray
+  • 🔗 Relationship: The plastic pouch is resting on top of the blue plastic tray.
+  • 🗂 Category: Plastics: Plastic Films
+  • ♻️ Recyclability: Likely not recyclable in standard municipal streams due to its specialized nature (medical packaging) and potential for being a composite material, even if the visible part is plastic film.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact material composition (pure plastic film vs. plastic-paper composite), Specific type of plastic, Whether it's considered medical waste requiring special disposal.
+
+— Crop 6 (region 4): crops/scan_1762183600/scan_1762183600_crop005.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Rectangular tray with compartments / Medium, appears to be a standard food tray size
+  • 🎨 Color: Blue
+  • 🧪 State: Used, potentially with residue (not clearly visible in crop)
+  • 🎯 Purpose: Food packaging tray, possibly for ready meals or produce
+  • 👁 Visibility: A significant portion of the blue plastic tray is visible in the lower-left part of the crop, showing its structured surface and edge.
+  • 🔍 Other objects: Yellow plastic bag
+  • 🔗 Relationship: The primary object (blue plastic tray) is contained within the yellow plastic bag, which serves as a waste receptacle.
+  • 🗂 Category: Plastics: Rigid Plastic Packaging
+  • ♻️ Recyclability: Likely recyclable if clean, depending on the specific type of plastic (e.g., PET, PP, PS) and local recycling infrastructure.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., PET, PP, PS) is not discernible from the image., The extent of food residue or contamination is not clear from the crop.
+
+— Crop 7 (region 5): crops/scan_1762183600/scan_1762183600_crop006.jpg
+  • 🧱 Material: Textiles (non-woven fabric)
+  • 🧩 Shape/Size: Irregular, crumpled / Medium
+  • 🎨 Color: Off-white
+  • 🧪 State: Discarded, used
+  • 🎯 Purpose: Medical wipe or sterile wrap
+  • 👁 Visibility: Mostly visible, but edges are cut off, showing a significant portion of the object.
+  • 🔍 Other objects: Yellow plastic bag, Blue plastic tray (partially visible)
+  • 🔗 Relationship: The primary object is resting on the yellow plastic bag, with a blue plastic tray visible behind it.
+  • 🗂 Category: Textiles (sanitary textiles)
+  • ♻️ Recyclability: Likely non-recyclable due to potential contamination and material composition (non-woven medical waste).
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact material composition (paper vs. non-woven textile/composite), Whether it is soiled or clean (though context suggests used).
+
+— Crop 8 (region 8): crops/scan_1762183600/scan_1762183600_crop007.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: rectangular tray with compartments / medium
+  • 🎨 Color: dark blue
+  • 🧪 State: used, possibly dirty, intact
+  • 🎯 Purpose: food packaging tray, likely for meals
+  • 👁 Visibility: Only a small portion of the blue plastic tray is visible, specifically a corner or edge.
+  • 🔍 Other objects: translucent plastic film/bag
+  • 🔗 Relationship: The translucent plastic film is resting on or near the blue plastic object.
+  • 🗂 Category: Rigid Plastic Packaging
+  • ♻️ Recyclability: Potentially recyclable, depending on the specific type of plastic (e.g., PS, PP) and local recycling regulations.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic for the blue tray is not discernible., The full extent of the blue object is not visible in the crop., The precise nature of the translucent film (e.g., general plastic film vs. medical waste) is not fully clear, though 'steril' suggests medical.

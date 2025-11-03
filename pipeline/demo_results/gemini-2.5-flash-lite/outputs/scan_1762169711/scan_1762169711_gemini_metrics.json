@@ -1,0 +1,11 @@
+{
+  "api_calls": 19,
+  "input_tokens": 29870,
+  "output_tokens": 9328,
+  "total_tokens": 39198,
+  "errors": 0,
+  "structured_parse_success": 19,
+  "structured_parse_failures": 0,
+  "cache_hits": 0,
+  "avg_response_time_ms": 3085.51950203745
+}

@@ -1,0 +1,484 @@
+{
+  "success": true,
+  "scan_id": 1762183606,
+  "num_crops": 12,
+  "outputs": [
+    {
+      "region_id": 3,
+      "crop_path": "crops/scan_1762183606/scan_1762183606_crop000.jpg",
+      "gemini_text": "{\n  \"region_id\": 3,\n  \"crop_path\": \"CROP from scan_1762183606_crop000.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Irregular (bag), Cylindrical/Oblong (carrot)\",\n    \"size\": \"Small to medium-sized bag, single carrot\",\n    \"color\": \"Clear/Transparent (bag), Orange (carrot)\",\n    \"condition\": \"Crumpled but intact (bag), Intact (carrot)\",\n    \"likely_function_or_original_purpose\": \"Packaging/carrying (bag), Food item (carrot)\",\n    \"current_state\": \"Crumpled (bag), Intact (carrot)\",\n    \"completeness_and_visibility_in_crop\": \"The plastic bag is mostly visible, though its edges are cut off. The carrot inside is fully visible.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Black plastic bags\",\n      \"Crumpled white/grey paper-like material\",\n      \"Green and white patterned material (possibly hygiene product)\",\n      \"Brown cardboard piece\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object (clear plastic bag with carrot) is resting on or among these other waste items.\",\n    \"potential_impact_on_classification\": \"The presence of organic waste (carrot) inside a plastic bag suggests a composite waste item. The surrounding items are various types of waste (other plastics, paper, cardboard, hygiene products), indicating a mixed waste stream.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Plastic Bags\",\n    \"recyclability_assessment_if_possible\": \"Clear plastic bags are often recyclable, but the presence of organic waste (carrot) inside would contaminate the recycling stream, making it non-recyclable in most standard facilities unless the organic content is removed.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic for the bag is not discernible.\",\n      \"The presence of organic material (carrot) inside the plastic bag makes it a composite waste item, which complicates simple 'plastic bag' classification for recycling purposes.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Composite Materials (due to plastic bag + organic content)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 3,
+        "crop_path": "CROP from scan_1762183606_crop000.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Irregular (bag), Cylindrical/Oblong (carrot)",
+          "size": "Small to medium-sized bag, single carrot",
+          "color": "Clear/Transparent (bag), Orange (carrot)",
+          "condition": "Crumpled but intact (bag), Intact (carrot)",
+          "likely_function_or_original_purpose": "Packaging/carrying (bag), Food item (carrot)",
+          "current_state": "Crumpled (bag), Intact (carrot)",
+          "completeness_and_visibility_in_crop": "The plastic bag is mostly visible, though its edges are cut off. The carrot inside is fully visible."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Black plastic bags",
+            "Crumpled white/grey paper-like material",
+            "Green and white patterned material (possibly hygiene product)",
+            "Brown cardboard piece"
+          ],
+          "relationship_to_primary_object": "The primary object (clear plastic bag with carrot) is resting on or among these other waste items.",
+          "potential_impact_on_classification": "The presence of organic waste (carrot) inside a plastic bag suggests a composite waste item. The surrounding items are various types of waste (other plastics, paper, cardboard, hygiene products), indicating a mixed waste stream."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Plastic Bags",
+          "recyclability_assessment_if_possible": "Clear plastic bags are often recyclable, but the presence of organic waste (carrot) inside would contaminate the recycling stream, making it non-recyclable in most standard facilities unless the organic content is removed.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic for the bag is not discernible.",
+            "The presence of organic material (carrot) inside the plastic bag makes it a composite waste item, which complicates simple 'plastic bag' classification for recycling purposes."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Composite Materials (due to plastic bag + organic content)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 1,
+      "crop_path": "crops/scan_1762183606/scan_1762183606_crop001.jpg",
+      "gemini_text": "{\n  \"region_id\": 1,\n  \"crop_path\": \"CROP from scan_1762183606_crop001.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Irregular, crumpled mass\",\n    \"size\": \"Composed of multiple medium to large items\",\n    \"color\": \"Transparent/clear\",\n    \"condition\": \"Crumpled, possibly dirty\",\n    \"likely_function_or_original_purpose\": \"Packaging, waste containment\",\n    \"current_state\": \"Discarded, crumpled, collected in a mass\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the plastic material is visible, forming a large, amorphous mass. Individual items are not fully distinct but their collective presence is clear.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Portion of a yellow bin/container wall\",\n      \"Other waste items obscured within the plastic mass\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object (plastic mass) is contained within or resting against the yellow bin/container.\",\n    \"potential_impact_on_classification\": \"The yellow bin is a container, not waste itself. Other obscured items are not clearly identifiable and do not significantly alter the classification of the prominent plastic mass.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/bag\",\n    \"recyclability_assessment_if_possible\": \"Plastic bags and films are generally recyclable, but often require specific collection streams separate from rigid plastics to avoid contamination and processing issues.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic (e.g., HDPE, LDPE) is not discernible.\",\n      \"It is a collection of multiple plastic items rather than a single distinct bag or film, making precise individual item identification difficult.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Plastic Films\",\n      \"Other Plastic Items (if some more rigid, unidentifiable plastic is mixed in)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 1,
+        "crop_path": "CROP from scan_1762183606_crop001.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Irregular, crumpled mass",
+          "size": "Composed of multiple medium to large items",
+          "color": "Transparent/clear",
+          "condition": "Crumpled, possibly dirty",
+          "likely_function_or_original_purpose": "Packaging, waste containment",
+          "current_state": "Discarded, crumpled, collected in a mass",
+          "completeness_and_visibility_in_crop": "A significant portion of the plastic material is visible, forming a large, amorphous mass. Individual items are not fully distinct but their collective presence is clear."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Portion of a yellow bin/container wall",
+            "Other waste items obscured within the plastic mass"
+          ],
+          "relationship_to_primary_object": "The primary object (plastic mass) is contained within or resting against the yellow bin/container.",
+          "potential_impact_on_classification": "The yellow bin is a container, not waste itself. Other obscured items are not clearly identifiable and do not significantly alter the classification of the prominent plastic mass."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/bag",
+          "recyclability_assessment_if_possible": "Plastic bags and films are generally recyclable, but often require specific collection streams separate from rigid plastics to avoid contamination and processing issues.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic (e.g., HDPE, LDPE) is not discernible.",
+            "It is a collection of multiple plastic items rather than a single distinct bag or film, making precise individual item identification difficult."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Plastic Films",
+            "Other Plastic Items (if some more rigid, unidentifiable plastic is mixed in)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 2,
+      "crop_path": "crops/scan_1762183606/scan_1762183606_crop002.jpg",
+      "gemini_text": "{\n  \"region_id\": 2,\n  \"crop_path\": \"scan_1762183606_crop002.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Irregular, conforming to contents\",\n    \"size\": \"Large, appears to contain other items\",\n    \"color\": \"Translucent/clear\",\n    \"condition\": \"Wrinkled, possibly stretched or slightly torn in places\",\n    \"likely_function_or_original_purpose\": \"To contain or wrap other items\",\n    \"current_state\": \"Crumpled, dirty, containing other waste\",\n    \"completeness_and_visibility_in_crop\": \"The plastic bag is largely visible and covers a significant portion of the crop, though its contents are partially obscured.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"A large, yellow, rigid object (possibly plastic or metal) on the left side\",\n      \"A white, crumpled object (possibly paper or textile) on the right side\",\n      \"Indistinct items contained within the primary clear plastic bag, including what appears to be a black plastic bag\"\n    ],\n    \"relationship_to_primary_object\": \"The primary clear plastic bag is resting against the yellow object and adjacent to the white crumpled object. It encloses other waste items.\",\n    \"potential_impact_on_classification\": \"The contents of the clear plastic bag are not fully identifiable, which could complicate a more granular classification of the entire waste unit. However, the primary object (the clear plastic bag itself) is clearly identifiable.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Plastic Bags\",\n    \"recyclability_assessment_if_possible\": \"Plastic bags are generally recyclable, but their recyclability can be compromised if they are dirty or contain non-recyclable materials, as appears to be the case here.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact nature and material of the yellow rigid object are not definitively clear from the crop alone.\",\n      \"The specific contents within the clear plastic bag are not fully discernible.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 2,
+        "crop_path": "scan_1762183606_crop002.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Irregular, conforming to contents",
+          "size": "Large, appears to contain other items",
+          "color": "Translucent/clear",
+          "condition": "Wrinkled, possibly stretched or slightly torn in places",
+          "likely_function_or_original_purpose": "To contain or wrap other items",
+          "current_state": "Crumpled, dirty, containing other waste",
+          "completeness_and_visibility_in_crop": "The plastic bag is largely visible and covers a significant portion of the crop, though its contents are partially obscured."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "A large, yellow, rigid object (possibly plastic or metal) on the left side",
+            "A white, crumpled object (possibly paper or textile) on the right side",
+            "Indistinct items contained within the primary clear plastic bag, including what appears to be a black plastic bag"
+          ],
+          "relationship_to_primary_object": "The primary clear plastic bag is resting against the yellow object and adjacent to the white crumpled object. It encloses other waste items.",
+          "potential_impact_on_classification": "The contents of the clear plastic bag are not fully identifiable, which could complicate a more granular classification of the entire waste unit. However, the primary object (the clear plastic bag itself) is clearly identifiable."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Plastic Bags",
+          "recyclability_assessment_if_possible": "Plastic bags are generally recyclable, but their recyclability can be compromised if they are dirty or contain non-recyclable materials, as appears to be the case here.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact nature and material of the yellow rigid object are not definitively clear from the crop alone.",
+            "The specific contents within the clear plastic bag are not fully discernible."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 7,
+      "crop_path": "crops/scan_1762183606/scan_1762183606_crop003.jpg",
+      "gemini_text": "{\n  \"region_id\": 7,\n  \"crop_path\": \"CROP from scan_1762183606_crop003.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Irregular, lumpy due to contents\",\n    \"size\": \"Small to medium-sized bags\",\n    \"color\": \"Black\",\n    \"condition\": \"Crumpled, possibly soiled\",\n    \"likely_function_or_original_purpose\": \"To contain and dispose of waste\",\n    \"current_state\": \"Dirty, crumpled, containing unknown waste\",\n    \"completeness_and_visibility_in_crop\": \"Multiple black plastic bags are clearly visible and mostly complete within the crop\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"A white plastic bag with yellowish staining at the top\",\n      \"A green and white plastic bag with 'PRINCE de BRETAGNE' text on the right side\"\n    ],\n    \"relationship_to_primary_object\": \"These are also plastic bags, similar in nature to the primary black plastic bags, all appearing to be waste items.\",\n    \"potential_impact_on_classification\": \"They reinforce the classification of 'Plastic Bags' as the dominant waste type in the crop.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Plastic Bags\",\n    \"recyclability_assessment_if_possible\": \"Plastic bags are generally difficult to recycle through standard curbside programs. Given they are filled with unknown waste, they are likely destined for landfill or incineration.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact contents of the black bags are unknown, but this does not change their classification as 'Plastic Bags'.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 7,
+        "crop_path": "CROP from scan_1762183606_crop003.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Irregular, lumpy due to contents",
+          "size": "Small to medium-sized bags",
+          "color": "Black",
+          "condition": "Crumpled, possibly soiled",
+          "likely_function_or_original_purpose": "To contain and dispose of waste",
+          "current_state": "Dirty, crumpled, containing unknown waste",
+          "completeness_and_visibility_in_crop": "Multiple black plastic bags are clearly visible and mostly complete within the crop"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "A white plastic bag with yellowish staining at the top",
+            "A green and white plastic bag with 'PRINCE de BRETAGNE' text on the right side"
+          ],
+          "relationship_to_primary_object": "These are also plastic bags, similar in nature to the primary black plastic bags, all appearing to be waste items.",
+          "potential_impact_on_classification": "They reinforce the classification of 'Plastic Bags' as the dominant waste type in the crop."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Plastic Bags",
+          "recyclability_assessment_if_possible": "Plastic bags are generally difficult to recycle through standard curbside programs. Given they are filled with unknown waste, they are likely destined for landfill or incineration.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact contents of the black bags are unknown, but this does not change their classification as 'Plastic Bags'."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 0,
+      "crop_path": "crops/scan_1762183606/scan_1762183606_crop004.jpg",
+      "gemini_text": "{\n  \"region_id\": 0,\n  \"crop_path\": \"scan_1762183606_crop004.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Composite (plastic film and likely paper/textile product)\",\n    \"shape\": \"Rectangular blocks\",\n    \"size\": \"Large, bundled units\",\n    \"color\": \"White contents, clear plastic wrap\",\n    \"condition\": \"Intact, new-looking, well-packaged\",\n    \"likely_function_or_original_purpose\": \"Packaging for bulk household goods (e.g., paper towels, toilet paper)\",\n    \"current_state\": \"Clean, intact, packaged\",\n    \"completeness_and_visibility_in_crop\": \"Two large, rectangular, plastic-wrapped bundles are clearly visible, almost entirely filling the crop.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Dark structure (possibly metal/plastic) on the right edge\",\n      \"Lighter structure (possibly concrete/wall) on the left edge\"\n    ],\n    \"relationship_to_primary_object\": \"The primary objects are resting against or near these structures, suggesting they are stored or placed there.\",\n    \"potential_impact_on_classification\": \"Minimal impact, as these are background elements.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Composite Materials\",\n    \"recyclability_assessment_if_possible\": \"Recyclability is challenging for composite materials unless components can be easily separated. Plastic film and paper/textile components may be recyclable individually, but not as a combined unit in most standard recycling streams.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact nature of the white contents (paper product vs. textile product) is not definitively clear.\",\n      \"The item appears to be new, packaged goods rather than discarded waste, which adds ambiguity to its 'waste' classification status.\",\n      \"The specific type of plastic film is not discernible.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Plastics: Plastic Films (if focusing solely on the outer packaging)\",\n      \"Paper (if contents are paper and considered primary, with film as secondary)\",\n      \"Textiles (if contents are textile and considered primary, with film as secondary)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 0,
+        "crop_path": "scan_1762183606_crop004.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Composite (plastic film and likely paper/textile product)",
+          "shape": "Rectangular blocks",
+          "size": "Large, bundled units",
+          "color": "White contents, clear plastic wrap",
+          "condition": "Intact, new-looking, well-packaged",
+          "likely_function_or_original_purpose": "Packaging for bulk household goods (e.g., paper towels, toilet paper)",
+          "current_state": "Clean, intact, packaged",
+          "completeness_and_visibility_in_crop": "Two large, rectangular, plastic-wrapped bundles are clearly visible, almost entirely filling the crop."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Dark structure (possibly metal/plastic) on the right edge",
+            "Lighter structure (possibly concrete/wall) on the left edge"
+          ],
+          "relationship_to_primary_object": "The primary objects are resting against or near these structures, suggesting they are stored or placed there.",
+          "potential_impact_on_classification": "Minimal impact, as these are background elements."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Composite Materials",
+          "recyclability_assessment_if_possible": "Recyclability is challenging for composite materials unless components can be easily separated. Plastic film and paper/textile components may be recyclable individually, but not as a combined unit in most standard recycling streams.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact nature of the white contents (paper product vs. textile product) is not definitively clear.",
+            "The item appears to be new, packaged goods rather than discarded waste, which adds ambiguity to its 'waste' classification status.",
+            "The specific type of plastic film is not discernible."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Plastics: Plastic Films (if focusing solely on the outer packaging)",
+            "Paper (if contents are paper and considered primary, with film as secondary)",
+            "Textiles (if contents are textile and considered primary, with film as secondary)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 4,
+      "crop_path": "crops/scan_1762183606/scan_1762183606_crop005.jpg",
+      "gemini_text": "{\n  \"region_id\": 4,\n  \"crop_path\": \"scan_1762183606_crop005.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Rectangular, flexible, crumpled\",\n    \"size\": \"Medium to large (consistent with a flour bag)\",\n    \"color\": \"White and red\",\n    \"condition\": \"Crumpled but largely intact\",\n    \"likely_function_or_original_purpose\": \"Packaging for flour\",\n    \"current_state\": \"Discarded, crumpled\",\n    \"completeness_and_visibility_in_crop\": \"Mostly visible, showing the top and side portions\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Black plastic bag\",\n      \"Crumpled white plastic/paper material\"\n    ],\n    \"relationship_to_primary_object\": \"Adjacent waste items in the same bin, with the black bag partially underneath the primary object.\",\n    \"potential_impact_on_classification\": \"The presence of other plastic bags reinforces the 'bag' aspect of the waste stream and supports a plastic classification.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Plastic Films\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable in specific plastic film/bag collection streams, but often not accepted in standard curbside recycling due to processing challenges.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic film is not discernible.\",\n      \"There is a slight possibility it could be a multi-layer composite material, though it appears predominantly plastic film.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Composite Materials\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 4,
+        "crop_path": "scan_1762183606_crop005.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Rectangular, flexible, crumpled",
+          "size": "Medium to large (consistent with a flour bag)",
+          "color": "White and red",
+          "condition": "Crumpled but largely intact",
+          "likely_function_or_original_purpose": "Packaging for flour",
+          "current_state": "Discarded, crumpled",
+          "completeness_and_visibility_in_crop": "Mostly visible, showing the top and side portions"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Black plastic bag",
+            "Crumpled white plastic/paper material"
+          ],
+          "relationship_to_primary_object": "Adjacent waste items in the same bin, with the black bag partially underneath the primary object.",
+          "potential_impact_on_classification": "The presence of other plastic bags reinforces the 'bag' aspect of the waste stream and supports a plastic classification."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Plastic Films",
+          "recyclability_assessment_if_possible": "Potentially recyclable in specific plastic film/bag collection streams, but often not accepted in standard curbside recycling due to processing challenges.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic film is not discernible.",
+            "There is a slight possibility it could be a multi-layer composite material, though it appears predominantly plastic film."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Composite Materials"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 5,
+      "crop_path": "crops/scan_1762183606/scan_1762183606_crop006.jpg",
+      "gemini_text": "{\n  \"region_id\": 5,\n  \"crop_path\": \"CROP from scan_1762183606_crop006.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Cylindrical/elongated, wrapped\",\n    \"size\": \"Medium, consistent with a large vegetable like a cucumber or leek\",\n    \"color\": \"White with green text\",\n    \"condition\": \"Appears mostly intact, slightly crumpled\",\n    \"likely_function_or_original_purpose\": \"Packaging for fresh produce (e.g., cucumber, leek) based on the 'PRINCE DE BRETAGNE' branding\",\n    \"current_state\": \"Intact, slightly crumpled, in a waste bin\",\n    \"completeness_and_visibility_in_crop\": \"Mostly visible, with ends slightly obscured by other waste items\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"A piece of light brown cardboard, partially torn, with purple text ('AUBERGINE')\",\n      \"Numerous crumpled black plastic bags or film\",\n      \"Crumpled white plastic bags or film\",\n      \"Various small, unidentifiable fragments of waste\"\n    ],\n    \"relationship_to_primary_object\": \"All secondary elements are mixed with the primary object in a pile of waste, indicating a mixed waste stream.\",\n    \"potential_impact_on_classification\": \"The presence of other plastic films and cardboard reinforces the context of mixed household or commercial waste, but does not alter the classification of the primary object itself. The 'AUBERGINE' text on the cardboard suggests other food-related packaging.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Plastic Films (specifically food packaging film)\",\n    \"recyclability_assessment_if_possible\": \"Plastic films, especially those used for food packaging, are often not accepted in standard curbside recycling programs due to contamination and processing difficulties. Some specialized collection points may exist.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact contents of the plastic wrap are not visible, though the branding strongly suggests produce.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 5,
+        "crop_path": "CROP from scan_1762183606_crop006.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Cylindrical/elongated, wrapped",
+          "size": "Medium, consistent with a large vegetable like a cucumber or leek",
+          "color": "White with green text",
+          "condition": "Appears mostly intact, slightly crumpled",
+          "likely_function_or_original_purpose": "Packaging for fresh produce (e.g., cucumber, leek) based on the 'PRINCE DE BRETAGNE' branding",
+          "current_state": "Intact, slightly crumpled, in a waste bin",
+          "completeness_and_visibility_in_crop": "Mostly visible, with ends slightly obscured by other waste items"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "A piece of light brown cardboard, partially torn, with purple text ('AUBERGINE')",
+            "Numerous crumpled black plastic bags or film",
+            "Crumpled white plastic bags or film",
+            "Various small, unidentifiable fragments of waste"
+          ],
+          "relationship_to_primary_object": "All secondary elements are mixed with the primary object in a pile of waste, indicating a mixed waste stream.",
+          "potential_impact_on_classification": "The presence of other plastic films and cardboard reinforces the context of mixed household or commercial waste, but does not alter the classification of the primary object itself. The 'AUBERGINE' text on the cardboard suggests other food-related packaging."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Plastic Films (specifically food packaging film)",
+          "recyclability_assessment_if_possible": "Plastic films, especially those used for food packaging, are often not accepted in standard curbside recycling programs due to contamination and processing difficulties. Some specialized collection points may exist.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact contents of the plastic wrap are not visible, though the branding strongly suggests produce."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 9,
+      "crop_path": "crops/scan_1762183606/scan_1762183606_crop007.jpg",
+      "gemini_text": "{\n  \"region_id\": 9,\n  \"crop_path\": \"CROP from scan_1762183606_crop007.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Irregular, crumpled\",\n    \"size\": \"Medium to large\",\n    \"color\": \"Transparent/clear, with yellowish tint\",\n    \"condition\": \"Crumpled, used\",\n    \"likely_function_or_original_purpose\": \"Containing other items, likely waste or products\",\n    \"current_state\": \"Used, crumpled, potentially containing waste\",\n    \"completeness_and_visibility_in_crop\": \"Multiple plastic bags are visible, mostly complete but overlapping and crumpled\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"White/yellowish material inside the clear plastic bags\",\n      \"A white bag (partially visible) on the right side\",\n      \"A yellow bin/container on the far left\"\n    ],\n    \"relationship_to_primary_object\": \"The white/yellowish material is contained within the primary plastic bags. The white bag is adjacent to the primary plastic bags. The yellow bin is the container for all the waste.\",\n    \"potential_impact_on_classification\": \"The contents of the clear bags are not clearly identifiable, but the bags themselves are clearly plastic. The white bag on the right could be paper or plastic, but it's secondary. The yellow bin is just context.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/bag\",\n    \"recyclability_assessment_if_possible\": \"Plastic bags can be recyclable, but often require specific collection streams (e.g., store drop-offs) and their recyclability can be affected by contamination or the type of plastic. Given they are in a general waste bin, their immediate recyclability is questionable without more context on local waste management.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact contents of the clear plastic bags are not fully discernible.\",\n      \"The material of the white bag on the right is not definitively clear (paper vs. plastic).\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 9,
+        "crop_path": "CROP from scan_1762183606_crop007.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Irregular, crumpled",
+          "size": "Medium to large",
+          "color": "Transparent/clear, with yellowish tint",
+          "condition": "Crumpled, used",
+          "likely_function_or_original_purpose": "Containing other items, likely waste or products",
+          "current_state": "Used, crumpled, potentially containing waste",
+          "completeness_and_visibility_in_crop": "Multiple plastic bags are visible, mostly complete but overlapping and crumpled"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "White/yellowish material inside the clear plastic bags",
+            "A white bag (partially visible) on the right side",
+            "A yellow bin/container on the far left"
+          ],
+          "relationship_to_primary_object": "The white/yellowish material is contained within the primary plastic bags. The white bag is adjacent to the primary plastic bags. The yellow bin is the container for all the waste.",
+          "potential_impact_on_classification": "The contents of the clear bags are not clearly identifiable, but the bags themselves are clearly plastic. The white bag on the right could be paper or plastic, but it's secondary. The yellow bin is just context."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/bag",
+          "recyclability_assessment_if_possible": "Plastic bags can be recyclable, but often require specific collection streams (e.g., store drop-offs) and their recyclability can be affected by contamination or the type of plastic. Given they are in a general waste bin, their immediate recyclability is questionable without more context on local waste management.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact contents of the clear plastic bags are not fully discernible.",
+            "The material of the white bag on the right is not definitively clear (paper vs. plastic)."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 10,
+      "crop_path": "crops/scan_1762183606/scan_1762183606_crop008.jpg",
+      "gemini_text": "{\n  \"region_id\": 10,\n  \"crop_path\": \"CROP from scan_1762183606_crop008.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Paper or thin Cardboard\",\n    \"shape\": \"Folded, irregular flat surface\",\n    \"size\": \"Medium, partial view\",\n    \"color\": \"White/light grey\",\n    \"condition\": \"Creased, possibly crumpled\",\n    \"likely_function_or_original_purpose\": \"Packaging, possibly a bag or box\",\n    \"current_state\": \"Intact but folded\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of a folded object is visible, showing a distinct crease and textured surface. The full extent and overall shape are not visible.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [],\n    \"relationship_to_primary_object\": null,\n    \"potential_impact_on_classification\": null\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Paper or Cardboard\",\n    \"recyclability_assessment_if_possible\": \"Generally recyclable if clean and dry.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of paper/cardboard (e.g., bag, box, sheet) is unclear due to the tight crop.\",\n      \"The texture could potentially be mistaken for a very matte plastic film, though less likely given the distinct fold.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Thin plastic film (e.g., a thick, matte plastic bag)\",\n      \"Composite material with a paper-like surface\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 10,
+        "crop_path": "CROP from scan_1762183606_crop008.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Paper or thin Cardboard",
+          "shape": "Folded, irregular flat surface",
+          "size": "Medium, partial view",
+          "color": "White/light grey",
+          "condition": "Creased, possibly crumpled",
+          "likely_function_or_original_purpose": "Packaging, possibly a bag or box",
+          "current_state": "Intact but folded",
+          "completeness_and_visibility_in_crop": "A significant portion of a folded object is visible, showing a distinct crease and textured surface. The full extent and overall shape are not visible."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [],
+          "relationship_to_primary_object": null,
+          "potential_impact_on_classification": null
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Paper or Cardboard",
+          "recyclability_assessment_if_possible": "Generally recyclable if clean and dry.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of paper/cardboard (e.g., bag, box, sheet) is unclear due to the tight crop.",
+            "The texture could potentially be mistaken for a very matte plastic film, though less likely given the distinct fold."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Thin plastic film (e.g., a thick, matte plastic bag)",
+            "Composite material with a paper-like surface"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 5,
+      "crop_path": "crops/scan_1762183606/scan_1762183606_crop009.jpg",
+      "gemini_text": "{\n  \"region_id\": 5,\n  \"crop_path\": \"CROP from scan_1762183606_crop009.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Irregular, crumpled, bag-like\",\n    \"size\": \"Medium, appears to be a standard waste bag\",\n    \"color\": \"Black\",\n    \"condition\": \"Crumpled, appears intact but not smooth\",\n    \"likely_function_or_original_purpose\": \"Container for waste or other items\",\n    \"current_state\": \"Crumpled, likely dirty as it is in a waste bin\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the black plastic bag is visible, though it is heavily crumpled and not fully extended.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [],\n    \"relationship_to_primary_object\": null,\n    \"potential_impact_on_classification\": null\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Plastic Bags\",\n    \"recyclability_assessment_if_possible\": \"Black plastic bags are generally difficult to recycle due to optical sorting limitations and are often sent to landfill or incineration, depending on local facilities.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact contents of the bag are unknown, which could influence its ultimate waste stream if it contained hazardous materials, but the bag itself is clearly plastic.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 5,
+        "crop_path": "CROP from scan_1762183606_crop009.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Irregular, crumpled, bag-like",
+          "size": "Medium, appears to be a standard waste bag",
+          "color": "Black",
+          "condition": "Crumpled, appears intact but not smooth",
+          "likely_function_or_original_purpose": "Container for waste or other items",
+          "current_state": "Crumpled, likely dirty as it is in a waste bin",
+          "completeness_and_visibility_in_crop": "A significant portion of the black plastic bag is visible, though it is heavily crumpled and not fully extended."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [],
+          "relationship_to_primary_object": null,
+          "potential_impact_on_classification": null
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Plastic Bags",
+          "recyclability_assessment_if_possible": "Black plastic bags are generally difficult to recycle due to optical sorting limitations and are often sent to landfill or incineration, depending on local facilities.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact contents of the bag are unknown, which could influence its ultimate waste stream if it contained hazardous materials, but the bag itself is clearly plastic."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 7,
+      "crop_path": "crops/scan_1762183606/scan_1762183606_crop010.jpg",
+      "gemini_text": "{\n  \"region_id\": 7,\n  \"crop_path\": \"CROP from scan_1762183606_crop010.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Composite\",\n    \"shape\": \"Rectangular, block-like\",\n    \"size\": \"Medium, consistent with a loaf of bread package\",\n    \"color\": \"Red and white\",\n    \"condition\": \"Mostly intact, slightly compressed\",\n    \"likely_function_or_original_purpose\": \"Packaging for a food product, specifically bread\",\n    \"current_state\": \"Intact, discarded as waste\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the package is visible, showing the top and part of the side.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Dark grey/black plastic waste bin rim\",\n      \"Blue plastic strap or band\",\n      \"Black plastic bags\",\n      \"Clear plastic film/bags\",\n      \"Other indistinguishable waste items\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is resting on or within other waste items inside a waste bin. The blue strap is around the bin or other contents.\",\n    \"potential_impact_on_classification\": \"The surrounding waste items and the bin provide context that this is discarded waste. The blue strap and other plastic items are also waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Composite Materials (food packaging)\",\n    \"recyclability_assessment_if_possible\": \"Likely not easily recyclable due to its composite nature, which often makes material separation difficult.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact material composition (e.g., whether it's a thick plastic film or a multi-layered composite material).\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Plastics: Plastic Films\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 7,
+        "crop_path": "CROP from scan_1762183606_crop010.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Composite",
+          "shape": "Rectangular, block-like",
+          "size": "Medium, consistent with a loaf of bread package",
+          "color": "Red and white",
+          "condition": "Mostly intact, slightly compressed",
+          "likely_function_or_original_purpose": "Packaging for a food product, specifically bread",
+          "current_state": "Intact, discarded as waste",
+          "completeness_and_visibility_in_crop": "A significant portion of the package is visible, showing the top and part of the side."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Dark grey/black plastic waste bin rim",
+            "Blue plastic strap or band",
+            "Black plastic bags",
+            "Clear plastic film/bags",
+            "Other indistinguishable waste items"
+          ],
+          "relationship_to_primary_object": "The primary object is resting on or within other waste items inside a waste bin. The blue strap is around the bin or other contents.",
+          "potential_impact_on_classification": "The surrounding waste items and the bin provide context that this is discarded waste. The blue strap and other plastic items are also waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Composite Materials (food packaging)",
+          "recyclability_assessment_if_possible": "Likely not easily recyclable due to its composite nature, which often makes material separation difficult.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact material composition (e.g., whether it's a thick plastic film or a multi-layered composite material)."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Plastics: Plastic Films"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 11,
+      "crop_path": "crops/scan_1762183606/scan_1762183606_crop011.jpg",
+      "gemini_text": "{\n  \"region_id\": 11,\n  \"crop_path\": \"scan_1762183606_crop011.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Long, flat, rectangular strap with a buckle mechanism at one end\",\n    \"size\": \"Approximately 20-30 cm in length, narrow width\",\n    \"color\": \"Dark grey or black\",\n    \"condition\": \"Appears intact, possibly slightly worn or dirty\",\n    \"likely_function_or_original_purpose\": \"A cable tie, zip tie, or securing strap used for bundling or fastening items\",\n    \"current_state\": \"Intact\",\n    \"completeness_and_visibility_in_crop\": \"The object is almost entirely visible, extending from the top to the bottom of the crop, with the buckle mechanism clearly visible at the top.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Black plastic bags\",\n      \"Crumpled plastic or paper in the background\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object (plastic strap) is lying on top of or among other waste items, primarily black plastic bags, within a waste bin.\",\n    \"potential_impact_on_classification\": \"The secondary elements are other waste items and do not impact the classification of the primary object itself, but confirm its context as waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Other Plastic Items\",\n    \"recyclability_assessment_if_possible\": \"Plastic cable ties/straps are often made of nylon or polypropylene. While technically recyclable, they are frequently too small or complex for standard curbside recycling programs and may not be accepted.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic (e.g., nylon vs. polypropylene) is not discernible from the image.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 11,
+        "crop_path": "scan_1762183606_crop011.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Long, flat, rectangular strap with a buckle mechanism at one end",
+          "size": "Approximately 20-30 cm in length, narrow width",
+          "color": "Dark grey or black",
+          "condition": "Appears intact, possibly slightly worn or dirty",
+          "likely_function_or_original_purpose": "A cable tie, zip tie, or securing strap used for bundling or fastening items",
+          "current_state": "Intact",
+          "completeness_and_visibility_in_crop": "The object is almost entirely visible, extending from the top to the bottom of the crop, with the buckle mechanism clearly visible at the top."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Black plastic bags",
+            "Crumpled plastic or paper in the background"
+          ],
+          "relationship_to_primary_object": "The primary object (plastic strap) is lying on top of or among other waste items, primarily black plastic bags, within a waste bin.",
+          "potential_impact_on_classification": "The secondary elements are other waste items and do not impact the classification of the primary object itself, but confirm its context as waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Other Plastic Items",
+          "recyclability_assessment_if_possible": "Plastic cable ties/straps are often made of nylon or polypropylene. While technically recyclable, they are frequently too small or complex for standard curbside recycling programs and may not be accepted.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic (e.g., nylon vs. polypropylene) is not discernible from the image."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    }
+  ],
+  "gemini_metrics_per_image": {
+    "api_calls": 12,
+    "input_tokens": 18780,
+    "output_tokens": 5974,
+    "total_tokens": 37457,
+    "errors": 0,
+    "structured_parse_success": 12,
+    "structured_parse_failures": 0,
+    "cache_hits": 0,
+    "avg_response_time_ms": 15409.550984700521
+  },
+  "phase_times": {
+    "segmentation_sec": 2.070453405380249,
+    "crop_generation_sec": 0.47079992294311523,
+    "clip_classification_sec": 1.054325819015503,
+    "prompt_building_sec": 0.0007185935974121094,
+    "gemini_inference_sec": 124.2492253780365
+  }
+}

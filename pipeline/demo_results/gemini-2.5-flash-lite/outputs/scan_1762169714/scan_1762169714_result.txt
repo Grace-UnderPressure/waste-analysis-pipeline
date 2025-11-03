@@ -1,0 +1,184 @@
+🔍 Waste Analysis (scan 1762169714)
+📦 Crops analyzed: 13
+
+— Crop 1 (region 0): crops/scan_1762169714/scan_1762169714_crop000.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: rectangular / large
+  • 🎨 Color: white
+  • 🧪 State: dirty
+  • 🎯 Purpose: container or bin
+  • 👁 Visibility: The top edge and a portion of the side of a large white plastic object are visible. The object appears to be a container or bin. It is dirty with visible grime along the top edge.
+  • 🔍 Other objects: metal grating in the background, various waste items in the original image context (paper, plastic, metal)
+  • 🔗 Relationship: The primary object appears to be a container holding other waste items, as seen in the original image.
+  • 🗂 Category: Plastic
+  • ♻️ Recyclability: Recyclable (depending on specific plastic type and local facilities)
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not identifiable from the crop alone., The full extent and function of the object are not clear from the crop.
+
+— Crop 2 (region 3): crops/scan_1762169714/scan_1762169714_crop001.jpg
+  • 🧱 Material: Cardboard
+  • 🧩 Shape/Size: Cylindrical/rolled / Medium
+  • 🎨 Color: Gray/White
+  • 🧪 State: Damaged and dirty
+  • 🎯 Purpose: Packaging material
+  • 👁 Visibility: Mostly visible, but some edges are obscured by other waste.
+  • 🔍 Other objects: Wood debris, Plastic packaging, Other unidentifiable paper/cardboard fragments
+  • 🔗 Relationship: The primary object appears to be resting on or mixed with other waste materials.
+  • 🗂 Category: Cardboard
+  • ♻️ Recyclability: Potentially recyclable if clean and not excessively contaminated, but condition may affect this.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact extent of contamination is unclear from the crop., The internal structure of the crushed material is not fully visible.
+
+— Crop 3 (region 0): crops/scan_1762169714/scan_1762169714_crop002.jpg
+  • 🧱 Material: Cardboard/Paper
+  • 🧩 Shape/Size: Cylindrical tube / Medium
+  • 🎨 Color: Beige with brown and black graphics
+  • 🧪 State: Appears clean
+  • 🎯 Purpose: Packaging for a bottle of rum
+  • 👁 Visibility: Fully visible and intact
+  • 🔍 Other objects: Plastic packaging material, Crushed paper/cardboard, Blue plastic crate fragment, Clear plastic sheet, Black plastic components, White paper with text (possibly Evian branding)
+  • 🔗 Relationship: The primary object is one of several waste items within a larger container.
+  • 🗂 Category: Paper/Cardboard Packaging
+  • ♻️ Recyclability: Likely recyclable as paper/cardboard, depending on local recycling facility capabilities.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact composition of the outer layer (e.g., if it has a plastic coating) is not definitively clear from the image, but it appears to be primarily paper or thin cardboard.
+
+— Crop 4 (region 5): crops/scan_1762169714/scan_1762169714_crop003.jpg
+  • 🧱 Material: Composite/Paper
+  • 🧩 Shape/Size: Irregular, layered / Medium (estimated from context)
+  • 🎨 Color: White, grey, with brown/leafy accents
+  • 🧪 State: Damaged, soiled
+  • 🎯 Purpose: Unknown, possibly packaging material or insulation
+  • 👁 Visibility: The object is largely visible but appears to be a fragment of a larger item. Its layered and torn nature makes precise shape determination difficult.
+  • 🔍 Other objects: Plastic packaging, Cardboard, Plastic containers, Black plastic components, Clear plastic sheet, Cylindrical container with label (possibly metal or composite)
+  • 🔗 Relationship: The primary object is situated within a collection of other waste items in a container.
+  • 🗂 Category: Composite Materials/Paper
+  • ♻️ Recyclability: Likely not easily recyclable due to its composite nature and apparent soiling. If primarily paper, it might be recyclable if clean and not heavily contaminated.
+  • 📈 Confidence: C (Low: Unclear features, low confidence)
+  • ❓ Uncertainties: The exact material composition is unclear; it appears to be a layered composite of paper-like material with possible fibrous or insulating components., The original form and function are unknown., The degree of soiling and contamination is difficult to ascertain precisely from the image.
+
+— Crop 5 (region 2): crops/scan_1762169714/scan_1762169714_crop004.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: rectangular prism / long and narrow
+  • 🎨 Color: white with red and green text
+  • 🧪 State: dirty
+  • 🎯 Purpose: packaging for bottled water
+  • 👁 Visibility: mostly visible, but some edges are obscured
+  • 🔍 Other objects: yellow cylindrical container with text, blue plastic grid, black plastic pieces, white crumpled material, clear plastic sheet
+  • 🔗 Relationship: The primary object is lying on top of other waste items within a container.
+  • 🗂 Category: Plastic
+  • ♻️ Recyclability: Likely recyclable as plastic packaging, but condition may affect this.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image., The extent of damage or contamination is not fully clear.
+
+— Crop 6 (region 9): crops/scan_1762169714/scan_1762169714_crop005.jpg
+  • 🧱 Material: composite
+  • 🧩 Shape/Size: irregular / medium
+  • 🎨 Color: gray, white, brown
+  • 🧪 State: dirty, damaged
+  • 🎯 Purpose: packaging material
+  • 👁 Visibility: The primary object is largely visible but appears to be a fragment of a larger item. Its irregular shape and texture make precise identification difficult.
+  • 🔍 Other objects: partially visible yellow and white packaging with green text 'La Salvetat' and a sun logo, black plastic components, clear plastic sheet, blue plastic bin or container fragment, light green plastic object
+  • 🔗 Relationship: The primary object is situated within a collection of other waste items, including packaging and plastic components, suggesting it is part of a mixed waste stream.
+  • 🗂 Category: Composite Materials
+  • ♻️ Recyclability: Difficult to assess due to the unknown specific composition and condition, but likely not easily recyclable in its current state.
+  • 📈 Confidence: C (Low: Unclear features, low confidence)
+  • ❓ Uncertainties: The exact material composition of the primary object is unclear due to its degraded and composite nature., The original form and function of the primary object are not definitively identifiable from the crop., The texture suggests it could be a form of compressed paper or cardboard with a coating, or a more complex composite.
+
+— Crop 7 (region 14): crops/scan_1762169714/scan_1762169714_crop006.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: circular disc with holes / small to medium
+  • 🎨 Color: clear with black markings
+  • 🧪 State: dirty, scratched
+  • 🎯 Purpose: component of electronic equipment or packaging
+  • 👁 Visibility: partially visible, appears to be a flat disc
+  • 🔍 Other objects: crumpled paper/cardboard, black plastic components, blue plastic container, white and green branded item (possibly plastic), yellow cylindrical container
+  • 🔗 Relationship: The primary object is lying on top of or among other waste items within a container.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely not recyclable due to contamination and potential composite nature if it's part of electronic waste.
+  • 📈 Confidence: C (Low: Unclear features, low confidence)
+  • ❓ Uncertainties: The exact nature and function of the clear plastic disc are unclear., The material composition of the branded item is not definitively identifiable from the crop., The overall context suggests mixed waste, making precise classification of individual components difficult.
+
+— Crop 8 (region 9): crops/scan_1762169714/scan_1762169714_crop007.jpg
+  • 🧱 Material: glass
+  • 🧩 Shape/Size: flat, rectangular with rounded corners / medium
+  • 🎨 Color: clear
+  • 🧪 State: dirty, intact
+  • 🎯 Purpose: shelf or protective cover
+  • 👁 Visibility: mostly visible, appears to be a flat sheet of glass
+  • 🔍 Other objects: blue plastic crate, black plastic components, crumpled paper/cardboard, metal can (partially visible)
+  • 🔗 Relationship: The glass appears to be placed on top of or within a blue plastic crate, alongside other debris.
+  • 🗂 Category: Glass
+  • ♻️ Recyclability: Potentially recyclable if clean and sorted, but likely considered mixed waste due to contamination.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact thickness and type of glass are not definitively determinable from the image., The extent of contamination with other waste materials is unclear.
+
+— Crop 9 (region 11): crops/scan_1762169714/scan_1762169714_crop008.jpg
+  • 🧱 Material: composite
+  • 🧩 Shape/Size: irregular / medium
+  • 🎨 Color: white, grey, brown
+  • 🧪 State: dirty, damaged
+  • 🎯 Purpose: unknown
+  • 👁 Visibility: The primary object is a large, irregularly shaped mass that appears to be a crushed and torn composite material. It is centrally located in the crop and takes up a significant portion of the image. Its exact original form and purpose are unclear due to its damaged state.
+  • 🔍 Other objects: black plastic pieces, clear plastic disc, white and green plastic tube with text, yellow cylindrical container with label, cardboard fragments, blue plastic tray
+  • 🔗 Relationship: The primary object is situated amongst various other waste items, including plastic components and packaging. It appears to be a collection of crushed materials, possibly packaging or insulation, that has been discarded with other items.
+  • 🗂 Category: Composite Materials
+  • ♻️ Recyclability: Difficult to assess due to the mixed and damaged nature of the material. It is unlikely to be easily recyclable in its current form.
+  • 📈 Confidence: C (Low: Unclear features, low confidence)
+  • ❓ Uncertainties: The exact composition of the primary object is unclear; it appears to be a mix of paper/cardboard and possibly some plastic or other fibrous material., The original function or purpose of the primary object is not discernible., The extent of contamination or degradation is difficult to determine from the image.
+
+— Crop 10 (region 7): crops/scan_1762169714/scan_1762169714_crop009.jpg
+  • 🧱 Material: Paper/Composite
+  • 🧩 Shape/Size: Irregular, crumpled / Medium
+  • 🎨 Color: Grayish-white, with some darker soiled areas
+  • 🧪 State: Soiled, crumpled, torn
+  • 🎯 Purpose: Likely a crumpled piece of paper or packaging, possibly with some composite elements
+  • 👁 Visibility: The majority of the object is visible, but it is heavily crumpled and torn, obscuring some details.
+  • 🔍 Other objects: Cardboard packaging, Plastic films/sheets, Black plastic components, Blue plastic container, Cylindrical container with label, White plastic tube with branding (Evian, Badoit)
+  • 🔗 Relationship: The primary object is situated amongst other waste items within a container.
+  • 🗂 Category: Paper/Composite
+  • ♻️ Recyclability: Potentially recyclable if primarily paper, but contamination and composite nature may hinder recycling.
+  • 📈 Confidence: C (Low: Unclear features, low confidence)
+  • ❓ Uncertainties: The exact material composition is difficult to determine due to the crumpled and soiled state., It is unclear if there are significant composite elements beyond paper.
+
+— Crop 11 (region 3): crops/scan_1762169714/scan_1762169714_crop010.jpg
+  • 🧱 Material: Paper/Cardboard
+  • 🧩 Shape/Size: Rectangular box / Small to medium
+  • 🎨 Color: Black with gold lettering
+  • 🧪 State: Intact but appears to be discarded
+  • 🎯 Purpose: Packaging for food items (likely chocolate or confectionery)
+  • 👁 Visibility: Approximately 60% of the object is visible, showing a corner and part of a side.
+  • 🔍 Other objects: Crushed paper/cardboard material, Plastic packaging elements, A cylindrical container with branding, Other unidentifiable debris
+  • 🔗 Relationship: The primary object is situated amongst other discarded waste items within a larger container.
+  • 🗂 Category: Paper/Cardboard
+  • ♻️ Recyclability: Likely recyclable, depending on local facilities and contamination.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of paper/cardboard (e.g., coated or uncoated) is not fully discernible., The extent of any food residue contamination is unknown.
+
+— Crop 12 (region 12): crops/scan_1762169714/scan_1762169714_crop011.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: elongated, rectangular profile with interlocking features / appears to be a long, thin component
+  • 🎨 Color: black
+  • 🧪 State: appears clean
+  • 🎯 Purpose: likely a structural component or support, possibly from packaging or a larger plastic item
+  • 👁 Visibility: The object is largely visible and appears to be a significant portion of the crop, though its full extent and connection to other parts are not entirely clear.
+  • 🔍 Other objects: a large, light blue/green foam-like material, a crumpled, fibrous material (possibly paper or cardboard), other black plastic pieces, a clear plastic disc with holes
+  • 🔗 Relationship: The black plastic object rests on top of the light blue material and is interspersed with other plastic components.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Potentially recyclable as plastic, but dependent on specific plastic type and local recycling capabilities.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact function and origin of the black plastic component are not definitively identifiable from the crop alone., The specific type of plastic is not discernible., The relationship between the black plastic component and the light blue foam-like material is unclear.
+
+— Crop 13 (region 5): crops/scan_1762169714/scan_1762169714_crop012.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: linear, extruded profile / long, narrow
+  • 🎨 Color: black
+  • 🧪 State: waste
+  • 🎯 Purpose: structural component, possibly for shelving, framing, or electronic device casing
+  • 👁 Visibility: Multiple pieces are visible, some overlapping. The full length of any single piece is not entirely clear.
+  • 🔍 Other objects: crumpled paper/cardboard material, blue plastic crate fragment, clear plastic sheet, yellow cylindrical container (possibly metal or composite), other black plastic fragments
+  • 🔗 Relationship: The primary object (black plastic profiles) appears to be mixed with other waste items within a container.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Potentially recyclable as rigid plastic, but dependent on local recycling facility capabilities and cleanliness.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not identifiable from the image alone., The specific original function is inferred and not definitively known., The extent of contamination from other waste materials is unclear.

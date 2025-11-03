@@ -1,0 +1,547 @@
+{
+  "success": true,
+  "scan_id": 1762169712,
+  "num_crops": 13,
+  "outputs": [
+    {
+      "region_id": 3,
+      "crop_path": "crops/scan_1762169712/scan_1762169712_crop000.jpg",
+      "gemini_text": "{\n  \"region_id\": 3,\n  \"crop_path\": \"scan_1762169712_crop000.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"metal\",\n    \"shape\": \"cylindrical\",\n    \"size\": \"large\",\n    \"color\": \"green with rust\",\n    \"condition\": \"corroded\",\n    \"likely_function_or_original_purpose\": \"structural support or container\",\n    \"current_state\": \"rusted and weathered\",\n    \"completeness_and_visibility_in_crop\": \"The majority of the object is visible, showing significant surface corrosion.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"plastic pipes\",\n      \"plastic containers\",\n      \"cardboard\",\n      \"other metal objects\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object appears to be part of the container or structure holding the other waste items.\",\n    \"potential_impact_on_classification\": \"The presence of various waste types within the container suggests a mixed waste stream.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Metals\",\n    \"recyclability_assessment_if_possible\": \"The primary object is metal, but its heavily rusted condition may impact recyclability.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact function of the metal object (e.g., part of a bin, a pipe) is not fully discernible from the crop alone.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 3,
+        "crop_path": "scan_1762169712_crop000.jpg",
+        "primary_object_analysis": {
+          "material_composition": "metal",
+          "shape": "cylindrical",
+          "size": "large",
+          "color": "green with rust",
+          "condition": "corroded",
+          "likely_function_or_original_purpose": "structural support or container",
+          "current_state": "rusted and weathered",
+          "completeness_and_visibility_in_crop": "The majority of the object is visible, showing significant surface corrosion."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "plastic pipes",
+            "plastic containers",
+            "cardboard",
+            "other metal objects"
+          ],
+          "relationship_to_primary_object": "The primary object appears to be part of the container or structure holding the other waste items.",
+          "potential_impact_on_classification": "The presence of various waste types within the container suggests a mixed waste stream."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Metals",
+          "recyclability_assessment_if_possible": "The primary object is metal, but its heavily rusted condition may impact recyclability.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact function of the metal object (e.g., part of a bin, a pipe) is not fully discernible from the crop alone."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 4,
+      "crop_path": "crops/scan_1762169712/scan_1762169712_crop001.jpg",
+      "gemini_text": "{\n  \"region_id\": 4,\n  \"crop_path\": \"CROP from scan_1762169712_crop001.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Bag-like or flexible container\",\n    \"size\": \"Medium to large\",\n    \"color\": \"Clear/translucent\",\n    \"condition\": \"Appears intact but creased and possibly dirty\",\n    \"likely_function_or_original_purpose\": \"Packaging or storage bag\",\n    \"current_state\": \"Used, possibly soiled\",\n    \"completeness_and_visibility_in_crop\": \"The object is largely visible, taking up most of the crop, but its full extent and exact shape are obscured by folds and creases.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Other plastic items (containers, films)\",\n      \"Blue plastic crates\",\n      \"White rigid plastic packaging\",\n      \"Pipes (possibly PVC)\",\n      \"Metal elements (part of the container/bin)\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is situated within a larger waste container, surrounded by other discarded items.\",\n    \"potential_impact_on_classification\": \"The presence of other plastic items and general mixed waste suggests this is part of a larger mixed plastic or general waste stream. The primary object itself is a plastic bag, which can sometimes be difficult to recycle depending on its type and condition.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Plastic Bags\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable if it is a clean, single-material plastic bag, but often difficult to recycle due to contamination and the nature of plastic films/bags.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic is not identifiable from the image.\",\n      \"The degree of soiling or contamination is not fully clear.\",\n      \"The full shape and dimensions are not discernible due to creasing.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Other Plastic Films\",\n      \"Rigid Plastic Packaging (if it were a more structured container)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 4,
+        "crop_path": "CROP from scan_1762169712_crop001.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Bag-like or flexible container",
+          "size": "Medium to large",
+          "color": "Clear/translucent",
+          "condition": "Appears intact but creased and possibly dirty",
+          "likely_function_or_original_purpose": "Packaging or storage bag",
+          "current_state": "Used, possibly soiled",
+          "completeness_and_visibility_in_crop": "The object is largely visible, taking up most of the crop, but its full extent and exact shape are obscured by folds and creases."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Other plastic items (containers, films)",
+            "Blue plastic crates",
+            "White rigid plastic packaging",
+            "Pipes (possibly PVC)",
+            "Metal elements (part of the container/bin)"
+          ],
+          "relationship_to_primary_object": "The primary object is situated within a larger waste container, surrounded by other discarded items.",
+          "potential_impact_on_classification": "The presence of other plastic items and general mixed waste suggests this is part of a larger mixed plastic or general waste stream. The primary object itself is a plastic bag, which can sometimes be difficult to recycle depending on its type and condition."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Plastic Bags",
+          "recyclability_assessment_if_possible": "Potentially recyclable if it is a clean, single-material plastic bag, but often difficult to recycle due to contamination and the nature of plastic films/bags.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic is not identifiable from the image.",
+            "The degree of soiling or contamination is not fully clear.",
+            "The full shape and dimensions are not discernible due to creasing."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Other Plastic Films",
+            "Rigid Plastic Packaging (if it were a more structured container)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 5,
+      "crop_path": "crops/scan_1762169712/scan_1762169712_crop002.jpg",
+      "gemini_text": "{\n  \"region_id\": 5,\n  \"crop_path\": \"scan_1762169712_crop002.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"cardboard\",\n    \"shape\": \"flat, rectangular panel\",\n    \"size\": \"large, but only a portion is visible\",\n    \"color\": \"brown\",\n    \"condition\": \"appears intact, with some visible scoring or indentations\",\n    \"likely_function_or_original_purpose\": \"packaging or structural component\",\n    \"current_state\": \"appears to be waste, possibly dirty\",\n    \"completeness_and_visibility_in_crop\": \"The object is partially visible, taking up a significant portion of the crop. Its full extent is not shown.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"green metal bin edge (top left)\",\n      \"shadows and light patterns\",\n      \"other indistinct waste items in the background (visible in original image)\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object appears to be inside or part of a larger container, possibly a dumpster or bin, as suggested by the green metal edge in the background.\",\n    \"potential_impact_on_classification\": \"The presence of other waste items in the original image suggests this is a mixed waste stream. However, the primary object itself is clearly cardboard.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Cardboard\",\n    \"recyclability_assessment_if_possible\": \"Recyclable, assuming it is clean and not heavily contaminated.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact dimensions and full shape of the cardboard are not visible.\",\n      \"The condition (e.g., level of dirt or contamination) is not fully discernible from the crop alone.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 5,
+        "crop_path": "scan_1762169712_crop002.jpg",
+        "primary_object_analysis": {
+          "material_composition": "cardboard",
+          "shape": "flat, rectangular panel",
+          "size": "large, but only a portion is visible",
+          "color": "brown",
+          "condition": "appears intact, with some visible scoring or indentations",
+          "likely_function_or_original_purpose": "packaging or structural component",
+          "current_state": "appears to be waste, possibly dirty",
+          "completeness_and_visibility_in_crop": "The object is partially visible, taking up a significant portion of the crop. Its full extent is not shown."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "green metal bin edge (top left)",
+            "shadows and light patterns",
+            "other indistinct waste items in the background (visible in original image)"
+          ],
+          "relationship_to_primary_object": "The primary object appears to be inside or part of a larger container, possibly a dumpster or bin, as suggested by the green metal edge in the background.",
+          "potential_impact_on_classification": "The presence of other waste items in the original image suggests this is a mixed waste stream. However, the primary object itself is clearly cardboard."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Cardboard",
+          "recyclability_assessment_if_possible": "Recyclable, assuming it is clean and not heavily contaminated.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact dimensions and full shape of the cardboard are not visible.",
+            "The condition (e.g., level of dirt or contamination) is not fully discernible from the crop alone."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 6,
+      "crop_path": "crops/scan_1762169712/scan_1762169712_crop003.jpg",
+      "gemini_text": "{\n  \"region_id\": 6,\n  \"crop_path\": \"scan_1762169712_crop003.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"rectangular container with a lid\",\n    \"size\": \"medium\",\n    \"color\": \"white and grey\",\n    \"condition\": \"appears intact\",\n    \"likely_function_or_original_purpose\": \"storage container or bin\",\n    \"current_state\": \"appears clean\",\n    \"completeness_and_visibility_in_crop\": \"The object is mostly visible, with its top and sides clearly seen. A portion of its base might be obscured.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"blue plastic crates\",\n      \"white plastic sheeting\",\n      \"grey plastic pipes\",\n      \"metal components\",\n      \"other unidentifiable plastic items\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is situated among other waste items within a larger container.\",\n    \"potential_impact_on_classification\": \"The presence of multiple plastic items and other mixed waste materials suggests a mixed waste stream, potentially impacting the recyclability of individual components.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Other Plastic Containers\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable, depending on the specific type of plastic and local recycling facility capabilities.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic (e.g., HDPE, PP) is not definitively identifiable from the image.\",\n      \"The internal contents of the container are not visible.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Rigid Plastic Packaging\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 6,
+        "crop_path": "scan_1762169712_crop003.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "rectangular container with a lid",
+          "size": "medium",
+          "color": "white and grey",
+          "condition": "appears intact",
+          "likely_function_or_original_purpose": "storage container or bin",
+          "current_state": "appears clean",
+          "completeness_and_visibility_in_crop": "The object is mostly visible, with its top and sides clearly seen. A portion of its base might be obscured."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "blue plastic crates",
+            "white plastic sheeting",
+            "grey plastic pipes",
+            "metal components",
+            "other unidentifiable plastic items"
+          ],
+          "relationship_to_primary_object": "The primary object is situated among other waste items within a larger container.",
+          "potential_impact_on_classification": "The presence of multiple plastic items and other mixed waste materials suggests a mixed waste stream, potentially impacting the recyclability of individual components."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Other Plastic Containers",
+          "recyclability_assessment_if_possible": "Likely recyclable, depending on the specific type of plastic and local recycling facility capabilities.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic (e.g., HDPE, PP) is not definitively identifiable from the image.",
+            "The internal contents of the container are not visible."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Rigid Plastic Packaging"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 6,
+      "crop_path": "crops/scan_1762169712/scan_1762169712_crop004.jpg",
+      "gemini_text": "{\n  \"region_id\": 6,\n  \"crop_path\": \"scan_1762169712_crop004.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"cylindrical tube\",\n    \"size\": \"large\",\n    \"color\": \"black\",\n    \"condition\": \"appears intact\",\n    \"likely_function_or_original_purpose\": \"pipe or conduit\",\n    \"current_state\": \"appears relatively clean\",\n    \"completeness_and_visibility_in_crop\": \"The majority of the object is visible, extending out of the frame.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"blue plastic crate\",\n      \"white plastic containers\",\n      \"green plastic framing\",\n      \"grey plastic housing\",\n      \"clear plastic sheeting\",\n      \"other unidentifiable plastic items\"\n    ],\n    \"relationship_to_primary_object\": \"The black pipe is positioned diagonally across the foreground, with other plastic items and containers visible behind and around it.\",\n    \"potential_impact_on_classification\": \"The presence of multiple plastic items reinforces the overall plastic waste composition of the scene.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Other Plastic Items\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable as rigid plastic, depending on specific plastic type and local facilities.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic is not identifiable from the image.\",\n      \"The full extent and context of the pipe's use are unknown.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be a large plastic rod or support structure.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 6,
+        "crop_path": "scan_1762169712_crop004.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "cylindrical tube",
+          "size": "large",
+          "color": "black",
+          "condition": "appears intact",
+          "likely_function_or_original_purpose": "pipe or conduit",
+          "current_state": "appears relatively clean",
+          "completeness_and_visibility_in_crop": "The majority of the object is visible, extending out of the frame."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "blue plastic crate",
+            "white plastic containers",
+            "green plastic framing",
+            "grey plastic housing",
+            "clear plastic sheeting",
+            "other unidentifiable plastic items"
+          ],
+          "relationship_to_primary_object": "The black pipe is positioned diagonally across the foreground, with other plastic items and containers visible behind and around it.",
+          "potential_impact_on_classification": "The presence of multiple plastic items reinforces the overall plastic waste composition of the scene."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Other Plastic Items",
+          "recyclability_assessment_if_possible": "Likely recyclable as rigid plastic, depending on specific plastic type and local facilities.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic is not identifiable from the image.",
+            "The full extent and context of the pipe's use are unknown."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be a large plastic rod or support structure."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 2,
+      "crop_path": "crops/scan_1762169712/scan_1762169712_crop005.jpg",
+      "gemini_text": "{\n  \"region_id\": 2,\n  \"crop_path\": \"scan_1762169712_crop005.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Rectangular prism with tapered sides\",\n    \"size\": \"Large\",\n    \"color\": \"Gray\",\n    \"condition\": \"Used, some dirt and scuff marks\",\n    \"likely_function_or_original_purpose\": \"Container or planter\",\n    \"current_state\": \"Dirty\",\n    \"completeness_and_visibility_in_crop\": \"The object is fully visible and appears intact within the crop.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Blue plastic pipes\",\n      \"Clear plastic sheeting\",\n      \"Other plastic containers and debris\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is situated amongst other waste items in what appears to be a collection bin or dumpster.\",\n    \"potential_impact_on_classification\": \"The presence of other plastic items and general debris does not significantly alter the classification of the primary object, but suggests a mixed waste stream.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Other Plastic Items\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable, depending on specific plastic type and local recycling facility capabilities.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic (e.g., HDPE, PP) is not definitively identifiable from the image alone.\",\n      \"The specific function (e.g., planter vs. industrial container) is inferred.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be a component of a larger plastic item.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 2,
+        "crop_path": "scan_1762169712_crop005.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Rectangular prism with tapered sides",
+          "size": "Large",
+          "color": "Gray",
+          "condition": "Used, some dirt and scuff marks",
+          "likely_function_or_original_purpose": "Container or planter",
+          "current_state": "Dirty",
+          "completeness_and_visibility_in_crop": "The object is fully visible and appears intact within the crop."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Blue plastic pipes",
+            "Clear plastic sheeting",
+            "Other plastic containers and debris"
+          ],
+          "relationship_to_primary_object": "The primary object is situated amongst other waste items in what appears to be a collection bin or dumpster.",
+          "potential_impact_on_classification": "The presence of other plastic items and general debris does not significantly alter the classification of the primary object, but suggests a mixed waste stream."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Other Plastic Items",
+          "recyclability_assessment_if_possible": "Likely recyclable, depending on specific plastic type and local recycling facility capabilities.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic (e.g., HDPE, PP) is not definitively identifiable from the image alone.",
+            "The specific function (e.g., planter vs. industrial container) is inferred."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be a component of a larger plastic item."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 7,
+      "crop_path": "crops/scan_1762169712/scan_1762169712_crop006.jpg",
+      "gemini_text": "{\n  \"region_id\": 7,\n  \"crop_path\": \"scan_1762169712_crop006.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"rectangular tray with lattice structure\",\n    \"size\": \"medium\",\n    \"color\": \"blue\",\n    \"condition\": \"intact\",\n    \"likely_function_or_original_purpose\": \"storage or transport container\",\n    \"current_state\": \"appears clean\",\n    \"completeness_and_visibility_in_crop\": \"The object is mostly visible, with a small portion on the left edge potentially cropped out.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"clear plastic film/wrapping\",\n      \"other blue plastic containers (partially visible)\",\n      \"white plastic container (partially visible)\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is situated amongst other waste items, some of which appear to be similar plastic containers or packaging.\",\n    \"potential_impact_on_classification\": \"The presence of plastic film could indicate mixed waste, but the primary object is clearly a rigid plastic container.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Other Plastic Items\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable as rigid plastic, depending on local recycling facility capabilities.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 7,
+        "crop_path": "scan_1762169712_crop006.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "rectangular tray with lattice structure",
+          "size": "medium",
+          "color": "blue",
+          "condition": "intact",
+          "likely_function_or_original_purpose": "storage or transport container",
+          "current_state": "appears clean",
+          "completeness_and_visibility_in_crop": "The object is mostly visible, with a small portion on the left edge potentially cropped out."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "clear plastic film/wrapping",
+            "other blue plastic containers (partially visible)",
+            "white plastic container (partially visible)"
+          ],
+          "relationship_to_primary_object": "The primary object is situated amongst other waste items, some of which appear to be similar plastic containers or packaging.",
+          "potential_impact_on_classification": "The presence of plastic film could indicate mixed waste, but the primary object is clearly a rigid plastic container."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Other Plastic Items",
+          "recyclability_assessment_if_possible": "Likely recyclable as rigid plastic, depending on local recycling facility capabilities.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 1,
+      "crop_path": "crops/scan_1762169712/scan_1762169712_crop007.jpg",
+      "gemini_text": "{\n  \"region_id\": 1,\n  \"crop_path\": \"scan_1762169712_crop007.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"rectangular prism with angled sides\",\n    \"size\": \"large\",\n    \"color\": \"white\",\n    \"condition\": \"appears intact\",\n    \"likely_function_or_original_purpose\": \"container or packaging\",\n    \"current_state\": \"appears clean\",\n    \"completeness_and_visibility_in_crop\": \"The object is mostly visible, with its top and sides clearly depicted. Some of the bottom is obscured by other items.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"other white plastic containers\",\n      \"blue plastic crates\",\n      \"clear plastic sheeting\",\n      \"pipes\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is one of several items within a larger collection of waste, possibly in a bin or container.\",\n    \"potential_impact_on_classification\": \"The presence of multiple plastic items reinforces the classification as plastic waste. The blue crates and other containers are also plastic.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Other Plastic Containers\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable, depending on specific plastic type and local facilities.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic is not definitively identifiable from the image alone.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 1,
+        "crop_path": "scan_1762169712_crop007.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "rectangular prism with angled sides",
+          "size": "large",
+          "color": "white",
+          "condition": "appears intact",
+          "likely_function_or_original_purpose": "container or packaging",
+          "current_state": "appears clean",
+          "completeness_and_visibility_in_crop": "The object is mostly visible, with its top and sides clearly depicted. Some of the bottom is obscured by other items."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "other white plastic containers",
+            "blue plastic crates",
+            "clear plastic sheeting",
+            "pipes"
+          ],
+          "relationship_to_primary_object": "The primary object is one of several items within a larger collection of waste, possibly in a bin or container.",
+          "potential_impact_on_classification": "The presence of multiple plastic items reinforces the classification as plastic waste. The blue crates and other containers are also plastic."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Other Plastic Containers",
+          "recyclability_assessment_if_possible": "Likely recyclable, depending on specific plastic type and local facilities.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic is not definitively identifiable from the image alone."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 2,
+      "crop_path": "crops/scan_1762169712/scan_1762169712_crop008.jpg",
+      "gemini_text": "{\n  \"region_id\": 2,\n  \"crop_path\": \"scan_1762169712_crop008.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"metal\",\n    \"shape\": \"cylindrical\",\n    \"size\": \"medium\",\n    \"color\": \"silver/grey\",\n    \"condition\": \"dented\",\n    \"likely_function_or_original_purpose\": \"aerosol can\",\n    \"current_state\": \"empty, possibly containing residue\",\n    \"completeness_and_visibility_in_crop\": \"The top and a portion of the side of the can are visible. It appears to be mostly intact but shows signs of damage.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"plastic containers\",\n      \"blue plastic crates\",\n      \"white plastic sheeting\",\n      \"pipes\",\n      \"cardboard packaging\"\n    ],\n    \"relationship_to_primary_object\": \"The aerosol can is one of many items within a larger waste container, appearing to be mixed with other recyclable and non-recyclable materials.\",\n    \"potential_impact_on_classification\": \"The presence of other mixed waste items could complicate sorting and recycling processes. The aerosol can itself, if not properly emptied, could be considered hazardous.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Metals/aerosol can\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable if properly processed, but may require special handling due to potential residual contents.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact material (aluminum vs. steel) is not definitively clear from the image.\",\n      \"The extent of residual contents within the can is unknown.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Other metal container\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 2,
+        "crop_path": "scan_1762169712_crop008.jpg",
+        "primary_object_analysis": {
+          "material_composition": "metal",
+          "shape": "cylindrical",
+          "size": "medium",
+          "color": "silver/grey",
+          "condition": "dented",
+          "likely_function_or_original_purpose": "aerosol can",
+          "current_state": "empty, possibly containing residue",
+          "completeness_and_visibility_in_crop": "The top and a portion of the side of the can are visible. It appears to be mostly intact but shows signs of damage."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "plastic containers",
+            "blue plastic crates",
+            "white plastic sheeting",
+            "pipes",
+            "cardboard packaging"
+          ],
+          "relationship_to_primary_object": "The aerosol can is one of many items within a larger waste container, appearing to be mixed with other recyclable and non-recyclable materials.",
+          "potential_impact_on_classification": "The presence of other mixed waste items could complicate sorting and recycling processes. The aerosol can itself, if not properly emptied, could be considered hazardous."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Metals/aerosol can",
+          "recyclability_assessment_if_possible": "Potentially recyclable if properly processed, but may require special handling due to potential residual contents.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact material (aluminum vs. steel) is not definitively clear from the image.",
+            "The extent of residual contents within the can is unknown."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Other metal container"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 0,
+      "crop_path": "crops/scan_1762169712/scan_1762169712_crop009.jpg",
+      "gemini_text": "{\n  \"region_id\": 0,\n  \"crop_path\": \"scan_1762169712_crop009.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"rectangular crate\",\n    \"size\": \"medium\",\n    \"color\": \"blue\",\n    \"condition\": \"intact\",\n    \"likely_function_or_original_purpose\": \"storage or transport container\",\n    \"current_state\": \"appears clean\",\n    \"completeness_and_visibility_in_crop\": \"The object is mostly visible, with some edges cut off.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"a white strap or band\",\n      \"other plastic containers and debris in the background\"\n    ],\n    \"relationship_to_primary_object\": \"The white strap is attached to the blue crate.\",\n    \"potential_impact_on_classification\": \"The strap is also plastic and does not significantly alter the classification of the primary object.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Other Plastic Items\",\n    \"recyclability_assessment_if_possible\": \"Recyclable (as rigid plastic)\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 0,
+        "crop_path": "scan_1762169712_crop009.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "rectangular crate",
+          "size": "medium",
+          "color": "blue",
+          "condition": "intact",
+          "likely_function_or_original_purpose": "storage or transport container",
+          "current_state": "appears clean",
+          "completeness_and_visibility_in_crop": "The object is mostly visible, with some edges cut off."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "a white strap or band",
+            "other plastic containers and debris in the background"
+          ],
+          "relationship_to_primary_object": "The white strap is attached to the blue crate.",
+          "potential_impact_on_classification": "The strap is also plastic and does not significantly alter the classification of the primary object."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Other Plastic Items",
+          "recyclability_assessment_if_possible": "Recyclable (as rigid plastic)",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 10,
+      "crop_path": "crops/scan_1762169712/scan_1762169712_crop010.jpg",
+      "gemini_text": "{\n  \"region_id\": 10,\n  \"crop_path\": \"scan_1762169712_crop010.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"tube\",\n    \"size\": \"long, cylindrical\",\n    \"color\": \"blue\",\n    \"condition\": \"appears intact with some minor scuffs\",\n    \"likely_function_or_original_purpose\": \"plumbing pipe or conduit\",\n    \"current_state\": \"appears relatively clean\",\n    \"completeness_and_visibility_in_crop\": \"The majority of the blue pipe is visible, though its ends are not fully in frame.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"grey pipes\",\n      \"white plastic container/lid\",\n      \"white plastic sheeting\",\n      \"blue plastic crate\",\n      \"black plastic component\",\n      \"grey plastic housing/container\"\n    ],\n    \"relationship_to_primary_object\": \"The blue pipe is lying amongst other various plastic and possibly metal components, suggesting it is part of a mixed waste stream.\",\n    \"potential_impact_on_classification\": \"The presence of multiple plastic items reinforces the plastic category, but the mix of materials might affect recyclability if not sorted.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Other Plastic Items\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable as a plastic item, but dependent on the specific type of plastic and local recycling facility capabilities. The presence of other mixed plastics may complicate sorting.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic is not definitively identifiable from the image alone.\",\n      \"The full extent and condition of the pipe ends are not visible.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be part of a larger construction or industrial waste stream.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 10,
+        "crop_path": "scan_1762169712_crop010.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "tube",
+          "size": "long, cylindrical",
+          "color": "blue",
+          "condition": "appears intact with some minor scuffs",
+          "likely_function_or_original_purpose": "plumbing pipe or conduit",
+          "current_state": "appears relatively clean",
+          "completeness_and_visibility_in_crop": "The majority of the blue pipe is visible, though its ends are not fully in frame."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "grey pipes",
+            "white plastic container/lid",
+            "white plastic sheeting",
+            "blue plastic crate",
+            "black plastic component",
+            "grey plastic housing/container"
+          ],
+          "relationship_to_primary_object": "The blue pipe is lying amongst other various plastic and possibly metal components, suggesting it is part of a mixed waste stream.",
+          "potential_impact_on_classification": "The presence of multiple plastic items reinforces the plastic category, but the mix of materials might affect recyclability if not sorted."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Other Plastic Items",
+          "recyclability_assessment_if_possible": "Likely recyclable as a plastic item, but dependent on the specific type of plastic and local recycling facility capabilities. The presence of other mixed plastics may complicate sorting.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic is not definitively identifiable from the image alone.",
+            "The full extent and condition of the pipe ends are not visible."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be part of a larger construction or industrial waste stream."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 11,
+      "crop_path": "crops/scan_1762169712/scan_1762169712_crop011.jpg",
+      "gemini_text": "{\n  \"region_id\": 11,\n  \"crop_path\": \"scan_1762169712_crop011.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Container-like with internal bracing\",\n    \"size\": \"Medium to large\",\n    \"color\": \"White with some grey/blue accents\",\n    \"condition\": \"Appears intact but dirty\",\n    \"likely_function_or_original_purpose\": \"Likely a storage container or part of a larger plastic appliance\",\n    \"current_state\": \"Dirty, some scuff marks visible\",\n    \"completeness_and_visibility_in_crop\": \"The primary object is mostly visible, but its full extent is not clear due to cropping and occlusion by another object.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"A grey, angular object partially obscuring the primary object\",\n      \"Blue plastic strapping\",\n      \"Other unidentifiable plastic and metal fragments in the background\"\n    ],\n    \"relationship_to_primary_object\": \"The grey object is positioned in front of and partially covers the primary object. The strapping appears to be holding items together.\",\n    \"potential_impact_on_classification\": \"The presence of multiple plastic items and potential composite materials in the background could influence the overall waste stream classification, but the primary object is clearly plastic.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Other Plastic Items\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable, depending on the specific type of plastic and local recycling capabilities.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic is not definitively identifiable from the image.\",\n      \"The full shape and size of the primary object are not visible.\",\n      \"The presence of dirt and scuff marks makes it difficult to assess the original finish or precise color.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be a component of a larger appliance.\",\n      \"Might be a specialized industrial plastic container.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 11,
+        "crop_path": "scan_1762169712_crop011.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Container-like with internal bracing",
+          "size": "Medium to large",
+          "color": "White with some grey/blue accents",
+          "condition": "Appears intact but dirty",
+          "likely_function_or_original_purpose": "Likely a storage container or part of a larger plastic appliance",
+          "current_state": "Dirty, some scuff marks visible",
+          "completeness_and_visibility_in_crop": "The primary object is mostly visible, but its full extent is not clear due to cropping and occlusion by another object."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "A grey, angular object partially obscuring the primary object",
+            "Blue plastic strapping",
+            "Other unidentifiable plastic and metal fragments in the background"
+          ],
+          "relationship_to_primary_object": "The grey object is positioned in front of and partially covers the primary object. The strapping appears to be holding items together.",
+          "potential_impact_on_classification": "The presence of multiple plastic items and potential composite materials in the background could influence the overall waste stream classification, but the primary object is clearly plastic."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Other Plastic Items",
+          "recyclability_assessment_if_possible": "Likely recyclable, depending on the specific type of plastic and local recycling capabilities.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic is not definitively identifiable from the image.",
+            "The full shape and size of the primary object are not visible.",
+            "The presence of dirt and scuff marks makes it difficult to assess the original finish or precise color."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be a component of a larger appliance.",
+            "Might be a specialized industrial plastic container."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 9,
+      "crop_path": "crops/scan_1762169712/scan_1762169712_crop013.jpg",
+      "gemini_text": "{\n  \"region_id\": 9,\n  \"crop_path\": \"scan_1762169712_crop013.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"rectangular prism\",\n    \"size\": \"large\",\n    \"color\": \"white\",\n    \"condition\": \"intact\",\n    \"likely_function_or_original_purpose\": \"packaging or structural component\",\n    \"current_state\": \"appears clean\",\n    \"completeness_and_visibility_in_crop\": \"The object is mostly visible, taking up a significant portion of the crop. Its top surface and one side are clearly visible.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"corrugated cardboard\",\n      \"tape\",\n      \"blue plastic crates\",\n      \"white plastic containers\",\n      \"clear plastic sheeting\",\n      \"blue pipes\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object appears to be resting on or adjacent to other waste materials within a larger container.\",\n    \"potential_impact_on_classification\": \"The presence of other plastic and cardboard items suggests a mixed waste stream, but the primary object itself is clearly identifiable as plastic.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Other Plastic Items\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable as rigid plastic, depending on specific plastic type and local facilities.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic is not discernible from the image alone.\",\n      \"The specific function of the object is inferred and not definitively known.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be a component of larger furniture or appliance packaging.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 9,
+        "crop_path": "scan_1762169712_crop013.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "rectangular prism",
+          "size": "large",
+          "color": "white",
+          "condition": "intact",
+          "likely_function_or_original_purpose": "packaging or structural component",
+          "current_state": "appears clean",
+          "completeness_and_visibility_in_crop": "The object is mostly visible, taking up a significant portion of the crop. Its top surface and one side are clearly visible."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "corrugated cardboard",
+            "tape",
+            "blue plastic crates",
+            "white plastic containers",
+            "clear plastic sheeting",
+            "blue pipes"
+          ],
+          "relationship_to_primary_object": "The primary object appears to be resting on or adjacent to other waste materials within a larger container.",
+          "potential_impact_on_classification": "The presence of other plastic and cardboard items suggests a mixed waste stream, but the primary object itself is clearly identifiable as plastic."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Other Plastic Items",
+          "recyclability_assessment_if_possible": "Likely recyclable as rigid plastic, depending on specific plastic type and local facilities.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic is not discernible from the image alone.",
+            "The specific function of the object is inferred and not definitively known."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be a component of larger furniture or appliance packaging."
+          ]
+        }
+      }
+    }
+  ],
+  "gemini_metrics_per_image": {
+    "api_calls": 13,
+    "input_tokens": 20397,
+    "output_tokens": 5838,
+    "total_tokens": 26239,
+    "errors": 0,
+    "structured_parse_success": 13,
+    "structured_parse_failures": 0,
+    "cache_hits": 0,
+    "avg_response_time_ms": 2791.678942166842
+  },
+  "phase_times": {
+    "segmentation_sec": 1.4476866722106934,
+    "crop_generation_sec": 0.14169526100158691,
+    "clip_classification_sec": 0.8306334018707275,
+    "prompt_building_sec": 0.0007126331329345703,
+    "gemini_inference_sec": 28.398211240768433
+  }
+}

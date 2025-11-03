@@ -1,0 +1,181 @@
+🔍 Waste Analysis (scan 1762183605)
+📦 Crops analyzed: 13
+
+— Crop 1 (region 0): crops/scan_1762183605/scan_1762183605_crop000.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Part of a rectangular or tub-like container / Large, as it appears to be a container holding other items (context from original image)
+  • 🎨 Color: Off-white/cream
+  • 🧪 State: Dirty, intact
+  • 🎯 Purpose: A large container, possibly a bin or tub for holding waste or other items
+  • 👁 Visibility: Only the top edge and a small portion of the interior/exterior wall of the container are visible
+  • 🗂 Category: Plastics/Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable if it's a common rigid plastic, but depends on the specific plastic type (e.g., HDPE, PP) and local recycling facilities.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact type of plastic (e.g., HDPE, PP) is not discernible., Specific function beyond 'container' is not clear from the crop alone.
+
+— Crop 2 (region 3): crops/scan_1762183605/scan_1762183605_crop001.jpg
+  • 🧱 Material: Cardboard
+  • 🧩 Shape/Size: Irregularly shaped, crumpled / Large, occupying most of the crop
+  • 🎨 Color: Greyish-white
+  • 🧪 State: Dirty, damaged, crumpled
+  • 🎯 Purpose: Packaging material, such as a box or sheet
+  • 👁 Visibility: The primary object is largely visible and occupies most of the crop, though its full original shape is obscured by its crumpled state.
+  • 🔍 Other objects: Darker, irregularly shaped objects (possibly wood or other debris), Darker plastic-like elements
+  • 🔗 Relationship: These secondary elements are underneath or adjacent to the primary cardboard object, forming a pile of mixed waste.
+  • 🗂 Category: Cardboard
+  • ♻️ Recyclability: Cardboard is generally recyclable. Its current wet and crumpled state might affect its actual recyclability in some systems, but it should still be recyclable as cardboard.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The CLIP statistical context suggested 'Textiles/towel', which is visually contradicted by the clear corrugated texture of cardboard., The exact original form (e.g., box vs. flat sheet) is not fully clear due to the object's crumpled state.
+
+— Crop 3 (region 0): crops/scan_1762183605/scan_1762183605_crop002.jpg
+  • 🧱 Material: Cardboard
+  • 🧩 Shape/Size: Cylindrical / Standard size for a spirit bottle package
+  • 🎨 Color: Beige with dark brown/reddish-brown lines and a dark label
+  • 🧪 State: Intact, clean
+  • 🎯 Purpose: Packaging for a bottle of rum, possibly a gift set
+  • 👁 Visibility: Mostly visible, with slight cropping at the very top and bottom edges. The main body and label are clear.
+  • 🔍 Other objects: Crumpled paper/cardboard, Black plastic pieces, Clear plastic disc, White plastic item with 'evian' and 'BADOIT' logos
+  • 🔗 Relationship: The primary object is part of a larger collection of unrelated waste items in a bin.
+  • 🗂 Category: Cardboard
+  • ♻️ Recyclability: Generally recyclable
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 4 (region 5): crops/scan_1762183605/scan_1762183605_crop003.jpg
+  • 🧱 Material: Paper
+  • 🧩 Shape/Size: Irregular, crumpled mass / Large, fills most of the crop
+  • 🎨 Color: Off-white to light grey with darker soiled areas
+  • 🧪 State: Damaged, crumpled, possibly dirty/wet
+  • 🎯 Purpose: Packaging material, possibly molded pulp or compressed paper product
+  • 👁 Visibility: A large central portion of the object is visible, filling most of the crop
+  • 🔍 Other objects: Portions of a blue plastic crate, Black plastic components, A clear plastic disc
+  • 🔗 Relationship: The primary object is resting on or among these secondary items within a larger white bin.
+  • 🗂 Category: Paper
+  • ♻️ Recyclability: Potentially recyclable if it is solely paper/cardboard and not excessively contaminated, though its current degraded and possibly wet state might complicate recycling.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact type of paper/cardboard (e.g., molded pulp, corrugated, general paper), Degree of contamination (wetness, dirt), Possibility of it being a composite material with a paper-like exterior
+
+— Crop 5 (region 2): crops/scan_1762183605/scan_1762183605_crop004.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Long rectangular strip / Medium to large
+  • 🎨 Color: Translucent white/clear with green, red, and yellow branding
+  • 🧪 State: Dirty, discarded
+  • 🎯 Purpose: Point-of-sale display element or shelf divider for bottled water products
+  • 👁 Visibility: A significant portion of the length is visible, with ends cut off by the crop boundaries. It appears to be a complete piece of the display.
+  • 🔍 Other objects: Blue plastic crate or tray, Cylindrical object with a yellow label (possibly a coffee can), Dark, possibly plastic, structural pieces, Crumpled, light-colored material, Clear, circular plastic sheet or disc
+  • 🔗 Relationship: The primary object is resting on or leaning against these secondary elements, which appear to be other discarded items in a bin.
+  • 🗂 Category: Plastics/Other Plastic Items
+  • ♻️ Recyclability: Rigid plastics are generally recyclable, but specific types and the presence of mixed materials (like ink) can affect this. It is likely recyclable in many systems.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of rigid plastic (e.g., PET, PP, PVC) is not discernible from the image.
+
+— Crop 6 (region 9): crops/scan_1762183605/scan_1762183605_crop005.jpg
+  • 🧱 Material: Metals
+  • 🧩 Shape/Size: Irregular, crumpled mass / Large, occupying a significant portion of the crop
+  • 🎨 Color: Silvery-grey
+  • 🧪 State: Damaged and crumpled
+  • 🎯 Purpose: Packaging foil or insulation material
+  • 👁 Visibility: A large, central portion of the object is visible, but it appears to be part of a larger, amorphous mass.
+  • 🔍 Other objects: Portion of a white and yellow carton/packaging with 'La Salvetat' branding (top left), Small visible edge of a blue plastic crate/container (bottom right), Dark, possibly plastic, fragments
+  • 🔗 Relationship: These elements are mixed with the primary object within a waste container, indicating a mixed waste stream.
+  • 🗂 Category: Metals (specifically aluminum foil or similar metallic packaging)
+  • ♻️ Recyclability: Aluminum foil is generally recyclable, though its crumpled and potentially contaminated state might affect processing efficiency.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of metal (e.g., aluminum vs. other foil) is not definitively identifiable., The extent of contamination or presence of non-metallic layers is unclear.
+
+— Crop 7 (region 14): crops/scan_1762183605/scan_1762183605_crop006.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Circular disc / Large
+  • 🎨 Color: Transparent/Clear
+  • 🧪 State: Intact, possibly dirty
+  • 🎯 Purpose: Component of an electronic device, possibly a protective cover or internal separator, given the presence of holes for fasteners.
+  • 👁 Visibility: Mostly visible, a significant portion of the circular disc is present in the crop.
+  • 🔍 Other objects: White object with 'evian' and 'BADOT' text, Dark plastic pieces, Crumpled paper/cardboard-like material
+  • 🔗 Relationship: Mixed together in a waste container; the white object is partially underneath the clear plastic disc.
+  • 🗂 Category: Composite Materials (as a component of E-waste)
+  • ♻️ Recyclability: Potentially recyclable if separated, but complex if integrated into a composite electronic device due to potential mixed materials or specialized plastics.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact original purpose of the plastic disc is unclear., Whether it's a standalone plastic item or part of a larger electronic device, although the CLIP context suggests E-waste.
+
+— Crop 8 (region 9): crops/scan_1762183605/scan_1762183605_crop007.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Rectangular strip with a circular cutout / Medium-sized strip, approximately 20-30 cm long
+  • 🎨 Color: Transparent/clear, with dirt and grime
+  • 🧪 State: Dirty and discarded
+  • 🎯 Purpose: Likely a component of a retail display stand or shelf divider, possibly for beverages given the 'evian' branding visible on a similar piece in the original image.
+  • 👁 Visibility: A significant portion of the object is visible and complete within the crop, showing its length and a circular cutout.
+  • 🔍 Other objects: Blue plastic crate/basket, Darker, possibly black, plastic object, Dirt and debris
+  • 🔗 Relationship: The primary object is resting on top of the blue plastic crate and against the dark plastic object, which appear to be other discarded items in a waste container.
+  • 🗂 Category: Plastics: Other Plastic Items (likely a display component)
+  • ♻️ Recyclability: If made from a common recyclable plastic like PET or PS, it could be recyclable, but its dirty condition might complicate the process. Specific plastic type is not identifiable from the image.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact type of plastic (e.g., PET, PS, Acrylic) is not discernible., Precise original function beyond 'display component' is not fully clear without more context.
+
+— Crop 9 (region 11): crops/scan_1762183605/scan_1762183605_crop008.jpg
+  • 🧱 Material: Metal
+  • 🧩 Shape/Size: Irregular, amorphous, crumpled mass / Appears to be a substantial crumpled mass, difficult to determine exact dimensions without scale
+  • 🎨 Color: Silvery-grey with metallic sheen
+  • 🧪 State: Damaged, crumpled, possibly dirty in some areas
+  • 🎯 Purpose: Likely aluminum foil from food packaging or a disposable aluminum container
+  • 👁 Visibility: A significant portion of the crumpled metallic object is visible and forms the primary focus of the crop, though its full extent is not entirely clear.
+  • 🔍 Other objects: Portions of a white plastic bin, Crumpled cardboard or paper (above), Yellow cylindrical container (left), Black plastic pieces (below and right), Clear plastic/acrylic disc (below), White plastic strip with 'evian' and 'BADOT' branding (partially underneath)
+  • 🔗 Relationship: The primary object is co-mingled with other waste items within a white bin, resting amongst them.
+  • 🗂 Category: Metals - aluminum cans and foil
+  • ♻️ Recyclability: Likely recyclable as aluminum foil, assuming minimal food residue or contamination.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact original form of the aluminum (e.g., foil, tray) is obscured by the heavy crumpling.
+
+— Crop 10 (region 7): crops/scan_1762183605/scan_1762183605_crop009.jpg
+  • 🧱 Material: Cardboard
+  • 🧩 Shape/Size: Amorphous, crumpled, irregular mass / Medium to large (before crumpling)
+  • 🎨 Color: Greyish-white, discolored
+  • 🧪 State: Damaged, dirty, crumpled
+  • 🎯 Purpose: Packaging material, possibly a box or carton, indicated by visible text 'BLANC DE...'
+  • 👁 Visibility: A large, central portion of the object is visible and mostly complete within the crop, but its original form is completely lost due to crumpling.
+  • 🔍 Other objects: Darker, indistinct crumpled materials behind and to the right of the primary object
+  • 🔗 Relationship: These are background elements, possibly other waste items or parts of the same crumpled mass.
+  • 🗂 Category: Cardboard
+  • ♻️ Recyclability: Generally recyclable, but its heavily crumpled, degraded, and potentially wet/soiled state might compromise its recyclability.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact original form and thickness are hard to determine due to severe crumpling and degradation., It is difficult to definitively distinguish between very thick paper and thin cardboard in its current state., The extent of soiling or wetness is not fully clear, which impacts recyclability.
+
+— Crop 11 (region 3): crops/scan_1762183605/scan_1762183605_crop010.jpg
+  • 🧱 Material: Cardboard
+  • 🧩 Shape/Size: Rectangular box / Medium-sized, consistent with food packaging
+  • 🎨 Color: Dark grey/black with gold/yellow text on one side; lighter grey with scuff marks on top
+  • 🧪 State: Dirty/scuffed, possibly slightly damaged/wet
+  • 🎯 Purpose: Packaging for raisins or a similar food product
+  • 👁 Visibility: A significant portion of the box is visible, including one side with text and part of the top surface. It is mostly complete within the crop.
+  • 🔍 Other objects: Crumpled, possibly wet, paper or cardboard material, Dark, indistinct object to the right
+  • 🔗 Relationship: The crumpled material appears to be behind or on top of the primary object. The dark object is adjacent.
+  • 🗂 Category: Cardboard
+  • ♻️ Recyclability: Cardboard is generally recyclable, though its current dirty/wet condition might affect its actual recyclability in some systems.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of cardboard (e.g., corrugated vs. paperboard) is not perfectly clear., The full extent of damage/wetness is not quantifiable from the crop alone.
+
+— Crop 12 (region 12): crops/scan_1762183605/scan_1762183605_crop011.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Long, rectangular bar with a lattice-like structure on one side / Medium-sized component, approximately 30-40 cm visible length in the crop
+  • 🎨 Color: Black
+  • 🧪 State: Intact, possibly slightly dirty
+  • 🎯 Purpose: Structural component, possibly a shelf support, rail, or part of a display unit or drawer system
+  • 👁 Visibility: The object is mostly visible, extending beyond the left and right edges of the crop, suggesting it is a longer piece.
+  • 🔍 Other objects: A flat, teal/light blue object underneath the primary black plastic object, A textured, possibly fabric or paper-like crumpled object on the far left edge
+  • 🔗 Relationship: The teal object appears to be underneath the primary object, possibly part of the same larger item or a supporting element. The textured object is adjacent and partially obscured.
+  • 🗂 Category: Plastics: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable as rigid plastic, but specific recyclability depends on the exact type of plastic (resin code) and local recycling facility capabilities.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., PP, ABS) is not discernible without a resin code., The precise original item this component belonged to is not fully clear, though it appears to be a structural part of a larger plastic assembly.
+
+— Crop 13 (region 5): crops/scan_1762183605/scan_1762183605_crop012.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Long, angular, U-shaped or L-shaped profiles / Several tens of centimeters in length
+  • 🎨 Color: Black
+  • 🧪 State: Relatively clean, no significant damage or soiling visible
+  • 🎯 Purpose: Structural components or casing from electronic devices (e.g., E-waste)
+  • 👁 Visibility: Multiple pieces are visible, showing mostly complete sections of their profiles, though their full length may extend beyond the crop boundaries.
+  • 🔍 Other objects: More similar black plastic pieces in the background, Indistinct items partially obscured behind the primary objects
+  • 🔗 Relationship: The other black pieces appear to be identical or very similar components, suggesting they are part of the same type of item or system as the primary object.
+  • 🗂 Category: Composite Materials
+  • ♻️ Recyclability: Likely recyclable as part of an e-waste stream, but specific plastic type and presence of other materials would determine the exact recycling process.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact type of plastic is not identifiable., Specific electronic device these components belong to is unclear., Whether these are purely plastic or contain other integrated materials (e.g., metal inserts) is not fully discernible from the crop.

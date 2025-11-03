@@ -1,0 +1,258 @@
+🔍 Waste Analysis (scan 1762183604)
+📦 Crops analyzed: 19
+
+— Crop 1 (region 0): crops/scan_1762183604/scan_1762183604_crop000.jpg
+  • 🧱 Material: Concrete/Stone (mineral)
+  • 🧩 Shape/Size: Rectangular slab / Medium to large slab
+  • 🎨 Color: Grey base with multi-colored aggregate (white, black, brown, grey)
+  • 🧪 State: Relatively clean, appears as construction debris
+  • 🎯 Purpose: Paving slab, decorative concrete panel, or building material
+  • 👁 Visibility: Largely visible and complete, showing one main face and edges
+  • 🔍 Other objects: Brown/orange sack (possibly cement or sand), Other grey, rough-textured objects (likely concrete or construction debris), Rusty metal edge of a skip or container
+  • 🔗 Relationship: The primary object is resting on or next to other construction debris and a sack, all within a larger container.
+  • 🗂 Category: Non-Combustible Materials (specifically concrete/mineral waste)
+  • ♻️ Recyclability: Concrete can often be crushed and recycled as aggregate for new construction or road base.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 2 (region 17): crops/scan_1762183604/scan_1762183604_crop001.jpg
+  • 🧱 Material: Metal
+  • 🧩 Shape/Size: Flat or angled sheet/beam, part of a container wall / Large, part of a substantial structure
+  • 🎨 Color: Rusty brown with patches of peeling green paint
+  • 🧪 State: Damaged (rusted, paint peeling), dirty (dust/debris on surface)
+  • 🎯 Purpose: Part of a large metal container, likely a skip or dumpster for waste collection
+  • 👁 Visibility: A significant portion of the metal surface is visible, showing its texture, rust, and peeling paint. It is clearly part of a larger object, but the visible section is substantial enough for analysis.
+  • 🔍 Other objects: Grey, granular, rock-like material (likely concrete or aggregate)
+  • 🔗 Relationship: The granular material is resting against or near the metal surface, indicating the metal object is a container for such materials.
+  • 🗂 Category: Metals
+  • ♻️ Recyclability: Potentially recyclable as scrap metal, but would require cleaning and processing due to rust and paint.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 3 (region 6): crops/scan_1762183604/scan_1762183604_crop002.jpg
+  • 🧱 Material: Composite
+  • 🧩 Shape/Size: Rectangular/polygonal slabs / Large
+  • 🎨 Color: Grey with light aggregate
+  • 🧪 State: Discarded, dirty
+  • 🎯 Purpose: Paving, construction
+  • 👁 Visibility: Several pieces are visible, some appear to be complete slabs, others are fragments. They are largely visible within the crop.
+  • 🔍 Other objects: Orange and white bag (likely cement or joint filler), Other grey concrete fragments
+  • 🔗 Relationship: The bag likely contains materials used in conjunction with the concrete pavers. The other concrete fragments are similar construction waste.
+  • 🗂 Category: Non-Combustible Materials
+  • ♻️ Recyclability: Potentially recyclable as aggregate if clean and local facilities allow.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 4 (region 2): crops/scan_1762183604/scan_1762183604_crop003.jpg
+  • 🧱 Material: Composite (plastic bag with construction material contents)
+  • 🧩 Shape/Size: Rectangular bag / Large, consistent with a standard bag of construction material (e.g., 25kg)
+  • 🎨 Color: Orange, white, and black
+  • 🧪 State: Intact, contains product, relatively clean
+  • 🎯 Purpose: Packaging for tile grout or joint filler
+  • 👁 Visibility: Mostly visible, a significant portion of the front face is clear, including product information. The bottom left corner is slightly obscured.
+  • 🔍 Other objects: Grey concrete block, Other similar bags (partially visible), General debris and broken concrete pieces, Brown/beige woven bag
+  • 🔗 Relationship: The concrete block is in the foreground, partially obscuring the primary object. Other bags and debris are in the background, part of the same waste pile.
+  • 🗂 Category: Composite Materials (multi-material packaging: plastic bag containing construction material)
+  • ♻️ Recyclability: Generally not easily recyclable in standard municipal streams due to composite nature and contents; likely destined for landfill or specialized construction waste processing.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 5 (region 6): crops/scan_1762183604/scan_1762183604_crop004.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, bulky, lumpy, conforming to contents / Large, appears to be a bulk industrial bag
+  • 🎨 Color: Light beige/off-white, somewhat translucent
+  • 🧪 State: Intact but dirty with residue, discarded
+  • 🎯 Purpose: To contain and transport bulk construction materials like cement, plaster, or sand
+  • 👁 Visibility: The majority of the large bag is visible, dominating the crop, though its edges are cut off
+  • 🔍 Other objects: Fragments of broken concrete or stone blocks, A small portion of another bag (possibly paper or fabric) in the top left corner, A small piece of brown material with a dark symbol (possibly a letter) in the bottom left
+  • 🔗 Relationship: These are other pieces of construction debris, surrounding and partially supporting the primary bag, all part of the same waste pile.
+  • 🗂 Category: Plastics: Plastic Bags
+  • ♻️ Recyclability: Likely non-recyclable in standard municipal streams due to contamination with construction material and the type of plastic.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact type of plastic for the bag is not definitively identifiable., Precise contents of the bag are inferred as construction powder., The CLIP statistical context suggesting 'Metals/foil' is inconsistent with visual evidence.
+
+— Crop 6 (region 11): crops/scan_1762183604/scan_1762183604_crop005.jpg
+  • 🧱 Material: Non-Combustible Materials (concrete/cement)
+  • 🧩 Shape/Size: Irregular block-like, with rough edges / Medium-sized construction block
+  • 🎨 Color: Light grey
+  • 🧪 State: Damaged, discarded
+  • 🎯 Purpose: Construction material (e.g., paver, block, slab)
+  • 👁 Visibility: The main body of the block is visible, with some edges cropped. A distinct corner is visible at the top right.
+  • 🔍 Other objects: Portion of another concrete-like material with exposed aggregate surface (top right)
+  • 🔗 Relationship: Another piece of construction debris, likely of similar material, discarded together.
+  • 🗂 Category: Non-Combustible Materials (concrete/cement construction debris)
+  • ♻️ Recyclability: Concrete can often be crushed and recycled as aggregate, depending on local facilities and purity.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 7 (region 7): crops/scan_1762183604/scan_1762183604_crop006.jpg
+  • 🧱 Material: Woven polypropylene plastic
+  • 🧩 Shape/Size: Sack-like, rectangular when full, crumpled / Large, typical for building material bags (e.g., 25kg)
+  • 🎨 Color: Orange, white, and grey
+  • 🧪 State: Discarded, likely empty or partially empty
+  • 🎯 Purpose: Packaging for building materials like tile grout or cement
+  • 👁 Visibility: A significant portion of one bag is clearly visible, along with parts of another similar bag
+  • 🔍 Other objects: Blue plastic bag, Rusty metal container (skip/dumpster), Green foliage
+  • 🔗 Relationship: The blue plastic bag is adjacent to the primary object, both are contained within the rusty metal skip. The foliage is in the background.
+  • 🗂 Category: Plastics: Other Plastic Items (Woven polypropylene bag for building materials)
+  • ♻️ Recyclability: Potentially recyclable if clean and local facilities accept woven polypropylene, but often not recycled in construction waste streams due to contamination.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact material composition (e.g., single-layer woven plastic vs. multi-layer composite) is not 100% certain, though woven plastic is highly probable., Whether the bag is completely empty or contains residual material.
+
+— Crop 8 (region 5): crops/scan_1762183604/scan_1762183604_crop007.jpg
+  • 🧱 Material: Concrete
+  • 🧩 Shape/Size: Roughly cylindrical or block-like with a circular opening / Large, substantial segment
+  • 🎨 Color: Grey
+  • 🧪 State: Damaged and discarded
+  • 🎯 Purpose: Section of a concrete pipe, culvert, or pre-cast concrete block used in construction or drainage
+  • 👁 Visibility: A significant portion is visible, showing its characteristic shape, texture, and circular opening, though not fully complete.
+  • 🔍 Other objects: Portion of a white and orange bag with text 'ANC' and 'JOINT' (likely cement/mortar bag), Smaller, irregular pieces of concrete or rubble
+  • 🔗 Relationship: Associated with construction waste, in close proximity to the primary concrete object.
+  • 🗂 Category: Non-Combustible Materials (specifically construction and demolition waste)
+  • ♻️ Recyclability: Concrete can be crushed and recycled as aggregate, depending on local facilities and contamination.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 9 (region 4): crops/scan_1762183604/scan_1762183604_crop008.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Rectangular bag, creased / Large, consistent with construction material packaging
+  • 🎨 Color: Predominantly purple with white and black text/graphics
+  • 🧪 State: Empty or partially empty, dirty bag containing residual construction material
+  • 🎯 Purpose: Packaging for construction material, specifically mortar or adhesive
+  • 👁 Visibility: Most of the bag is visible, with the bottom portion obscured by another bag. The overall shape and branding are identifiable.
+  • 🔍 Other objects: Portion of an orange and white construction material bag, Green metal structure, Green foliage, Wooden planks in background
+  • 🔗 Relationship: The orange and white bag is partially underneath and obscuring the primary object. The green structure, foliage, and wooden planks are background elements.
+  • 🗂 Category: Plastics/Plastic Bags
+  • ♻️ Recyclability: Likely non-recyclable through standard curbside programs due to material type (often woven polypropylene or thick HDPE/LDPE) and potential contamination with residual building materials.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., HDPE, LDPE, woven PP) is not discernible, which could affect specific recycling processes., The exact amount of residual material inside the bag is unknown.
+
+— Crop 10 (region 8): crops/scan_1762183604/scan_1762183604_crop009.jpg
+  • 🧱 Material: Plastic (woven polypropylene)
+  • 🧩 Shape/Size: Sack-like, rectangular when full, somewhat flattened / Appears to be a standard large bag for construction materials (e.g., 20-25kg capacity)
+  • 🎨 Color: Orange and white
+  • 🧪 State: Intact, likely containing residual product
+  • 🎯 Purpose: Packaging for tile grout or joint filler ('JOINT FIN CARRELAGE BLANC')
+  • 👁 Visibility: The majority of the bag is visible, including prominent text, branding, and a barcode. The top and bottom edges are slightly cropped.
+  • 🔍 Other objects: Portions of other similar orange and white bags, Concrete or stone debris/slabs
+  • 🔗 Relationship: The other bags are identical or similar products, suggesting a batch of construction materials. The concrete debris is likely related construction waste.
+  • 🗂 Category: Plastics: Other Plastic Items (specifically, a woven plastic sack for construction material)
+  • ♻️ Recyclability: Woven polypropylene bags for construction materials are generally not accepted in standard curbside recycling programs due to material type and potential contamination. They often require specialized recycling streams or are disposed of as general waste.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: While clearly plastic, the specific grade of woven plastic (e.g., PP) is inferred from common packaging for such products rather than explicitly visible.
+
+— Crop 11 (region 13): crops/scan_1762183604/scan_1762183604_crop010.jpg
+  • 🧱 Material: Composite, likely woven plastic or multi-layer paper/plastic for a construction material bag
+  • 🧩 Shape/Size: Rectangular bag, somewhat deformed / Standard construction material bag size, likely 20-25kg capacity
+  • 🎨 Color: Orange with white text and labels
+  • 🧪 State: Intact, likely containing residual material, discarded as waste
+  • 🎯 Purpose: Packaging for construction material, specifically tile grout or adhesive (JOINT FIN CARRELAGE)
+  • 👁 Visibility: The primary object is largely visible and identifiable, though its bottom portion is obscured
+  • 🔍 Other objects: Another similar orange bag (partially visible to the right), A white bag (partially visible below the primary object), Brown material (possibly cardboard or paper) underneath the primary bag
+  • 🔗 Relationship: Other bags are similar waste items, likely discarded together. The brown material is underneath, possibly supporting or mixed with the primary object.
+  • 🗂 Category: Composite Materials (due to the nature of construction material bags often being multi-layered for strength and moisture resistance, or woven plastic)
+  • ♻️ Recyclability: Generally not easily recyclable due to residual contents and the material composition (often multi-layer or woven plastic that is hard to process). Typically disposed of as general construction waste.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact material composition of the bag (e.g., woven polypropylene vs. multi-layer paper/plastic)
+
+— Crop 12 (region 15): crops/scan_1762183604/scan_1762183604_crop011.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Rectangular sack / Large, consistent with construction material packaging
+  • 🎨 Color: Orange and white
+  • 🧪 State: Intact, containing product
+  • 🎯 Purpose: Packaging for tile grout
+  • 👁 Visibility: The top and a significant portion of the front of the bag are visible, appearing mostly complete.
+  • 🔍 Other objects: Another similar orange bag (partially visible), Grey concrete or stone pieces, Partial purple plastic item, Green foliage in the background
+  • 🔗 Relationship: The other orange bag is identical, suggesting it's also tile grout. The concrete/stone pieces are construction debris, likely from the same source or project. The purple item and foliage are unrelated background elements.
+  • 🗂 Category: Plastics: Plastic Bags
+  • ♻️ Recyclability: Likely not recyclable in standard municipal streams due to its heavy-duty woven plastic material and potential contamination from construction product residue.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 13 (region 1): crops/scan_1762183604/scan_1762183604_crop012.jpg
+  • 🧱 Material: Composite (paper bag with mineral contents)
+  • 🧩 Shape/Size: Rectangular bag, partially collapsed and open / Medium to large, consistent with a bag of construction material
+  • 🎨 Color: Brown/tan paper with some orange/reddish print; contents are white/light grey
+  • 🧪 State: Open, partially emptied, contents spilling, appears dirty from construction environment
+  • 🎯 Purpose: Packaging for construction materials such as cement, grout, or sand
+  • 👁 Visibility: The upper portion of the bag is visible, including its opening and some of the contents. Mostly complete within the crop, with the very bottom cut off.
+  • 🔍 Other objects: White plastic sheeting/bag material behind the paper bag, Grey, granular material (possibly gravel or concrete debris) around and under the bag, Textured, grey, possibly concrete or stone block in the foreground
+  • 🔗 Relationship: These are other pieces of construction waste or debris in the same skip, forming the environment around the primary object. The granular material is likely spilled contents or surrounding debris.
+  • 🗂 Category: Composite Materials
+  • ♻️ Recyclability: Likely not recyclable in standard streams due to contamination with mineral residues and potential plastic liner.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact composition of the mineral contents (e.g., cement, grout, sand) is not precisely identifiable from the image., The exact layering of the bag (e.g., if it has a plastic liner) is not fully visible, but common for such products.
+
+— Crop 14 (region 16): crops/scan_1762183604/scan_1762183604_crop013.jpg
+  • 🧱 Material: Plastic (woven polypropylene)
+  • 🧩 Shape/Size: Bag-like, cylindrical when full, flattened due to stacking / Large, consistent with standard construction material bags (e.g., 25kg)
+  • 🎨 Color: Predominantly orange with white labels and black text
+  • 🧪 State: Intact, appears to contain its original product, possibly dirty from a construction environment
+  • 🎯 Purpose: Packaging for construction materials such as tile adhesive, joint filler, or cement
+  • 👁 Visibility: Multiple bags are partially visible, overlapping each other. Barcodes and product text ('CARRELAGE', 'JOINT FIN') are clearly visible on the exposed surfaces.
+  • 🔍 Other objects: Portions of other identical or similar plastic bags, White granular material (likely contents of the bags or spilled material)
+  • 🔗 Relationship: Other bags are stacked with and partially obscured by the primary object. The granular material is likely the product contained within these types of bags.
+  • 🗂 Category: Plastics: Other Plastic Items (specifically woven polypropylene bags for construction materials)
+  • ♻️ Recyclability: Likely not recyclable through standard municipal curbside programs due to the specific material type (woven polypropylene) and potential contamination with construction debris. May be recyclable via specialized industrial streams if cleaned.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 15 (region 7): crops/scan_1762183604/scan_1762183604_crop014.jpg
+  • 🧱 Material: Mineral (stones/pebbles)
+  • 🧩 Shape/Size: Irregular, angular to sub-rounded fragments / Small, consistent, likely 5-20mm
+  • 🎨 Color: Dark greyish-brown
+  • 🧪 State: Contained within a mesh bag, appears clean
+  • 🎯 Purpose: Construction aggregate, landscaping material, or decorative stones
+  • 👁 Visibility: The entire bag of pebbles is visible and complete within the crop
+  • 🔍 Other objects: Mesh bag containing the pebbles, Indistinct dark background elements (likely other rubble or skip interior)
+  • 🔗 Relationship: The mesh bag is a container for the primary object (pebbles).
+  • 🗂 Category: Non-Combustible Materials
+  • ♻️ Recyclability: Pebbles/stones can be reused as aggregate or fill in construction projects.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The material of the mesh bag (likely plastic) could lead to a 'Composite Materials' classification if the bag and contents are considered a single primary object., The CLIP statistical context suggesting 'Textiles' is a misinterpretation of the mesh bag.
+
+— Crop 16 (region 3): crops/scan_1762183604/scan_1762183604_crop015.jpg
+  • 🧱 Material: Concrete/Aggregate
+  • 🧩 Shape/Size: Rectangular block / Medium-sized, larger than a hand
+  • 🎨 Color: Grey with visible aggregate particles
+  • 🧪 State: Damaged, discarded, dry
+  • 🎯 Purpose: Paving stone, concrete block, or piece of a larger concrete structure
+  • 👁 Visibility: Largely visible and complete within the crop, showing one main face and a side
+  • 🔍 Other objects: Portions of paper or plastic bags (possibly cement or jointing compound bags), Orange-colored bag
+  • 🔗 Relationship: These bags are likely other construction waste items, possibly related to the installation or use of the primary object. They are positioned behind and slightly above the primary object.
+  • 🗂 Category: Non-Combustible Materials (Construction debris)
+  • ♻️ Recyclability: Concrete and aggregate materials are often recyclable as crushed aggregate for new construction or fill, depending on local facilities and contamination.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 17 (region 10): crops/scan_1762183604/scan_1762183604_crop016.jpg
+  • 🧱 Material: Composite
+  • 🧩 Shape/Size: Bag-like, crumpled / Large
+  • 🎨 Color: Orange and white
+  • 🧪 State: Partially full or empty, crumpled
+  • 🎯 Purpose: Packaging for building materials like jointing compound or grout
+  • 👁 Visibility: Mostly complete and clearly visible, including text and barcode
+  • 🔍 Other objects: Another orange bag (similar to primary object), A purple/pink bag (likely building material packaging), White material (possibly spilled contents or other bags), Barcode label on primary object
+  • 🔗 Relationship: Other bags of similar construction materials, discarded together
+  • 🗂 Category: Composite Materials
+  • ♻️ Recyclability: Likely not recyclable in standard municipal streams due to material composition and potential contamination from contents.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: Exact multi-layer composition versus purely woven plastic is not definitively visible.
+
+— Crop 18 (region 17): crops/scan_1762183604/scan_1762183604_crop017.jpg
+  • 🧱 Material: Mineral/Stone
+  • 🧩 Shape/Size: Granular, irregular small particles forming a pile / Small (individual particles), large (overall pile)
+  • 🎨 Color: Light grey and beige
+  • 🧪 State: Intact, loose, appears clean
+  • 🎯 Purpose: Construction material (e.g., aggregate for concrete, fill, drainage)
+  • 👁 Visibility: A significant portion of the pile is visible, partially covered by another material.
+  • 🔍 Other objects: A dark, draped material (likely a tarp or heavy fabric), A small portion of a white bag with green text
+  • 🔗 Relationship: The dark material is draped over the pile of aggregate. The white bag is adjacent to the aggregate.
+  • 🗂 Category: Non-Combustible Materials
+  • ♻️ Recyclability: Yes, aggregate can often be recycled or reused as fill material in construction projects.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 19 (region 14): crops/scan_1762183604/scan_1762183604_crop018.jpg
+  • 🧱 Material: mineral/inorganic (construction aggregate/debris)
+  • 🧩 Shape/Size: irregular, granular / small granules, filling a large bag
+  • 🎨 Color: greyish-white
+  • 🧪 State: loose, granular, discarded
+  • 🎯 Purpose: construction material (e.g., sand, gravel, cement, grout)
+  • 👁 Visibility: The granular contents are fully visible within the open bag, occupying most of the crop area.
+  • 🔍 Other objects: open bag containing the granular material, portions of other white bags or containers in the background
+  • 🔗 Relationship: The bag serves as a container for the primary object. Other bags are part of the surrounding waste pile, visible in the original image context.
+  • 🗂 Category: Non-Combustible Materials (specifically construction and demolition waste)
+  • ♻️ Recyclability: Potentially recyclable as aggregate if processed at a specialized construction and demolition waste facility, but not typically suitable for standard curbside recycling.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: Exact chemical composition of the granular material (e.g., sand, gravel, cement mix) is not definitively identifiable without further testing, but its general nature as construction debris is clear from context.

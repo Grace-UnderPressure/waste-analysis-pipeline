@@ -1,0 +1,267 @@
+🔍 Waste Analysis (scan 1762169711)
+📦 Crops analyzed: 19
+
+— Crop 1 (region 3): crops/scan_1762169711/scan_1762169711_crop000.jpg
+  • 🧱 Material: Composite (likely cardboard with a plastic or coated surface)
+  • 🧩 Shape/Size: Rectangular panel / Appears to be a large panel, possibly part of a larger item
+  • 🎨 Color: Yellow with a white geometric pattern
+  • 🧪 State: Damaged and discarded
+  • 🎯 Purpose: Likely a decorative panel, signage, or part of packaging
+  • 👁 Visibility: The majority of the panel is visible, but its full extent and original form are unclear.
+  • 🔍 Other objects: Cardboard box fragment, Black plastic bags, Wooden pallet fragments, Styrofoam pieces, Plastic strapping, Paper tubes, Other unidentifiable debris
+  • 🔗 Relationship: The primary object is situated amongst other discarded waste materials, including cardboard and plastic.
+  • 🗂 Category: Composite Materials
+  • ♻️ Recyclability: Potentially recyclable if separated into its components (cardboard and coating), but the damage and mixed nature may hinder this.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact composition of the yellow surface layer is uncertain (plastic coating vs. printed paper)., The full size and original purpose of the object are not definitively clear.
+
+— Crop 2 (region 2): crops/scan_1762169711/scan_1762169711_crop001.jpg
+  • 🧱 Material: Cardboard
+  • 🧩 Shape/Size: Rectangular box / Medium
+  • 🎨 Color: Brown
+  • 🧪 State: Open and empty
+  • 🎯 Purpose: Packaging
+  • 👁 Visibility: Mostly visible, top flaps open
+  • 🔍 Other objects: Plastic bags, Wooden pallet, Plastic films, Paper tubes, Other cardboard packaging
+  • 🔗 Relationship: The primary object is placed on top of other waste materials, including a wooden pallet and various plastic and paper items.
+  • 🗂 Category: Cardboard
+  • ♻️ Recyclability: Recyclable
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 3 (region 1): crops/scan_1762169711/scan_1762169711_crop002.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: irregular / large
+  • 🎨 Color: black
+  • 🧪 State: full
+  • 🎯 Purpose: waste containment
+  • 👁 Visibility: The majority of the object is visible, appearing as a large, crumpled black plastic bag.
+  • 🔍 Other objects: wooden pallet, cardboard boxes, plastic strapping, styrofoam pieces, paper tubes, plastic films, blue plastic gloves, other unidentifiable debris
+  • 🔗 Relationship: The primary object (black plastic bag) is situated on top of a wooden pallet, surrounded by other waste materials.
+  • 🗂 Category: Plastics/Plastic Bags
+  • ♻️ Recyclability: Generally not recyclable in standard curbside programs, though some specialized recycling exists.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact contents of the bag are not visible, which could influence a more detailed classification if the contents were the primary focus.
+
+— Crop 4 (region 18): crops/scan_1762169711/scan_1762169711_crop003.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, crumpled / Medium
+  • 🎨 Color: Clear, translucent
+  • 🧪 State: Used, crumpled
+  • 🎯 Purpose: Packaging or bag
+  • 👁 Visibility: Mostly visible, but form is distorted
+  • 🔍 Other objects: Blue plastic straps, White plastic pieces, Cardboard tubes, Other crumpled plastic films, Wooden pallet fragments
+  • 🔗 Relationship: Intertwined and mixed with other waste materials
+  • 🗂 Category: Plastic Bags
+  • ♻️ Recyclability: Potentially recyclable if clean and sorted, but likely contaminated.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic film is difficult to determine due to its crumpled state., Contamination from other waste materials is evident.
+
+— Crop 5 (region 2): crops/scan_1762169711/scan_1762169711_crop004.jpg
+  • 🧱 Material: Cardboard
+  • 🧩 Shape/Size: Rectangular box / Medium
+  • 🎨 Color: Brown
+  • 🧪 State: Intact but appears used
+  • 🎯 Purpose: Packaging or shipping box
+  • 👁 Visibility: The majority of the box is visible, with one corner slightly obscured.
+  • 🔍 Other objects: Yellow and white patterned box, White styrofoam pieces, Plastic bags, Blue plastic strapping, Green plastic strapping, Paper tubes, Wooden pallet fragments, Other unidentifiable debris
+  • 🔗 Relationship: The primary object (cardboard box) is placed on top of other waste materials, including a wooden pallet and plastic strapping.
+  • 🗂 Category: Cardboard
+  • ♻️ Recyclability: Recyclable, but contamination from other materials may affect its recyclability.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact dimensions of the box are not precisely determinable from the crop., The extent of any internal contents or damage is not fully visible.
+
+— Crop 6 (region 16): crops/scan_1762169711/scan_1762169711_crop005.jpg
+  • 🧱 Material: Wood
+  • 🧩 Shape/Size: Plank / Large
+  • 🎨 Color: Light brown
+  • 🧪 State: Discarded, dirty
+  • 🎯 Purpose: Construction material, pallet component
+  • 👁 Visibility: The majority of the object is visible, appearing as two connected planks forming an L-shape.
+  • 🔍 Other objects: Plastic bags (blue, black, white), Cardboard boxes, Styrofoam pieces, Plastic strapping, Paper debris, Part of a television or electronic device (blue casing), Yellow strapping
+  • 🔗 Relationship: The wooden planks are part of a larger pile of mixed waste, with other items surrounding and partially obscuring them.
+  • 🗂 Category: Combustible Materials (Wood)
+  • ♻️ Recyclability: The wood itself is likely recyclable or compostable, but its presence in mixed waste makes separate recycling difficult.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of wood and its treatment (e.g., painted, treated) are not clearly discernible, which could affect its classification or recyclability.
+
+— Crop 7 (region 8): crops/scan_1762169711/scan_1762169711_crop006.jpg
+  • 🧱 Material: Textiles
+  • 🧩 Shape/Size: Irregular, draped / Medium
+  • 🎨 Color: Blue with white stripes
+  • 🧪 State: Used, wrinkled
+  • 🎯 Purpose: Towel or cloth material
+  • 👁 Visibility: The majority of the object is visible, but its full extent is not clear due to draping and other items.
+  • 🔍 Other objects: Yellow strapping, Clear plastic film, Cardboard tubes, Blue plastic strapping, White styrofoam pieces, Black plastic bag, Wooden pallet fragments, Cardboard box
+  • 🔗 Relationship: The blue textile is intertwined with and partially covered by other waste items, suggesting it is part of a mixed waste stream.
+  • 🗂 Category: Textiles
+  • ♻️ Recyclability: Not readily recyclable in its current state due to likely soiling and mixed waste context.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type and condition of the textile (e.g., towel vs. other fabric) are not definitively clear., The extent of soiling or contamination is difficult to ascertain from the image alone.
+
+— Crop 8 (region 5): crops/scan_1762169711/scan_1762169711_crop007.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: rectangular basin with rounded corners / large
+  • 🎨 Color: white
+  • 🧪 State: dirty
+  • 🎯 Purpose: bathtub or shower basin
+  • 👁 Visibility: The majority of the object is visible, but some edges are obscured by other waste items.
+  • 🔍 Other objects: plastic bags, cardboard boxes, plastic films, paper, blue plastic items, brown paper/cardboard packaging
+  • 🔗 Relationship: The primary object is surrounded by and partially covered by other waste materials.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable as large plastic, but may require special handling due to size and potential contamination.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image., The extent of contamination or damage is difficult to ascertain fully.
+
+— Crop 9 (region 0): crops/scan_1762169711/scan_1762169711_crop008.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: cylindrical base with a tapering body / medium
+  • 🎨 Color: light blue/grey
+  • 🧪 State: appears relatively clean
+  • 🎯 Purpose: e-waste, possibly a small appliance or charger
+  • 👁 Visibility: The bottom and lower sides of the object are visible. The top is not visible.
+  • 🔍 Other objects: yellow and green cable, white cord wrapped around the object, other unidentifiable debris in the background
+  • 🔗 Relationship: The yellow and green cable appears to be connected to or originating from the primary object.
+  • 🗂 Category: Composite Materials (E-waste)
+  • ♻️ Recyclability: E-waste is generally recyclable, but specific components and local facilities determine the exact process.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of e-waste is not definitively identifiable from the crop alone., The top portion of the object is not visible, which might provide further clues to its function.
+
+— Crop 10 (region 11): crops/scan_1762169711/scan_1762169711_crop009.jpg
+  • 🧱 Material: Composite
+  • 🧩 Shape/Size: Irregular / Large
+  • 🎨 Color: Beige/Cream
+  • 🧪 State: Appears relatively clean
+  • 🎯 Purpose: Unknown, possibly part of a larger item or packaging
+  • 👁 Visibility: The object is partially visible, taking up a significant portion of the crop. Its full extent is not clear.
+  • 🔍 Other objects: Black plastic bags, Cardboard, Plastic films, Wooden pallet fragments, Paper tubes, Green plastic strapping
+  • 🔗 Relationship: The primary object appears to be nestled amongst or partially covered by black plastic bags and other debris.
+  • 🗂 Category: Composite Material
+  • ♻️ Recyclability: Difficult to assess due to unclear material composition and potential for mixed materials. If it is a composite, it may not be easily recyclable.
+  • 📈 Confidence: C (Low: Unclear features, low confidence)
+  • ❓ Uncertainties: The exact material composition of the primary object is uncertain. It appears to be a rigid material, possibly foam or a dense composite, but it is not definitively identifiable., The shape is irregular and partially obscured, making it difficult to determine its original form or function., The statistical candidates (Metals/aerosol can, Metals/foil) do not align with the visual evidence of the primary object in the crop.
+
+— Crop 11 (region 14): crops/scan_1762169711/scan_1762169711_crop010.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: bag-like / large
+  • 🎨 Color: tan/brown
+  • 🧪 State: dirty, crumpled
+  • 🎯 Purpose: packaging or covering
+  • 👁 Visibility: The majority of the object is visible, appearing as a large, crumpled bag or sheet.
+  • 🔍 Other objects: blue plastic object with a handle and cord, clear plastic film/wrap, cardboard box (partially visible in original image), wooden pallet (partially visible in original image), various other debris including paper, plastic, and possibly metal components
+  • 🔗 Relationship: The primary object is situated amongst other waste items, appearing to be a large bag or covering that has been discarded.
+  • 🗂 Category: Plastics/other
+  • ♻️ Recyclability: Likely not recyclable due to its likely function as a disposable bag or covering, and potential contamination from being in a waste stream.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is difficult to determine from the image alone., The specific original purpose of the bag/covering is not definitively clear.
+
+— Crop 12 (region 9): crops/scan_1762169711/scan_1762169711_crop011.jpg
+  • 🧱 Material: Wood
+  • 🧩 Shape/Size: Plank / Long and narrow
+  • 🎨 Color: Light brown with greyish tones
+  • 🧪 State: Used, dirty
+  • 🎯 Purpose: Construction material, part of a pallet or framing
+  • 👁 Visibility: The majority of the plank is visible, but the top and bottom edges are cropped.
+  • 🔍 Other objects: Black plastic sheeting, Wooden pallet components, Cardboard boxes, Plastic strapping, Other debris
+  • 🔗 Relationship: The primary object appears to be part of the general debris in a waste or construction site, possibly originating from the wooden pallet structure visible in the background.
+  • 🗂 Category: Combustible Materials
+  • ♻️ Recyclability: Likely not recyclable in its current state due to contamination and potential treatment needs for wood waste.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact original use of the wood (e.g., treated vs. untreated) is unclear., The extent of contamination from other waste materials is not fully discernible.
+
+— Crop 13 (region 13): crops/scan_1762169711/scan_1762169711_crop012.jpg
+  • 🧱 Material: plastic, composite
+  • 🧩 Shape/Size: irregular / medium
+  • 🎨 Color: black, green, blue, white
+  • 🧪 State: dirty, tangled
+  • 🎯 Purpose: packaging material, strapping
+  • 👁 Visibility: partially visible, intertwined with other materials
+  • 🔍 Other objects: cardboard, plastic film, styrofoam, paper, blue plastic tubing
+  • 🔗 Relationship: intertwined and mixed with the primary object
+  • 🗂 Category: Composite Materials
+  • ♻️ Recyclability: Difficult to assess due to entanglement and mixed materials. Individual components like plastic strapping might be recyclable, but as a composite, it is likely not.
+  • 📈 Confidence: C (Low: Unclear features, low confidence)
+  • ❓ Uncertainties: The primary object is a mix of materials, making it hard to assign a single category., The exact nature and composition of the black material are unclear., The extent of contamination and degradation is not fully determinable from the crop.
+
+— Crop 14 (region 6): crops/scan_1762169711/scan_1762169711_crop013.jpg
+  • 🧱 Material: Expanded Polystyrene (EPS) foam
+  • 🧩 Shape/Size: Rectangular prism / Medium
+  • 🎨 Color: White
+  • 🧪 State: Intact
+  • 🎯 Purpose: Protective packaging material
+  • 👁 Visibility: Two pieces are clearly visible, one stacked on top of the other. The edges and surfaces are well-defined.
+  • 🔍 Other objects: Cardboard pieces, Wooden pallet fragments, Plastic films and bags, Paper tubes, Blue plastic strapping
+  • 🔗 Relationship: The EPS foam pieces are resting on top of other debris, including cardboard and wood, within a larger pile of mixed waste.
+  • 🗂 Category: Plastics/Other Plastic Items (packaging)
+  • ♻️ Recyclability: EPS foam is technically recyclable, but often not accepted in standard curbside recycling programs due to its low density and contamination issues. It is typically handled through specialized recycling streams.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic is inferred from its appearance as EPS foam, but confirmation would require material testing., The context of the original image shows a large bin of mixed waste, making it difficult to determine if this specific crop represents a dedicated stream or just part of a general disposal.
+
+— Crop 15 (region 7): crops/scan_1762169711/scan_1762169711_crop014.jpg
+  • 🧱 Material: paper
+  • 🧩 Shape/Size: flat, folded / medium
+  • 🎨 Color: white
+  • 🧪 State: discarded
+  • 🎯 Purpose: packaging or document
+  • 👁 Visibility: partially visible, folded over other items
+  • 🔍 Other objects: blue plastic strapping, grey fabric or insulation material, green plastic strapping, white foam pieces, cardboard tubes, clear plastic film, wooden pallet fragments
+  • 🔗 Relationship: The primary object is intertwined with and resting on several secondary elements, including blue plastic strapping and a grey material.
+  • 🗂 Category: Paper
+  • ♻️ Recyclability: Recyclable, but likely contaminated by other waste materials.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact nature of the paper (e.g., coated, printed) is not fully discernible., The extent of contamination from other waste materials is unclear.
+
+— Crop 16 (region 10): crops/scan_1762169711/scan_1762169711_crop015.jpg
+  • 🧱 Material: textile
+  • 🧩 Shape/Size: irregular / medium
+  • 🎨 Color: blue
+  • 🧪 State: appears used, possibly dirty
+  • 🎯 Purpose: clothing or fabric material
+  • 👁 Visibility: The object is partially visible and appears to be a crumpled piece of blue fabric.
+  • 🔍 Other objects: wooden pallet fragments, plastic packaging, cardboard, styrofoam pieces, paper, blue plastic strapping
+  • 🔗 Relationship: The primary object (blue textile) is situated within a larger collection of mixed waste, including a wooden pallet and various packaging materials.
+  • 🗂 Category: Textiles
+  • ♻️ Recyclability: Recyclability is uncertain due to the mixed nature of the waste and potential soiling of the textile.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type and condition of the textile are not fully discernible from the crop., The extent of soiling or contamination is unknown.
+
+— Crop 17 (region 1): crops/scan_1762169711/scan_1762169711_crop016.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: irregular / small
+  • 🎨 Color: white
+  • 🧪 State: dirty
+  • 🎯 Purpose: packaging material
+  • 👁 Visibility: partially visible, fragmented
+  • 🔍 Other objects: wooden pallet, plastic bags, cardboard boxes, plastic films, paper tubes, blue plastic straps, white plastic container
+  • 🔗 Relationship: The primary object appears to be part of the general debris within a larger waste container, possibly originating from packaging.
+  • 🗂 Category: Plastics/Other Plastic Items
+  • ♻️ Recyclability: EPS foam is technically recyclable, but often not collected due to low density and collection costs. Its presence in mixed waste makes it unlikely to be recycled.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic foam is difficult to determine definitively from the image alone., The extent of contamination is unclear.
+
+— Crop 18 (region 14): crops/scan_1762169711/scan_1762169711_crop017.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: bag-like / medium
+  • 🎨 Color: black
+  • 🧪 State: appears to contain waste
+  • 🎯 Purpose: waste containment
+  • 👁 Visibility: The majority of the object is visible, covering a significant portion of the crop.
+  • 🔍 Other objects: cardboard box, wooden pallet, styrofoam pieces, plastic films, paper tubes, blue plastic straps, white plastic bag
+  • 🔗 Relationship: The black plastic bag appears to be placed on top of or within a larger collection of waste, including a wooden pallet and cardboard boxes.
+  • 🗂 Category: Plastics/Plastic Bags
+  • ♻️ Recyclability: Generally not recyclable, especially if contaminated with waste.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact contents of the bag are not visible, which could affect its classification if it were a specialized bag (e.g., hazardous waste bag).
+
+— Crop 19 (region 17): crops/scan_1762169711/scan_1762169711_crop018.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: irregular / small
+  • 🎨 Color: clear, white, red, green
+  • 🧪 State: dirty, mixed with other waste
+  • 🎯 Purpose: packaging material
+  • 👁 Visibility: partially visible, appears to be a collection of various plastic packaging elements
+  • 🔍 Other objects: cardboard, wood pallet fragments, green plastic strapping, white styrofoam pieces, paper, black plastic bag
+  • 🔗 Relationship: The primary object is part of a larger collection of mixed waste, including cardboard, wood, and other plastic items.
+  • 🗂 Category: Composite Materials / Other Plastic Items
+  • ♻️ Recyclability: Difficult to assess due to mixed nature and potential contamination. Individual plastic components might be recyclable if clean and sorted, but as a whole, it appears to be mixed waste.
+  • 📈 Confidence: C (Low: Unclear features, low confidence)
+  • ❓ Uncertainties: The crop contains a mix of different plastic types and other materials, making a singular classification difficult., The exact nature and composition of all plastic elements are not clearly discernible., The overall state of the waste (e.g., contamination) is not fully clear from the crop alone.

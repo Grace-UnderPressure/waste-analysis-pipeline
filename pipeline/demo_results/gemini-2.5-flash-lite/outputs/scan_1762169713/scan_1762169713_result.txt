@@ -1,0 +1,268 @@
+🔍 Waste Analysis (scan 1762169713)
+📦 Crops analyzed: 19
+
+— Crop 1 (region 0): crops/scan_1762169713/scan_1762169713_crop000.jpg
+  • 🧱 Material: composite
+  • 🧩 Shape/Size: rectangular slab / medium
+  • 🎨 Color: grey with multi-colored aggregate
+  • 🧪 State: dirty, damaged
+  • 🎯 Purpose: building material, possibly a decorative panel or paving stone
+  • 👁 Visibility: mostly visible, but edges are obscured by other materials
+  • 🔍 Other objects: concrete rubble, bags of construction material (e.g., cement), metal debris, other construction waste
+  • 🔗 Relationship: The primary object is part of a larger collection of construction and demolition waste.
+  • 🗂 Category: Composite Materials (specifically construction waste)
+  • ♻️ Recyclability: Likely not recyclable in standard waste streams, but could potentially be crushed and reused as aggregate in new construction materials.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact composition of the aggregate within the composite material is not fully discernible., The precise original function (e.g., paving stone vs. decorative panel) is not definitively clear from the crop alone.
+
+— Crop 2 (region 17): crops/scan_1762169713/scan_1762169713_crop001.jpg
+  • 🧱 Material: metal
+  • 🧩 Shape/Size: angular / large
+  • 🎨 Color: green and rust
+  • 🧪 State: damaged, heavily rusted
+  • 🎯 Purpose: structural component, possibly from a container or machinery
+  • 👁 Visibility: A significant portion of a metal beam or edge is visible, showing extensive corrosion and peeling paint.
+  • 🔍 Other objects: concrete rubble, bags of construction material, plastic bottle
+  • 🔗 Relationship: The primary object appears to be part of the container holding the other waste materials.
+  • 🗂 Category: Metals
+  • ♻️ Recyclability: Likely recyclable as scrap metal, but condition may affect value.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact original form and function of the metal object are not fully discernible from the crop alone.
+
+— Crop 3 (region 6): crops/scan_1762169713/scan_1762169713_crop002.jpg
+  • 🧱 Material: Composite (concrete with aggregate)
+  • 🧩 Shape/Size: Irregular slabs / Large
+  • 🎨 Color: Gray with multi-colored aggregate
+  • 🧪 State: Damaged, debris
+  • 🎯 Purpose: Paving stones or construction material
+  • 👁 Visibility: Multiple pieces visible, some edges obscured
+  • 🔍 Other objects: Bag of jointing compound, Other concrete debris, Plastic bottle (pink)
+  • 🔗 Relationship: The primary objects appear to be broken pieces of paving stones or similar construction material, mixed with bags of construction supplies and other debris.
+  • 🗂 Category: Non-Combustible Materials (construction debris)
+  • ♻️ Recyclability: Likely not recyclable through standard municipal recycling streams. May be suitable for construction and demolition waste recycling or landfill.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of aggregate in the concrete is not clearly identifiable., The full extent of the original object from which these pieces came is unknown.
+
+— Crop 4 (region 2): crops/scan_1762169713/scan_1762169713_crop003.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: bag / large
+  • 🎨 Color: orange and white
+  • 🧪 State: appears to be clean
+  • 🎯 Purpose: packaging for construction material (e.g., joint compound, mortar)
+  • 👁 Visibility: The majority of the bag is visible, with some text and labels clearly legible.
+  • 🔍 Other objects: construction debris (concrete pieces), other bags of construction material, plastic bottles (pink)
+  • 🔗 Relationship: The primary object is situated amongst other construction waste and materials.
+  • 🗂 Category: Plastics/Rigid Plastic Packaging
+  • ♻️ Recyclability: Likely not recyclable due to contamination with construction materials and potential for mixed plastic types.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image alone, but it appears to be a woven polypropylene bag, common for construction materials.
+
+— Crop 5 (region 6): crops/scan_1762169713/scan_1762169713_crop004.jpg
+  • 🧱 Material: composite
+  • 🧩 Shape/Size: irregular / large
+  • 🎨 Color: tan/brown with translucent plastic wrap
+  • 🧪 State: appears dirty
+  • 🎯 Purpose: bulk material packaging
+  • 👁 Visibility: The majority of the object is visible, but its exact form is obscured by the plastic wrap and its large size.
+  • 🔍 Other objects: construction debris (concrete, gravel), paper bags (some with labels like 'JOINT GARANT'), plastic bottles (one pink)
+  • 🔗 Relationship: The primary object is situated amongst other construction waste and packaging materials.
+  • 🗂 Category: Composite Materials
+  • ♻️ Recyclability: Likely not recyclable due to its composite nature and potential contamination with construction debris. The outer plastic wrap may be recyclable if separated, but the inner contents are unknown.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact material composition of the contents within the plastic wrap is unknown., The specific type of composite material is not identifiable., The presence of other waste items in the vicinity could indicate a mixed waste stream.
+
+— Crop 6 (region 11): crops/scan_1762169713/scan_1762169713_crop005.jpg
+  • 🧱 Material: concrete
+  • 🧩 Shape/Size: irregular slab / medium
+  • 🎨 Color: light grey
+  • 🧪 State: dirty
+  • 🎯 Purpose: building material
+  • 👁 Visibility: mostly visible, top portion cut off
+  • 🔍 Other objects: piece of aggregate material, bag of joint compound, plastic bottle
+  • 🔗 Relationship: stacked on top of and adjacent to
+  • 🗂 Category: Non-Combustible Materials
+  • ♻️ Recyclability: Concrete can sometimes be recycled as aggregate, but this depends on local facilities and contamination.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact composition of the aggregate in the secondary piece is unclear.
+
+— Crop 7 (region 7): crops/scan_1762169713/scan_1762169713_crop006.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Bag / Medium
+  • 🎨 Color: Orange and white with some blue
+  • 🧪 State: Appears relatively clean
+  • 🎯 Purpose: Packaging for construction materials (e.g., joint compound, cement)
+  • 👁 Visibility: The primary object is a large, orange and white plastic bag, partially visible. Text and branding are present, suggesting it contained construction materials. A blue plastic bag is also visible to the left, partially obscuring the primary object.
+  • 🔍 Other objects: Blue plastic bag, Construction debris (concrete pieces), Other bags of construction materials
+  • 🔗 Relationship: The blue plastic bag is adjacent to and partially overlaps the primary object. Other construction debris and bags are piled around and on top of the primary object.
+  • 🗂 Category: Plastics/Other Plastic Items (packaging for construction materials)
+  • ♻️ Recyclability: Likely not recyclable due to contamination with construction materials and potential for mixed plastics.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of construction material inside the bag is not fully discernible., The blue plastic bag's material composition is not definitively identifiable from the crop.
+
+— Crop 8 (region 5): crops/scan_1762169713/scan_1762169713_crop007.jpg
+  • 🧱 Material: concrete
+  • 🧩 Shape/Size: cylindrical with a hollow center / large
+  • 🎨 Color: gray
+  • 🧪 State: damaged, dirty
+  • 🎯 Purpose: construction material, possibly a pipe or a formwork
+  • 👁 Visibility: partially visible, broken edge
+  • 🔍 Other objects: bag with orange and white labeling (likely construction material), other concrete debris, plastic bottle (pink)
+  • 🔗 Relationship: The primary object is surrounded by other construction debris and bags of materials.
+  • 🗂 Category: Non-Combustible Materials
+  • ♻️ Recyclability: Concrete is generally not recyclable in standard waste streams but can be crushed and reused as aggregate in construction.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact original purpose of the concrete object is not definitively clear due to its broken state.
+
+— Crop 9 (region 4): crops/scan_1762169713/scan_1762169713_crop008.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Bag-like / Large
+  • 🎨 Color: Purple
+  • 🧪 State: Slightly creased, possibly containing material
+  • 🎯 Purpose: Packaging for construction materials (e.g., mortar, adhesive)
+  • 👁 Visibility: Mostly visible, with some creasing obscuring full detail
+  • 🔍 Other objects: Orange bag with text, White bag with text, Concrete debris, Green metal structure (part of a bin or support)
+  • 🔗 Relationship: The primary object (purple bag) is positioned above and partially overlapping other bags and debris within what appears to be a waste container.
+  • 🗂 Category: Plastics/Plastic Bags
+  • ♻️ Recyclability: Likely not recyclable due to potential contamination with construction materials. The plastic itself might be recyclable if clean, but in this context, it's part of a mixed waste stream.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact contents of the purple bag are not visible, which could influence its classification if it were a different type of waste., The specific type of plastic is not definitively identifiable from the image alone.
+
+— Crop 10 (region 8): crops/scan_1762169713/scan_1762169713_crop009.jpg
+  • 🧱 Material: Paper/Plastic Composite
+  • 🧩 Shape/Size: Rectangular bag / Large
+  • 🎨 Color: Orange and white
+  • 🧪 State: Appears clean, but likely contains residual material
+  • 🎯 Purpose: Packaging for construction materials (e.g., joint compound, tile adhesive)
+  • 👁 Visibility: The primary object is mostly visible, with some text and branding clearly legible.
+  • 🔍 Other objects: Other bags with similar branding, Concrete or stone debris, Plastic bottle (pink), Large white plastic bag (possibly containing material)
+  • 🔗 Relationship: The primary object is one of several similar bags piled together with other construction debris in what appears to be a skip or large container.
+  • 🗂 Category: Composite Materials
+  • ♻️ Recyclability: Likely not easily recyclable due to composite nature and potential contamination with construction dust/residue.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact composition of the bag material (e.g., percentage of paper vs. plastic) is not precisely determinable from the image., The specific contents of the bags are not visible, but the branding suggests construction materials.
+
+— Crop 11 (region 13): crops/scan_1762169713/scan_1762169713_crop010.jpg
+  • 🧱 Material: Paper/Plastic composite
+  • 🧩 Shape/Size: Rectangular bag / Large
+  • 🎨 Color: Orange and white
+  • 🧪 State: Discarded
+  • 🎯 Purpose: Packaging for construction materials (e.g., mortar, grout, cement)
+  • 👁 Visibility: The primary object is mostly visible, with some text and branding clearly discernible.
+  • 🔍 Other objects: Other similar bags, Concrete debris, Construction materials, Plastic packaging (pink bottle)
+  • 🔗 Relationship: The primary object is one of several similar bags piled together with other construction waste.
+  • 🗂 Category: Paper/Composite Materials
+  • ♻️ Recyclability: Likely not recyclable due to contamination with construction debris and potential composite nature of the bag.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact composition of the bag (paper exterior with plastic lining or fully plastic) is not definitively clear from the image alone., The specific contents of the bag are not visible, but the text 'CARRELAGE' (tiling) suggests it contained construction material.
+
+— Crop 12 (region 15): crops/scan_1762169713/scan_1762169713_crop011.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: bag / large
+  • 🎨 Color: orange and white
+  • 🧪 State: appears intact and filled
+  • 🎯 Purpose: packaging for construction material (joint compound)
+  • 👁 Visibility: The majority of the bag is visible, with text clearly legible.
+  • 🔍 Other objects: other bags of similar material, pieces of concrete or aggregate, a pink plastic bottle, a white plastic bag
+  • 🔗 Relationship: The primary object is one of several bags of construction material piled together with other debris.
+  • 🗂 Category: Plastics/bag
+  • ♻️ Recyclability: Likely not recyclable due to contamination with construction materials and potential for mixed plastic types.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image alone.
+
+— Crop 13 (region 1): crops/scan_1762169713/scan_1762169713_crop012.jpg
+  • 🧱 Material: Paper/Composite
+  • 🧩 Shape/Size: Bag/Sack / Large
+  • 🎨 Color: Brown and orange
+  • 🧪 State: Dirty, possibly dusty
+  • 🎯 Purpose: Packaging for dry goods (e.g., cement, mortar, soil)
+  • 👁 Visibility: The majority of the bag is visible, but the top opening is not clearly seen. Some text and branding are visible.
+  • 🔍 Other objects: Concrete rubble and construction debris, Plastic sheeting/bagging, Other paper bags (partially visible in original image)
+  • 🔗 Relationship: The primary object is situated amongst other construction waste and debris.
+  • 🗂 Category: Composite Materials (due to potential contents and bag material)
+  • ♻️ Recyclability: Likely not recyclable in standard streams due to potential contamination from contents (e.g., cement dust). If empty and clean, the paper/plastic composite might have specific recycling streams, but this is unlikely in a mixed waste context.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact contents of the bag are not visible, only inferred from the bag type and context., The specific type of composite material (e.g., paper with plastic lining) is not fully discernible.
+
+— Crop 14 (region 16): crops/scan_1762169713/scan_1762169713_crop013.jpg
+  • 🧱 Material: Paper/Cardboard
+  • 🧩 Shape/Size: Cylindrical/Bag-like / Medium
+  • 🎨 Color: Orange and white with black text and barcodes
+  • 🧪 State: Appears to be waste, possibly dirty
+  • 🎯 Purpose: Packaging for construction materials (e.g., cement, joint compound)
+  • 👁 Visibility: Partially visible, with text and barcodes clearly discernible on the curved surface.
+  • 🔍 Other objects: Other similar bags/packaging, Construction debris (concrete, gravel), Plastic bottle (pink)
+  • 🔗 Relationship: The primary object is one of several similar bags piled together within a larger container of construction waste.
+  • 🗂 Category: Cardboard
+  • ♻️ Recyclability: Potentially recyclable if clean and free of significant contamination, but likely considered mixed waste due to its context.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact material composition is inferred from the visual appearance and common packaging for construction materials. It could be a composite material if lined., The degree of contamination from construction debris is not fully ascertainable from the crop.
+
+— Crop 15 (region 7): crops/scan_1762169713/scan_1762169713_crop014.jpg
+  • 🧱 Material: Textiles/Plastic mesh
+  • 🧩 Shape/Size: Conical/Pyramidal / Large
+  • 🎨 Color: Dark grey/Brown
+  • 🧪 State: Full
+  • 🎯 Purpose: Bag for containing granular material
+  • 👁 Visibility: The bag is fully visible and appears to be the primary focus of the crop.
+  • 🔍 Other objects: Construction debris (concrete, aggregate), Bags of construction material (e.g., cement, joint compound), Plastic bottles (pink), Metal elements (part of the container)
+  • 🔗 Relationship: The primary object (bag of material) is situated within a larger container filled with various construction waste materials.
+  • 🗂 Category: Composite Materials (bag containing granular material, likely construction aggregate)
+  • ♻️ Recyclability: The bag itself might be recyclable if made of pure plastic mesh, but the contents (likely aggregate or similar construction material) are not typically recyclable in standard streams. The overall context points to construction waste.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact nature of the granular material inside the bag is not definitively identifiable from the crop alone., The specific type of textile/mesh material of the bag is not clear.
+
+— Crop 16 (region 3): crops/scan_1762169713/scan_1762169713_crop015.jpg
+  • 🧱 Material: composite
+  • 🧩 Shape/Size: rectangular slab / medium
+  • 🎨 Color: gray with speckled aggregate
+  • 🧪 State: dirty, chipped
+  • 🎯 Purpose: building material, possibly concrete or terrazzo tile
+  • 👁 Visibility: The majority of the object is visible, but edges are chipped and worn.
+  • 🔍 Other objects: bags of construction material (e.g., joint compound), pieces of concrete or stone, plastic bottle (pink), metal sheeting (rusted)
+  • 🔗 Relationship: The primary object is part of a larger collection of construction and demolition debris.
+  • 🗂 Category: Composite Materials (construction debris)
+  • ♻️ Recyclability: Potentially recyclable as construction and demolition waste, depending on local facilities.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact composition of the aggregate within the composite material is not precisely identifiable from the image alone.
+
+— Crop 17 (region 10): crops/scan_1762169713/scan_1762169713_crop016.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: bag / large
+  • 🎨 Color: orange and white
+  • 🧪 State: appears to be full or partially full
+  • 🎯 Purpose: packaging for construction material
+  • 👁 Visibility: The majority of the bag is visible, with text and branding clearly discernible.
+  • 🔍 Other objects: other bags with similar branding and different colors (purple, white), construction debris (concrete pieces, gravel), a large white plastic bag or tarp
+  • 🔗 Relationship: The primary object is one of several similar bags piled together with construction debris.
+  • 🗂 Category: Plastics/Plastic Bags
+  • ♻️ Recyclability: Likely not recyclable due to potential contamination with construction materials and the nature of the plastic film.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact contents of the bag are not visible, but the branding suggests it contains a powder or granular material.
+
+— Crop 18 (region 17): crops/scan_1762169713/scan_1762169713_crop017.jpg
+  • 🧱 Material: composite
+  • 🧩 Shape/Size: irregular slab / medium
+  • 🎨 Color: grey with white aggregate
+  • 🧪 State: damaged, broken
+  • 🎯 Purpose: construction material, possibly a decorative concrete slab or paver
+  • 👁 Visibility: partially visible, appears to be a broken piece of a larger object
+  • 🔍 Other objects: bags of construction material (e.g., cement, joint compound), other concrete debris, plastic bottle (pink), large white plastic bag
+  • 🔗 Relationship: The primary object is part of a pile of construction debris, alongside bags of building materials and other concrete pieces.
+  • 🗂 Category: Composite Materials (construction debris)
+  • ♻️ Recyclability: Likely not recyclable through standard municipal recycling streams. May be suitable for construction and demolition waste recycling or landfill.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of composite material is difficult to determine precisely from the crop alone, but it appears to be concrete with aggregate., The full extent and original form of the primary object are not visible.
+
+— Crop 19 (region 14): crops/scan_1762169713/scan_1762169713_crop018.jpg
+  • 🧱 Material: composite
+  • 🧩 Shape/Size: irregular / medium
+  • 🎨 Color: gray, white, brown
+  • 🧪 State: fragmented, contained within a bag
+  • 🎯 Purpose: construction material, possibly concrete or aggregate
+  • 👁 Visibility: The primary object is mostly visible, appearing as a collection of broken pieces within a bag. The bag itself is partially visible.
+  • 🔍 Other objects: paper bags, plastic packaging, construction debris (concrete pieces, aggregate)
+  • 🔗 Relationship: The primary object appears to be contained within one of the paper bags, which are also present as secondary elements. Other construction debris is mixed in the scene.
+  • 🗂 Category: Composite Materials (likely construction debris)
+  • ♻️ Recyclability: Recyclable as construction aggregate if clean and sorted, but likely requires specialized processing. The paper bag is recyclable.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact composition of the primary object is not definitively clear from the crop alone; it could be a mix of concrete, plaster, or other aggregate materials., The extent of contamination with other materials is not fully discernible.

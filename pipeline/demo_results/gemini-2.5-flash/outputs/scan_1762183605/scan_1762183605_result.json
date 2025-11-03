@@ -1,0 +1,530 @@
+{
+  "success": true,
+  "scan_id": 1762183605,
+  "num_crops": 13,
+  "outputs": [
+    {
+      "region_id": 0,
+      "crop_path": "crops/scan_1762183605/scan_1762183605_crop000.jpg",
+      "gemini_text": "{\n  \"region_id\": 0,\n  \"crop_path\": \"scan_1762183605_crop000.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Part of a rectangular or tub-like container\",\n    \"size\": \"Large, as it appears to be a container holding other items (context from original image)\",\n    \"color\": \"Off-white/cream\",\n    \"condition\": \"Appears dirty with grime along the top edge\",\n    \"likely_function_or_original_purpose\": \"A large container, possibly a bin or tub for holding waste or other items\",\n    \"current_state\": \"Dirty, intact\",\n    \"completeness_and_visibility_in_crop\": \"Only the top edge and a small portion of the interior/exterior wall of the container are visible\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [],\n    \"relationship_to_primary_object\": null,\n    \"potential_impact_on_classification\": null\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Other Plastic Items\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable if it's a common rigid plastic, but depends on the specific plastic type (e.g., HDPE, PP) and local recycling facilities.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact type of plastic (e.g., HDPE, PP) is not discernible.\",\n      \"Specific function beyond 'container' is not clear from the crop alone.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 0,
+        "crop_path": "scan_1762183605_crop000.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Part of a rectangular or tub-like container",
+          "size": "Large, as it appears to be a container holding other items (context from original image)",
+          "color": "Off-white/cream",
+          "condition": "Appears dirty with grime along the top edge",
+          "likely_function_or_original_purpose": "A large container, possibly a bin or tub for holding waste or other items",
+          "current_state": "Dirty, intact",
+          "completeness_and_visibility_in_crop": "Only the top edge and a small portion of the interior/exterior wall of the container are visible"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [],
+          "relationship_to_primary_object": null,
+          "potential_impact_on_classification": null
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Other Plastic Items",
+          "recyclability_assessment_if_possible": "Likely recyclable if it's a common rigid plastic, but depends on the specific plastic type (e.g., HDPE, PP) and local recycling facilities.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact type of plastic (e.g., HDPE, PP) is not discernible.",
+            "Specific function beyond 'container' is not clear from the crop alone."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 3,
+      "crop_path": "crops/scan_1762183605/scan_1762183605_crop001.jpg",
+      "gemini_text": "{\n  \"region_id\": 3,\n  \"crop_path\": \"scan_1762183605_crop001.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Cardboard\",\n    \"shape\": \"Irregularly shaped, crumpled\",\n    \"size\": \"Large, occupying most of the crop\",\n    \"color\": \"Greyish-white\",\n    \"condition\": \"Crumpled, possibly wet, damaged\",\n    \"likely_function_or_original_purpose\": \"Packaging material, such as a box or sheet\",\n    \"current_state\": \"Dirty, damaged, crumpled\",\n    \"completeness_and_visibility_in_crop\": \"The primary object is largely visible and occupies most of the crop, though its full original shape is obscured by its crumpled state.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Darker, irregularly shaped objects (possibly wood or other debris)\",\n      \"Darker plastic-like elements\"\n    ],\n    \"relationship_to_primary_object\": \"These secondary elements are underneath or adjacent to the primary cardboard object, forming a pile of mixed waste.\",\n    \"potential_impact_on_classification\": \"They provide context that the primary object is part of a mixed waste stream, but do not directly impact the classification of the primary object itself.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Cardboard\",\n    \"recyclability_assessment_if_possible\": \"Cardboard is generally recyclable. Its current wet and crumpled state might affect its actual recyclability in some systems, but it should still be recyclable as cardboard.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The CLIP statistical context suggested 'Textiles/towel', which is visually contradicted by the clear corrugated texture of cardboard.\",\n      \"The exact original form (e.g., box vs. flat sheet) is not fully clear due to the object's crumpled state.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 3,
+        "crop_path": "scan_1762183605_crop001.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Cardboard",
+          "shape": "Irregularly shaped, crumpled",
+          "size": "Large, occupying most of the crop",
+          "color": "Greyish-white",
+          "condition": "Crumpled, possibly wet, damaged",
+          "likely_function_or_original_purpose": "Packaging material, such as a box or sheet",
+          "current_state": "Dirty, damaged, crumpled",
+          "completeness_and_visibility_in_crop": "The primary object is largely visible and occupies most of the crop, though its full original shape is obscured by its crumpled state."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Darker, irregularly shaped objects (possibly wood or other debris)",
+            "Darker plastic-like elements"
+          ],
+          "relationship_to_primary_object": "These secondary elements are underneath or adjacent to the primary cardboard object, forming a pile of mixed waste.",
+          "potential_impact_on_classification": "They provide context that the primary object is part of a mixed waste stream, but do not directly impact the classification of the primary object itself."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Cardboard",
+          "recyclability_assessment_if_possible": "Cardboard is generally recyclable. Its current wet and crumpled state might affect its actual recyclability in some systems, but it should still be recyclable as cardboard.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The CLIP statistical context suggested 'Textiles/towel', which is visually contradicted by the clear corrugated texture of cardboard.",
+            "The exact original form (e.g., box vs. flat sheet) is not fully clear due to the object's crumpled state."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 0,
+      "crop_path": "crops/scan_1762183605/scan_1762183605_crop002.jpg",
+      "gemini_text": "{\n  \"region_id\": 0,\n  \"crop_path\": \"scan_1762183605_crop002.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Cardboard\",\n    \"shape\": \"Cylindrical\",\n    \"size\": \"Standard size for a spirit bottle package\",\n    \"color\": \"Beige with dark brown/reddish-brown lines and a dark label\",\n    \"condition\": \"Intact\",\n    \"likely_function_or_original_purpose\": \"Packaging for a bottle of rum, possibly a gift set\",\n    \"current_state\": \"Intact, clean\",\n    \"completeness_and_visibility_in_crop\": \"Mostly visible, with slight cropping at the very top and bottom edges. The main body and label are clear.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Crumpled paper/cardboard\",\n      \"Black plastic pieces\",\n      \"Clear plastic disc\",\n      \"White plastic item with 'evian' and 'BADOIT' logos\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is part of a larger collection of unrelated waste items in a bin.\",\n    \"potential_impact_on_classification\": \"No direct impact on the classification of the primary object.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Cardboard\",\n    \"recyclability_assessment_if_possible\": \"Generally recyclable\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 0,
+        "crop_path": "scan_1762183605_crop002.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Cardboard",
+          "shape": "Cylindrical",
+          "size": "Standard size for a spirit bottle package",
+          "color": "Beige with dark brown/reddish-brown lines and a dark label",
+          "condition": "Intact",
+          "likely_function_or_original_purpose": "Packaging for a bottle of rum, possibly a gift set",
+          "current_state": "Intact, clean",
+          "completeness_and_visibility_in_crop": "Mostly visible, with slight cropping at the very top and bottom edges. The main body and label are clear."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Crumpled paper/cardboard",
+            "Black plastic pieces",
+            "Clear plastic disc",
+            "White plastic item with 'evian' and 'BADOIT' logos"
+          ],
+          "relationship_to_primary_object": "The primary object is part of a larger collection of unrelated waste items in a bin.",
+          "potential_impact_on_classification": "No direct impact on the classification of the primary object."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Cardboard",
+          "recyclability_assessment_if_possible": "Generally recyclable",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 5,
+      "crop_path": "crops/scan_1762183605/scan_1762183605_crop003.jpg",
+      "gemini_text": "{\n  \"region_id\": 5,\n  \"crop_path\": \"CROP from scan_1762183605_crop003.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Paper\",\n    \"shape\": \"Irregular, crumpled mass\",\n    \"size\": \"Large, fills most of the crop\",\n    \"color\": \"Off-white to light grey with darker soiled areas\",\n    \"condition\": \"Crumpled, degraded, possibly wet and torn\",\n    \"likely_function_or_original_purpose\": \"Packaging material, possibly molded pulp or compressed paper product\",\n    \"current_state\": \"Damaged, crumpled, possibly dirty/wet\",\n    \"completeness_and_visibility_in_crop\": \"A large central portion of the object is visible, filling most of the crop\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Portions of a blue plastic crate\",\n      \"Black plastic components\",\n      \"A clear plastic disc\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is resting on or among these secondary items within a larger white bin.\",\n    \"potential_impact_on_classification\": \"The presence of other materials, particularly plastics and potential e-waste components, could lead to misclassification if the primary object is not isolated, aligning with the CLIP's 'E-waste/other' suggestion for the overall context.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Paper\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable if it is solely paper/cardboard and not excessively contaminated, though its current degraded and possibly wet state might complicate recycling.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact type of paper/cardboard (e.g., molded pulp, corrugated, general paper)\",\n      \"Degree of contamination (wetness, dirt)\",\n      \"Possibility of it being a composite material with a paper-like exterior\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Composite Materials\",\n      \"Textiles\",\n      \"Organic/Putrescible Waste (if heavily soiled and biodegrading)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 5,
+        "crop_path": "CROP from scan_1762183605_crop003.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Paper",
+          "shape": "Irregular, crumpled mass",
+          "size": "Large, fills most of the crop",
+          "color": "Off-white to light grey with darker soiled areas",
+          "condition": "Crumpled, degraded, possibly wet and torn",
+          "likely_function_or_original_purpose": "Packaging material, possibly molded pulp or compressed paper product",
+          "current_state": "Damaged, crumpled, possibly dirty/wet",
+          "completeness_and_visibility_in_crop": "A large central portion of the object is visible, filling most of the crop"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Portions of a blue plastic crate",
+            "Black plastic components",
+            "A clear plastic disc"
+          ],
+          "relationship_to_primary_object": "The primary object is resting on or among these secondary items within a larger white bin.",
+          "potential_impact_on_classification": "The presence of other materials, particularly plastics and potential e-waste components, could lead to misclassification if the primary object is not isolated, aligning with the CLIP's 'E-waste/other' suggestion for the overall context."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Paper",
+          "recyclability_assessment_if_possible": "Potentially recyclable if it is solely paper/cardboard and not excessively contaminated, though its current degraded and possibly wet state might complicate recycling.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact type of paper/cardboard (e.g., molded pulp, corrugated, general paper)",
+            "Degree of contamination (wetness, dirt)",
+            "Possibility of it being a composite material with a paper-like exterior"
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Composite Materials",
+            "Textiles",
+            "Organic/Putrescible Waste (if heavily soiled and biodegrading)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 2,
+      "crop_path": "crops/scan_1762183605/scan_1762183605_crop004.jpg",
+      "gemini_text": "{\n  \"region_id\": 2,\n  \"crop_path\": \"CROP from scan_1762183605_crop004.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Long rectangular strip\",\n    \"size\": \"Medium to large\",\n    \"color\": \"Translucent white/clear with green, red, and yellow branding\",\n    \"condition\": \"Dirty and possibly weathered\",\n    \"likely_function_or_original_purpose\": \"Point-of-sale display element or shelf divider for bottled water products\",\n    \"current_state\": \"Dirty, discarded\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the length is visible, with ends cut off by the crop boundaries. It appears to be a complete piece of the display.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Blue plastic crate or tray\",\n      \"Cylindrical object with a yellow label (possibly a coffee can)\",\n      \"Dark, possibly plastic, structural pieces\",\n      \"Crumpled, light-colored material\",\n      \"Clear, circular plastic sheet or disc\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is resting on or leaning against these secondary elements, which appear to be other discarded items in a bin.\",\n    \"potential_impact_on_classification\": \"The secondary elements provide context that the primary object is part of a collection of discarded items, reinforcing its status as waste, but do not directly impact its material classification.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Other Plastic Items\",\n    \"recyclability_assessment_if_possible\": \"Rigid plastics are generally recyclable, but specific types and the presence of mixed materials (like ink) can affect this. It is likely recyclable in many systems.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of rigid plastic (e.g., PET, PP, PVC) is not discernible from the image.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 2,
+        "crop_path": "CROP from scan_1762183605_crop004.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Long rectangular strip",
+          "size": "Medium to large",
+          "color": "Translucent white/clear with green, red, and yellow branding",
+          "condition": "Dirty and possibly weathered",
+          "likely_function_or_original_purpose": "Point-of-sale display element or shelf divider for bottled water products",
+          "current_state": "Dirty, discarded",
+          "completeness_and_visibility_in_crop": "A significant portion of the length is visible, with ends cut off by the crop boundaries. It appears to be a complete piece of the display."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Blue plastic crate or tray",
+            "Cylindrical object with a yellow label (possibly a coffee can)",
+            "Dark, possibly plastic, structural pieces",
+            "Crumpled, light-colored material",
+            "Clear, circular plastic sheet or disc"
+          ],
+          "relationship_to_primary_object": "The primary object is resting on or leaning against these secondary elements, which appear to be other discarded items in a bin.",
+          "potential_impact_on_classification": "The secondary elements provide context that the primary object is part of a collection of discarded items, reinforcing its status as waste, but do not directly impact its material classification."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Other Plastic Items",
+          "recyclability_assessment_if_possible": "Rigid plastics are generally recyclable, but specific types and the presence of mixed materials (like ink) can affect this. It is likely recyclable in many systems.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of rigid plastic (e.g., PET, PP, PVC) is not discernible from the image."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 9,
+      "crop_path": "crops/scan_1762183605/scan_1762183605_crop005.jpg",
+      "gemini_text": "{\n  \"region_id\": 9,\n  \"crop_path\": \"scan_1762183605_crop005.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Metals\",\n    \"shape\": \"Irregular, crumpled mass\",\n    \"size\": \"Large, occupying a significant portion of the crop\",\n    \"color\": \"Silvery-grey\",\n    \"condition\": \"Crumpled and possibly dirty\",\n    \"likely_function_or_original_purpose\": \"Packaging foil or insulation material\",\n    \"current_state\": \"Damaged and crumpled\",\n    \"completeness_and_visibility_in_crop\": \"A large, central portion of the object is visible, but it appears to be part of a larger, amorphous mass.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Portion of a white and yellow carton/packaging with 'La Salvetat' branding (top left)\",\n      \"Small visible edge of a blue plastic crate/container (bottom right)\",\n      \"Dark, possibly plastic, fragments\"\n    ],\n    \"relationship_to_primary_object\": \"These elements are mixed with the primary object within a waste container, indicating a mixed waste stream.\",\n    \"potential_impact_on_classification\": \"The secondary elements are distinct materials (likely composite/paper and plastic) but do not obscure the primary object's features enough to impact its classification. They confirm the context of mixed waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Metals (specifically aluminum foil or similar metallic packaging)\",\n    \"recyclability_assessment_if_possible\": \"Aluminum foil is generally recyclable, though its crumpled and potentially contaminated state might affect processing efficiency.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of metal (e.g., aluminum vs. other foil) is not definitively identifiable.\",\n      \"The extent of contamination or presence of non-metallic layers is unclear.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could potentially be a composite material with a metallic layer, though the texture strongly suggests pure foil.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 9,
+        "crop_path": "scan_1762183605_crop005.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Metals",
+          "shape": "Irregular, crumpled mass",
+          "size": "Large, occupying a significant portion of the crop",
+          "color": "Silvery-grey",
+          "condition": "Crumpled and possibly dirty",
+          "likely_function_or_original_purpose": "Packaging foil or insulation material",
+          "current_state": "Damaged and crumpled",
+          "completeness_and_visibility_in_crop": "A large, central portion of the object is visible, but it appears to be part of a larger, amorphous mass."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Portion of a white and yellow carton/packaging with 'La Salvetat' branding (top left)",
+            "Small visible edge of a blue plastic crate/container (bottom right)",
+            "Dark, possibly plastic, fragments"
+          ],
+          "relationship_to_primary_object": "These elements are mixed with the primary object within a waste container, indicating a mixed waste stream.",
+          "potential_impact_on_classification": "The secondary elements are distinct materials (likely composite/paper and plastic) but do not obscure the primary object's features enough to impact its classification. They confirm the context of mixed waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Metals (specifically aluminum foil or similar metallic packaging)",
+          "recyclability_assessment_if_possible": "Aluminum foil is generally recyclable, though its crumpled and potentially contaminated state might affect processing efficiency.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of metal (e.g., aluminum vs. other foil) is not definitively identifiable.",
+            "The extent of contamination or presence of non-metallic layers is unclear."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could potentially be a composite material with a metallic layer, though the texture strongly suggests pure foil."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 14,
+      "crop_path": "crops/scan_1762183605/scan_1762183605_crop006.jpg",
+      "gemini_text": "{\n  \"region_id\": 14,\n  \"crop_path\": \"scan_1762183605_crop006.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Circular disc\",\n    \"size\": \"Large\",\n    \"color\": \"Transparent/Clear\",\n    \"condition\": \"Intact, possibly smudged\",\n    \"likely_function_or_original_purpose\": \"Component of an electronic device, possibly a protective cover or internal separator, given the presence of holes for fasteners.\",\n    \"current_state\": \"Intact, possibly dirty\",\n    \"completeness_and_visibility_in_crop\": \"Mostly visible, a significant portion of the circular disc is present in the crop.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"White object with 'evian' and 'BADOT' text\",\n      \"Dark plastic pieces\",\n      \"Crumpled paper/cardboard-like material\"\n    ],\n    \"relationship_to_primary_object\": \"Mixed together in a waste container; the white object is partially underneath the clear plastic disc.\",\n    \"potential_impact_on_classification\": \"The presence of other items suggests a mixed waste stream. The dark plastic pieces could also be related to E-waste or other plastic items, reinforcing the potential for composite waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Composite Materials (as a component of E-waste)\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable if separated, but complex if integrated into a composite electronic device due to potential mixed materials or specialized plastics.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact original purpose of the plastic disc is unclear.\",\n      \"Whether it's a standalone plastic item or part of a larger electronic device, although the CLIP context suggests E-waste.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Other Plastic Items\",\n      \"Rigid Plastic Packaging\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 14,
+        "crop_path": "scan_1762183605_crop006.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Circular disc",
+          "size": "Large",
+          "color": "Transparent/Clear",
+          "condition": "Intact, possibly smudged",
+          "likely_function_or_original_purpose": "Component of an electronic device, possibly a protective cover or internal separator, given the presence of holes for fasteners.",
+          "current_state": "Intact, possibly dirty",
+          "completeness_and_visibility_in_crop": "Mostly visible, a significant portion of the circular disc is present in the crop."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "White object with 'evian' and 'BADOT' text",
+            "Dark plastic pieces",
+            "Crumpled paper/cardboard-like material"
+          ],
+          "relationship_to_primary_object": "Mixed together in a waste container; the white object is partially underneath the clear plastic disc.",
+          "potential_impact_on_classification": "The presence of other items suggests a mixed waste stream. The dark plastic pieces could also be related to E-waste or other plastic items, reinforcing the potential for composite waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Composite Materials (as a component of E-waste)",
+          "recyclability_assessment_if_possible": "Potentially recyclable if separated, but complex if integrated into a composite electronic device due to potential mixed materials or specialized plastics.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact original purpose of the plastic disc is unclear.",
+            "Whether it's a standalone plastic item or part of a larger electronic device, although the CLIP context suggests E-waste."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Other Plastic Items",
+            "Rigid Plastic Packaging"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 9,
+      "crop_path": "crops/scan_1762183605/scan_1762183605_crop007.jpg",
+      "gemini_text": "{\n  \"region_id\": 9,\n  \"crop_path\": \"CROP from scan_1762183605_crop007.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Rectangular strip with a circular cutout\",\n    \"size\": \"Medium-sized strip, approximately 20-30 cm long\",\n    \"color\": \"Transparent/clear, with dirt and grime\",\n    \"condition\": \"Dirty, scratched, but largely intact\",\n    \"likely_function_or_original_purpose\": \"Likely a component of a retail display stand or shelf divider, possibly for beverages given the 'evian' branding visible on a similar piece in the original image.\",\n    \"current_state\": \"Dirty and discarded\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the object is visible and complete within the crop, showing its length and a circular cutout.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Blue plastic crate/basket\",\n      \"Darker, possibly black, plastic object\",\n      \"Dirt and debris\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is resting on top of the blue plastic crate and against the dark plastic object, which appear to be other discarded items in a waste container.\",\n    \"potential_impact_on_classification\": \"The presence of other plastic items (crate, dark object) in the immediate vicinity reinforces the classification of the primary object as plastic. The dirt and debris indicate a general waste context.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Other Plastic Items (likely a display component)\",\n    \"recyclability_assessment_if_possible\": \"If made from a common recyclable plastic like PET or PS, it could be recyclable, but its dirty condition might complicate the process. Specific plastic type is not identifiable from the image.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact type of plastic (e.g., PET, PS, Acrylic) is not discernible.\",\n      \"Precise original function beyond 'display component' is not fully clear without more context.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could potentially be glass, but the slight flexibility suggested by the context and the 'evian' branding on a similar item in the original image make plastic more probable.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 9,
+        "crop_path": "CROP from scan_1762183605_crop007.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Rectangular strip with a circular cutout",
+          "size": "Medium-sized strip, approximately 20-30 cm long",
+          "color": "Transparent/clear, with dirt and grime",
+          "condition": "Dirty, scratched, but largely intact",
+          "likely_function_or_original_purpose": "Likely a component of a retail display stand or shelf divider, possibly for beverages given the 'evian' branding visible on a similar piece in the original image.",
+          "current_state": "Dirty and discarded",
+          "completeness_and_visibility_in_crop": "A significant portion of the object is visible and complete within the crop, showing its length and a circular cutout."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Blue plastic crate/basket",
+            "Darker, possibly black, plastic object",
+            "Dirt and debris"
+          ],
+          "relationship_to_primary_object": "The primary object is resting on top of the blue plastic crate and against the dark plastic object, which appear to be other discarded items in a waste container.",
+          "potential_impact_on_classification": "The presence of other plastic items (crate, dark object) in the immediate vicinity reinforces the classification of the primary object as plastic. The dirt and debris indicate a general waste context."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Other Plastic Items (likely a display component)",
+          "recyclability_assessment_if_possible": "If made from a common recyclable plastic like PET or PS, it could be recyclable, but its dirty condition might complicate the process. Specific plastic type is not identifiable from the image.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact type of plastic (e.g., PET, PS, Acrylic) is not discernible.",
+            "Precise original function beyond 'display component' is not fully clear without more context."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could potentially be glass, but the slight flexibility suggested by the context and the 'evian' branding on a similar item in the original image make plastic more probable."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 11,
+      "crop_path": "crops/scan_1762183605/scan_1762183605_crop008.jpg",
+      "gemini_text": "{\n  \"region_id\": 11,\n  \"crop_path\": \"scan_1762183605_crop008.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Metal\",\n    \"shape\": \"Irregular, amorphous, crumpled mass\",\n    \"size\": \"Appears to be a substantial crumpled mass, difficult to determine exact dimensions without scale\",\n    \"color\": \"Silvery-grey with metallic sheen\",\n    \"condition\": \"Heavily crumpled and distorted\",\n    \"likely_function_or_original_purpose\": \"Likely aluminum foil from food packaging or a disposable aluminum container\",\n    \"current_state\": \"Damaged, crumpled, possibly dirty in some areas\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the crumpled metallic object is visible and forms the primary focus of the crop, though its full extent is not entirely clear.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Portions of a white plastic bin\",\n      \"Crumpled cardboard or paper (above)\",\n      \"Yellow cylindrical container (left)\",\n      \"Black plastic pieces (below and right)\",\n      \"Clear plastic/acrylic disc (below)\",\n      \"White plastic strip with 'evian' and 'BADOT' branding (partially underneath)\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is co-mingled with other waste items within a white bin, resting amongst them.\",\n    \"potential_impact_on_classification\": \"The surrounding items do not alter the classification of the primary metallic object but confirm it is part of a mixed waste stream.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Metals - aluminum cans and foil\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable as aluminum foil, assuming minimal food residue or contamination.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact original form of the aluminum (e.g., foil, tray) is obscured by the heavy crumpling.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 11,
+        "crop_path": "scan_1762183605_crop008.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Metal",
+          "shape": "Irregular, amorphous, crumpled mass",
+          "size": "Appears to be a substantial crumpled mass, difficult to determine exact dimensions without scale",
+          "color": "Silvery-grey with metallic sheen",
+          "condition": "Heavily crumpled and distorted",
+          "likely_function_or_original_purpose": "Likely aluminum foil from food packaging or a disposable aluminum container",
+          "current_state": "Damaged, crumpled, possibly dirty in some areas",
+          "completeness_and_visibility_in_crop": "A significant portion of the crumpled metallic object is visible and forms the primary focus of the crop, though its full extent is not entirely clear."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Portions of a white plastic bin",
+            "Crumpled cardboard or paper (above)",
+            "Yellow cylindrical container (left)",
+            "Black plastic pieces (below and right)",
+            "Clear plastic/acrylic disc (below)",
+            "White plastic strip with 'evian' and 'BADOT' branding (partially underneath)"
+          ],
+          "relationship_to_primary_object": "The primary object is co-mingled with other waste items within a white bin, resting amongst them.",
+          "potential_impact_on_classification": "The surrounding items do not alter the classification of the primary metallic object but confirm it is part of a mixed waste stream."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Metals - aluminum cans and foil",
+          "recyclability_assessment_if_possible": "Likely recyclable as aluminum foil, assuming minimal food residue or contamination.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact original form of the aluminum (e.g., foil, tray) is obscured by the heavy crumpling."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 7,
+      "crop_path": "crops/scan_1762183605/scan_1762183605_crop009.jpg",
+      "gemini_text": "{\n  \"region_id\": 7,\n  \"crop_path\": \"scan_1762183605_crop009.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Cardboard\",\n    \"shape\": \"Amorphous, crumpled, irregular mass\",\n    \"size\": \"Medium to large (before crumpling)\",\n    \"color\": \"Greyish-white, discolored\",\n    \"condition\": \"Heavily crumpled, degraded, possibly wet\",\n    \"likely_function_or_original_purpose\": \"Packaging material, possibly a box or carton, indicated by visible text 'BLANC DE...'\",\n    \"current_state\": \"Damaged, dirty, crumpled\",\n    \"completeness_and_visibility_in_crop\": \"A large, central portion of the object is visible and mostly complete within the crop, but its original form is completely lost due to crumpling.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Darker, indistinct crumpled materials behind and to the right of the primary object\"\n    ],\n    \"relationship_to_primary_object\": \"These are background elements, possibly other waste items or parts of the same crumpled mass.\",\n    \"potential_impact_on_classification\": \"The secondary elements in the crop are mostly obscured or indistinct and do not significantly impact the classification of the primary object.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Cardboard\",\n    \"recyclability_assessment_if_possible\": \"Generally recyclable, but its heavily crumpled, degraded, and potentially wet/soiled state might compromise its recyclability.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact original form and thickness are hard to determine due to severe crumpling and degradation.\",\n      \"It is difficult to definitively distinguish between very thick paper and thin cardboard in its current state.\",\n      \"The extent of soiling or wetness is not fully clear, which impacts recyclability.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Paper (thick paper packaging)\",\n      \"Textiles (less likely given the visible texture and text)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 7,
+        "crop_path": "scan_1762183605_crop009.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Cardboard",
+          "shape": "Amorphous, crumpled, irregular mass",
+          "size": "Medium to large (before crumpling)",
+          "color": "Greyish-white, discolored",
+          "condition": "Heavily crumpled, degraded, possibly wet",
+          "likely_function_or_original_purpose": "Packaging material, possibly a box or carton, indicated by visible text 'BLANC DE...'",
+          "current_state": "Damaged, dirty, crumpled",
+          "completeness_and_visibility_in_crop": "A large, central portion of the object is visible and mostly complete within the crop, but its original form is completely lost due to crumpling."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Darker, indistinct crumpled materials behind and to the right of the primary object"
+          ],
+          "relationship_to_primary_object": "These are background elements, possibly other waste items or parts of the same crumpled mass.",
+          "potential_impact_on_classification": "The secondary elements in the crop are mostly obscured or indistinct and do not significantly impact the classification of the primary object."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Cardboard",
+          "recyclability_assessment_if_possible": "Generally recyclable, but its heavily crumpled, degraded, and potentially wet/soiled state might compromise its recyclability.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact original form and thickness are hard to determine due to severe crumpling and degradation.",
+            "It is difficult to definitively distinguish between very thick paper and thin cardboard in its current state.",
+            "The extent of soiling or wetness is not fully clear, which impacts recyclability."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Paper (thick paper packaging)",
+            "Textiles (less likely given the visible texture and text)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 3,
+      "crop_path": "crops/scan_1762183605/scan_1762183605_crop010.jpg",
+      "gemini_text": "{\n  \"region_id\": 3,\n  \"crop_path\": \"CROP from scan_1762183605_crop010.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Cardboard\",\n    \"shape\": \"Rectangular box\",\n    \"size\": \"Medium-sized, consistent with food packaging\",\n    \"color\": \"Dark grey/black with gold/yellow text on one side; lighter grey with scuff marks on top\",\n    \"condition\": \"Scuffed, possibly slightly crushed or wet on the top edge\",\n    \"likely_function_or_original_purpose\": \"Packaging for raisins or a similar food product\",\n    \"current_state\": \"Dirty/scuffed, possibly slightly damaged/wet\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the box is visible, including one side with text and part of the top surface. It is mostly complete within the crop.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Crumpled, possibly wet, paper or cardboard material\",\n      \"Dark, indistinct object to the right\"\n    ],\n    \"relationship_to_primary_object\": \"The crumpled material appears to be behind or on top of the primary object. The dark object is adjacent.\",\n    \"potential_impact_on_classification\": \"The crumpled material reinforces the idea of paper/cardboard waste. The dark object is too indistinct to impact the primary classification.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Cardboard\",\n    \"recyclability_assessment_if_possible\": \"Cardboard is generally recyclable, though its current dirty/wet condition might affect its actual recyclability in some systems.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of cardboard (e.g., corrugated vs. paperboard) is not perfectly clear.\",\n      \"The full extent of damage/wetness is not quantifiable from the crop alone.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 3,
+        "crop_path": "CROP from scan_1762183605_crop010.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Cardboard",
+          "shape": "Rectangular box",
+          "size": "Medium-sized, consistent with food packaging",
+          "color": "Dark grey/black with gold/yellow text on one side; lighter grey with scuff marks on top",
+          "condition": "Scuffed, possibly slightly crushed or wet on the top edge",
+          "likely_function_or_original_purpose": "Packaging for raisins or a similar food product",
+          "current_state": "Dirty/scuffed, possibly slightly damaged/wet",
+          "completeness_and_visibility_in_crop": "A significant portion of the box is visible, including one side with text and part of the top surface. It is mostly complete within the crop."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Crumpled, possibly wet, paper or cardboard material",
+            "Dark, indistinct object to the right"
+          ],
+          "relationship_to_primary_object": "The crumpled material appears to be behind or on top of the primary object. The dark object is adjacent.",
+          "potential_impact_on_classification": "The crumpled material reinforces the idea of paper/cardboard waste. The dark object is too indistinct to impact the primary classification."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Cardboard",
+          "recyclability_assessment_if_possible": "Cardboard is generally recyclable, though its current dirty/wet condition might affect its actual recyclability in some systems.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of cardboard (e.g., corrugated vs. paperboard) is not perfectly clear.",
+            "The full extent of damage/wetness is not quantifiable from the crop alone."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 12,
+      "crop_path": "crops/scan_1762183605/scan_1762183605_crop011.jpg",
+      "gemini_text": "{\n  \"region_id\": 12,\n  \"crop_path\": \"CROP from scan_1762183605_crop011.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Long, rectangular bar with a lattice-like structure on one side\",\n    \"size\": \"Medium-sized component, approximately 30-40 cm visible length in the crop\",\n    \"color\": \"Black\",\n    \"condition\": \"Appears intact, no significant damage visible\",\n    \"likely_function_or_original_purpose\": \"Structural component, possibly a shelf support, rail, or part of a display unit or drawer system\",\n    \"current_state\": \"Intact, possibly slightly dirty\",\n    \"completeness_and_visibility_in_crop\": \"The object is mostly visible, extending beyond the left and right edges of the crop, suggesting it is a longer piece.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"A flat, teal/light blue object underneath the primary black plastic object\",\n      \"A textured, possibly fabric or paper-like crumpled object on the far left edge\"\n    ],\n    \"relationship_to_primary_object\": \"The teal object appears to be underneath the primary object, possibly part of the same larger item or a supporting element. The textured object is adjacent and partially obscured.\",\n    \"potential_impact_on_classification\": \"The teal object also appears to be plastic, reinforcing the primary object's material classification. The textured object does not contradict the primary classification.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Other Plastic Items\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable as rigid plastic, but specific recyclability depends on the exact type of plastic (resin code) and local recycling facility capabilities.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic (e.g., PP, ABS) is not discernible without a resin code.\",\n      \"The precise original item this component belonged to is not fully clear, though it appears to be a structural part of a larger plastic assembly.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 12,
+        "crop_path": "CROP from scan_1762183605_crop011.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Long, rectangular bar with a lattice-like structure on one side",
+          "size": "Medium-sized component, approximately 30-40 cm visible length in the crop",
+          "color": "Black",
+          "condition": "Appears intact, no significant damage visible",
+          "likely_function_or_original_purpose": "Structural component, possibly a shelf support, rail, or part of a display unit or drawer system",
+          "current_state": "Intact, possibly slightly dirty",
+          "completeness_and_visibility_in_crop": "The object is mostly visible, extending beyond the left and right edges of the crop, suggesting it is a longer piece."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "A flat, teal/light blue object underneath the primary black plastic object",
+            "A textured, possibly fabric or paper-like crumpled object on the far left edge"
+          ],
+          "relationship_to_primary_object": "The teal object appears to be underneath the primary object, possibly part of the same larger item or a supporting element. The textured object is adjacent and partially obscured.",
+          "potential_impact_on_classification": "The teal object also appears to be plastic, reinforcing the primary object's material classification. The textured object does not contradict the primary classification."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Other Plastic Items",
+          "recyclability_assessment_if_possible": "Likely recyclable as rigid plastic, but specific recyclability depends on the exact type of plastic (resin code) and local recycling facility capabilities.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic (e.g., PP, ABS) is not discernible without a resin code.",
+            "The precise original item this component belonged to is not fully clear, though it appears to be a structural part of a larger plastic assembly."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 5,
+      "crop_path": "crops/scan_1762183605/scan_1762183605_crop012.jpg",
+      "gemini_text": "{\n  \"region_id\": 5,\n  \"crop_path\": \"scan_1762183605_crop012.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Long, angular, U-shaped or L-shaped profiles\",\n    \"size\": \"Several tens of centimeters in length\",\n    \"color\": \"Black\",\n    \"condition\": \"Mostly intact, appears sturdy\",\n    \"likely_function_or_original_purpose\": \"Structural components or casing from electronic devices (e.g., E-waste)\",\n    \"current_state\": \"Relatively clean, no significant damage or soiling visible\",\n    \"completeness_and_visibility_in_crop\": \"Multiple pieces are visible, showing mostly complete sections of their profiles, though their full length may extend beyond the crop boundaries.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"More similar black plastic pieces in the background\",\n      \"Indistinct items partially obscured behind the primary objects\"\n    ],\n    \"relationship_to_primary_object\": \"The other black pieces appear to be identical or very similar components, suggesting they are part of the same type of item or system as the primary object.\",\n    \"potential_impact_on_classification\": \"The presence of multiple similar pieces reinforces the classification as components of a larger plastic or electronic item.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Composite Materials\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable as part of an e-waste stream, but specific plastic type and presence of other materials would determine the exact recycling process.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact type of plastic is not identifiable.\",\n      \"Specific electronic device these components belong to is unclear.\",\n      \"Whether these are purely plastic or contain other integrated materials (e.g., metal inserts) is not fully discernible from the crop.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Other Plastic Items (if purely plastic and not part of a complex electronic device)\",\n      \"Non-Combustible Materials (if they are a specialized industrial plastic not typically recycled with common plastics)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 5,
+        "crop_path": "scan_1762183605_crop012.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Long, angular, U-shaped or L-shaped profiles",
+          "size": "Several tens of centimeters in length",
+          "color": "Black",
+          "condition": "Mostly intact, appears sturdy",
+          "likely_function_or_original_purpose": "Structural components or casing from electronic devices (e.g., E-waste)",
+          "current_state": "Relatively clean, no significant damage or soiling visible",
+          "completeness_and_visibility_in_crop": "Multiple pieces are visible, showing mostly complete sections of their profiles, though their full length may extend beyond the crop boundaries."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "More similar black plastic pieces in the background",
+            "Indistinct items partially obscured behind the primary objects"
+          ],
+          "relationship_to_primary_object": "The other black pieces appear to be identical or very similar components, suggesting they are part of the same type of item or system as the primary object.",
+          "potential_impact_on_classification": "The presence of multiple similar pieces reinforces the classification as components of a larger plastic or electronic item."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Composite Materials",
+          "recyclability_assessment_if_possible": "Likely recyclable as part of an e-waste stream, but specific plastic type and presence of other materials would determine the exact recycling process.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact type of plastic is not identifiable.",
+            "Specific electronic device these components belong to is unclear.",
+            "Whether these are purely plastic or contain other integrated materials (e.g., metal inserts) is not fully discernible from the crop."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Other Plastic Items (if purely plastic and not part of a complex electronic device)",
+            "Non-Combustible Materials (if they are a specialized industrial plastic not typically recycled with common plastics)"
+          ]
+        }
+      }
+    }
+  ],
+  "gemini_metrics_per_image": {
+    "api_calls": 13,
+    "input_tokens": 20360,
+    "output_tokens": 6633,
+    "total_tokens": 38553,
+    "errors": 0,
+    "structured_parse_success": 13,
+    "structured_parse_failures": 0,
+    "cache_hits": 0,
+    "avg_response_time_ms": 13536.656086261455
+  },
+  "phase_times": {
+    "segmentation_sec": 2.498699188232422,
+    "crop_generation_sec": 0.4365212917327881,
+    "clip_classification_sec": 1.0622599124908447,
+    "prompt_building_sec": 0.00121307373046875,
+    "gemini_inference_sec": 113.23703336715698
+  }
+}

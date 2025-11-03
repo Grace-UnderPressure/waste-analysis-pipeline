@@ -1,0 +1,296 @@
+{
+  "input_dir": "/mnt/e/wastetide/experiments/WCR_demo/test_pipeline_VM/image_api_template/upload_vm_bundle/pipeline/visualization_sample-imgs",
+  "num_images": 8,
+  "run_started": 1762169715,
+  "items": [
+    {
+      "scan_id": 1762169709,
+      "image": "ALTRIANE_image1.jpeg",
+      "success": true,
+      "num_crops": 8,
+      "elapsed_sec": 23.71180748939514,
+      "mode": "chunked(size=4, workers=2)",
+      "phase_times": {
+        "segmentation_sec": 3.326,
+        "crop_generation_sec": 0.472,
+        "clip_classification_sec": 0.88,
+        "prompt_building_sec": 0.001,
+        "gemini_inference_sec": 18.305
+      },
+      "gemini_metrics_per_image": {
+        "gm_api_calls_image": 8,
+        "gm_input_tokens_image": 12400,
+        "gm_output_tokens_image": 3681,
+        "gm_total_tokens_image": 16081,
+        "gm_avg_response_time_ms_image": 3608.267694711685,
+        "gm_errors_image": 0,
+        "gm_structured_parse_success_image": 8,
+        "gm_structured_parse_failures_image": 0
+      },
+      "gemini_metrics_cumulative": {
+        "gm_total_input_tokens": 12400,
+        "gm_total_output_tokens": 3681,
+        "gm_total_tokens": 16081,
+        "gm_avg_response_time_ms": 3608.267694711685,
+        "gm_api_calls": 8,
+        "gm_cache_hits": 0,
+        "gm_errors": 0,
+        "gm_structured_parse_success": 8,
+        "gm_structured_parse_failures": 0
+      }
+    },
+    {
+      "scan_id": 1762169710,
+      "image": "ALTRIANE_image6.jpeg",
+      "success": true,
+      "num_crops": 9,
+      "elapsed_sec": 28.156115293502808,
+      "mode": "chunked(size=4, workers=2)",
+      "phase_times": {
+        "segmentation_sec": 3.298,
+        "crop_generation_sec": 1.0,
+        "clip_classification_sec": 1.055,
+        "prompt_building_sec": 0.0,
+        "gemini_inference_sec": 21.83
+      },
+      "gemini_metrics_per_image": {
+        "gm_api_calls_image": 9,
+        "gm_input_tokens_image": 13987,
+        "gm_output_tokens_image": 4248,
+        "gm_total_tokens_image": 18235,
+        "gm_avg_response_time_ms_image": 3644.0692212846543,
+        "gm_errors_image": 0,
+        "gm_structured_parse_success_image": 9,
+        "gm_structured_parse_failures_image": 0
+      },
+      "gemini_metrics_cumulative": {
+        "gm_total_input_tokens": 26387,
+        "gm_total_output_tokens": 7929,
+        "gm_total_tokens": 34316,
+        "gm_avg_response_time_ms": 3627.2214440738453,
+        "gm_api_calls": 17,
+        "gm_cache_hits": 0,
+        "gm_errors": 0,
+        "gm_structured_parse_success": 17,
+        "gm_structured_parse_failures": 0
+      }
+    },
+    {
+      "scan_id": 1762169711,
+      "image": "Bricocash_1000012817.jpg",
+      "success": true,
+      "num_crops": 19,
+      "elapsed_sec": 46.764886140823364,
+      "mode": "chunked(size=4, workers=2)",
+      "phase_times": {
+        "segmentation_sec": 2.496,
+        "crop_generation_sec": 0.193,
+        "clip_classification_sec": 1.287,
+        "prompt_building_sec": 0.001,
+        "gemini_inference_sec": 42.553
+      },
+      "gemini_metrics_per_image": {
+        "gm_api_calls_image": 19,
+        "gm_input_tokens_image": 29870,
+        "gm_output_tokens_image": 9328,
+        "gm_total_tokens_image": 39198,
+        "gm_avg_response_time_ms_image": 3085.51950203745,
+        "gm_errors_image": 0,
+        "gm_structured_parse_success_image": 19,
+        "gm_structured_parse_failures_image": 0
+      },
+      "gemini_metrics_cumulative": {
+        "gm_total_input_tokens": 56257,
+        "gm_total_output_tokens": 17257,
+        "gm_total_tokens": 73514,
+        "gm_avg_response_time_ms": 3341.32319688797,
+        "gm_api_calls": 36,
+        "gm_cache_hits": 0,
+        "gm_errors": 0,
+        "gm_structured_parse_success": 36,
+        "gm_structured_parse_failures": 0
+      }
+    },
+    {
+      "scan_id": 1762169712,
+      "image": "Bricocash_1000012819.jpg",
+      "success": true,
+      "num_crops": 13,
+      "elapsed_sec": 31.012691497802734,
+      "mode": "chunked(size=4, workers=2)",
+      "phase_times": {
+        "segmentation_sec": 1.448,
+        "crop_generation_sec": 0.142,
+        "clip_classification_sec": 0.831,
+        "prompt_building_sec": 0.001,
+        "gemini_inference_sec": 28.398
+      },
+      "gemini_metrics_per_image": {
+        "gm_api_calls_image": 13,
+        "gm_input_tokens_image": 20397,
+        "gm_output_tokens_image": 5838,
+        "gm_total_tokens_image": 26239,
+        "gm_avg_response_time_ms_image": 2791.678942166842,
+        "gm_errors_image": 0,
+        "gm_structured_parse_success_image": 13,
+        "gm_structured_parse_failures_image": 0
+      },
+      "gemini_metrics_cumulative": {
+        "gm_total_input_tokens": 76654,
+        "gm_total_output_tokens": 23095,
+        "gm_total_tokens": 99753,
+        "gm_avg_response_time_ms": 3195.4992109415484,
+        "gm_api_calls": 49,
+        "gm_cache_hits": 0,
+        "gm_errors": 0,
+        "gm_structured_parse_success": 49,
+        "gm_structured_parse_failures": 0
+      }
+    },
+    {
+      "scan_id": 1762169713,
+      "image": "Bricocash_1000012823.jpg",
+      "success": true,
+      "num_crops": 19,
+      "elapsed_sec": 46.12515068054199,
+      "mode": "chunked(size=4, workers=2)",
+      "phase_times": {
+        "segmentation_sec": 2.557,
+        "crop_generation_sec": 0.281,
+        "clip_classification_sec": 1.253,
+        "prompt_building_sec": 0.001,
+        "gemini_inference_sec": 41.768
+      },
+      "gemini_metrics_per_image": {
+        "gm_api_calls_image": 19,
+        "gm_input_tokens_image": 29851,
+        "gm_output_tokens_image": 8949,
+        "gm_total_tokens_image": 38800,
+        "gm_avg_response_time_ms_image": 2944.7379112243652,
+        "gm_errors_image": 0,
+        "gm_structured_parse_success_image": 19,
+        "gm_structured_parse_failures_image": 0
+      },
+      "gemini_metrics_cumulative": {
+        "gm_total_input_tokens": 106505,
+        "gm_total_output_tokens": 32044,
+        "gm_total_tokens": 138553,
+        "gm_avg_response_time_ms": 3125.4335536676294,
+        "gm_api_calls": 68,
+        "gm_cache_hits": 0,
+        "gm_errors": 0,
+        "gm_structured_parse_success": 68,
+        "gm_structured_parse_failures": 0
+      }
+    },
+    {
+      "scan_id": 1762169714,
+      "image": "Super_U_IMG_2210_1.jpg",
+      "success": true,
+      "num_crops": 13,
+      "elapsed_sec": 39.186588525772095,
+      "mode": "chunked(size=4, workers=2)",
+      "phase_times": {
+        "segmentation_sec": 2.124,
+        "crop_generation_sec": 0.401,
+        "clip_classification_sec": 0.998,
+        "prompt_building_sec": 0.001,
+        "gemini_inference_sec": 35.125
+      },
+      "gemini_metrics_per_image": {
+        "gm_api_calls_image": 13,
+        "gm_input_tokens_image": 20360,
+        "gm_output_tokens_image": 6462,
+        "gm_total_tokens_image": 26822,
+        "gm_avg_response_time_ms_image": 3563.6469767643857,
+        "gm_errors_image": 0,
+        "gm_structured_parse_success_image": 13,
+        "gm_structured_parse_failures_image": 0
+      },
+      "gemini_metrics_cumulative": {
+        "gm_total_input_tokens": 126865,
+        "gm_total_output_tokens": 38506,
+        "gm_total_tokens": 165375,
+        "gm_avg_response_time_ms": 3195.7641030535287,
+        "gm_api_calls": 81,
+        "gm_cache_hits": 0,
+        "gm_errors": 0,
+        "gm_structured_parse_success": 81,
+        "gm_structured_parse_failures": 0
+      }
+    },
+    {
+      "scan_id": 1762169715,
+      "image": "Super_U_IMG_2228_2.jpg",
+      "success": true,
+      "num_crops": 12,
+      "elapsed_sec": 39.16518473625183,
+      "mode": "chunked(size=4, workers=2)",
+      "phase_times": {
+        "segmentation_sec": 1.977,
+        "crop_generation_sec": 0.43,
+        "clip_classification_sec": 1.035,
+        "prompt_building_sec": 0.001,
+        "gemini_inference_sec": 35.251
+      },
+      "gemini_metrics_per_image": {
+        "gm_api_calls_image": 12,
+        "gm_input_tokens_image": 18780,
+        "gm_output_tokens_image": 5857,
+        "gm_total_tokens_image": 24637,
+        "gm_avg_response_time_ms_image": 3484.8500887552896,
+        "gm_errors_image": 0,
+        "gm_structured_parse_success_image": 12,
+        "gm_structured_parse_failures_image": 0
+      },
+      "gemini_metrics_cumulative": {
+        "gm_total_input_tokens": 145645,
+        "gm_total_output_tokens": 44363,
+        "gm_total_tokens": 190012,
+        "gm_avg_response_time_ms": 3233.0655205634334,
+        "gm_api_calls": 93,
+        "gm_cache_hits": 0,
+        "gm_errors": 0,
+        "gm_structured_parse_success": 93,
+        "gm_structured_parse_failures": 0
+      }
+    },
+    {
+      "scan_id": 1762169716,
+      "image": "Super_U_IMG_2229_3.jpg",
+      "success": true,
+      "num_crops": 18,
+      "elapsed_sec": 47.100870847702026,
+      "mode": "chunked(size=4, workers=2)",
+      "phase_times": {
+        "segmentation_sec": 2.938,
+        "crop_generation_sec": 0.491,
+        "clip_classification_sec": 1.456,
+        "prompt_building_sec": 0.001,
+        "gemini_inference_sec": 41.743
+      },
+      "gemini_metrics_per_image": {
+        "gm_api_calls_image": 18,
+        "gm_input_tokens_image": 28183,
+        "gm_output_tokens_image": 8393,
+        "gm_total_tokens_image": 36576,
+        "gm_avg_response_time_ms_image": 3320.870492193434,
+        "gm_errors_image": 0,
+        "gm_structured_parse_success_image": 18,
+        "gm_structured_parse_failures_image": 0
+      },
+      "gemini_metrics_cumulative": {
+        "gm_total_input_tokens": 173828,
+        "gm_total_output_tokens": 52756,
+        "gm_total_tokens": 226588,
+        "gm_avg_response_time_ms": 3247.3041646115416,
+        "gm_api_calls": 111,
+        "gm_cache_hits": 0,
+        "gm_errors": 0,
+        "gm_structured_parse_success": 111,
+        "gm_structured_parse_failures": 0
+      }
+    }
+  ],
+  "run_finished": 1762170021
+}

@@ -1,0 +1,114 @@
+🔍 Waste Analysis (scan 1762169709)
+📦 Crops analyzed: 8
+
+— Crop 1 (region 5): crops/scan_1762169709/scan_1762169709_crop000.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray / medium
+  • 🎨 Color: blue
+  • 🧪 State: appears clean
+  • 🎯 Purpose: packaging or tray for medical supplies or food
+  • 👁 Visibility: Multiple blue plastic trays are visible, mostly intact and clearly identifiable within the crop.
+  • 🔍 Other objects: white paper/tissue, white cup with labels, clear plastic packaging film
+  • 🔗 Relationship: The white cup and paper are placed on top of the blue trays. The plastic film is draped over the trays.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable as rigid plastic packaging, depending on local recycling facility capabilities.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image alone., The presence of secondary items like the cup and paper could indicate mixed waste, but the primary object is clearly plastic trays.
+
+— Crop 2 (region 7): crops/scan_1762169709/scan_1762169709_crop001.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Tray-like, rectangular with compartments / Medium (estimated based on context)
+  • 🎨 Color: Blue
+  • 🧪 State: Dirty, with some residue and attached plastic film
+  • 🎯 Purpose: Food packaging or tray
+  • 👁 Visibility: The primary object is partially visible, with several stacked trays occupying the majority of the crop. Some edges and details are obscured by other items and the overall composition.
+  • 🔍 Other objects: White paper cup with red and green symbols, White plastic film/liner, Yellow plastic bag (container), Other unidentifiable white paper/plastic debris
+  • 🔗 Relationship: The white cup and plastic film are placed on top of or within the blue trays. The blue trays are contained within a larger yellow plastic bag.
+  • 🗂 Category: Other Plastic Items (specifically rigid plastic packaging/trays)
+  • ♻️ Recyclability: Likely recyclable if clean and made of a common plastic type (e.g., PET, PP, HDPE), but contamination and mixed materials may hinder recycling.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not identifiable from the image., The level of contamination on the trays is not fully clear., The full extent and condition of the trays are not visible due to stacking and cropping.
+
+— Crop 3 (region 2): crops/scan_1762169709/scan_1762169709_crop002.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray / medium
+  • 🎨 Color: blue
+  • 🧪 State: appears clean
+  • 🎯 Purpose: food packaging or tray
+  • 👁 Visibility: The crop shows a significant portion of a blue plastic tray, with some edges cut off.
+  • 🔍 Other objects: white paper cup, white plastic film, yellow plastic bag (likely the bin liner)
+  • 🔗 Relationship: The blue plastic tray is one of several items within a yellow plastic bag, along with a paper cup and plastic film.
+  • 🗂 Category: Other Plastic Containers
+  • ♻️ Recyclability: Likely recyclable as rigid plastic, depending on local facilities and specific plastic type (e.g., PP or HDPE).
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., PP, HDPE) is not discernible from the image alone., The presence of other items in the bag could complicate sorting if not separated.
+
+— Crop 4 (region 0): crops/scan_1762169709/scan_1762169709_crop003.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Cylindrical cup / Small to medium
+  • 🎨 Color: White
+  • 🧪 State: Appears clean
+  • 🎯 Purpose: Disposable cup for beverages
+  • 👁 Visibility: Mostly visible, top rim and side with label are clear
+  • 🔍 Other objects: Blue plastic trays, White plastic film/liner, Yellow plastic bag (container)
+  • 🔗 Relationship: The cup is placed inside a yellow plastic bag along with blue plastic trays.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable, depending on local facilities and specific plastic type (indicated by label).
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image alone, though the label provides some clues.
+
+— Crop 5 (region 1): crops/scan_1762169709/scan_1762169709_crop004.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: bag-like / small
+  • 🎨 Color: transparent with blue and white printing
+  • 🧪 State: used and discarded
+  • 🎯 Purpose: packaging or liner
+  • 👁 Visibility: partially visible, folded and creased
+  • 🔍 Other objects: blue plastic trays, white paper/plastic cup, white paper material
+  • 🔗 Relationship: The plastic bag is lying on top of and partially obscuring the blue plastic trays. The cup and paper material are also present in the same container.
+  • 🗂 Category: Plastics/Plastic Bags
+  • ♻️ Recyclability: Likely not recyclable due to contamination and mixed materials. The plastic bag itself may be recyclable depending on local facilities, but its condition and the presence of other items suggest it is waste.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic for the bag and trays is not definitively identifiable from the image alone., The printing on the bag is partially obscured, making it difficult to read any specific product information or recycling symbols.
+
+— Crop 6 (region 4): crops/scan_1762169709/scan_1762169709_crop005.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray-like / medium
+  • 🎨 Color: blue
+  • 🧪 State: appears to be used, possibly with residue
+  • 🎯 Purpose: food packaging or tray
+  • 👁 Visibility: partially visible, multiple stacked items
+  • 🔍 Other objects: yellow plastic bag (liner), white paper cup, white plastic film/wrapper
+  • 🔗 Relationship: The blue trays are inside a yellow plastic bag, along with a paper cup and plastic film.
+  • 🗂 Category: Other Plastic Containers
+  • ♻️ Recyclability: Likely recyclable, depending on local facilities and specific plastic type (e.g., PET, PP, HDPE).
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image., Residue on the trays could affect recyclability., The stacked nature of the trays makes it difficult to assess individual items fully.
+
+— Crop 7 (region 5): crops/scan_1762169709/scan_1762169709_crop006.jpg
+  • 🧱 Material: paper
+  • 🧩 Shape/Size: irregular / medium
+  • 🎨 Color: white
+  • 🧪 State: dirty
+  • 🎯 Purpose: packaging or liner
+  • 👁 Visibility: partially visible, torn and creased
+  • 🔍 Other objects: blue plastic trays, white paper cup, plastic film, yellow plastic bag
+  • 🔗 Relationship: The primary object appears to be within a yellow plastic bag along with other waste items.
+  • 🗂 Category: Paper
+  • ♻️ Recyclability: Not recyclable due to condition and likely contamination.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact nature and original purpose of the paper item are unclear due to its torn state., The extent of contamination is not fully determinable from the image.
+
+— Crop 8 (region 8): crops/scan_1762169709/scan_1762169709_crop007.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tray / medium
+  • 🎨 Color: blue
+  • 🧪 State: appears clean
+  • 🎯 Purpose: food packaging or tray
+  • 👁 Visibility: The object is partially visible, showing a blue plastic tray with multiple compartments. The top portion and edges are visible.
+  • 🔍 Other objects: white paper/plastic packaging, white cup with text and symbols
+  • 🔗 Relationship: The white paper/plastic packaging is on top of and around the blue tray. The white cup is also placed on top of the blue tray.
+  • 🗂 Category: Other Plastic Containers
+  • ♻️ Recyclability: Likely recyclable as rigid plastic, depending on local facilities.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not identifiable from the image alone., The specific original contents of the tray are unknown, which could affect cleaning status or recyclability.

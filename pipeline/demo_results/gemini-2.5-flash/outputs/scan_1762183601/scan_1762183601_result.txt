@@ -1,0 +1,128 @@
+🔍 Waste Analysis (scan 1762183601)
+📦 Crops analyzed: 9
+
+— Crop 1 (region 12): crops/scan_1762183601/scan_1762183601_crop000.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, crumpled, hand-shaped / Adult-sized
+  • 🎨 Color: Purple
+  • 🧪 State: Used, crumpled, likely soiled
+  • 🎯 Purpose: Personal protective equipment for medical or laboratory use
+  • 👁 Visibility: Mostly complete, clearly visible in the center of the crop
+  • 🔍 Other objects: Blue rigid plastic trays, White and light blue non-woven fabric drapes/pads, Clear plastic film/bag
+  • 🔗 Relationship: All appear to be medical waste items, discarded together in the same bin.
+  • 🗂 Category: Plastics: Other Plastic Items
+  • ♻️ Recyclability: Generally not recyclable due to contamination risks and material composition; typically disposed of as general or biohazardous waste.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: Exact type of synthetic rubber (latex vs. nitrile) is not discernible., Level of contamination is unknown, which impacts final disposal classification., The drapes could be textile or composite.
+
+— Crop 2 (region 7): crops/scan_1762183601/scan_1762183601_crop001.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, conforming to the shape of the container it lines / Large, appears to be a liner for a waste bin
+  • 🎨 Color: Yellow
+  • 🧪 State: Stained and potentially contaminated
+  • 🎯 Purpose: Waste bag or liner, likely for hazardous or medical waste given the context
+  • 👁 Visibility: The bottom and lower sides of the bag are clearly visible, including a significant stain
+  • 🔍 Other objects: Portion of a blue plastic container rim, Small visible edges of white/light-colored fabric or paper items (likely medical waste) at the very top edge
+  • 🔗 Relationship: The yellow plastic bag is lining the blue plastic container, and the other items are contained within the bag.
+  • 🗂 Category: Hazardous Household Waste (specifically, a biohazard or medical waste bag)
+  • ♻️ Recyclability: Not recyclable due to its function as a hazardous waste container and likely contamination.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact nature of the liquid/stain is not discernible, but its presence reinforces the hazardous nature of the bag's contents.
+
+— Crop 3 (region 7): crops/scan_1762183601/scan_1762183601_crop002.jpg
+  • 🧱 Material: Paper
+  • 🧩 Shape/Size: Irregular, crumpled / Small to medium
+  • 🎨 Color: White with a textured pattern
+  • 🧪 State: Crumpled, likely used
+  • 🎯 Purpose: Absorbent wipe or towel, likely for sanitary or cleaning purposes
+  • 👁 Visibility: Partially visible, folded and crumpled, resting on another object
+  • 🔍 Other objects: Light blue flat rectangular object (medical drape/underpad), Portions of a blue plastic container or bag
+  • 🔗 Relationship: The primary object is resting on the light blue object, both contained within the blue plastic container/bag.
+  • 🗂 Category: Paper (specifically, a disposable paper towel or wipe)
+  • ♻️ Recyclability: Likely not recyclable due to potential contamination and material type for disposable wipes.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact distinction between heavy-duty paper wipe and non-woven textile wipe without tactile inspection.
+
+— Crop 4 (region 13): crops/scan_1762183601/scan_1762183601_crop003.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Curved and angular, part of a container rim with a ridged pattern / Large portion of a container
+  • 🎨 Color: Blue
+  • 🧪 State: Intact, appears clean on visible surface
+  • 🎯 Purpose: Part of a medical waste container or tray
+  • 👁 Visibility: Partial view of the rim/edge of a blue plastic container
+  • 🔍 Other objects: Yellow biohazard bag (background)
+  • 🔗 Relationship: The blue plastic object is resting inside or against the yellow bag.
+  • 🗂 Category: Plastics: Other Plastic Items
+  • ♻️ Recyclability: Unlikely to be recyclable through standard municipal streams due to probable medical contamination and specialized disposal requirements.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact type of plastic (e.g., PP, HDPE) is not discernible., Specific sub-category within 'Plastics' (e.g., 'Rigid Plastic Packaging' vs. 'Other Plastic Items') is a minor ambiguity., Specific purpose (e.g., instrument tray, specimen container) is not fully clear.
+
+— Crop 5 (region 3): crops/scan_1762183601/scan_1762183601_crop004.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: rectangular tray with molded compartments / medium, consistent with a medical or food service tray
+  • 🎨 Color: dark blue
+  • 🧪 State: intact, appears used
+  • 🎯 Purpose: medical tray or container for supplies
+  • 👁 Visibility: A significant portion of the tray is visible, showing its overall shape and material, though not entirely complete.
+  • 🔍 Other objects: yellow bin liner, portions of white/light-colored medical wipes or paper
+  • 🔗 Relationship: The primary object (blue tray) is situated within a yellow bin liner, with other medical waste items resting on or around it.
+  • 🗂 Category: Plastics: Other Plastic Items (specifically a medical tray)
+  • ♻️ Recyclability: Likely not recyclable through standard municipal streams due to its probable use in a medical setting and potential contamination. It would typically be treated as medical waste (e.g., incineration or autoclaving).
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., PP, PS) is not discernible from the image., While clearly a tray, its specific classification as 'packaging' versus a 'medical item' could be debated, but 'Other Plastic Items' covers specialized trays well.
+
+— Crop 6 (region 9): crops/scan_1762183601/scan_1762183601_crop005.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Part of a rectangular tray with a curved edge / Medium
+  • 🎨 Color: Dark blue
+  • 🧪 State: Used, likely considered dirty/contaminated given the waste context
+  • 🎯 Purpose: A medical tray or container for holding supplies
+  • 👁 Visibility: A significant portion of the object is visible, including a side wall and part of the bottom surface, but not the entire item
+  • 🔍 Other objects: Crumpled white material (appears to be paper or non-woven textile) in the upper left and bottom left
+  • 🔗 Relationship: The white material is resting on or adjacent to the blue plastic tray
+  • 🗂 Category: Plastics: Rigid Plastic Packaging
+  • ♻️ Recyclability: Potentially recyclable if clean and sorted, but in this context (medical waste bin), it is likely treated as non-recyclable due to potential contamination.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., PP, HDPE) is not discernible, The level of contamination and thus actual recyclability in this specific waste stream is uncertain, The exact composition of the white secondary material (paper vs. non-woven textile) is also an ambiguity
+
+— Crop 7 (region 3): crops/scan_1762183601/scan_1762183601_crop006.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Rectangular with rounded corners, consistent with a tray or container / Medium (inferred from original image context)
+  • 🎨 Color: Dark blue
+  • 🧪 State: Intact, possibly used
+  • 🎯 Purpose: Medical tray or container for instruments/supplies
+  • 👁 Visibility: Partial view, showing a corner and a side of the object
+  • 🔍 Other objects: Light-colored, soft material (possibly a medical wipe or paper towel) in the top left, Dark, indistinct area at the bottom
+  • 🔗 Relationship: The soft material is adjacent to and partially under the primary object. The dark area is below it.
+  • 🗂 Category: Plastics: Rigid Plastic Packaging
+  • ♻️ Recyclability: Likely not recyclable through standard channels due to medical waste context; would require specialized disposal or incineration.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact type of plastic (e.g., PP, HDPE) is not identifiable., Full extent of the object is not visible., Specific use within a medical setting is not fully clear, impacting definitive recyclability.
+
+— Crop 8 (region 0): crops/scan_1762183601/scan_1762183601_crop007.jpg
+  • 🧱 Material: Textile (non-woven fabric)
+  • 🧩 Shape/Size: Folded rectangular / Medium
+  • 🎨 Color: Light blue
+  • 🧪 State: Used, creased
+  • 🎯 Purpose: Disposable medical wipe or sheet
+  • 👁 Visibility: A significant portion of the object is visible, showing its surface and folds, but not the entire item.
+  • 🔍 Other objects: Purple medical glove, White textured wipe/paper, Darker blue/green fabric/material
+  • 🔗 Relationship: All are discarded items, likely from a medical or laboratory setting, co-mingled in a waste container.
+  • 🗂 Category: Textiles
+  • ♻️ Recyclability: Not recyclable (likely contaminated medical waste)
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact material composition (e.g., pure non-woven textile vs. textile with plastic coating)., Specific type of non-woven fabric.
+
+— Crop 9 (region 1): crops/scan_1762183601/scan_1762183601_crop008.jpg
+  • 🧱 Material: Textile/Composite
+  • 🧩 Shape/Size: Irregular, folded, appears to be a rectangular piece / Small to medium-sized piece, consistent with a wipe or small cloth
+  • 🎨 Color: Greyish-white with a distinct dotted pattern
+  • 🧪 State: Used, crumpled
+  • 🎯 Purpose: Medical wipe, absorbent pad, or part of a sanitary textile
+  • 👁 Visibility: Partially visible, a significant portion is shown, but not the entire item
+  • 🔍 Other objects: Blue/purple glove (likely latex or nitrile), Dark blue surface (possibly a medical tray or bin part)
+  • 🔗 Relationship: The primary object is resting on or near the blue surface and adjacent to the glove. All appear to be discarded medical items.
+  • 🗂 Category: Textiles (potentially Composite Materials if multi-layered medical wipe)
+  • ♻️ Recyclability: Not recyclable through standard streams due to medical context and potential contamination; likely disposed of as general or biohazardous waste.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact material composition (pure textile vs. composite medical wipe with plastic components), Specific type of textile/composite

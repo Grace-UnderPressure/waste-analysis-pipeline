@@ -1,0 +1,182 @@
+🔍 Waste Analysis (scan 1762169712)
+📦 Crops analyzed: 13
+
+— Crop 1 (region 3): crops/scan_1762169712/scan_1762169712_crop000.jpg
+  • 🧱 Material: metal
+  • 🧩 Shape/Size: cylindrical / large
+  • 🎨 Color: green with rust
+  • 🧪 State: rusted and weathered
+  • 🎯 Purpose: structural support or container
+  • 👁 Visibility: The majority of the object is visible, showing significant surface corrosion.
+  • 🔍 Other objects: plastic pipes, plastic containers, cardboard, other metal objects
+  • 🔗 Relationship: The primary object appears to be part of the container or structure holding the other waste items.
+  • 🗂 Category: Metals
+  • ♻️ Recyclability: The primary object is metal, but its heavily rusted condition may impact recyclability.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact function of the metal object (e.g., part of a bin, a pipe) is not fully discernible from the crop alone.
+
+— Crop 2 (region 4): crops/scan_1762169712/scan_1762169712_crop001.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Bag-like or flexible container / Medium to large
+  • 🎨 Color: Clear/translucent
+  • 🧪 State: Used, possibly soiled
+  • 🎯 Purpose: Packaging or storage bag
+  • 👁 Visibility: The object is largely visible, taking up most of the crop, but its full extent and exact shape are obscured by folds and creases.
+  • 🔍 Other objects: Other plastic items (containers, films), Blue plastic crates, White rigid plastic packaging, Pipes (possibly PVC), Metal elements (part of the container/bin)
+  • 🔗 Relationship: The primary object is situated within a larger waste container, surrounded by other discarded items.
+  • 🗂 Category: Plastics/Plastic Bags
+  • ♻️ Recyclability: Potentially recyclable if it is a clean, single-material plastic bag, but often difficult to recycle due to contamination and the nature of plastic films/bags.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not identifiable from the image., The degree of soiling or contamination is not fully clear., The full shape and dimensions are not discernible due to creasing.
+
+— Crop 3 (region 5): crops/scan_1762169712/scan_1762169712_crop002.jpg
+  • 🧱 Material: cardboard
+  • 🧩 Shape/Size: flat, rectangular panel / large, but only a portion is visible
+  • 🎨 Color: brown
+  • 🧪 State: appears to be waste, possibly dirty
+  • 🎯 Purpose: packaging or structural component
+  • 👁 Visibility: The object is partially visible, taking up a significant portion of the crop. Its full extent is not shown.
+  • 🔍 Other objects: green metal bin edge (top left), shadows and light patterns, other indistinct waste items in the background (visible in original image)
+  • 🔗 Relationship: The primary object appears to be inside or part of a larger container, possibly a dumpster or bin, as suggested by the green metal edge in the background.
+  • 🗂 Category: Cardboard
+  • ♻️ Recyclability: Recyclable, assuming it is clean and not heavily contaminated.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact dimensions and full shape of the cardboard are not visible., The condition (e.g., level of dirt or contamination) is not fully discernible from the crop alone.
+
+— Crop 4 (region 6): crops/scan_1762169712/scan_1762169712_crop003.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: rectangular container with a lid / medium
+  • 🎨 Color: white and grey
+  • 🧪 State: appears clean
+  • 🎯 Purpose: storage container or bin
+  • 👁 Visibility: The object is mostly visible, with its top and sides clearly seen. A portion of its base might be obscured.
+  • 🔍 Other objects: blue plastic crates, white plastic sheeting, grey plastic pipes, metal components, other unidentifiable plastic items
+  • 🔗 Relationship: The primary object is situated among other waste items within a larger container.
+  • 🗂 Category: Other Plastic Containers
+  • ♻️ Recyclability: Likely recyclable, depending on the specific type of plastic and local recycling facility capabilities.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., HDPE, PP) is not definitively identifiable from the image., The internal contents of the container are not visible.
+
+— Crop 5 (region 6): crops/scan_1762169712/scan_1762169712_crop004.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: cylindrical tube / large
+  • 🎨 Color: black
+  • 🧪 State: appears relatively clean
+  • 🎯 Purpose: pipe or conduit
+  • 👁 Visibility: The majority of the object is visible, extending out of the frame.
+  • 🔍 Other objects: blue plastic crate, white plastic containers, green plastic framing, grey plastic housing, clear plastic sheeting, other unidentifiable plastic items
+  • 🔗 Relationship: The black pipe is positioned diagonally across the foreground, with other plastic items and containers visible behind and around it.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable as rigid plastic, depending on specific plastic type and local facilities.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not identifiable from the image., The full extent and context of the pipe's use are unknown.
+
+— Crop 6 (region 2): crops/scan_1762169712/scan_1762169712_crop005.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Rectangular prism with tapered sides / Large
+  • 🎨 Color: Gray
+  • 🧪 State: Dirty
+  • 🎯 Purpose: Container or planter
+  • 👁 Visibility: The object is fully visible and appears intact within the crop.
+  • 🔍 Other objects: Blue plastic pipes, Clear plastic sheeting, Other plastic containers and debris
+  • 🔗 Relationship: The primary object is situated amongst other waste items in what appears to be a collection bin or dumpster.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable, depending on specific plastic type and local recycling facility capabilities.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., HDPE, PP) is not definitively identifiable from the image alone., The specific function (e.g., planter vs. industrial container) is inferred.
+
+— Crop 7 (region 7): crops/scan_1762169712/scan_1762169712_crop006.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: rectangular tray with lattice structure / medium
+  • 🎨 Color: blue
+  • 🧪 State: appears clean
+  • 🎯 Purpose: storage or transport container
+  • 👁 Visibility: The object is mostly visible, with a small portion on the left edge potentially cropped out.
+  • 🔍 Other objects: clear plastic film/wrapping, other blue plastic containers (partially visible), white plastic container (partially visible)
+  • 🔗 Relationship: The primary object is situated amongst other waste items, some of which appear to be similar plastic containers or packaging.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable as rigid plastic, depending on local recycling facility capabilities.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 8 (region 1): crops/scan_1762169712/scan_1762169712_crop007.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: rectangular prism with angled sides / large
+  • 🎨 Color: white
+  • 🧪 State: appears clean
+  • 🎯 Purpose: container or packaging
+  • 👁 Visibility: The object is mostly visible, with its top and sides clearly depicted. Some of the bottom is obscured by other items.
+  • 🔍 Other objects: other white plastic containers, blue plastic crates, clear plastic sheeting, pipes
+  • 🔗 Relationship: The primary object is one of several items within a larger collection of waste, possibly in a bin or container.
+  • 🗂 Category: Other Plastic Containers
+  • ♻️ Recyclability: Likely recyclable, depending on specific plastic type and local facilities.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image alone.
+
+— Crop 9 (region 2): crops/scan_1762169712/scan_1762169712_crop008.jpg
+  • 🧱 Material: metal
+  • 🧩 Shape/Size: cylindrical / medium
+  • 🎨 Color: silver/grey
+  • 🧪 State: empty, possibly containing residue
+  • 🎯 Purpose: aerosol can
+  • 👁 Visibility: The top and a portion of the side of the can are visible. It appears to be mostly intact but shows signs of damage.
+  • 🔍 Other objects: plastic containers, blue plastic crates, white plastic sheeting, pipes, cardboard packaging
+  • 🔗 Relationship: The aerosol can is one of many items within a larger waste container, appearing to be mixed with other recyclable and non-recyclable materials.
+  • 🗂 Category: Metals/aerosol can
+  • ♻️ Recyclability: Potentially recyclable if properly processed, but may require special handling due to potential residual contents.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact material (aluminum vs. steel) is not definitively clear from the image., The extent of residual contents within the can is unknown.
+
+— Crop 10 (region 0): crops/scan_1762169712/scan_1762169712_crop009.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: rectangular crate / medium
+  • 🎨 Color: blue
+  • 🧪 State: appears clean
+  • 🎯 Purpose: storage or transport container
+  • 👁 Visibility: The object is mostly visible, with some edges cut off.
+  • 🔍 Other objects: a white strap or band, other plastic containers and debris in the background
+  • 🔗 Relationship: The white strap is attached to the blue crate.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Recyclable (as rigid plastic)
+  • 📈 Confidence: A (High: Clear features, high confidence)
+
+— Crop 11 (region 10): crops/scan_1762169712/scan_1762169712_crop010.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: tube / long, cylindrical
+  • 🎨 Color: blue
+  • 🧪 State: appears relatively clean
+  • 🎯 Purpose: plumbing pipe or conduit
+  • 👁 Visibility: The majority of the blue pipe is visible, though its ends are not fully in frame.
+  • 🔍 Other objects: grey pipes, white plastic container/lid, white plastic sheeting, blue plastic crate, black plastic component, grey plastic housing/container
+  • 🔗 Relationship: The blue pipe is lying amongst other various plastic and possibly metal components, suggesting it is part of a mixed waste stream.
+  • 🗂 Category: Plastics/Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable as a plastic item, but dependent on the specific type of plastic and local recycling facility capabilities. The presence of other mixed plastics may complicate sorting.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image alone., The full extent and condition of the pipe ends are not visible.
+
+— Crop 12 (region 11): crops/scan_1762169712/scan_1762169712_crop011.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Container-like with internal bracing / Medium to large
+  • 🎨 Color: White with some grey/blue accents
+  • 🧪 State: Dirty, some scuff marks visible
+  • 🎯 Purpose: Likely a storage container or part of a larger plastic appliance
+  • 👁 Visibility: The primary object is mostly visible, but its full extent is not clear due to cropping and occlusion by another object.
+  • 🔍 Other objects: A grey, angular object partially obscuring the primary object, Blue plastic strapping, Other unidentifiable plastic and metal fragments in the background
+  • 🔗 Relationship: The grey object is positioned in front of and partially covers the primary object. The strapping appears to be holding items together.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable, depending on the specific type of plastic and local recycling capabilities.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not definitively identifiable from the image., The full shape and size of the primary object are not visible., The presence of dirt and scuff marks makes it difficult to assess the original finish or precise color.
+
+— Crop 13 (region 9): crops/scan_1762169712/scan_1762169712_crop013.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: rectangular prism / large
+  • 🎨 Color: white
+  • 🧪 State: appears clean
+  • 🎯 Purpose: packaging or structural component
+  • 👁 Visibility: The object is mostly visible, taking up a significant portion of the crop. Its top surface and one side are clearly visible.
+  • 🔍 Other objects: corrugated cardboard, tape, blue plastic crates, white plastic containers, clear plastic sheeting, blue pipes
+  • 🔗 Relationship: The primary object appears to be resting on or adjacent to other waste materials within a larger container.
+  • 🗂 Category: Other Plastic Items
+  • ♻️ Recyclability: Likely recyclable as rigid plastic, depending on specific plastic type and local facilities.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not discernible from the image alone., The specific function of the object is inferred and not definitively known.

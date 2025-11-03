@@ -1,0 +1,64 @@
+segmenter:
+  model_type: "fastsam"
+  model_path: "models/FastSAM-s.pt"
+  # FastSAM parameters (balanced for CPU)
+  fastsam:
+    imgsz: 640              # inference size
+    conf: 0.4               # confidence threshold
+    iou: 0.7                # NMS IoU threshold
+    retina_masks: true      # high-quality masks
+    max_det: 50             # max detections
+    agnostic_nms: false
+    classes: null
+  # Multi-scale segmentation (CPU-friendly)
+  multi_scale_scales: [0.5, 1.0, 1.5]
+  use_postprocess: false  # disable mask postprocessing
+
+recognizer:
+  model_type: "clip"
+  label_config_path: "waste_labels_template.json"
+  cache_embeddings: true
+  embedding_cache_path: "clip_embeddings_cache.pkl"
+  batch_size: 16  # smaller batch for CPU
+
+gemini:
+  # API key should be set via environment variable: export GEMINI_API_KEY="your_key_here"
+  api_key: ""  # Set via environment variable (redacted)
+  model_name: "gemini-2.5-flash"
+  cache_responses: true
+  cache_dir: "gemini_cache"
+  batch_delay: 1.2           # inter-request delay (sec)
+  include_label_context: true
+  uncertainty_focus: true
+  max_retries: 5
+  retry_delay: 2.0
+  
+  # Structured output
+  enable_structured_output: true
+  
+  # Prompt saving (for debugging)
+  save_prompts: false        # set to true to save prompts to files
+  prompt_save_dir: "prompts" # directory to save prompts
+
+clip_results_cache_dir: "clip_results_cache"
+enable_smart_cache: true
+
+# Segmentation/classification thresholds
+clip_threshold: 0.1         # CLIP unknown threshold
+min_mask_area: 3600         # minimum mask area (pixels)
+device: "cpu"               # set to cuda/auto when GPU is available
+
+# Output controls
+output:
+  save_clip_results: true
+  concurrent_requests: 6    # used only in per-crop mode (when batch_chunk_size <= 1)
+  include_intermediate: false
+  batch_chunk_size: 4       # optimal chunk size (enables chunked-batch mode)
+  chunk_workers: 2          # parallel chunk processing (used in chunked-batch mode)
+
+# input output dir
+input_dir: "input_images"
+crop_dir: "crops"
+# Adapter writes results to pipeline/outputs (hardcoded in adapter)
+# Keep only used dirs here
+log_path: "logs/demo.log"

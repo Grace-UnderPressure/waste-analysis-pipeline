@@ -1,0 +1,14 @@
+Model: Gemini 2.5 Flash Lite
+Run Type: Visualization Demo Batch Test
+
+Inference Settings:
+- Structured Output: SingleCropAnalysis
+- Chunked Batch: batch_chunk_size=4, chunk_workers=2
+- Per-crop Concurrency: concurrent_requests (disabled in chunked mode)
+- Batch Delay: 1.2s per request
+- Device: cpu
+
+Notes:
+- Original images resolved from visualization_sample-imgs/
+- Report includes model name in header
+- All outputs are self-contained in this folder

@@ -1,0 +1,704 @@
+{
+  "success": true,
+  "scan_id": 1762183607,
+  "num_crops": 18,
+  "outputs": [
+    {
+      "region_id": 1,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop000.jpg",
+      "gemini_text": "{\n  \"region_id\": 1,\n  \"crop_path\": \"CROP from scan_1762183607_crop000.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Rectangular tray with multiple compartments\",\n    \"size\": \"Medium\",\n    \"color\": \"Dark grey/black\",\n    \"condition\": \"Intact, appears used\",\n    \"likely_function_or_original_purpose\": \"Horticultural seedling tray or packaging insert\",\n    \"current_state\": \"Used, possibly dirty, intact\",\n    \"completeness_and_visibility_in_crop\": \"Mostly visible, partially obscured by other stacked trays and the bin lid\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Other stacked plastic trays (black, teal/green)\",\n      \"White plastic ring/handle\",\n      \"Yellow plastic bin lid\",\n      \"Possibly cardboard or paper underneath\"\n    ],\n    \"relationship_to_primary_object\": \"Other trays are similar items, stacked together. The white ring is adjacent. The yellow lid is part of the waste container holding the items.\",\n    \"potential_impact_on_classification\": \"The presence of multiple similar plastic trays reinforces the classification of the primary object as plastic.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Other Plastic Containers\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable, depending on the specific plastic type (e.g., PP, PS) and local recycling facilities.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Specific type of plastic is not visible.\",\n      \"Exact original contents are not clear, though horticultural use is suggested by context from the original image.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 1,
+        "crop_path": "CROP from scan_1762183607_crop000.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Rectangular tray with multiple compartments",
+          "size": "Medium",
+          "color": "Dark grey/black",
+          "condition": "Intact, appears used",
+          "likely_function_or_original_purpose": "Horticultural seedling tray or packaging insert",
+          "current_state": "Used, possibly dirty, intact",
+          "completeness_and_visibility_in_crop": "Mostly visible, partially obscured by other stacked trays and the bin lid"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Other stacked plastic trays (black, teal/green)",
+            "White plastic ring/handle",
+            "Yellow plastic bin lid",
+            "Possibly cardboard or paper underneath"
+          ],
+          "relationship_to_primary_object": "Other trays are similar items, stacked together. The white ring is adjacent. The yellow lid is part of the waste container holding the items.",
+          "potential_impact_on_classification": "The presence of multiple similar plastic trays reinforces the classification of the primary object as plastic."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Other Plastic Containers",
+          "recyclability_assessment_if_possible": "Potentially recyclable, depending on the specific plastic type (e.g., PP, PS) and local recycling facilities.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "Specific type of plastic is not visible.",
+            "Exact original contents are not clear, though horticultural use is suggested by context from the original image."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 5,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop001.jpg",
+      "gemini_text": "{\n  \"region_id\": 5,\n  \"crop_path\": \"CROP from scan_1762183607_crop001.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Cardboard\",\n    \"shape\": \"Rectangular, flat fragment\",\n    \"size\": \"Medium-sized fragment\",\n    \"color\": \"Brown with green print\",\n    \"condition\": \"Partially flattened, generally intact\",\n    \"likely_function_or_original_purpose\": \"Packaging, likely a beverage box (e.g., beer box)\",\n    \"current_state\": \"Discarded, relatively clean\",\n    \"completeness_and_visibility_in_crop\": \"A side and top edge of a cardboard box are visible, partially obscured by other items.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Piece of light-colored wood or particle board\",\n      \"Crinkled brown paper\",\n      \"Small portion of a white plastic item\"\n    ],\n    \"relationship_to_primary_object\": \"The wood piece and crinkled paper are mixed with and adjacent to the cardboard. The white plastic item is also adjacent.\",\n    \"potential_impact_on_classification\": \"The presence of multiple materials could lead to ambiguity if the primary object was less distinct, but the cardboard is clearly dominant here.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Cardboard\",\n    \"recyclability_assessment_if_possible\": \"Generally recyclable\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact origin/purpose of the wood piece is unclear.\",\n      \"The small white plastic item is too indistinct to classify precisely.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"If the wood piece were more prominent, it could be classified as 'Combustible Materials/Wood packaging'.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 5,
+        "crop_path": "CROP from scan_1762183607_crop001.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Cardboard",
+          "shape": "Rectangular, flat fragment",
+          "size": "Medium-sized fragment",
+          "color": "Brown with green print",
+          "condition": "Partially flattened, generally intact",
+          "likely_function_or_original_purpose": "Packaging, likely a beverage box (e.g., beer box)",
+          "current_state": "Discarded, relatively clean",
+          "completeness_and_visibility_in_crop": "A side and top edge of a cardboard box are visible, partially obscured by other items."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Piece of light-colored wood or particle board",
+            "Crinkled brown paper",
+            "Small portion of a white plastic item"
+          ],
+          "relationship_to_primary_object": "The wood piece and crinkled paper are mixed with and adjacent to the cardboard. The white plastic item is also adjacent.",
+          "potential_impact_on_classification": "The presence of multiple materials could lead to ambiguity if the primary object was less distinct, but the cardboard is clearly dominant here."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Cardboard",
+          "recyclability_assessment_if_possible": "Generally recyclable",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact origin/purpose of the wood piece is unclear.",
+            "The small white plastic item is too indistinct to classify precisely."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "If the wood piece were more prominent, it could be classified as 'Combustible Materials/Wood packaging'."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 17,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop002.jpg",
+      "gemini_text": "{\n  \"region_id\": 17,\n  \"crop_path\": \"scan_1762183607_crop002.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Rectangular tray with six circular depressions\",\n    \"size\": \"Medium-sized, designed to hold multiple items\",\n    \"color\": \"Black\",\n    \"condition\": \"Used, somewhat dirty with residue\",\n    \"likely_function_or_original_purpose\": \"Multi-cell tray, likely for horticulture (seedling tray) or as a cup holder\",\n    \"current_state\": \"Dirty, used\",\n    \"completeness_and_visibility_in_crop\": \"Mostly visible, with the top and front edge clearly shown. The back and right side are slightly cut off.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Small amount of green, leafy residue (possibly plant matter) in one of the cells\",\n      \"Faint reflection or part of another object in the background, possibly another tray or a surface\"\n    ],\n    \"relationship_to_primary_object\": \"The green residue is contained within one of the cells of the primary object. Background elements are other waste items in the same bin.\",\n    \"potential_impact_on_classification\": \"The green residue reinforces the identification as a plant/seedling tray, which is a type of plastic item. The overall context of the original image shows it as part of a larger collection of plastic waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Other Plastic Items (specifically, a plastic plant/seedling tray)\",\n    \"recyclability_assessment_if_possible\": \"Plastic trays are generally recyclable, but specific recyclability depends on the type of plastic (e.g., PET, PP, PS) and local recycling facilities. Likely recyclable as a rigid plastic.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic (e.g., PP, PS) is not discernible from the image.\",\n      \"The precise original function (cup holder vs. plant tray) is an inference, though plant tray seems more probable given the residue and context.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 17,
+        "crop_path": "scan_1762183607_crop002.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Rectangular tray with six circular depressions",
+          "size": "Medium-sized, designed to hold multiple items",
+          "color": "Black",
+          "condition": "Used, somewhat dirty with residue",
+          "likely_function_or_original_purpose": "Multi-cell tray, likely for horticulture (seedling tray) or as a cup holder",
+          "current_state": "Dirty, used",
+          "completeness_and_visibility_in_crop": "Mostly visible, with the top and front edge clearly shown. The back and right side are slightly cut off."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Small amount of green, leafy residue (possibly plant matter) in one of the cells",
+            "Faint reflection or part of another object in the background, possibly another tray or a surface"
+          ],
+          "relationship_to_primary_object": "The green residue is contained within one of the cells of the primary object. Background elements are other waste items in the same bin.",
+          "potential_impact_on_classification": "The green residue reinforces the identification as a plant/seedling tray, which is a type of plastic item. The overall context of the original image shows it as part of a larger collection of plastic waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Other Plastic Items (specifically, a plastic plant/seedling tray)",
+          "recyclability_assessment_if_possible": "Plastic trays are generally recyclable, but specific recyclability depends on the type of plastic (e.g., PET, PP, PS) and local recycling facilities. Likely recyclable as a rigid plastic.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic (e.g., PP, PS) is not discernible from the image.",
+            "The precise original function (cup holder vs. plant tray) is an inference, though plant tray seems more probable given the residue and context."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 2,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop003.jpg",
+      "gemini_text": "{\n  \"region_id\": 2,\n  \"crop_path\": \"scan_1762183607_crop003.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Rectangular tray with multiple individual compartments\",\n    \"size\": \"Medium to large\",\n    \"color\": \"Teal/turquoise\",\n    \"condition\": \"Intact\",\n    \"likely_function_or_original_purpose\": \"Horticultural tray for growing or transporting seedlings/plants\",\n    \"current_state\": \"Relatively clean\",\n    \"completeness_and_visibility_in_crop\": \"The primary object (teal tray) is mostly visible, showing its compartments and edges, part of a stack.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Several black/dark grey plastic horticultural trays\",\n      \"A white tag or label\"\n    ],\n    \"relationship_to_primary_object\": \"The other trays are identical or very similar in function and material, stacked together. The tag is adjacent to the stack.\",\n    \"potential_impact_on_classification\": \"Reinforces the classification of the primary object as plastic horticultural trays.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Other Plastic Containers\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable, assuming it's made of common recyclable plastic (e.g., PP, PS) and is relatively clean.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 2,
+        "crop_path": "scan_1762183607_crop003.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Rectangular tray with multiple individual compartments",
+          "size": "Medium to large",
+          "color": "Teal/turquoise",
+          "condition": "Intact",
+          "likely_function_or_original_purpose": "Horticultural tray for growing or transporting seedlings/plants",
+          "current_state": "Relatively clean",
+          "completeness_and_visibility_in_crop": "The primary object (teal tray) is mostly visible, showing its compartments and edges, part of a stack."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Several black/dark grey plastic horticultural trays",
+            "A white tag or label"
+          ],
+          "relationship_to_primary_object": "The other trays are identical or very similar in function and material, stacked together. The tag is adjacent to the stack.",
+          "potential_impact_on_classification": "Reinforces the classification of the primary object as plastic horticultural trays."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Other Plastic Containers",
+          "recyclability_assessment_if_possible": "Likely recyclable, assuming it's made of common recyclable plastic (e.g., PP, PS) and is relatively clean.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 0,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop004.jpg",
+      "gemini_text": "{\n  \"region_id\": 0,\n  \"crop_path\": \"CROP from scan_1762183607_crop004.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Rectangular tray with six oval/pod-shaped compartments\",\n    \"size\": \"Medium\",\n    \"color\": \"Dark grey/black\",\n    \"condition\": \"Intact\",\n    \"likely_function_or_original_purpose\": \"Packaging tray for food items (e.g., fruit, chocolates, small pastries) or plant seedlings\",\n    \"current_state\": \"Clean\",\n    \"completeness_and_visibility_in_crop\": \"Mostly complete, the top surface and one side are clearly visible. The bottom is partially obscured by other items.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Other similar dark grey plastic trays (partially visible below and in the background)\",\n      \"A green plastic tray (partially visible in the original image context)\",\n      \"Brown paper or cardboard material in the top left background\",\n      \"A light-colored, possibly clear plastic item behind the primary object\"\n    ],\n    \"relationship_to_primary_object\": \"The other plastic trays are similar in type, suggesting they are part of a stack or collection of similar waste items. The paper/cardboard and other plastic are general waste items in the same bin.\",\n    \"potential_impact_on_classification\": \"The presence of similar plastic trays reinforces the classification of the primary object as plastic packaging. The other materials indicate a mixed waste stream, but do not change the primary object's classification.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Rigid Plastic Packaging\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable if made from a common plastic type (e.g., PET, PP, PS), but depends on local recycling facilities. The 'NORM PACK' text might indicate a standardized material.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Specific type of plastic (e.g., PET, PP, PS) is not visible, which would affect specific recycling streams.\",\n      \"The exact original contents are unknown.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 0,
+        "crop_path": "CROP from scan_1762183607_crop004.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Rectangular tray with six oval/pod-shaped compartments",
+          "size": "Medium",
+          "color": "Dark grey/black",
+          "condition": "Intact",
+          "likely_function_or_original_purpose": "Packaging tray for food items (e.g., fruit, chocolates, small pastries) or plant seedlings",
+          "current_state": "Clean",
+          "completeness_and_visibility_in_crop": "Mostly complete, the top surface and one side are clearly visible. The bottom is partially obscured by other items."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Other similar dark grey plastic trays (partially visible below and in the background)",
+            "A green plastic tray (partially visible in the original image context)",
+            "Brown paper or cardboard material in the top left background",
+            "A light-colored, possibly clear plastic item behind the primary object"
+          ],
+          "relationship_to_primary_object": "The other plastic trays are similar in type, suggesting they are part of a stack or collection of similar waste items. The paper/cardboard and other plastic are general waste items in the same bin.",
+          "potential_impact_on_classification": "The presence of similar plastic trays reinforces the classification of the primary object as plastic packaging. The other materials indicate a mixed waste stream, but do not change the primary object's classification."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Rigid Plastic Packaging",
+          "recyclability_assessment_if_possible": "Likely recyclable if made from a common plastic type (e.g., PET, PP, PS), but depends on local recycling facilities. The 'NORM PACK' text might indicate a standardized material.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "Specific type of plastic (e.g., PET, PP, PS) is not visible, which would affect specific recycling streams.",
+            "The exact original contents are unknown."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 16,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop005.jpg",
+      "gemini_text": "{\n  \"region_id\": 16,\n  \"crop_path\": \"CROP from scan_1762183607_crop005.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Rectangular tray with multiple compartments\",\n    \"size\": \"Medium, consistent with food or plant packaging\",\n    \"color\": \"Dark grey/black\",\n    \"condition\": \"Appears intact, possibly used\",\n    \"likely_function_or_original_purpose\": \"Packaging tray, possibly for food items or plant seedlings, indicated by 'NORM PACK-208' text.\",\n    \"current_state\": \"Intact, appears to have some residue or dirt from use.\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the tray is visible, showing its structure and text, though not entirely complete.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Another similar dark plastic tray stacked above\",\n      \"A teal/green plastic tray stacked below\",\n      \"Portions of other waste items in the background\"\n    ],\n    \"relationship_to_primary_object\": \"Stacked with similar plastic trays, suggesting a collection of discarded packaging.\",\n    \"potential_impact_on_classification\": \"Reinforces the classification of the primary object as plastic packaging/trays.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Rigid Plastic Packaging\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable as rigid plastic, but depends on the specific plastic type (not visible) and local recycling infrastructure. Appears to be a common type of packaging.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Specific type of plastic (e.g., PET, PP, PS) is not identifiable from the image.\",\n      \"Exact original contents of the tray are unknown.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be a plant nursery tray, but the 'NORM PACK' branding leans towards general packaging.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 16,
+        "crop_path": "CROP from scan_1762183607_crop005.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Rectangular tray with multiple compartments",
+          "size": "Medium, consistent with food or plant packaging",
+          "color": "Dark grey/black",
+          "condition": "Appears intact, possibly used",
+          "likely_function_or_original_purpose": "Packaging tray, possibly for food items or plant seedlings, indicated by 'NORM PACK-208' text.",
+          "current_state": "Intact, appears to have some residue or dirt from use.",
+          "completeness_and_visibility_in_crop": "A significant portion of the tray is visible, showing its structure and text, though not entirely complete."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Another similar dark plastic tray stacked above",
+            "A teal/green plastic tray stacked below",
+            "Portions of other waste items in the background"
+          ],
+          "relationship_to_primary_object": "Stacked with similar plastic trays, suggesting a collection of discarded packaging.",
+          "potential_impact_on_classification": "Reinforces the classification of the primary object as plastic packaging/trays."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Rigid Plastic Packaging",
+          "recyclability_assessment_if_possible": "Likely recyclable as rigid plastic, but depends on the specific plastic type (not visible) and local recycling infrastructure. Appears to be a common type of packaging.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "Specific type of plastic (e.g., PET, PP, PS) is not identifiable from the image.",
+            "Exact original contents of the tray are unknown."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be a plant nursery tray, but the 'NORM PACK' branding leans towards general packaging."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 0,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop006.jpg",
+      "gemini_text": "{\n  \"region_id\": 0,\n  \"crop_path\": \"scan_1762183607_crop006.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Large, somewhat cuboid, bulging\",\n    \"size\": \"Large, industrial scale\",\n    \"color\": \"White\",\n    \"condition\": \"Intact\",\n    \"likely_function_or_original_purpose\": \"Bulk storage or transport of materials (e.g., grains, powders, pellets)\",\n    \"current_state\": \"Intact, filled\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the object is visible, occupying most of the foreground. Top and bottom edges are cut off by the crop boundary.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"A small portion of a blue plastic object in the bottom right\",\n      \"A light-colored wall or door in the background\"\n    ],\n    \"relationship_to_primary_object\": \"The blue plastic object is adjacent to the primary object. The wall is behind the primary object.\",\n    \"potential_impact_on_classification\": \"The secondary elements do not significantly impact the classification of the primary object, as they are either too small/unclear or part of the environmental context.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Other Plastic Items (specifically, a bulk bag or FIBC)\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable, typically made of polypropylene (PP) which is recyclable, but may require specialized facilities due to size and potential contamination.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact type of plastic (e.g., PP, HDPE) is not explicitly visible.\",\n      \"Contents of the bag are unknown.\",\n      \"Blurriness of the image affects fine detail observation.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be a very large textile bag, though the texture strongly suggests woven plastic.\",\n      \"Could be a very large paper bag, but the material does not appear to be paper.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 0,
+        "crop_path": "scan_1762183607_crop006.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Large, somewhat cuboid, bulging",
+          "size": "Large, industrial scale",
+          "color": "White",
+          "condition": "Intact",
+          "likely_function_or_original_purpose": "Bulk storage or transport of materials (e.g., grains, powders, pellets)",
+          "current_state": "Intact, filled",
+          "completeness_and_visibility_in_crop": "A significant portion of the object is visible, occupying most of the foreground. Top and bottom edges are cut off by the crop boundary."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "A small portion of a blue plastic object in the bottom right",
+            "A light-colored wall or door in the background"
+          ],
+          "relationship_to_primary_object": "The blue plastic object is adjacent to the primary object. The wall is behind the primary object.",
+          "potential_impact_on_classification": "The secondary elements do not significantly impact the classification of the primary object, as they are either too small/unclear or part of the environmental context."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Other Plastic Items (specifically, a bulk bag or FIBC)",
+          "recyclability_assessment_if_possible": "Potentially recyclable, typically made of polypropylene (PP) which is recyclable, but may require specialized facilities due to size and potential contamination.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact type of plastic (e.g., PP, HDPE) is not explicitly visible.",
+            "Contents of the bag are unknown.",
+            "Blurriness of the image affects fine detail observation."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be a very large textile bag, though the texture strongly suggests woven plastic.",
+            "Could be a very large paper bag, but the material does not appear to be paper."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 2,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop007.jpg",
+      "gemini_text": "{\n  \"region_id\": 2,\n  \"crop_path\": \"CROP from scan_1762183607_crop007.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Wood\",\n    \"shape\": \"Rectangular box/crate\",\n    \"size\": \"Medium-sized, part of a larger container\",\n    \"color\": \"Light brown/natural wood\",\n    \"condition\": \"Fair condition, one edge appears slightly rough or splintered\",\n    \"likely_function_or_original_purpose\": \"Packaging, storage, or transport of goods\",\n    \"current_state\": \"Relatively clean, discarded\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the top and side of the wooden crate is visible, enough for clear identification.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Crumpled brown paper bag or similar paper material\",\n      \"Cardboard box with a green 'Hein' logo and a barcode\"\n    ],\n    \"relationship_to_primary_object\": \"The crumpled paper is visible inside the wooden crate. The cardboard box is partially visible on the left, next to or underneath the wooden crate.\",\n    \"potential_impact_on_classification\": \"The presence of paper and cardboard indicates a mix of waste materials, but the primary object (wooden crate) remains distinct and clearly classifiable.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Combustible Materials: Wood packaging\",\n    \"recyclability_assessment_if_possible\": \"Generally recyclable or compostable if untreated, depending on local facilities.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 2,
+        "crop_path": "CROP from scan_1762183607_crop007.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Wood",
+          "shape": "Rectangular box/crate",
+          "size": "Medium-sized, part of a larger container",
+          "color": "Light brown/natural wood",
+          "condition": "Fair condition, one edge appears slightly rough or splintered",
+          "likely_function_or_original_purpose": "Packaging, storage, or transport of goods",
+          "current_state": "Relatively clean, discarded",
+          "completeness_and_visibility_in_crop": "A significant portion of the top and side of the wooden crate is visible, enough for clear identification."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Crumpled brown paper bag or similar paper material",
+            "Cardboard box with a green 'Hein' logo and a barcode"
+          ],
+          "relationship_to_primary_object": "The crumpled paper is visible inside the wooden crate. The cardboard box is partially visible on the left, next to or underneath the wooden crate.",
+          "potential_impact_on_classification": "The presence of paper and cardboard indicates a mix of waste materials, but the primary object (wooden crate) remains distinct and clearly classifiable."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Combustible Materials: Wood packaging",
+          "recyclability_assessment_if_possible": "Generally recyclable or compostable if untreated, depending on local facilities.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 4,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop008.jpg",
+      "gemini_text": "{\n  \"region_id\": 4,\n  \"crop_path\": \"CROP from scan_1762183607_crop008.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Large, soft-sided, roughly cubic/rectangular\",\n    \"size\": \"Large, industrial scale (likely a bulk bag/FIBC)\",\n    \"color\": \"White/off-white\",\n    \"condition\": \"Appears intact and functional as a container\",\n    \"likely_function_or_original_purpose\": \"Bulk storage or transport of granular or powdered materials\",\n    \"current_state\": \"Intact, appears to be holding contents, possibly clean\",\n    \"completeness_and_visibility_in_crop\": \"The majority of the bag is visible, with the very top slightly out of frame and the bottom obscured by foreground elements.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Portion of stacked plastic trays (black and green) in the foreground\",\n      \"Pallets and cardboard boxes in the background (visible in original image context)\"\n    ],\n    \"relationship_to_primary_object\": \"The stacked plastic trays are in the immediate foreground, partially obscuring the lower front portion of the primary object. Other elements are further in the background.\",\n    \"potential_impact_on_classification\": \"The foreground elements slightly obscure the primary object's base but do not prevent its clear identification or classification. The background elements provide context of an industrial or storage area.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Other Plastic Items (specifically a Flexible Intermediate Bulk Container - FIBC or 'big bag')\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable if made of a single polymer (e.g., polypropylene) and clean, but depends on local recycling facilities for industrial plastics.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact contents of the bag are unknown, but this does not affect the classification of the bag itself.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 4,
+        "crop_path": "CROP from scan_1762183607_crop008.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Large, soft-sided, roughly cubic/rectangular",
+          "size": "Large, industrial scale (likely a bulk bag/FIBC)",
+          "color": "White/off-white",
+          "condition": "Appears intact and functional as a container",
+          "likely_function_or_original_purpose": "Bulk storage or transport of granular or powdered materials",
+          "current_state": "Intact, appears to be holding contents, possibly clean",
+          "completeness_and_visibility_in_crop": "The majority of the bag is visible, with the very top slightly out of frame and the bottom obscured by foreground elements."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Portion of stacked plastic trays (black and green) in the foreground",
+            "Pallets and cardboard boxes in the background (visible in original image context)"
+          ],
+          "relationship_to_primary_object": "The stacked plastic trays are in the immediate foreground, partially obscuring the lower front portion of the primary object. Other elements are further in the background.",
+          "potential_impact_on_classification": "The foreground elements slightly obscure the primary object's base but do not prevent its clear identification or classification. The background elements provide context of an industrial or storage area."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Other Plastic Items (specifically a Flexible Intermediate Bulk Container - FIBC or 'big bag')",
+          "recyclability_assessment_if_possible": "Potentially recyclable if made of a single polymer (e.g., polypropylene) and clean, but depends on local recycling facilities for industrial plastics.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact contents of the bag are unknown, but this does not affect the classification of the bag itself."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 9,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop009.jpg",
+      "gemini_text": "{\n  \"region_id\": 9,\n  \"crop_path\": \"CROP from scan_1762183607_crop009.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Rectangular, modular, with open compartments, stacked\",\n    \"size\": \"Large, appears to be a standard pallet size or a stack of substantial modular units\",\n    \"color\": \"Grey, with some lighter grey/white on the top surface and a yellowish patch on one side\",\n    \"condition\": \"Appears sturdy and intact, possibly used with some discoloration or minor wear\",\n    \"likely_function_or_original_purpose\": \"Storage, transport, or display of goods, similar to a pallet or a modular shelving unit\",\n    \"current_state\": \"Intact, possibly dirty or discolored in areas\",\n    \"completeness_and_visibility_in_crop\": \"Mostly visible, slightly cut off on the right side by a yellow object\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Portion of a yellow container/bin on the right\",\n      \"Blurry objects on the far left, possibly other waste items\"\n    ],\n    \"relationship_to_primary_object\": \"The yellow object is a container/bin adjacent to the primary object, suggesting a waste collection context. The blurry objects on the left are other items in the immediate vicinity.\",\n    \"potential_impact_on_classification\": \"The surrounding elements reinforce the context of a waste collection area, but do not directly impact the classification of the primary object itself.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: Other Plastic Items (specifically, a plastic pallet or stack of plastic crates)\",\n    \"recyclability_assessment_if_possible\": \"Plastic pallets are generally recyclable, depending on the specific type of plastic (e.g., HDPE, PP) and local recycling infrastructure.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact type of plastic is not discernible.\",\n      \"Uncertainty whether it is a single large plastic pallet or multiple smaller plastic crates stacked together.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Stack of plastic crates\",\n      \"Single large plastic pallet\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 9,
+        "crop_path": "CROP from scan_1762183607_crop009.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Rectangular, modular, with open compartments, stacked",
+          "size": "Large, appears to be a standard pallet size or a stack of substantial modular units",
+          "color": "Grey, with some lighter grey/white on the top surface and a yellowish patch on one side",
+          "condition": "Appears sturdy and intact, possibly used with some discoloration or minor wear",
+          "likely_function_or_original_purpose": "Storage, transport, or display of goods, similar to a pallet or a modular shelving unit",
+          "current_state": "Intact, possibly dirty or discolored in areas",
+          "completeness_and_visibility_in_crop": "Mostly visible, slightly cut off on the right side by a yellow object"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Portion of a yellow container/bin on the right",
+            "Blurry objects on the far left, possibly other waste items"
+          ],
+          "relationship_to_primary_object": "The yellow object is a container/bin adjacent to the primary object, suggesting a waste collection context. The blurry objects on the left are other items in the immediate vicinity.",
+          "potential_impact_on_classification": "The surrounding elements reinforce the context of a waste collection area, but do not directly impact the classification of the primary object itself."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: Other Plastic Items (specifically, a plastic pallet or stack of plastic crates)",
+          "recyclability_assessment_if_possible": "Plastic pallets are generally recyclable, depending on the specific type of plastic (e.g., HDPE, PP) and local recycling infrastructure.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact type of plastic is not discernible.",
+            "Uncertainty whether it is a single large plastic pallet or multiple smaller plastic crates stacked together."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Stack of plastic crates",
+            "Single large plastic pallet"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 18,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop010.jpg",
+      "gemini_text": "{\n  \"region_id\": 18,\n  \"crop_path\": \"CROP from scan_1762183607_crop010.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Cardboard\",\n    \"shape\": \"Flattened sheets, rectangular/square\",\n    \"size\": \"Medium to large pieces\",\n    \"color\": \"Brown/beige with some blue/white markings\",\n    \"condition\": \"Flattened, possibly creased\",\n    \"likely_function_or_original_purpose\": \"Packaging boxes\",\n    \"current_state\": \"Discarded, flattened, stacked\",\n    \"completeness_and_visibility_in_crop\": \"Multiple pieces of flattened cardboard are visible, stacked; edges are somewhat obscured by blurriness.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Indistinct small items on top of the cardboard stack, possibly other paper or light packaging\"\n    ],\n    \"relationship_to_primary_object\": \"Resting on top of the primary object\",\n    \"potential_impact_on_classification\": \"Minimal, as the primary object is clearly cardboard.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Cardboard\",\n    \"recyclability_assessment_if_possible\": \"Generally recyclable, appears relatively clean and dry.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Blurriness makes specific details of the cardboard and items on top hard to discern.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"None, visual evidence strongly points to cardboard despite CLIP's E-waste suggestions.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 18,
+        "crop_path": "CROP from scan_1762183607_crop010.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Cardboard",
+          "shape": "Flattened sheets, rectangular/square",
+          "size": "Medium to large pieces",
+          "color": "Brown/beige with some blue/white markings",
+          "condition": "Flattened, possibly creased",
+          "likely_function_or_original_purpose": "Packaging boxes",
+          "current_state": "Discarded, flattened, stacked",
+          "completeness_and_visibility_in_crop": "Multiple pieces of flattened cardboard are visible, stacked; edges are somewhat obscured by blurriness."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Indistinct small items on top of the cardboard stack, possibly other paper or light packaging"
+          ],
+          "relationship_to_primary_object": "Resting on top of the primary object",
+          "potential_impact_on_classification": "Minimal, as the primary object is clearly cardboard."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Cardboard",
+          "recyclability_assessment_if_possible": "Generally recyclable, appears relatively clean and dry.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Blurriness makes specific details of the cardboard and items on top hard to discern."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "None, visual evidence strongly points to cardboard despite CLIP's E-waste suggestions."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 3,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop011.jpg",
+      "gemini_text": "{\n  \"region_id\": 3,\n  \"crop_path\": \"CROP from scan_1762183607_crop011.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Cardboard\",\n    \"shape\": \"Flat, angular piece of a larger box\",\n    \"size\": \"Medium, appears to be a side panel of a beverage carton\",\n    \"color\": \"Brown (kraft) with green and white printed text and a white barcode label\",\n    \"condition\": \"Intact, possibly slightly creased\",\n    \"likely_function_or_original_purpose\": \"Packaging for a beverage, specifically a '4 PACKS 6X25 cl' of Heineken\",\n    \"current_state\": \"Relatively clean and intact\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of a cardboard box side is visible, including branding, product information, and a barcode. It is not the entire box but enough to clearly identify its nature.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"A piece of light-colored wood or particle board (to the right and behind the cardboard)\",\n      \"A white, textured surface (possibly plastic foam or packaging) below the cardboard\"\n    ],\n    \"relationship_to_primary_object\": \"Adjacent to or behind the primary cardboard object, part of the same pile of waste.\",\n    \"potential_impact_on_classification\": \"Minimal impact on the primary object's classification, as they are distinct items.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Cardboard\",\n    \"recyclability_assessment_if_possible\": \"Cardboard packaging is generally recyclable.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 3,
+        "crop_path": "CROP from scan_1762183607_crop011.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Cardboard",
+          "shape": "Flat, angular piece of a larger box",
+          "size": "Medium, appears to be a side panel of a beverage carton",
+          "color": "Brown (kraft) with green and white printed text and a white barcode label",
+          "condition": "Intact, possibly slightly creased",
+          "likely_function_or_original_purpose": "Packaging for a beverage, specifically a '4 PACKS 6X25 cl' of Heineken",
+          "current_state": "Relatively clean and intact",
+          "completeness_and_visibility_in_crop": "A significant portion of a cardboard box side is visible, including branding, product information, and a barcode. It is not the entire box but enough to clearly identify its nature."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "A piece of light-colored wood or particle board (to the right and behind the cardboard)",
+            "A white, textured surface (possibly plastic foam or packaging) below the cardboard"
+          ],
+          "relationship_to_primary_object": "Adjacent to or behind the primary cardboard object, part of the same pile of waste.",
+          "potential_impact_on_classification": "Minimal impact on the primary object's classification, as they are distinct items."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Cardboard",
+          "recyclability_assessment_if_possible": "Cardboard packaging is generally recyclable.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 8,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop012.jpg",
+      "gemini_text": "{\n  \"region_id\": 8,\n  \"crop_path\": \"scan_1762183607_crop012.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Metal\",\n    \"shape\": \"Long, straight, rectangular bars/beams\",\n    \"size\": \"Appears to be a significant structural component, likely several feet long in its entirety, but only a section is visible\",\n    \"color\": \"Silvery-grey metallic\",\n    \"condition\": \"Appears intact and relatively clean\",\n    \"likely_function_or_original_purpose\": \"Structural support, possibly part of a ladder, railing, or shelving unit\",\n    \"current_state\": \"Intact, appears to be in use or part of a fixed structure\",\n    \"completeness_and_visibility_in_crop\": \"Only a partial view of two parallel bars is visible; their ends are cut off by the crop boundaries\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"A coiled green/yellow object (possibly a hose or cable)\"\n    ],\n    \"relationship_to_primary_object\": \"The green/yellow object is partially visible behind the metal bars, suggesting it is resting on or attached to the structure the bars are part of\",\n    \"potential_impact_on_classification\": \"The primary object does not appear to be waste. The secondary object is too indistinct to classify, but its presence does not change the assessment of the primary object.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Non-waste item; appears to be part of a fixed metal structure (e.g., ladder, railing)\",\n    \"recyclability_assessment_if_possible\": \"If discarded as waste, the metal bars would be recyclable as 'Metals'. However, in their current context, they are not waste.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact function of the metal structure (ladder, railing, frame) is not definitively clear, but its nature as a fixed structural component is evident.\",\n      \"The coiled green/yellow object is too indistinct to identify or classify accurately.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"If not part of a fixed structure, it could be discarded metal scrap, but the parallel arrangement and clean appearance argue against this.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 8,
+        "crop_path": "scan_1762183607_crop012.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Metal",
+          "shape": "Long, straight, rectangular bars/beams",
+          "size": "Appears to be a significant structural component, likely several feet long in its entirety, but only a section is visible",
+          "color": "Silvery-grey metallic",
+          "condition": "Appears intact and relatively clean",
+          "likely_function_or_original_purpose": "Structural support, possibly part of a ladder, railing, or shelving unit",
+          "current_state": "Intact, appears to be in use or part of a fixed structure",
+          "completeness_and_visibility_in_crop": "Only a partial view of two parallel bars is visible; their ends are cut off by the crop boundaries"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "A coiled green/yellow object (possibly a hose or cable)"
+          ],
+          "relationship_to_primary_object": "The green/yellow object is partially visible behind the metal bars, suggesting it is resting on or attached to the structure the bars are part of",
+          "potential_impact_on_classification": "The primary object does not appear to be waste. The secondary object is too indistinct to classify, but its presence does not change the assessment of the primary object."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Non-waste item; appears to be part of a fixed metal structure (e.g., ladder, railing)",
+          "recyclability_assessment_if_possible": "If discarded as waste, the metal bars would be recyclable as 'Metals'. However, in their current context, they are not waste.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact function of the metal structure (ladder, railing, frame) is not definitively clear, but its nature as a fixed structural component is evident.",
+            "The coiled green/yellow object is too indistinct to identify or classify accurately."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "If not part of a fixed structure, it could be discarded metal scrap, but the parallel arrangement and clean appearance argue against this."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 7,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop013.jpg",
+      "gemini_text": "{\n  \"region_id\": 7,\n  \"crop_path\": \"scan_1762183607_crop013.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Molded, curved, with a flat side, suggesting a tray or container\",\n    \"size\": \"Medium to large, consistent with a plant propagation tray\",\n    \"color\": \"Dark grey/black\",\n    \"condition\": \"Appears intact\",\n    \"likely_function_or_original_purpose\": \"Plant propagation tray or a similar container for holding multiple items\",\n    \"current_state\": \"Used, possibly dirty, but structurally intact\",\n    \"completeness_and_visibility_in_crop\": \"A significant portion of the object's side and part of its top/bottom edge are visible. It is not fully visible.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"A teal/turquoise plastic tray (partially visible above)\",\n      \"Other dark plastic trays (partially visible below)\"\n    ],\n    \"relationship_to_primary_object\": \"These are similar plastic trays, stacked with the primary object.\",\n    \"potential_impact_on_classification\": \"They reinforce the classification of the primary object as a plastic tray/container.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Other Plastic Containers\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable, as many plastic plant trays are made from common recyclable plastics (e.g., PP, PS), but depends on specific plastic type and local recycling facilities.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact type of plastic (e.g., PP, PS, HDPE) is not identifiable.\",\n      \"Full internal structure and complete shape are not visible in the crop.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 7,
+        "crop_path": "scan_1762183607_crop013.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Molded, curved, with a flat side, suggesting a tray or container",
+          "size": "Medium to large, consistent with a plant propagation tray",
+          "color": "Dark grey/black",
+          "condition": "Appears intact",
+          "likely_function_or_original_purpose": "Plant propagation tray or a similar container for holding multiple items",
+          "current_state": "Used, possibly dirty, but structurally intact",
+          "completeness_and_visibility_in_crop": "A significant portion of the object's side and part of its top/bottom edge are visible. It is not fully visible."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "A teal/turquoise plastic tray (partially visible above)",
+            "Other dark plastic trays (partially visible below)"
+          ],
+          "relationship_to_primary_object": "These are similar plastic trays, stacked with the primary object.",
+          "potential_impact_on_classification": "They reinforce the classification of the primary object as a plastic tray/container."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Other Plastic Containers",
+          "recyclability_assessment_if_possible": "Potentially recyclable, as many plastic plant trays are made from common recyclable plastics (e.g., PP, PS), but depends on specific plastic type and local recycling facilities.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact type of plastic (e.g., PP, PS, HDPE) is not identifiable.",
+            "Full internal structure and complete shape are not visible in the crop."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 15,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop014.jpg",
+      "gemini_text": "{\n  \"region_id\": 15,\n  \"crop_path\": \"CROP from scan_1762183607_crop014.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Textile\",\n    \"shape\": \"Irregular, draped, with a loop\",\n    \"size\": \"Portion of a larger item\",\n    \"color\": \"Off-white/light grey\",\n    \"condition\": \"Intact\",\n    \"likely_function_or_original_purpose\": \"Part of a bag (e.g., bulk bag, laundry bag) or a piece of cloth/strap\",\n    \"current_state\": \"Intact, possibly creased\",\n    \"completeness_and_visibility_in_crop\": \"Only a small upper-left corner showing a folded edge and a loop is visible. The majority of the object is outside the crop.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Yellow waste bin\",\n      \"Various plastic trays\"\n    ],\n    \"relationship_to_primary_object\": \"The white material is hanging over the edge of the yellow waste bin or resting on other items inside it.\",\n    \"potential_impact_on_classification\": \"The surrounding context of a waste bin filled with plastics could lead to misclassification as plastic, despite visual cues suggesting textile.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Textiles\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable if it is a clean textile, depending on local recycling programs. If it were a plastic bag, it might also be recyclable.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact material (textile vs. thick plastic film/bag) is not 100% clear due to limited visibility and resolution.\",\n      \"Specific function or type of textile/bag is uncertain.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Thick plastic bag (e.g., bulk bag liner, heavy-duty refuse sack)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 15,
+        "crop_path": "CROP from scan_1762183607_crop014.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Textile",
+          "shape": "Irregular, draped, with a loop",
+          "size": "Portion of a larger item",
+          "color": "Off-white/light grey",
+          "condition": "Intact",
+          "likely_function_or_original_purpose": "Part of a bag (e.g., bulk bag, laundry bag) or a piece of cloth/strap",
+          "current_state": "Intact, possibly creased",
+          "completeness_and_visibility_in_crop": "Only a small upper-left corner showing a folded edge and a loop is visible. The majority of the object is outside the crop."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Yellow waste bin",
+            "Various plastic trays"
+          ],
+          "relationship_to_primary_object": "The white material is hanging over the edge of the yellow waste bin or resting on other items inside it.",
+          "potential_impact_on_classification": "The surrounding context of a waste bin filled with plastics could lead to misclassification as plastic, despite visual cues suggesting textile."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Textiles",
+          "recyclability_assessment_if_possible": "Potentially recyclable if it is a clean textile, depending on local recycling programs. If it were a plastic bag, it might also be recyclable.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact material (textile vs. thick plastic film/bag) is not 100% clear due to limited visibility and resolution.",
+            "Specific function or type of textile/bag is uncertain."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Thick plastic bag (e.g., bulk bag liner, heavy-duty refuse sack)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 9,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop015.jpg",
+      "gemini_text": "{\n  \"region_id\": 9,\n  \"crop_path\": \"CROP from scan_1762183607_crop015.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Bottle-like, elongated with a conical bottom\",\n    \"size\": \"Medium, appears to be a standard handheld bottle size\",\n    \"color\": \"Clear/translucent plastic with blue liquid inside, white/light grey top\",\n    \"condition\": \"Intact\",\n    \"likely_function_or_original_purpose\": \"Container for liquid, likely a beverage (e.g., water) or a cleaning product\",\n    \"current_state\": \"Intact, contains some blue liquid\",\n    \"completeness_and_visibility_in_crop\": \"Mostly visible; the bottom and middle sections are clearly visible, while the very top is partially cut off.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Dark background\",\n      \"Small light blue/turquoise edge at the very top\"\n    ],\n    \"relationship_to_primary_object\": \"The dark background serves as the immediate environment. The light blue/turquoise edge is positioned above the primary object, possibly part of the bin's lid or another nearby item.\",\n    \"potential_impact_on_classification\": \"Minimal; the secondary elements do not obscure or significantly impact the classification of the primary object.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics: PET Bottles\",\n    \"recyclability_assessment_if_possible\": \"Generally recyclable as a PET bottle.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"Exact type of plastic (e.g., PET vs. other rigid plastic) without a label or clearer markings\",\n      \"Specific nature of the blue liquid inside\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Plastics: Other Plastic Containers (e.g., a cleaning product bottle if not PET)\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 9,
+        "crop_path": "CROP from scan_1762183607_crop015.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Bottle-like, elongated with a conical bottom",
+          "size": "Medium, appears to be a standard handheld bottle size",
+          "color": "Clear/translucent plastic with blue liquid inside, white/light grey top",
+          "condition": "Intact",
+          "likely_function_or_original_purpose": "Container for liquid, likely a beverage (e.g., water) or a cleaning product",
+          "current_state": "Intact, contains some blue liquid",
+          "completeness_and_visibility_in_crop": "Mostly visible; the bottom and middle sections are clearly visible, while the very top is partially cut off."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Dark background",
+            "Small light blue/turquoise edge at the very top"
+          ],
+          "relationship_to_primary_object": "The dark background serves as the immediate environment. The light blue/turquoise edge is positioned above the primary object, possibly part of the bin's lid or another nearby item.",
+          "potential_impact_on_classification": "Minimal; the secondary elements do not obscure or significantly impact the classification of the primary object."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics: PET Bottles",
+          "recyclability_assessment_if_possible": "Generally recyclable as a PET bottle.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "Exact type of plastic (e.g., PET vs. other rigid plastic) without a label or clearer markings",
+            "Specific nature of the blue liquid inside"
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Plastics: Other Plastic Containers (e.g., a cleaning product bottle if not PET)"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 15,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop016.jpg",
+      "gemini_text": "{\n  \"region_id\": 15,\n  \"crop_path\": \"CROP from scan_1762183607_crop016.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Metal\",\n    \"shape\": \"Rectangular panels, angled\",\n    \"size\": \"Large, part of a substantial structure\",\n    \"color\": \"Grey\",\n    \"condition\": \"Intact, minor wear\",\n    \"likely_function_or_original_purpose\": \"Structural component of a large container or building\",\n    \"current_state\": \"Intact, in use\",\n    \"completeness_and_visibility_in_crop\": \"Partial view of a large grey structure, showing panels and edges\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Faint green/yellowish object (possibly hose or cable)\"\n    ],\n    \"relationship_to_primary_object\": \"Behind or next to the primary grey structure\",\n    \"potential_impact_on_classification\": \"Minimal, barely visible and not the focus\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Metals\",\n    \"recyclability_assessment_if_possible\": \"If discarded, large metal structures are generally recyclable.\",\n    \"confidence_level_in_assessment\": \"C\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The crop is highly abstract and zoomed, making it difficult to determine the exact nature and purpose of the object. It appears to be part of the waste management infrastructure (e.g., side of a large bin or wall) rather than an item of waste itself. The classification as 'Metals' is based on its material composition, assuming it were to be discarded.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be part of a building facade, a fence, or other industrial equipment.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 15,
+        "crop_path": "CROP from scan_1762183607_crop016.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Metal",
+          "shape": "Rectangular panels, angled",
+          "size": "Large, part of a substantial structure",
+          "color": "Grey",
+          "condition": "Intact, minor wear",
+          "likely_function_or_original_purpose": "Structural component of a large container or building",
+          "current_state": "Intact, in use",
+          "completeness_and_visibility_in_crop": "Partial view of a large grey structure, showing panels and edges"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Faint green/yellowish object (possibly hose or cable)"
+          ],
+          "relationship_to_primary_object": "Behind or next to the primary grey structure",
+          "potential_impact_on_classification": "Minimal, barely visible and not the focus"
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Metals",
+          "recyclability_assessment_if_possible": "If discarded, large metal structures are generally recyclable.",
+          "confidence_level_in_assessment": "C",
+          "ambiguities_or_uncertainties_observed": [
+            "The crop is highly abstract and zoomed, making it difficult to determine the exact nature and purpose of the object. It appears to be part of the waste management infrastructure (e.g., side of a large bin or wall) rather than an item of waste itself. The classification as 'Metals' is based on its material composition, assuming it were to be discarded."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be part of a building facade, a fence, or other industrial equipment."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 12,
+      "crop_path": "crops/scan_1762183607/scan_1762183607_crop017.jpg",
+      "gemini_text": "{\n  \"region_id\": 12,\n  \"crop_path\": \"CROP from scan_1762183607_crop017.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Plastic\",\n    \"shape\": \"Molded tray with multiple compartments\",\n    \"size\": \"Medium, a portion of a larger tray\",\n    \"color\": \"Dark grey to black\",\n    \"condition\": \"Used, generally intact\",\n    \"likely_function_or_original_purpose\": \"Seedling tray for horticulture or food packaging tray\",\n    \"current_state\": \"Used, possibly dirty, intact\",\n    \"completeness_and_visibility_in_crop\": \"Only the top-central portion of one molded compartment tray is visible\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Other similar black and green plastic trays\",\n      \"Cardboard\",\n      \"General waste items\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is one of many similar plastic trays discarded together in the bin, visible in the original image.\",\n    \"potential_impact_on_classification\": \"The presence of many similar trays in the original image reinforces the classification of the primary object as a plastic tray, likely for horticulture or packaging.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastics/Rigid Plastic Packaging\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable, assuming it is a common plastic type (e.g., PP, PET, PS) and is relatively clean.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic (e.g., PP, PS) is not discernible from the image.\",\n      \"The precise original use (food packaging vs. horticulture tray) is not definitively clear from the crop alone, though the original image suggests horticulture.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 12,
+        "crop_path": "CROP from scan_1762183607_crop017.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Plastic",
+          "shape": "Molded tray with multiple compartments",
+          "size": "Medium, a portion of a larger tray",
+          "color": "Dark grey to black",
+          "condition": "Used, generally intact",
+          "likely_function_or_original_purpose": "Seedling tray for horticulture or food packaging tray",
+          "current_state": "Used, possibly dirty, intact",
+          "completeness_and_visibility_in_crop": "Only the top-central portion of one molded compartment tray is visible"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Other similar black and green plastic trays",
+            "Cardboard",
+            "General waste items"
+          ],
+          "relationship_to_primary_object": "The primary object is one of many similar plastic trays discarded together in the bin, visible in the original image.",
+          "potential_impact_on_classification": "The presence of many similar trays in the original image reinforces the classification of the primary object as a plastic tray, likely for horticulture or packaging."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastics/Rigid Plastic Packaging",
+          "recyclability_assessment_if_possible": "Likely recyclable, assuming it is a common plastic type (e.g., PP, PET, PS) and is relatively clean.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic (e.g., PP, PS) is not discernible from the image.",
+            "The precise original use (food packaging vs. horticulture tray) is not definitively clear from the crop alone, though the original image suggests horticulture."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    }
+  ],
+  "gemini_metrics_per_image": {
+    "api_calls": 18,
+    "input_tokens": 28183,
+    "output_tokens": 8877,
+    "total_tokens": 56130,
+    "errors": 0,
+    "structured_parse_success": 18,
+    "structured_parse_failures": 0,
+    "cache_hits": 0,
+    "avg_response_time_ms": 14019.857300652398
+  },
+  "phase_times": {
+    "segmentation_sec": 3.0216782093048096,
+    "crop_generation_sec": 0.45437145233154297,
+    "clip_classification_sec": 1.4819989204406738,
+    "prompt_building_sec": 0.0009329319000244141,
+    "gemini_inference_sec": 139.26289415359497
+  }
+}

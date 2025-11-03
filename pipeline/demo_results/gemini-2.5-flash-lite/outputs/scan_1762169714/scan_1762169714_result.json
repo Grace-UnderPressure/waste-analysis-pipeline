@@ -1,0 +1,581 @@
+{
+  "success": true,
+  "scan_id": 1762169714,
+  "num_crops": 13,
+  "outputs": [
+    {
+      "region_id": 0,
+      "crop_path": "crops/scan_1762169714/scan_1762169714_crop000.jpg",
+      "gemini_text": "{\n  \"region_id\": 0,\n  \"crop_path\": \"scan_1762169714_crop000.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"rectangular\",\n    \"size\": \"large\",\n    \"color\": \"white\",\n    \"condition\": \"dirty\",\n    \"likely_function_or_original_purpose\": \"container or bin\",\n    \"current_state\": \"dirty\",\n    \"completeness_and_visibility_in_crop\": \"The top edge and a portion of the side of a large white plastic object are visible. The object appears to be a container or bin. It is dirty with visible grime along the top edge.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"metal grating in the background\",\n      \"various waste items in the original image context (paper, plastic, metal)\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object appears to be a container holding other waste items, as seen in the original image.\",\n    \"potential_impact_on_classification\": \"The presence of other waste items within or around the primary object could influence the overall classification if they are significantly different in material or hazard level.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastic\",\n    \"recyclability_assessment_if_possible\": \"Recyclable (depending on specific plastic type and local facilities)\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic is not identifiable from the crop alone.\",\n      \"The full extent and function of the object are not clear from the crop.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be a lid for a larger container.\",\n      \"Could be a component of a larger plastic structure.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 0,
+        "crop_path": "scan_1762169714_crop000.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "rectangular",
+          "size": "large",
+          "color": "white",
+          "condition": "dirty",
+          "likely_function_or_original_purpose": "container or bin",
+          "current_state": "dirty",
+          "completeness_and_visibility_in_crop": "The top edge and a portion of the side of a large white plastic object are visible. The object appears to be a container or bin. It is dirty with visible grime along the top edge."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "metal grating in the background",
+            "various waste items in the original image context (paper, plastic, metal)"
+          ],
+          "relationship_to_primary_object": "The primary object appears to be a container holding other waste items, as seen in the original image.",
+          "potential_impact_on_classification": "The presence of other waste items within or around the primary object could influence the overall classification if they are significantly different in material or hazard level."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastic",
+          "recyclability_assessment_if_possible": "Recyclable (depending on specific plastic type and local facilities)",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic is not identifiable from the crop alone.",
+            "The full extent and function of the object are not clear from the crop."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be a lid for a larger container.",
+            "Could be a component of a larger plastic structure."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 3,
+      "crop_path": "crops/scan_1762169714/scan_1762169714_crop001.jpg",
+      "gemini_text": "{\n  \"region_id\": 3,\n  \"crop_path\": \"scan_1762169714_crop001.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Cardboard\",\n    \"shape\": \"Cylindrical/rolled\",\n    \"size\": \"Medium\",\n    \"color\": \"Gray/White\",\n    \"condition\": \"Crushed and creased\",\n    \"likely_function_or_original_purpose\": \"Packaging material\",\n    \"current_state\": \"Damaged and dirty\",\n    \"completeness_and_visibility_in_crop\": \"Mostly visible, but some edges are obscured by other waste.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Wood debris\",\n      \"Plastic packaging\",\n      \"Other unidentifiable paper/cardboard fragments\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object appears to be resting on or mixed with other waste materials.\",\n    \"potential_impact_on_classification\": \"The presence of other materials may complicate sorting if not separated.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Cardboard\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable if clean and not excessively contaminated, but condition may affect this.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact extent of contamination is unclear from the crop.\",\n      \"The internal structure of the crushed material is not fully visible.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Textiles (due to the texture and crushed appearance, though the underlying structure is clearly corrugated).\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 3,
+        "crop_path": "scan_1762169714_crop001.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Cardboard",
+          "shape": "Cylindrical/rolled",
+          "size": "Medium",
+          "color": "Gray/White",
+          "condition": "Crushed and creased",
+          "likely_function_or_original_purpose": "Packaging material",
+          "current_state": "Damaged and dirty",
+          "completeness_and_visibility_in_crop": "Mostly visible, but some edges are obscured by other waste."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Wood debris",
+            "Plastic packaging",
+            "Other unidentifiable paper/cardboard fragments"
+          ],
+          "relationship_to_primary_object": "The primary object appears to be resting on or mixed with other waste materials.",
+          "potential_impact_on_classification": "The presence of other materials may complicate sorting if not separated."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Cardboard",
+          "recyclability_assessment_if_possible": "Potentially recyclable if clean and not excessively contaminated, but condition may affect this.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact extent of contamination is unclear from the crop.",
+            "The internal structure of the crushed material is not fully visible."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Textiles (due to the texture and crushed appearance, though the underlying structure is clearly corrugated)."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 0,
+      "crop_path": "crops/scan_1762169714/scan_1762169714_crop002.jpg",
+      "gemini_text": "{\n  \"region_id\": 0,\n  \"crop_path\": \"scan_1762169714_crop002.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Cardboard/Paper\",\n    \"shape\": \"Cylindrical tube\",\n    \"size\": \"Medium\",\n    \"color\": \"Beige with brown and black graphics\",\n    \"condition\": \"Intact\",\n    \"likely_function_or_original_purpose\": \"Packaging for a bottle of rum\",\n    \"current_state\": \"Appears clean\",\n    \"completeness_and_visibility_in_crop\": \"Fully visible and intact\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Plastic packaging material\",\n      \"Crushed paper/cardboard\",\n      \"Blue plastic crate fragment\",\n      \"Clear plastic sheet\",\n      \"Black plastic components\",\n      \"White paper with text (possibly Evian branding)\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is one of several waste items within a larger container.\",\n    \"potential_impact_on_classification\": \"The presence of mixed materials (plastic, paper, cardboard) in the surrounding elements suggests a mixed waste stream, but the primary object itself is primarily cardboard/paper packaging.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Paper/Cardboard Packaging\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable as paper/cardboard, depending on local recycling facility capabilities.\",\n    \"confidence_level_in_assessment\": \"A\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact composition of the outer layer (e.g., if it has a plastic coating) is not definitively clear from the image, but it appears to be primarily paper or thin cardboard.\"\n    ],\n    \"alternative_possibilities_if_unclear\": []\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 0,
+        "crop_path": "scan_1762169714_crop002.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Cardboard/Paper",
+          "shape": "Cylindrical tube",
+          "size": "Medium",
+          "color": "Beige with brown and black graphics",
+          "condition": "Intact",
+          "likely_function_or_original_purpose": "Packaging for a bottle of rum",
+          "current_state": "Appears clean",
+          "completeness_and_visibility_in_crop": "Fully visible and intact"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Plastic packaging material",
+            "Crushed paper/cardboard",
+            "Blue plastic crate fragment",
+            "Clear plastic sheet",
+            "Black plastic components",
+            "White paper with text (possibly Evian branding)"
+          ],
+          "relationship_to_primary_object": "The primary object is one of several waste items within a larger container.",
+          "potential_impact_on_classification": "The presence of mixed materials (plastic, paper, cardboard) in the surrounding elements suggests a mixed waste stream, but the primary object itself is primarily cardboard/paper packaging."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Paper/Cardboard Packaging",
+          "recyclability_assessment_if_possible": "Likely recyclable as paper/cardboard, depending on local recycling facility capabilities.",
+          "confidence_level_in_assessment": "A",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact composition of the outer layer (e.g., if it has a plastic coating) is not definitively clear from the image, but it appears to be primarily paper or thin cardboard."
+          ],
+          "alternative_possibilities_if_unclear": []
+        }
+      }
+    },
+    {
+      "region_id": 5,
+      "crop_path": "crops/scan_1762169714/scan_1762169714_crop003.jpg",
+      "gemini_text": "{\n  \"region_id\": 5,\n  \"crop_path\": \"scan_1762169714_crop003.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Composite/Paper\",\n    \"shape\": \"Irregular, layered\",\n    \"size\": \"Medium (estimated from context)\",\n    \"color\": \"White, grey, with brown/leafy accents\",\n    \"condition\": \"Torn, crumpled, appears dry\",\n    \"likely_function_or_original_purpose\": \"Unknown, possibly packaging material or insulation\",\n    \"current_state\": \"Damaged, soiled\",\n    \"completeness_and_visibility_in_crop\": \"The object is largely visible but appears to be a fragment of a larger item. Its layered and torn nature makes precise shape determination difficult.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Plastic packaging\",\n      \"Cardboard\",\n      \"Plastic containers\",\n      \"Black plastic components\",\n      \"Clear plastic sheet\",\n      \"Cylindrical container with label (possibly metal or composite)\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is situated within a collection of other waste items in a container.\",\n    \"potential_impact_on_classification\": \"The presence of various plastics and other materials suggests a mixed waste stream. The primary object's composition might influence its recyclability or disposal method.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Composite Materials/Paper\",\n    \"recyclability_assessment_if_possible\": \"Likely not easily recyclable due to its composite nature and apparent soiling. If primarily paper, it might be recyclable if clean and not heavily contaminated.\",\n    \"confidence_level_in_assessment\": \"C\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact material composition is unclear; it appears to be a layered composite of paper-like material with possible fibrous or insulating components.\",\n      \"The original form and function are unknown.\",\n      \"The degree of soiling and contamination is difficult to ascertain precisely from the image.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Heavily soiled paper product\",\n      \"Insulation material\",\n      \"Fragment of a composite packaging item\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 5,
+        "crop_path": "scan_1762169714_crop003.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Composite/Paper",
+          "shape": "Irregular, layered",
+          "size": "Medium (estimated from context)",
+          "color": "White, grey, with brown/leafy accents",
+          "condition": "Torn, crumpled, appears dry",
+          "likely_function_or_original_purpose": "Unknown, possibly packaging material or insulation",
+          "current_state": "Damaged, soiled",
+          "completeness_and_visibility_in_crop": "The object is largely visible but appears to be a fragment of a larger item. Its layered and torn nature makes precise shape determination difficult."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Plastic packaging",
+            "Cardboard",
+            "Plastic containers",
+            "Black plastic components",
+            "Clear plastic sheet",
+            "Cylindrical container with label (possibly metal or composite)"
+          ],
+          "relationship_to_primary_object": "The primary object is situated within a collection of other waste items in a container.",
+          "potential_impact_on_classification": "The presence of various plastics and other materials suggests a mixed waste stream. The primary object's composition might influence its recyclability or disposal method."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Composite Materials/Paper",
+          "recyclability_assessment_if_possible": "Likely not easily recyclable due to its composite nature and apparent soiling. If primarily paper, it might be recyclable if clean and not heavily contaminated.",
+          "confidence_level_in_assessment": "C",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact material composition is unclear; it appears to be a layered composite of paper-like material with possible fibrous or insulating components.",
+            "The original form and function are unknown.",
+            "The degree of soiling and contamination is difficult to ascertain precisely from the image."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Heavily soiled paper product",
+            "Insulation material",
+            "Fragment of a composite packaging item"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 2,
+      "crop_path": "crops/scan_1762169714/scan_1762169714_crop004.jpg",
+      "gemini_text": "{\n  \"region_id\": 2,\n  \"crop_path\": \"scan_1762169714_crop004.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"rectangular prism\",\n    \"size\": \"long and narrow\",\n    \"color\": \"white with red and green text\",\n    \"condition\": \"worn\",\n    \"likely_function_or_original_purpose\": \"packaging for bottled water\",\n    \"current_state\": \"dirty\",\n    \"completeness_and_visibility_in_crop\": \"mostly visible, but some edges are obscured\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"yellow cylindrical container with text\",\n      \"blue plastic grid\",\n      \"black plastic pieces\",\n      \"white crumpled material\",\n      \"clear plastic sheet\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is lying on top of other waste items within a container.\",\n    \"potential_impact_on_classification\": \"The presence of multiple materials could complicate sorting if not separated.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Plastic\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable as plastic packaging, but condition may affect this.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic is not definitively identifiable from the image.\",\n      \"The extent of damage or contamination is not fully clear.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Composite material if it contains significant non-plastic components not visible.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 2,
+        "crop_path": "scan_1762169714_crop004.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "rectangular prism",
+          "size": "long and narrow",
+          "color": "white with red and green text",
+          "condition": "worn",
+          "likely_function_or_original_purpose": "packaging for bottled water",
+          "current_state": "dirty",
+          "completeness_and_visibility_in_crop": "mostly visible, but some edges are obscured"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "yellow cylindrical container with text",
+            "blue plastic grid",
+            "black plastic pieces",
+            "white crumpled material",
+            "clear plastic sheet"
+          ],
+          "relationship_to_primary_object": "The primary object is lying on top of other waste items within a container.",
+          "potential_impact_on_classification": "The presence of multiple materials could complicate sorting if not separated."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Plastic",
+          "recyclability_assessment_if_possible": "Likely recyclable as plastic packaging, but condition may affect this.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic is not definitively identifiable from the image.",
+            "The extent of damage or contamination is not fully clear."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Composite material if it contains significant non-plastic components not visible."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 9,
+      "crop_path": "crops/scan_1762169714/scan_1762169714_crop005.jpg",
+      "gemini_text": "{\n  \"region_id\": 9,\n  \"crop_path\": \"scan_1762169714_crop005.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"composite\",\n    \"shape\": \"irregular\",\n    \"size\": \"medium\",\n    \"color\": \"gray, white, brown\",\n    \"condition\": \"crushed, torn\",\n    \"likely_function_or_original_purpose\": \"packaging material\",\n    \"current_state\": \"dirty, damaged\",\n    \"completeness_and_visibility_in_crop\": \"The primary object is largely visible but appears to be a fragment of a larger item. Its irregular shape and texture make precise identification difficult.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"partially visible yellow and white packaging with green text 'La Salvetat' and a sun logo\",\n      \"black plastic components\",\n      \"clear plastic sheet\",\n      \"blue plastic bin or container fragment\",\n      \"light green plastic object\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is situated within a collection of other waste items, including packaging and plastic components, suggesting it is part of a mixed waste stream.\",\n    \"potential_impact_on_classification\": \"The presence of other materials like plastic and paper packaging alongside the primary object indicates a mixed waste composition, which could affect overall recyclability or disposal methods.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Composite Materials\",\n    \"recyclability_assessment_if_possible\": \"Difficult to assess due to the unknown specific composition and condition, but likely not easily recyclable in its current state.\",\n    \"confidence_level_in_assessment\": \"C\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact material composition of the primary object is unclear due to its degraded and composite nature.\",\n      \"The original form and function of the primary object are not definitively identifiable from the crop.\",\n      \"The texture suggests it could be a form of compressed paper or cardboard with a coating, or a more complex composite.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be a heavily soiled or degraded paper/cardboard item.\",\n      \"Might be a form of insulation or packaging foam that has broken down.\",\n      \"Potentially a type of processed organic material that has become rigid.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 9,
+        "crop_path": "scan_1762169714_crop005.jpg",
+        "primary_object_analysis": {
+          "material_composition": "composite",
+          "shape": "irregular",
+          "size": "medium",
+          "color": "gray, white, brown",
+          "condition": "crushed, torn",
+          "likely_function_or_original_purpose": "packaging material",
+          "current_state": "dirty, damaged",
+          "completeness_and_visibility_in_crop": "The primary object is largely visible but appears to be a fragment of a larger item. Its irregular shape and texture make precise identification difficult."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "partially visible yellow and white packaging with green text 'La Salvetat' and a sun logo",
+            "black plastic components",
+            "clear plastic sheet",
+            "blue plastic bin or container fragment",
+            "light green plastic object"
+          ],
+          "relationship_to_primary_object": "The primary object is situated within a collection of other waste items, including packaging and plastic components, suggesting it is part of a mixed waste stream.",
+          "potential_impact_on_classification": "The presence of other materials like plastic and paper packaging alongside the primary object indicates a mixed waste composition, which could affect overall recyclability or disposal methods."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Composite Materials",
+          "recyclability_assessment_if_possible": "Difficult to assess due to the unknown specific composition and condition, but likely not easily recyclable in its current state.",
+          "confidence_level_in_assessment": "C",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact material composition of the primary object is unclear due to its degraded and composite nature.",
+            "The original form and function of the primary object are not definitively identifiable from the crop.",
+            "The texture suggests it could be a form of compressed paper or cardboard with a coating, or a more complex composite."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be a heavily soiled or degraded paper/cardboard item.",
+            "Might be a form of insulation or packaging foam that has broken down.",
+            "Potentially a type of processed organic material that has become rigid."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 14,
+      "crop_path": "crops/scan_1762169714/scan_1762169714_crop006.jpg",
+      "gemini_text": "{\n  \"region_id\": 14,\n  \"crop_path\": \"scan_1762169714_crop006.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"circular disc with holes\",\n    \"size\": \"small to medium\",\n    \"color\": \"clear with black markings\",\n    \"condition\": \"scratched, possibly bent\",\n    \"likely_function_or_original_purpose\": \"component of electronic equipment or packaging\",\n    \"current_state\": \"dirty, scratched\",\n    \"completeness_and_visibility_in_crop\": \"partially visible, appears to be a flat disc\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"crumpled paper/cardboard\",\n      \"black plastic components\",\n      \"blue plastic container\",\n      \"white and green branded item (possibly plastic)\",\n      \"yellow cylindrical container\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is lying on top of or among other waste items within a container.\",\n    \"potential_impact_on_classification\": \"The presence of multiple materials, including plastic and paper/cardboard, suggests this is mixed waste. The branded item could be plastic packaging.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Other Plastic Items\",\n    \"recyclability_assessment_if_possible\": \"Likely not recyclable due to contamination and potential composite nature if it's part of electronic waste.\",\n    \"confidence_level_in_assessment\": \"C\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact nature and function of the clear plastic disc are unclear.\",\n      \"The material composition of the branded item is not definitively identifiable from the crop.\",\n      \"The overall context suggests mixed waste, making precise classification of individual components difficult.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Component of electronic waste\",\n      \"Protective packaging material\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 14,
+        "crop_path": "scan_1762169714_crop006.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "circular disc with holes",
+          "size": "small to medium",
+          "color": "clear with black markings",
+          "condition": "scratched, possibly bent",
+          "likely_function_or_original_purpose": "component of electronic equipment or packaging",
+          "current_state": "dirty, scratched",
+          "completeness_and_visibility_in_crop": "partially visible, appears to be a flat disc"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "crumpled paper/cardboard",
+            "black plastic components",
+            "blue plastic container",
+            "white and green branded item (possibly plastic)",
+            "yellow cylindrical container"
+          ],
+          "relationship_to_primary_object": "The primary object is lying on top of or among other waste items within a container.",
+          "potential_impact_on_classification": "The presence of multiple materials, including plastic and paper/cardboard, suggests this is mixed waste. The branded item could be plastic packaging."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Other Plastic Items",
+          "recyclability_assessment_if_possible": "Likely not recyclable due to contamination and potential composite nature if it's part of electronic waste.",
+          "confidence_level_in_assessment": "C",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact nature and function of the clear plastic disc are unclear.",
+            "The material composition of the branded item is not definitively identifiable from the crop.",
+            "The overall context suggests mixed waste, making precise classification of individual components difficult."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Component of electronic waste",
+            "Protective packaging material"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 9,
+      "crop_path": "crops/scan_1762169714/scan_1762169714_crop007.jpg",
+      "gemini_text": "{\n  \"region_id\": 9,\n  \"crop_path\": \"scan_1762169714_crop007.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"glass\",\n    \"shape\": \"flat, rectangular with rounded corners\",\n    \"size\": \"medium\",\n    \"color\": \"clear\",\n    \"condition\": \"scratched, dirty\",\n    \"likely_function_or_original_purpose\": \"shelf or protective cover\",\n    \"current_state\": \"dirty, intact\",\n    \"completeness_and_visibility_in_crop\": \"mostly visible, appears to be a flat sheet of glass\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"blue plastic crate\",\n      \"black plastic components\",\n      \"crumpled paper/cardboard\",\n      \"metal can (partially visible)\"\n    ],\n    \"relationship_to_primary_object\": \"The glass appears to be placed on top of or within a blue plastic crate, alongside other debris.\",\n    \"potential_impact_on_classification\": \"The presence of multiple materials (plastic, paper, glass) suggests a mixed waste stream, potentially impacting recyclability if not sorted.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Glass\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable if clean and sorted, but likely considered mixed waste due to contamination.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact thickness and type of glass are not definitively determinable from the image.\",\n      \"The extent of contamination with other waste materials is unclear.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be a component of a larger item, such as a display case or appliance.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 9,
+        "crop_path": "scan_1762169714_crop007.jpg",
+        "primary_object_analysis": {
+          "material_composition": "glass",
+          "shape": "flat, rectangular with rounded corners",
+          "size": "medium",
+          "color": "clear",
+          "condition": "scratched, dirty",
+          "likely_function_or_original_purpose": "shelf or protective cover",
+          "current_state": "dirty, intact",
+          "completeness_and_visibility_in_crop": "mostly visible, appears to be a flat sheet of glass"
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "blue plastic crate",
+            "black plastic components",
+            "crumpled paper/cardboard",
+            "metal can (partially visible)"
+          ],
+          "relationship_to_primary_object": "The glass appears to be placed on top of or within a blue plastic crate, alongside other debris.",
+          "potential_impact_on_classification": "The presence of multiple materials (plastic, paper, glass) suggests a mixed waste stream, potentially impacting recyclability if not sorted."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Glass",
+          "recyclability_assessment_if_possible": "Potentially recyclable if clean and sorted, but likely considered mixed waste due to contamination.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact thickness and type of glass are not definitively determinable from the image.",
+            "The extent of contamination with other waste materials is unclear."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be a component of a larger item, such as a display case or appliance."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 11,
+      "crop_path": "crops/scan_1762169714/scan_1762169714_crop008.jpg",
+      "gemini_text": "{\n  \"region_id\": 11,\n  \"crop_path\": \"scan_1762169714_crop008.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"composite\",\n    \"shape\": \"irregular\",\n    \"size\": \"medium\",\n    \"color\": \"white, grey, brown\",\n    \"condition\": \"crushed, torn\",\n    \"likely_function_or_original_purpose\": \"unknown\",\n    \"current_state\": \"dirty, damaged\",\n    \"completeness_and_visibility_in_crop\": \"The primary object is a large, irregularly shaped mass that appears to be a crushed and torn composite material. It is centrally located in the crop and takes up a significant portion of the image. Its exact original form and purpose are unclear due to its damaged state.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"black plastic pieces\",\n      \"clear plastic disc\",\n      \"white and green plastic tube with text\",\n      \"yellow cylindrical container with label\",\n      \"cardboard fragments\",\n      \"blue plastic tray\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is situated amongst various other waste items, including plastic components and packaging. It appears to be a collection of crushed materials, possibly packaging or insulation, that has been discarded with other items.\",\n    \"potential_impact_on_classification\": \"The presence of multiple materials (plastic, paper/cardboard fragments) within the primary object and surrounding it suggests it is a composite waste item. This could affect its recyclability and disposal route.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Composite Materials\",\n    \"recyclability_assessment_if_possible\": \"Difficult to assess due to the mixed and damaged nature of the material. It is unlikely to be easily recyclable in its current form.\",\n    \"confidence_level_in_assessment\": \"C\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact composition of the primary object is unclear; it appears to be a mix of paper/cardboard and possibly some plastic or other fibrous material.\",\n      \"The original function or purpose of the primary object is not discernible.\",\n      \"The extent of contamination or degradation is difficult to determine from the image.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Crushed paper/cardboard packaging\",\n      \"Insulation material\",\n      \"Textile waste\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 11,
+        "crop_path": "scan_1762169714_crop008.jpg",
+        "primary_object_analysis": {
+          "material_composition": "composite",
+          "shape": "irregular",
+          "size": "medium",
+          "color": "white, grey, brown",
+          "condition": "crushed, torn",
+          "likely_function_or_original_purpose": "unknown",
+          "current_state": "dirty, damaged",
+          "completeness_and_visibility_in_crop": "The primary object is a large, irregularly shaped mass that appears to be a crushed and torn composite material. It is centrally located in the crop and takes up a significant portion of the image. Its exact original form and purpose are unclear due to its damaged state."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "black plastic pieces",
+            "clear plastic disc",
+            "white and green plastic tube with text",
+            "yellow cylindrical container with label",
+            "cardboard fragments",
+            "blue plastic tray"
+          ],
+          "relationship_to_primary_object": "The primary object is situated amongst various other waste items, including plastic components and packaging. It appears to be a collection of crushed materials, possibly packaging or insulation, that has been discarded with other items.",
+          "potential_impact_on_classification": "The presence of multiple materials (plastic, paper/cardboard fragments) within the primary object and surrounding it suggests it is a composite waste item. This could affect its recyclability and disposal route."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Composite Materials",
+          "recyclability_assessment_if_possible": "Difficult to assess due to the mixed and damaged nature of the material. It is unlikely to be easily recyclable in its current form.",
+          "confidence_level_in_assessment": "C",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact composition of the primary object is unclear; it appears to be a mix of paper/cardboard and possibly some plastic or other fibrous material.",
+            "The original function or purpose of the primary object is not discernible.",
+            "The extent of contamination or degradation is difficult to determine from the image."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Crushed paper/cardboard packaging",
+            "Insulation material",
+            "Textile waste"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 7,
+      "crop_path": "crops/scan_1762169714/scan_1762169714_crop009.jpg",
+      "gemini_text": "{\n  \"region_id\": 7,\n  \"crop_path\": \"scan_1762169714_crop009.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Paper/Composite\",\n    \"shape\": \"Irregular, crumpled\",\n    \"size\": \"Medium\",\n    \"color\": \"Grayish-white, with some darker soiled areas\",\n    \"condition\": \"Damaged, crumpled, torn\",\n    \"likely_function_or_original_purpose\": \"Likely a crumpled piece of paper or packaging, possibly with some composite elements\",\n    \"current_state\": \"Soiled, crumpled, torn\",\n    \"completeness_and_visibility_in_crop\": \"The majority of the object is visible, but it is heavily crumpled and torn, obscuring some details.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Cardboard packaging\",\n      \"Plastic films/sheets\",\n      \"Black plastic components\",\n      \"Blue plastic container\",\n      \"Cylindrical container with label\",\n      \"White plastic tube with branding (Evian, Badoit)\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is situated amongst other waste items within a container.\",\n    \"potential_impact_on_classification\": \"The presence of multiple materials (plastic, cardboard, metal can) in the surrounding waste could indicate a mixed waste stream, potentially affecting the classification of the primary object if it were part of a larger composite item.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Paper/Composite\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable if primarily paper, but contamination and composite nature may hinder recycling.\",\n    \"confidence_level_in_assessment\": \"C\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact material composition is difficult to determine due to the crumpled and soiled state.\",\n      \"It is unclear if there are significant composite elements beyond paper.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Textiles (if the material has a fabric-like texture)\",\n      \"Soiled paper textiles\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 7,
+        "crop_path": "scan_1762169714_crop009.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Paper/Composite",
+          "shape": "Irregular, crumpled",
+          "size": "Medium",
+          "color": "Grayish-white, with some darker soiled areas",
+          "condition": "Damaged, crumpled, torn",
+          "likely_function_or_original_purpose": "Likely a crumpled piece of paper or packaging, possibly with some composite elements",
+          "current_state": "Soiled, crumpled, torn",
+          "completeness_and_visibility_in_crop": "The majority of the object is visible, but it is heavily crumpled and torn, obscuring some details."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Cardboard packaging",
+            "Plastic films/sheets",
+            "Black plastic components",
+            "Blue plastic container",
+            "Cylindrical container with label",
+            "White plastic tube with branding (Evian, Badoit)"
+          ],
+          "relationship_to_primary_object": "The primary object is situated amongst other waste items within a container.",
+          "potential_impact_on_classification": "The presence of multiple materials (plastic, cardboard, metal can) in the surrounding waste could indicate a mixed waste stream, potentially affecting the classification of the primary object if it were part of a larger composite item."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Paper/Composite",
+          "recyclability_assessment_if_possible": "Potentially recyclable if primarily paper, but contamination and composite nature may hinder recycling.",
+          "confidence_level_in_assessment": "C",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact material composition is difficult to determine due to the crumpled and soiled state.",
+            "It is unclear if there are significant composite elements beyond paper."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Textiles (if the material has a fabric-like texture)",
+            "Soiled paper textiles"
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 3,
+      "crop_path": "crops/scan_1762169714/scan_1762169714_crop010.jpg",
+      "gemini_text": "{\n  \"region_id\": 3,\n  \"crop_path\": \"scan_1762169714_crop010.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"Paper/Cardboard\",\n    \"shape\": \"Rectangular box\",\n    \"size\": \"Small to medium\",\n    \"color\": \"Black with gold lettering\",\n    \"condition\": \"Slightly worn\",\n    \"likely_function_or_original_purpose\": \"Packaging for food items (likely chocolate or confectionery)\",\n    \"current_state\": \"Intact but appears to be discarded\",\n    \"completeness_and_visibility_in_crop\": \"Approximately 60% of the object is visible, showing a corner and part of a side.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"Crushed paper/cardboard material\",\n      \"Plastic packaging elements\",\n      \"A cylindrical container with branding\",\n      \"Other unidentifiable debris\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object is situated amongst other discarded waste items within a larger container.\",\n    \"potential_impact_on_classification\": \"The presence of other materials does not significantly alter the classification of the primary object, but indicates it is part of mixed waste.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Paper/Cardboard\",\n    \"recyclability_assessment_if_possible\": \"Likely recyclable, depending on local facilities and contamination.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of paper/cardboard (e.g., coated or uncoated) is not fully discernible.\",\n      \"The extent of any food residue contamination is unknown.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be a composite material if it has significant plastic or foil lining not visible in the crop.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 3,
+        "crop_path": "scan_1762169714_crop010.jpg",
+        "primary_object_analysis": {
+          "material_composition": "Paper/Cardboard",
+          "shape": "Rectangular box",
+          "size": "Small to medium",
+          "color": "Black with gold lettering",
+          "condition": "Slightly worn",
+          "likely_function_or_original_purpose": "Packaging for food items (likely chocolate or confectionery)",
+          "current_state": "Intact but appears to be discarded",
+          "completeness_and_visibility_in_crop": "Approximately 60% of the object is visible, showing a corner and part of a side."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "Crushed paper/cardboard material",
+            "Plastic packaging elements",
+            "A cylindrical container with branding",
+            "Other unidentifiable debris"
+          ],
+          "relationship_to_primary_object": "The primary object is situated amongst other discarded waste items within a larger container.",
+          "potential_impact_on_classification": "The presence of other materials does not significantly alter the classification of the primary object, but indicates it is part of mixed waste."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Paper/Cardboard",
+          "recyclability_assessment_if_possible": "Likely recyclable, depending on local facilities and contamination.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of paper/cardboard (e.g., coated or uncoated) is not fully discernible.",
+            "The extent of any food residue contamination is unknown."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be a composite material if it has significant plastic or foil lining not visible in the crop."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 12,
+      "crop_path": "crops/scan_1762169714/scan_1762169714_crop011.jpg",
+      "gemini_text": "{\n  \"region_id\": 12,\n  \"crop_path\": \"scan_1762169714_crop011.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"elongated, rectangular profile with interlocking features\",\n    \"size\": \"appears to be a long, thin component\",\n    \"color\": \"black\",\n    \"condition\": \"appears intact\",\n    \"likely_function_or_original_purpose\": \"likely a structural component or support, possibly from packaging or a larger plastic item\",\n    \"current_state\": \"appears clean\",\n    \"completeness_and_visibility_in_crop\": \"The object is largely visible and appears to be a significant portion of the crop, though its full extent and connection to other parts are not entirely clear.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"a large, light blue/green foam-like material\",\n      \"a crumpled, fibrous material (possibly paper or cardboard)\",\n      \"other black plastic pieces\",\n      \"a clear plastic disc with holes\"\n    ],\n    \"relationship_to_primary_object\": \"The black plastic object rests on top of the light blue material and is interspersed with other plastic components.\",\n    \"potential_impact_on_classification\": \"The presence of multiple plastic components and other materials suggests a mixed waste stream. The primary object itself is a plastic component, which could be recyclable depending on its specific type and local facilities.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Other Plastic Items\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable as plastic, but dependent on specific plastic type and local recycling capabilities.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact function and origin of the black plastic component are not definitively identifiable from the crop alone.\",\n      \"The specific type of plastic is not discernible.\",\n      \"The relationship between the black plastic component and the light blue foam-like material is unclear.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be part of a larger electronic device's internal structure.\",\n      \"Could be a component from industrial packaging.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 12,
+        "crop_path": "scan_1762169714_crop011.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "elongated, rectangular profile with interlocking features",
+          "size": "appears to be a long, thin component",
+          "color": "black",
+          "condition": "appears intact",
+          "likely_function_or_original_purpose": "likely a structural component or support, possibly from packaging or a larger plastic item",
+          "current_state": "appears clean",
+          "completeness_and_visibility_in_crop": "The object is largely visible and appears to be a significant portion of the crop, though its full extent and connection to other parts are not entirely clear."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "a large, light blue/green foam-like material",
+            "a crumpled, fibrous material (possibly paper or cardboard)",
+            "other black plastic pieces",
+            "a clear plastic disc with holes"
+          ],
+          "relationship_to_primary_object": "The black plastic object rests on top of the light blue material and is interspersed with other plastic components.",
+          "potential_impact_on_classification": "The presence of multiple plastic components and other materials suggests a mixed waste stream. The primary object itself is a plastic component, which could be recyclable depending on its specific type and local facilities."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Other Plastic Items",
+          "recyclability_assessment_if_possible": "Potentially recyclable as plastic, but dependent on specific plastic type and local recycling capabilities.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact function and origin of the black plastic component are not definitively identifiable from the crop alone.",
+            "The specific type of plastic is not discernible.",
+            "The relationship between the black plastic component and the light blue foam-like material is unclear."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be part of a larger electronic device's internal structure.",
+            "Could be a component from industrial packaging."
+          ]
+        }
+      }
+    },
+    {
+      "region_id": 5,
+      "crop_path": "crops/scan_1762169714/scan_1762169714_crop012.jpg",
+      "gemini_text": "{\n  \"region_id\": 5,\n  \"crop_path\": \"scan_1762169714_crop012.jpg\",\n  \"primary_object_analysis\": {\n    \"material_composition\": \"plastic\",\n    \"shape\": \"linear, extruded profile\",\n    \"size\": \"long, narrow\",\n    \"color\": \"black\",\n    \"condition\": \"appears intact, some surface dust\",\n    \"likely_function_or_original_purpose\": \"structural component, possibly for shelving, framing, or electronic device casing\",\n    \"current_state\": \"waste\",\n    \"completeness_and_visibility_in_crop\": \"Multiple pieces are visible, some overlapping. The full length of any single piece is not entirely clear.\"\n  },\n  \"secondary_elements\": {\n    \"other_visible_objects_or_portions\": [\n      \"crumpled paper/cardboard material\",\n      \"blue plastic crate fragment\",\n      \"clear plastic sheet\",\n      \"yellow cylindrical container (possibly metal or composite)\",\n      \"other black plastic fragments\"\n    ],\n    \"relationship_to_primary_object\": \"The primary object (black plastic profiles) appears to be mixed with other waste items within a container.\",\n    \"potential_impact_on_classification\": \"The presence of mixed materials, including what appears to be paper/cardboard and other plastics, suggests this is a mixed waste stream. The black plastic profiles themselves are likely recyclable as rigid plastic if clean and sorted.\"\n  },\n  \"overall_assessment\": {\n    \"primary_object_category_determination\": \"Other Plastic Items\",\n    \"recyclability_assessment_if_possible\": \"Potentially recyclable as rigid plastic, but dependent on local recycling facility capabilities and cleanliness.\",\n    \"confidence_level_in_assessment\": \"B\",\n    \"ambiguities_or_uncertainties_observed\": [\n      \"The exact type of plastic is not identifiable from the image alone.\",\n      \"The specific original function is inferred and not definitively known.\",\n      \"The extent of contamination from other waste materials is unclear.\"\n    ],\n    \"alternative_possibilities_if_unclear\": [\n      \"Could be part of a larger composite item if not a standalone profile.\",\n      \"Could be a component of e-waste, though less likely given the shape.\"\n    ]\n  }\n}",
+      "gemini_parsed": {
+        "region_id": 5,
+        "crop_path": "scan_1762169714_crop012.jpg",
+        "primary_object_analysis": {
+          "material_composition": "plastic",
+          "shape": "linear, extruded profile",
+          "size": "long, narrow",
+          "color": "black",
+          "condition": "appears intact, some surface dust",
+          "likely_function_or_original_purpose": "structural component, possibly for shelving, framing, or electronic device casing",
+          "current_state": "waste",
+          "completeness_and_visibility_in_crop": "Multiple pieces are visible, some overlapping. The full length of any single piece is not entirely clear."
+        },
+        "secondary_elements": {
+          "other_visible_objects_or_portions": [
+            "crumpled paper/cardboard material",
+            "blue plastic crate fragment",
+            "clear plastic sheet",
+            "yellow cylindrical container (possibly metal or composite)",
+            "other black plastic fragments"
+          ],
+          "relationship_to_primary_object": "The primary object (black plastic profiles) appears to be mixed with other waste items within a container.",
+          "potential_impact_on_classification": "The presence of mixed materials, including what appears to be paper/cardboard and other plastics, suggests this is a mixed waste stream. The black plastic profiles themselves are likely recyclable as rigid plastic if clean and sorted."
+        },
+        "overall_assessment": {
+          "primary_object_category_determination": "Other Plastic Items",
+          "recyclability_assessment_if_possible": "Potentially recyclable as rigid plastic, but dependent on local recycling facility capabilities and cleanliness.",
+          "confidence_level_in_assessment": "B",
+          "ambiguities_or_uncertainties_observed": [
+            "The exact type of plastic is not identifiable from the image alone.",
+            "The specific original function is inferred and not definitively known.",
+            "The extent of contamination from other waste materials is unclear."
+          ],
+          "alternative_possibilities_if_unclear": [
+            "Could be part of a larger composite item if not a standalone profile.",
+            "Could be a component of e-waste, though less likely given the shape."
+          ]
+        }
+      }
+    }
+  ],
+  "gemini_metrics_per_image": {
+    "api_calls": 13,
+    "input_tokens": 20360,
+    "output_tokens": 6462,
+    "total_tokens": 26822,
+    "errors": 0,
+    "structured_parse_success": 13,
+    "structured_parse_failures": 0,
+    "cache_hits": 0,
+    "avg_response_time_ms": 3563.6469767643857
+  },
+  "phase_times": {
+    "segmentation_sec": 2.124131441116333,
+    "crop_generation_sec": 0.40135812759399414,
+    "clip_classification_sec": 0.9980943202972412,
+    "prompt_building_sec": 0.0007252693176269531,
+    "gemini_inference_sec": 35.125195026397705
+  }
+}

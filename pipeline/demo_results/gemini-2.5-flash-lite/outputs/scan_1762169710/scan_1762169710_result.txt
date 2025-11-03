@@ -1,0 +1,128 @@
+🔍 Waste Analysis (scan 1762169710)
+📦 Crops analyzed: 9
+
+— Crop 1 (region 12): crops/scan_1762169710/scan_1762169710_crop000.jpg
+  • 🧱 Material: Plastic, Textile
+  • 🧩 Shape/Size: Gloved hand shape, irregular for textiles / Medium (glove size)
+  • 🎨 Color: Purple (glove), white and blue (textiles)
+  • 🧪 State: Used, soiled
+  • 🎯 Purpose: Medical examination or protective wear (glove), absorbent material (textiles)
+  • 👁 Visibility: The primary object appears to be a pair of purple nitrile gloves, mostly visible. Several pieces of white and light blue textile-like material are also present and partially visible.
+  • 🔍 Other objects: Blue plastic trays or containers, White and light blue textile-like materials, Clear plastic film or bag
+  • 🔗 Relationship: The plastic trays appear to be containers for the waste. The textiles and plastic film are mixed with the gloves.
+  • 🗂 Category: Textiles/other (due to gloves and mixed materials)
+  • ♻️ Recyclability: Not recyclable due to likely contamination and mixed materials.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact nature and contamination level of the textile materials are unclear., The specific type of plastic for the trays is not identifiable.
+
+— Crop 2 (region 7): crops/scan_1762169710/scan_1762169710_crop001.jpg
+  • 🧱 Material: Textiles
+  • 🧩 Shape/Size: Irregular / Medium
+  • 🎨 Color: White and blue
+  • 🧪 State: Dirty and possibly soiled
+  • 🎯 Purpose: Sanitary textile
+  • 👁 Visibility: Partially visible, appears to be a crumpled piece of fabric or towel.
+  • 🔍 Other objects: Blue plastic tray, Purple disposable gloves, White paper towels, Yellow plastic liner (likely a bin bag)
+  • 🔗 Relationship: The primary object (textile) is mixed with other waste items within a bin.
+  • 🗂 Category: Textiles
+  • ♻️ Recyclability: Likely not recyclable due to contamination and mixed materials.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact nature of the primary textile object is unclear due to its crumpled state and partial visibility., The level of soiling or contamination is difficult to ascertain precisely from the image.
+
+— Crop 3 (region 7): crops/scan_1762169710/scan_1762169710_crop002.jpg
+  • 🧱 Material: paper
+  • 🧩 Shape/Size: flat sheet / small
+  • 🎨 Color: light blue with white pattern
+  • 🧪 State: appears clean
+  • 🎯 Purpose: wiping or absorbent material
+  • 👁 Visibility: partially visible, folded
+  • 🔍 Other objects: blue plastic container, purple nitrile glove, white paper towels, blue paper-like material
+  • 🔗 Relationship: The primary object (blue patterned paper) is nestled within other waste items, including a blue plastic container and a purple glove.
+  • 🗂 Category: Paper
+  • ♻️ Recyclability: Potentially recyclable if clean and not contaminated by other waste materials.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of paper (e.g., tissue, specialized wipe) is not definitively clear., The extent of contamination from surrounding items is unknown.
+
+— Crop 4 (region 13): crops/scan_1762169710/scan_1762169710_crop003.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: container / medium
+  • 🎨 Color: blue
+  • 🧪 State: dirty
+  • 🎯 Purpose: food container or tray
+  • 👁 Visibility: partially visible, appears to be a blue plastic tray or container
+  • 🔍 Other objects: purple medical gloves, white paper towels or wipes, blue plastic lid or another container, yellow bin liner
+  • 🔗 Relationship: The primary object is one of several items within a yellow bin liner, alongside medical gloves and paper products.
+  • 🗂 Category: Other Plastic Containers
+  • ♻️ Recyclability: Likely not recyclable due to contamination with medical waste and potential soiling.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type and purpose of the blue plastic container are not fully discernible., The extent of contamination on the plastic container is unclear.
+
+— Crop 5 (region 3): crops/scan_1762169710/scan_1762169710_crop004.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: container / medium
+  • 🎨 Color: blue
+  • 🧪 State: appears clean
+  • 🎯 Purpose: food or medical tray
+  • 👁 Visibility: The object is partially visible, with its top surface and edges clearly seen. It appears to be a rigid plastic tray with compartments.
+  • 🔍 Other objects: blue plastic lid or container edge, white paper towels or wipes, purple medical gloves, blue medical wipes or pads, clear plastic film
+  • 🔗 Relationship: The primary object is one of several items within a larger container, likely a waste bin, as suggested by the yellow background in the original image.
+  • 🗂 Category: Other Plastic Containers
+  • ♻️ Recyclability: Potentially recyclable if cleaned and not contaminated with medical waste. However, given the context of other items, it may be classified as medical waste.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact nature of the primary object (food tray vs. medical tray) is not definitively clear from the crop alone., The presence of medical waste in close proximity raises questions about the contamination of the primary object.
+
+— Crop 6 (region 9): crops/scan_1762169710/scan_1762169710_crop005.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Glove / Medium
+  • 🎨 Color: Purple
+  • 🧪 State: Used
+  • 🎯 Purpose: Medical examination or protective wear
+  • 👁 Visibility: The majority of the glove is visible, appearing to be a single unit.
+  • 🔍 Other objects: White paper towels or wipes, Blue plastic trays or containers, Other white paper products, Possibly other gloves or medical supplies
+  • 🔗 Relationship: The glove is lying on top of and amongst other waste items within a container.
+  • 🗂 Category: Hazardous Household Waste (due to potential medical contamination)
+  • ♻️ Recyclability: Not recyclable
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: While the object is clearly a glove, its exact material composition (e.g., latex, nitrile) is not definitively identifiable from the image alone., The extent of contamination or specific medical use is not visible, which impacts the certainty of it being hazardous.
+
+— Crop 7 (region 3): crops/scan_1762169710/scan_1762169710_crop006.jpg
+  • 🧱 Material: plastic
+  • 🧩 Shape/Size: curved, possibly rectangular base / medium
+  • 🎨 Color: dark blue with lighter blue stripes
+  • 🧪 State: appears clean
+  • 🎯 Purpose: container or tray
+  • 👁 Visibility: partially visible, showing a curved edge and textured surface
+  • 🔍 Other objects: white textured material (possibly paper or fabric), yellow bin liner (background)
+  • 🔗 Relationship: The primary object appears to be inside a yellow bin liner, suggesting it is waste.
+  • 🗂 Category: Other Plastic Containers
+  • ♻️ Recyclability: Likely recyclable if clean and made of a common plastic type (e.g., PP, HDPE), but specific type is not identifiable.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of plastic is not identifiable from the visual alone., The full shape and size are not visible in the crop.
+
+— Crop 8 (region 0): crops/scan_1762169710/scan_1762169710_crop007.jpg
+  • 🧱 Material: Textiles
+  • 🧩 Shape/Size: Irregular / Small to medium
+  • 🎨 Color: Light blue and white with purple accents
+  • 🧪 State: Soiled, crumpled
+  • 🎯 Purpose: Medical or laboratory use (gloves, wipes)
+  • 👁 Visibility: Partially visible, layered with other materials
+  • 🔍 Other objects: Purple nitrile gloves, White paper-like material (wipes or tissues), Blue plastic trays or containers, White material with a dotted pattern
+  • 🔗 Relationship: Intermixed with other waste materials within a bin.
+  • 🗂 Category: Textiles
+  • ♻️ Recyclability: Not recyclable due to likely contamination and mixed materials.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact nature of the white paper-like material is unclear; it could be tissues, wipes, or absorbent pads., The extent of contamination is not fully discernible from the crop alone.
+
+— Crop 9 (region 1): crops/scan_1762169710/scan_1762169710_crop008.jpg
+  • 🧱 Material: textiles
+  • 🧩 Shape/Size: irregular / small
+  • 🎨 Color: white with grey pattern
+  • 🧪 State: used, soiled
+  • 🎯 Purpose: wiping or cleaning cloth
+  • 👁 Visibility: partially visible, folded
+  • 🔍 Other objects: blue glove, blue plastic tray, white paper towels, blue fabric/textile
+  • 🔗 Relationship: The primary object (cloth) is in close proximity to a blue glove and other disposable items within a waste bin.
+  • 🗂 Category: Textiles/other
+  • ♻️ Recyclability: Not recyclable due to likely contamination and mixed materials.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact material composition is difficult to determine definitively from the image alone., The pattern on the cloth could be indicative of a specific type of wipe or towel, but it's not clear enough for precise identification.

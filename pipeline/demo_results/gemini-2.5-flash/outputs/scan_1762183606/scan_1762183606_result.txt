@@ -1,0 +1,166 @@
+🔍 Waste Analysis (scan 1762183606)
+📦 Crops analyzed: 12
+
+— Crop 1 (region 3): crops/scan_1762183606/scan_1762183606_crop000.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular (bag), Cylindrical/Oblong (carrot) / Small to medium-sized bag, single carrot
+  • 🎨 Color: Clear/Transparent (bag), Orange (carrot)
+  • 🧪 State: Crumpled (bag), Intact (carrot)
+  • 🎯 Purpose: Packaging/carrying (bag), Food item (carrot)
+  • 👁 Visibility: The plastic bag is mostly visible, though its edges are cut off. The carrot inside is fully visible.
+  • 🔍 Other objects: Black plastic bags, Crumpled white/grey paper-like material, Green and white patterned material (possibly hygiene product), Brown cardboard piece
+  • 🔗 Relationship: The primary object (clear plastic bag with carrot) is resting on or among these other waste items.
+  • 🗂 Category: Plastics: Plastic Bags
+  • ♻️ Recyclability: Clear plastic bags are often recyclable, but the presence of organic waste (carrot) inside would contaminate the recycling stream, making it non-recyclable in most standard facilities unless the organic content is removed.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic for the bag is not discernible., The presence of organic material (carrot) inside the plastic bag makes it a composite waste item, which complicates simple 'plastic bag' classification for recycling purposes.
+
+— Crop 2 (region 1): crops/scan_1762183606/scan_1762183606_crop001.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, crumpled mass / Composed of multiple medium to large items
+  • 🎨 Color: Transparent/clear
+  • 🧪 State: Discarded, crumpled, collected in a mass
+  • 🎯 Purpose: Packaging, waste containment
+  • 👁 Visibility: A significant portion of the plastic material is visible, forming a large, amorphous mass. Individual items are not fully distinct but their collective presence is clear.
+  • 🔍 Other objects: Portion of a yellow bin/container wall, Other waste items obscured within the plastic mass
+  • 🔗 Relationship: The primary object (plastic mass) is contained within or resting against the yellow bin/container.
+  • 🗂 Category: Plastics/bag
+  • ♻️ Recyclability: Plastic bags and films are generally recyclable, but often require specific collection streams separate from rigid plastics to avoid contamination and processing issues.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., HDPE, LDPE) is not discernible., It is a collection of multiple plastic items rather than a single distinct bag or film, making precise individual item identification difficult.
+
+— Crop 3 (region 2): crops/scan_1762183606/scan_1762183606_crop002.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, conforming to contents / Large, appears to contain other items
+  • 🎨 Color: Translucent/clear
+  • 🧪 State: Crumpled, dirty, containing other waste
+  • 🎯 Purpose: To contain or wrap other items
+  • 👁 Visibility: The plastic bag is largely visible and covers a significant portion of the crop, though its contents are partially obscured.
+  • 🔍 Other objects: A large, yellow, rigid object (possibly plastic or metal) on the left side, A white, crumpled object (possibly paper or textile) on the right side, Indistinct items contained within the primary clear plastic bag, including what appears to be a black plastic bag
+  • 🔗 Relationship: The primary clear plastic bag is resting against the yellow object and adjacent to the white crumpled object. It encloses other waste items.
+  • 🗂 Category: Plastics: Plastic Bags
+  • ♻️ Recyclability: Plastic bags are generally recyclable, but their recyclability can be compromised if they are dirty or contain non-recyclable materials, as appears to be the case here.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact nature and material of the yellow rigid object are not definitively clear from the crop alone., The specific contents within the clear plastic bag are not fully discernible.
+
+— Crop 4 (region 7): crops/scan_1762183606/scan_1762183606_crop003.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, lumpy due to contents / Small to medium-sized bags
+  • 🎨 Color: Black
+  • 🧪 State: Dirty, crumpled, containing unknown waste
+  • 🎯 Purpose: To contain and dispose of waste
+  • 👁 Visibility: Multiple black plastic bags are clearly visible and mostly complete within the crop
+  • 🔍 Other objects: A white plastic bag with yellowish staining at the top, A green and white plastic bag with 'PRINCE de BRETAGNE' text on the right side
+  • 🔗 Relationship: These are also plastic bags, similar in nature to the primary black plastic bags, all appearing to be waste items.
+  • 🗂 Category: Plastics: Plastic Bags
+  • ♻️ Recyclability: Plastic bags are generally difficult to recycle through standard curbside programs. Given they are filled with unknown waste, they are likely destined for landfill or incineration.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact contents of the black bags are unknown, but this does not change their classification as 'Plastic Bags'.
+
+— Crop 5 (region 0): crops/scan_1762183606/scan_1762183606_crop004.jpg
+  • 🧱 Material: Composite (plastic film and likely paper/textile product)
+  • 🧩 Shape/Size: Rectangular blocks / Large, bundled units
+  • 🎨 Color: White contents, clear plastic wrap
+  • 🧪 State: Clean, intact, packaged
+  • 🎯 Purpose: Packaging for bulk household goods (e.g., paper towels, toilet paper)
+  • 👁 Visibility: Two large, rectangular, plastic-wrapped bundles are clearly visible, almost entirely filling the crop.
+  • 🔍 Other objects: Dark structure (possibly metal/plastic) on the right edge, Lighter structure (possibly concrete/wall) on the left edge
+  • 🔗 Relationship: The primary objects are resting against or near these structures, suggesting they are stored or placed there.
+  • 🗂 Category: Composite Materials
+  • ♻️ Recyclability: Recyclability is challenging for composite materials unless components can be easily separated. Plastic film and paper/textile components may be recyclable individually, but not as a combined unit in most standard recycling streams.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact nature of the white contents (paper product vs. textile product) is not definitively clear., The item appears to be new, packaged goods rather than discarded waste, which adds ambiguity to its 'waste' classification status., The specific type of plastic film is not discernible.
+
+— Crop 6 (region 4): crops/scan_1762183606/scan_1762183606_crop005.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Rectangular, flexible, crumpled / Medium to large (consistent with a flour bag)
+  • 🎨 Color: White and red
+  • 🧪 State: Discarded, crumpled
+  • 🎯 Purpose: Packaging for flour
+  • 👁 Visibility: Mostly visible, showing the top and side portions
+  • 🔍 Other objects: Black plastic bag, Crumpled white plastic/paper material
+  • 🔗 Relationship: Adjacent waste items in the same bin, with the black bag partially underneath the primary object.
+  • 🗂 Category: Plastics: Plastic Films
+  • ♻️ Recyclability: Potentially recyclable in specific plastic film/bag collection streams, but often not accepted in standard curbside recycling due to processing challenges.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic film is not discernible., There is a slight possibility it could be a multi-layer composite material, though it appears predominantly plastic film.
+
+— Crop 7 (region 5): crops/scan_1762183606/scan_1762183606_crop006.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Cylindrical/elongated, wrapped / Medium, consistent with a large vegetable like a cucumber or leek
+  • 🎨 Color: White with green text
+  • 🧪 State: Intact, slightly crumpled, in a waste bin
+  • 🎯 Purpose: Packaging for fresh produce (e.g., cucumber, leek) based on the 'PRINCE DE BRETAGNE' branding
+  • 👁 Visibility: Mostly visible, with ends slightly obscured by other waste items
+  • 🔍 Other objects: A piece of light brown cardboard, partially torn, with purple text ('AUBERGINE'), Numerous crumpled black plastic bags or film, Crumpled white plastic bags or film, Various small, unidentifiable fragments of waste
+  • 🔗 Relationship: All secondary elements are mixed with the primary object in a pile of waste, indicating a mixed waste stream.
+  • 🗂 Category: Plastics/Plastic Films (specifically food packaging film)
+  • ♻️ Recyclability: Plastic films, especially those used for food packaging, are often not accepted in standard curbside recycling programs due to contamination and processing difficulties. Some specialized collection points may exist.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact contents of the plastic wrap are not visible, though the branding strongly suggests produce.
+
+— Crop 8 (region 9): crops/scan_1762183606/scan_1762183606_crop007.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, crumpled / Medium to large
+  • 🎨 Color: Transparent/clear, with yellowish tint
+  • 🧪 State: Used, crumpled, potentially containing waste
+  • 🎯 Purpose: Containing other items, likely waste or products
+  • 👁 Visibility: Multiple plastic bags are visible, mostly complete but overlapping and crumpled
+  • 🔍 Other objects: White/yellowish material inside the clear plastic bags, A white bag (partially visible) on the right side, A yellow bin/container on the far left
+  • 🔗 Relationship: The white/yellowish material is contained within the primary plastic bags. The white bag is adjacent to the primary plastic bags. The yellow bin is the container for all the waste.
+  • 🗂 Category: Plastics/bag
+  • ♻️ Recyclability: Plastic bags can be recyclable, but often require specific collection streams (e.g., store drop-offs) and their recyclability can be affected by contamination or the type of plastic. Given they are in a general waste bin, their immediate recyclability is questionable without more context on local waste management.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact contents of the clear plastic bags are not fully discernible., The material of the white bag on the right is not definitively clear (paper vs. plastic).
+
+— Crop 9 (region 10): crops/scan_1762183606/scan_1762183606_crop008.jpg
+  • 🧱 Material: Paper or thin Cardboard
+  • 🧩 Shape/Size: Folded, irregular flat surface / Medium, partial view
+  • 🎨 Color: White/light grey
+  • 🧪 State: Intact but folded
+  • 🎯 Purpose: Packaging, possibly a bag or box
+  • 👁 Visibility: A significant portion of a folded object is visible, showing a distinct crease and textured surface. The full extent and overall shape are not visible.
+  • 🗂 Category: Paper or Cardboard
+  • ♻️ Recyclability: Generally recyclable if clean and dry.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: The exact type of paper/cardboard (e.g., bag, box, sheet) is unclear due to the tight crop., The texture could potentially be mistaken for a very matte plastic film, though less likely given the distinct fold.
+
+— Crop 10 (region 5): crops/scan_1762183606/scan_1762183606_crop009.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Irregular, crumpled, bag-like / Medium, appears to be a standard waste bag
+  • 🎨 Color: Black
+  • 🧪 State: Crumpled, likely dirty as it is in a waste bin
+  • 🎯 Purpose: Container for waste or other items
+  • 👁 Visibility: A significant portion of the black plastic bag is visible, though it is heavily crumpled and not fully extended.
+  • 🗂 Category: Plastics: Plastic Bags
+  • ♻️ Recyclability: Black plastic bags are generally difficult to recycle due to optical sorting limitations and are often sent to landfill or incineration, depending on local facilities.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact contents of the bag are unknown, which could influence its ultimate waste stream if it contained hazardous materials, but the bag itself is clearly plastic.
+
+— Crop 11 (region 7): crops/scan_1762183606/scan_1762183606_crop010.jpg
+  • 🧱 Material: Composite
+  • 🧩 Shape/Size: Rectangular, block-like / Medium, consistent with a loaf of bread package
+  • 🎨 Color: Red and white
+  • 🧪 State: Intact, discarded as waste
+  • 🎯 Purpose: Packaging for a food product, specifically bread
+  • 👁 Visibility: A significant portion of the package is visible, showing the top and part of the side.
+  • 🔍 Other objects: Dark grey/black plastic waste bin rim, Blue plastic strap or band, Black plastic bags, Clear plastic film/bags, Other indistinguishable waste items
+  • 🔗 Relationship: The primary object is resting on or within other waste items inside a waste bin. The blue strap is around the bin or other contents.
+  • 🗂 Category: Composite Materials (food packaging)
+  • ♻️ Recyclability: Likely not easily recyclable due to its composite nature, which often makes material separation difficult.
+  • 📈 Confidence: B (Medium: Generally clear features, moderate confidence)
+  • ❓ Uncertainties: Exact material composition (e.g., whether it's a thick plastic film or a multi-layered composite material).
+
+— Crop 12 (region 11): crops/scan_1762183606/scan_1762183606_crop011.jpg
+  • 🧱 Material: Plastic
+  • 🧩 Shape/Size: Long, flat, rectangular strap with a buckle mechanism at one end / Approximately 20-30 cm in length, narrow width
+  • 🎨 Color: Dark grey or black
+  • 🧪 State: Intact
+  • 🎯 Purpose: A cable tie, zip tie, or securing strap used for bundling or fastening items
+  • 👁 Visibility: The object is almost entirely visible, extending from the top to the bottom of the crop, with the buckle mechanism clearly visible at the top.
+  • 🔍 Other objects: Black plastic bags, Crumpled plastic or paper in the background
+  • 🔗 Relationship: The primary object (plastic strap) is lying on top of or among other waste items, primarily black plastic bags, within a waste bin.
+  • 🗂 Category: Plastics: Other Plastic Items
+  • ♻️ Recyclability: Plastic cable ties/straps are often made of nylon or polypropylene. While technically recyclable, they are frequently too small or complex for standard curbside recycling programs and may not be accepted.
+  • 📈 Confidence: A (High: Clear features, high confidence)
+  • ❓ Uncertainties: The exact type of plastic (e.g., nylon vs. polypropylene) is not discernible from the image.

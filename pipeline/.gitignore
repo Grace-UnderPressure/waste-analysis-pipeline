@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+
+# Cache files
+*.pkl
+*.cache
+clip_results_cache/
+gemini_cache/
+
+# Test outputs (exclude from repo)
+outputs/
+outputs_tests/
+crops/
+
+# Keep demo files
+!demo_sample_images/
+!demo_results/
+!demo_results/*/outputs/
+!visualization/
+
+# Backups
+*.backup*
+*.safe
+config.yaml.backup_*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (large files)
+models/*.pth
+models/*.pt
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
